@@ -1,4 +1,4 @@
-//initializes adc
+//initializes adc and gpio
 void Init_ADC(void){
   ADC_CLK_EN |= 0x1; //enable ADC0
   GPIO_EN |= 0x10; //enable PE3
