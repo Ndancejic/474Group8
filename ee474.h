@@ -1,10 +1,14 @@
+#ifndef ee474.h
+#define ee474.h
+
 //GPIO READ/WRITE MEMORY LOCATIONS
 #define GPIO_WRITE_PORTF (*((unsigned int *)0x400253fc)) //port F GPIODATA
 #define GPIO_READ_PF0_PF4 (*((unsigned int *)0x40025044)) //read location for PF0 and PF4
 
 //GPIO INITIALIZATIONS
+#define GPIO_EN (*((unsigned int *)0x400FE608)) //location for enabling GPIO
 //PortA:
-#define GPIO_EN2 (*((unsigned int *)0x400FE108)) //enable gpio portA
+#define GPIO_EN_A (*((unsigned int *)0x400FE108)) //enable gpio portA
 #define GPIO_ADIS_PORTA (*((unsigned int *)0x40004528)) //Port A analog disable
 #define GPIO_PCTL_PORTA (*((unsigned int *)0x4000452C)) //Port A PCTL
 #define GPIO_DIR_PORTA (*((unsigned int *)0x40004400)) //Port A direction
@@ -12,13 +16,24 @@
 #define GPIO_DEN_PORTA (*((unsigned int *)0x4000451C)) //Port A direction
 #define GPIO_DATA_PORTA (*((unsigned int *)0x400043FC)) //read port A
 
+//PortE:
+#define GPIO_EN_E (*((unsigned int *)0x400FE608)) //location for enabling GPIO
+#define GPIO_DIR_PORTE (*((unsigned int *)0x40024400)) //GPIO direction Port F
+#define GPIO_DEN_PORTE (*((unsigned int *)0x4002451C)) //digital enable Port F
+#define GPIO_LOCK_PORTE (*((unsigned int *)0x40024520)) //unlocking GPIO Port F
+#define GPIO_CR_PORTE (*((unsigned int *)0x40024524)) //commiting pins Port F
+#define GPIO_PUR_PORTE (*((unsigned int *)0x40024510)) //enabling pull down resistors Port F
+#define GPIO_REG_PORTE (*((unsigned int *)0x40024420)) //Alternate Function
+#define GPIO_AMSEL_PORTE (*((unsigned int *)0x40024528)) //disable isolation
+
 //PortF:
-#define GPIO_EN (*((unsigned int *)0x400FE608)) //location for enabling GPIO
+#define GPIO_EN_F (*((unsigned int *)0x400FE608)) //location for enabling GPIO
 #define GPIO_DIR_PORTF (*((unsigned int *)0x40025400)) //GPIO direction Port F
 #define GPIO_DEN_PORTF (*((unsigned int *)0x4002551C)) //digital enable Port F
 #define GPIO_LOCK_PORTF (*((unsigned int *)0x40025520)) //unlocking GPIO Port F
 #define GPIO_CR_PORTF (*((unsigned int *)0x40025524)) //commiting pins Port F
 #define GPIO_PUR_PORTF (*((unsigned int *)0x40025510)) //enabling pull down resistors Port F
+#define GPIO_REG_PORTA (*((unsigned int *)0x40025420)) //Alternate Function
 
 //TIMER INITIALIZATIONS MEMORY LOCATIONS
 #define TIMER_EN (*((unsigned int *)0x400FE604)) // enabling timers
@@ -27,8 +42,8 @@
 #define TIMER_DIS1 (*((unsigned int *)0x4003100C)) //disabling timer 1
 #define TIMER_CON (*((unsigned int *)0x40030000)) //set timer configuration (32 or 16)
 #define TIMER_CON1 (*((unsigned int *)0x40031000)) //set timer configuration (32 or 16)
-#define TIMER_MODE (*((unsigned int *)0x40030004)) //configure TnMR field 
-#define TIMER_MODE1 (*((unsigned int *)0x40031004)) //configure TnMR field 
+#define TIMER_MODE (*((unsigned int *)0x40030004)) //configure TnMR field
+#define TIMER_MODE1 (*((unsigned int *)0x40031004)) //configure TnMR field
 #define TIMER_VAL (*((unsigned int *)0x40030028)) //Load the start value into the GPTM Timer n Interval Load Register
 #define TIMER_VAL1 (*((unsigned int *)0x40031028)) //Load the start value into the GPTM Timer n Interval Load Register
 #define TIMER_INT (*((unsigned int *)0x40030018)) //GPTM Interrupt Mask Register
@@ -42,12 +57,12 @@
 
 //INTERRUPTS
 //port F
-#define GPIO_SENSE (*((unsigned int *)0x40025404)) //interrupt sense register
-#define GPIO_IBE (*((unsigned int *)0x40025408)) //interrupt both edges
-#define GPIO_IEV (*((unsigned int *)0x4002540C)) //interrupt event (rising or falling)
-#define GPIO_IM (*((unsigned int *)0x40025410)) //im
-#define GPIO_CLEAR (*((unsigned int *)0x4002541C))
-#define GPIO_STATUS (*((unsigned int *)0x40025414)) //clear interrupt flags
+#define GPIO_SENSE_F (*((unsigned int *)0x40025404)) //interrupt sense register
+#define GPIO_IBE_F (*((unsigned int *)0x40025408)) //interrupt both edges
+#define GPIO_IEV_F (*((unsigned int *)0x4002540C)) //interrupt event (rising or falling)
+#define GPIO_IM_F (*((unsigned int *)0x40025410)) //im
+#define GPIO_CLEAR_F (*((unsigned int *)0x4002541C))
+#define GPIO_STATUS_F (*((unsigned int *)0x40025414)) //clear interrupt flags
 
 //port A
 #define GPIO_SENSE_A (*((unsigned int *)0x40004404)) //interrupt sense register
@@ -63,3 +78,8 @@
 #define PRI4 (*((unsigned int *)0xE000E410))  //priority of interrupt 16-19
 #define PRI5 (*((unsigned int *)0xE000E414))  //priority of interrupt 20-23
 #define PRI7 (*((unsigned int *)0xE000E41C))  //priority of interrupt 28-30
+
+//ADC
+#define ADC_CLK_EN (*((unsigned int *)0x400FE638)) //ADC Clock enable
+
+#endif
