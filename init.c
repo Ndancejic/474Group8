@@ -3,7 +3,7 @@
 void ADC_Init(void){
   //enable GPIO pin
   RCGCGPIO |= 0x10; //enable PE4
-//  delay = RCGCGPIO; 
+//  delay = RCGCGPIO;
   GPIO_DIR_PORTE &= ~0x04;
   GPIO_REG_PORTE |= 0x04; //analog function
   GPIO_DEN_PORTE &= ~0x04; //enable analog
@@ -23,6 +23,7 @@ void ADC_Init(void){
   ADC0_SSMUX3 += 9; // input Ain9
   ADC0_SSCTL3 = 0x000A; //temperature sensor
   ADC0_ACTSS |= 0x08; //enable ss3
+  ADC0_IM |= 0x8;
 }
 
 void PLL_Init(void) {
@@ -59,5 +60,5 @@ void Timer0_Init(void){
   TIMER_MODE0 |= 0x12;  //configure TAMR field in GPTMTAMR (set to periodic and count down)
   TIMER_VAL0 = 0xF42400;  //set timer start to 16000000
   TIMER_INT0 |= 0x1F;  //enable Interrupts
-  TIMER_DIS0 |= 0x1;  //enable the timer
+  TIMER_DIS0 |= 0x11;  //enable the timer and output interrupt
 }

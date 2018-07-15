@@ -90,6 +90,9 @@
 #define ADC0_EMUX (*((unsigned int *)0x40038014)) //enable sequencer
 #define ADC0_SSMUX3 (*((unsigned int *)0x400380A0)) //enable sequencer
 #define ADC0_SSCTL3 (*((unsigned int *)0x400380A4)) //enable sequencer
+#define ADC0_IM (*((unsigned int *)0x40038008)) //enable INTERRUPTS
+#define ADC0_ISC (*((unsigned int *)0x4003800C)) //interrupt status and clearing
+#define ADC0_IM (*((unsigned int *)0x40038008)) //enable sequencer
 
 //board Clock
 #define CLK_RCC (*((unsigned int *)0x400FE060)) // Run-Mode Clock Configuration
