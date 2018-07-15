@@ -6,9 +6,9 @@
 #define GPIO_READ_PF0_PF4 (*((unsigned int *)0x40025044)) //read location for PF0 and PF4
 
 //GPIO INITIALIZATIONS
-#define GPIO_EN (*((unsigned int *)0x400FE608)) //location for enabling GPIO
+#define RCGCGPIO (*((unsigned int *)0x400FE608)) //location for enabling GPIO
 //PortA:
-#define GPIO_EN_A (*((unsigned int *)0x400FE108)) //enable gpio portA
+#define GPIO_EN_A (*((unsigned int *)0x400FE108)) //enable gpio portA ?
 #define GPIO_ADIS_PORTA (*((unsigned int *)0x40004528)) //Port A analog disable
 #define GPIO_PCTL_PORTA (*((unsigned int *)0x4000452C)) //Port A PCTL
 #define GPIO_DIR_PORTA (*((unsigned int *)0x40004400)) //Port A direction
@@ -17,7 +17,6 @@
 #define GPIO_DATA_PORTA (*((unsigned int *)0x400043FC)) //read port A
 
 //PortE:
-#define GPIO_EN_E (*((unsigned int *)0x400FE608)) //location for enabling GPIO
 #define GPIO_DIR_PORTE (*((unsigned int *)0x40024400)) //GPIO direction Port F
 #define GPIO_DEN_PORTE (*((unsigned int *)0x4002451C)) //digital enable Port F
 #define GPIO_LOCK_PORTE (*((unsigned int *)0x40024520)) //unlocking GPIO Port F
@@ -27,7 +26,6 @@
 #define GPIO_AMSEL_PORTE (*((unsigned int *)0x40024528)) //disable isolation
 
 //PortF:
-#define GPIO_EN_F (*((unsigned int *)0x400FE608)) //location for enabling GPIO
 #define GPIO_DIR_PORTF (*((unsigned int *)0x40025400)) //GPIO direction Port F
 #define GPIO_DEN_PORTF (*((unsigned int *)0x4002551C)) //digital enable Port F
 #define GPIO_LOCK_PORTF (*((unsigned int *)0x40025520)) //unlocking GPIO Port F
@@ -36,23 +34,25 @@
 #define GPIO_REG_PORTA (*((unsigned int *)0x40025420)) //Alternate Function
 
 //TIMER INITIALIZATIONS MEMORY LOCATIONS
+//timer 0
 #define TIMER_EN (*((unsigned int *)0x400FE604)) // enabling timers
-#define TIMER_EN1 (*((unsigned int *)0x400FE65C)) // enabling wide timers
 #define TIMER_DIS0 (*((unsigned int *)0x4003000C)) //disabling timer 0
+#define TIMER_CON0 (*((unsigned int *)0x40030000)) //set timer configuration (32 or 16)
+#define TIMER_MODE0 (*((unsigned int *)0x40030004)) //configure TnMR field
+#define TIMER_VAL0 (*((unsigned int *)0x40030028)) //Load the start value into the GPTM Timer n Interval Load Register
+#define TIMER_INT0 (*((unsigned int *)0x40030018)) //GPTM Interrupt Mask Register
+#define TIMER_POLL0 (*((unsigned int *)0x4003001C)) //Poll or wait for interrupt
+#define TIMER_MASK0 (*((unsigned int *)0x40030020)) //Poll or wait for interrupt
+#define TIMER_RESET0 (*((unsigned int *)0x40030024)) //reset flags
+//timer 1
+#define TIMER_EN1 (*((unsigned int *)0x400FE65C)) // enabling wide timers
 #define TIMER_DIS1 (*((unsigned int *)0x4003100C)) //disabling timer 1
-#define TIMER_CON (*((unsigned int *)0x40030000)) //set timer configuration (32 or 16)
 #define TIMER_CON1 (*((unsigned int *)0x40031000)) //set timer configuration (32 or 16)
-#define TIMER_MODE (*((unsigned int *)0x40030004)) //configure TnMR field
 #define TIMER_MODE1 (*((unsigned int *)0x40031004)) //configure TnMR field
-#define TIMER_VAL (*((unsigned int *)0x40030028)) //Load the start value into the GPTM Timer n Interval Load Register
 #define TIMER_VAL1 (*((unsigned int *)0x40031028)) //Load the start value into the GPTM Timer n Interval Load Register
-#define TIMER_INT (*((unsigned int *)0x40030018)) //GPTM Interrupt Mask Register
 #define TIMER_INT1 (*((unsigned int *)0x40031018)) //GPTM Interrupt Mask Register
-#define TIMER_POLL (*((unsigned int *)0x4003001C)) //Poll or wait for interrupt
 #define TIMER_POLL1 (*((unsigned int *)0x4003101C)) //Poll or wait for interrupt
-#define TIMER_MASK (*((unsigned int *)0x40030020)) //Poll or wait for interrupt
 #define TIMER_MASK1 (*((unsigned int *)0x40031020)) //Poll or wait for interrupt
-#define TIMER_RESET (*((unsigned int *)0x40030024)) //reset flags
 #define TIMER_RESET1 (*((unsigned int *)0x40031024)) //reset flags
 
 //INTERRUPTS
