@@ -3,7 +3,7 @@
 void ADC_Init(void){
   //enable GPIO pin
   RCGCGPIO |= 0x10; //enable PE4
-  delay = RCGCGPIO; delay
+//  delay = RCGCGPIO; 
   GPIO_DIR_PORTE &= ~0x04;
   GPIO_REG_PORTE |= 0x04; //analog function
   GPIO_DEN_PORTE &= ~0x04; //enable analog
@@ -12,7 +12,7 @@ void ADC_Init(void){
   //enable ADC0
   //ADC_CLK_EN |= 0x1; //enable ADC0
   ADC_RCGC0 |= 0x10000;//activate ADC
-  delay = ADC_RCGC0; //wait for Clock
+//  delay = ADC_RCGC0; //wait for Clock
   ADC_RCGC0 |= 0x300; //set max freq
 
   //enable sequencer 3
@@ -55,9 +55,9 @@ void PortF_Init(void)
 void Timer0_Init(void){
   TIMER_EN |= 0x01; //enable Timer0
   TIMER_DIS0 &= ~0x01;//Ensure that timer is disbled
-  TIMER_CON = 0x00000000;  //select 32-bit timer
-  TIMER_MODE |= 0x12;  //configure TAMR field in GPTMTAMR (set to periodic and count down)
-  TIMER_VAL = 0xF42400;  //set timer start to 16000000
-  TIMER_INT |= 0x1F;  //enable Interrupts
+  TIMER_CON0 = 0x00000000;  //select 32-bit timer
+  TIMER_MODE0 |= 0x12;  //configure TAMR field in GPTMTAMR (set to periodic and count down)
+  TIMER_VAL0 = 0xF42400;  //set timer start to 16000000
+  TIMER_INT0 |= 0x1F;  //enable Interrupts
   TIMER_DIS0 |= 0x1;  //enable the timer
 }

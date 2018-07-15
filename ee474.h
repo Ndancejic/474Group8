@@ -31,7 +31,7 @@
 #define GPIO_LOCK_PORTF (*((unsigned int *)0x40025520)) //unlocking GPIO Port F
 #define GPIO_CR_PORTF (*((unsigned int *)0x40025524)) //commiting pins Port F
 #define GPIO_PUR_PORTF (*((unsigned int *)0x40025510)) //enabling pull down resistors Port F
-#define GPIO_REG_PORTA (*((unsigned int *)0x40025420)) //Alternate Function
+//#define GPIO_REG_PORTA (*((unsigned int *)0x40025420)) //Alternate Function
 
 //TIMER INITIALIZATIONS MEMORY LOCATIONS
 //timer 0

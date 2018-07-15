@@ -1,13 +1,1527 @@
 [
   {
+    "ID": "c:@F@__iar_program_start",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __iar_program_start(void)",
+    "location": {
+      "column": "13",
+      "line": "15",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "__iar_program_start",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@NMI_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void NMI_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "17",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "NMI_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HardFault_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void HardFault_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "18",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "HardFault_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MemManage_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MemManage_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "19",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "MemManage_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@BusFault_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void BusFault_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "20",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "BusFault_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UsageFault_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UsageFault_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "21",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "UsageFault_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SVC_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SVC_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "22",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "SVC_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DebugMon_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void DebugMon_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "23",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "DebugMon_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PendSV_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void PendSV_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "24",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "PendSV_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SysTick_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "25",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "SysTick_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer0A_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Timer0A_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "26",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "Timer0A_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PortF_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void PortF_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "27",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "PortF_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:cstartup_M.c@T@intfunc",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "void (*)(void)",
+    "location": {
+      "column": "16",
+      "line": "29",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "intfunc",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@UA@intvec_elem",
+    "What": "Union",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "members": [
+      {
+        "ID": "c:@UA@intvec_elem@FI@__fun",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "__fun",
+        "location": {
+          "column": "25",
+          "line": "30",
+          "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+        },
+        "name": "__fun",
+        "origin": "project_file",
+        "scope": "_anonymous_cstartup_M_c_30_9"
+      },
+      {
+        "ID": "c:@UA@intvec_elem@FI@__ptr",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "__ptr",
+        "location": {
+          "column": "39",
+          "line": "30",
+          "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+        },
+        "name": "__ptr",
+        "origin": "project_file",
+        "scope": "_anonymous_cstartup_M_c_30_9"
+      },
+      {
+        "ID": "c:cstartup_M.c@T@intvec_elem",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "union intvec_elem",
+        "location": {
+          "column": "48",
+          "line": "30",
+          "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+        },
+        "name": "intvec_elem",
+        "origin": "project_file",
+        "scope": "_anonymous_cstartup_M_c_30_9"
+      }
+    ],
+    "name": "",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@__vector_table",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "__vector_table",
+    "location": {
+      "column": "19",
+      "line": "43",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "__vector_table",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@NMI_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void NMI_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "96",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "NMI_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HardFault_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HardFault_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "98",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "HardFault_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MemManage_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MemManage_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "100",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "MemManage_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@BusFault_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void BusFault_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "102",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "BusFault_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UsageFault_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UsageFault_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "104",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "UsageFault_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SVC_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SVC_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "106",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "SVC_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DebugMon_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void DebugMon_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "108",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "DebugMon_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PendSV_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PendSV_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "110",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "PendSV_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SysTick_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "112",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "SysTick_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer0A_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Timer0A_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "114",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "Timer0A_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PortF_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PortF_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "116",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "PortF_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__cmain",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __cmain(void)",
+    "location": {
+      "column": "6",
+      "line": "119",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "__cmain",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_init_core",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __iar_init_core(void)",
+    "location": {
+      "column": "13",
+      "line": "120",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "__iar_init_core",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_init_vfp",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __iar_init_vfp(void)",
+    "location": {
+      "column": "13",
+      "line": "121",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "__iar_init_vfp",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_program_start",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void __iar_program_start(void)",
+    "location": {
+      "column": "6",
+      "line": "124",
+      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+    },
+    "name": "__iar_program_start",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@25@macro@EE474_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "EE474_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "EE474_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@80@macro@GPIO_WRITE_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_WRITE_PORTF",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_WRITE_PORTF",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@156@macro@GPIO_READ_PF0_PF4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_READ_PF0_PF4",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_READ_PF0_PF4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@273@macro@RCGCGPIO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCGCGPIO",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "RCGCGPIO",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@362@macro@GPIO_EN_A",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_EN_A",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_EN_A",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@435@macro@GPIO_ADIS_PORTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_ADIS_PORTA",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_ADIS_PORTA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@516@macro@GPIO_PCTL_PORTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PCTL_PORTA",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_PCTL_PORTA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@587@macro@GPIO_DIR_PORTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DIR_PORTA",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_DIR_PORTA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@662@macro@GPIO_REG_PORTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_REG_PORTA",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_REG_PORTA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@754@macro@GPIO_DEN_PORTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DEN_PORTA",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_DEN_PORTA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@829@macro@GPIO_DATA_PORTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DATA_PORTA",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_DATA_PORTA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@912@macro@GPIO_DIR_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DIR_PORTE",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_DIR_PORTE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@992@macro@GPIO_DEN_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DEN_PORTE",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_DEN_PORTE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1072@macro@GPIO_LOCK_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_LOCK_PORTE",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_LOCK_PORTE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1153@macro@GPIO_CR_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_CR_PORTE",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_CR_PORTE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1232@macro@GPIO_PUR_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PUR_PORTE",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_PUR_PORTE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1326@macro@GPIO_REG_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_REG_PORTE",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_REG_PORTE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1403@macro@GPIO_AMSEL_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_AMSEL_PORTE",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_AMSEL_PORTE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1493@macro@GPIO_DIR_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DIR_PORTF",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_DIR_PORTF",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1573@macro@GPIO_DEN_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DEN_PORTF",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_DEN_PORTF",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1653@macro@GPIO_LOCK_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_LOCK_PORTF",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_LOCK_PORTF",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1734@macro@GPIO_CR_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_CR_PORTF",
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_CR_PORTF",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1813@macro@GPIO_PUR_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PUR_PORTF",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_PUR_PORTF",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2041@macro@TIMER_EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_EN",
+    "location": {
+      "column": "9",
+      "line": "38",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2110@macro@TIMER_DIS0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_DIS0",
+    "location": {
+      "column": "9",
+      "line": "39",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_DIS0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2182@macro@TIMER_CON0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_CON0",
+    "location": {
+      "column": "9",
+      "line": "40",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_CON0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2271@macro@TIMER_MODE0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MODE0",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_MODE0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2347@macro@TIMER_VAL0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_VAL0",
+    "location": {
+      "column": "9",
+      "line": "42",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_VAL0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2467@macro@TIMER_INT0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_INT0",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_INT0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2550@macro@TIMER_POLL0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_POLL0",
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_POLL0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2632@macro@TIMER_MASK0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MASK0",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_MASK0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2714@macro@TIMER_RESET0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_RESET0",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_RESET0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2795@macro@TIMER_EN1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_EN1",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_EN1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2870@macro@TIMER_DIS1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_DIS1",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_DIS1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2942@macro@TIMER_CON1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_CON1",
+    "location": {
+      "column": "9",
+      "line": "51",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_CON1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3031@macro@TIMER_MODE1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MODE1",
+    "location": {
+      "column": "9",
+      "line": "52",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_MODE1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3107@macro@TIMER_VAL1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_VAL1",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_VAL1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3227@macro@TIMER_INT1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_INT1",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_INT1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3310@macro@TIMER_POLL1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_POLL1",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_POLL1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3392@macro@TIMER_MASK1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MASK1",
+    "location": {
+      "column": "9",
+      "line": "56",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_MASK1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3474@macro@TIMER_RESET1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_RESET1",
+    "location": {
+      "column": "9",
+      "line": "57",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_RESET1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3568@macro@GPIO_SENSE_F",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_SENSE_F",
+    "location": {
+      "column": "9",
+      "line": "61",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_SENSE_F",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3649@macro@GPIO_IBE_F",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_IBE_F",
+    "location": {
+      "column": "9",
+      "line": "62",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_IBE_F",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3724@macro@GPIO_IEV_F",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_IEV_F",
+    "location": {
+      "column": "9",
+      "line": "63",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_IEV_F",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3814@macro@GPIO_IM_F",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_IM_F",
+    "location": {
+      "column": "9",
+      "line": "64",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_IM_F",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3870@macro@GPIO_CLEAR_F",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_CLEAR_F",
+    "location": {
+      "column": "9",
+      "line": "65",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_CLEAR_F",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3924@macro@GPIO_STATUS_F",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_STATUS_F",
+    "location": {
+      "column": "9",
+      "line": "66",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_STATUS_F",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4015@macro@GPIO_SENSE_A",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_SENSE_A",
+    "location": {
+      "column": "9",
+      "line": "69",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_SENSE_A",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4096@macro@GPIO_IBE_A",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_IBE_A",
+    "location": {
+      "column": "9",
+      "line": "70",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_IBE_A",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4171@macro@GPIO_IEV_A",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_IEV_A",
+    "location": {
+      "column": "9",
+      "line": "71",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_IEV_A",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4261@macro@GPIO_IM_A",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_IM_A",
+    "location": {
+      "column": "9",
+      "line": "72",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_IM_A",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4317@macro@GPIO_CLEAR_A",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_CLEAR_A",
+    "location": {
+      "column": "9",
+      "line": "73",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_CLEAR_A",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4371@macro@GPIO_STATUS_A",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_STATUS_A",
+    "location": {
+      "column": "9",
+      "line": "74",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_STATUS_A",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4452@macro@EN0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "EN0",
+    "location": {
+      "column": "9",
+      "line": "76",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "EN0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4517@macro@DIS0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIS0",
+    "location": {
+      "column": "9",
+      "line": "77",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "DIS0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4584@macro@PRI0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PRI0",
+    "location": {
+      "column": "9",
+      "line": "78",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "PRI0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4661@macro@PRI4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PRI4",
+    "location": {
+      "column": "9",
+      "line": "79",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "PRI4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4738@macro@PRI5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PRI5",
+    "location": {
+      "column": "9",
+      "line": "80",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "PRI5",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4815@macro@PRI7",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PRI7",
+    "location": {
+      "column": "9",
+      "line": "81",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "PRI7",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4901@macro@ADC_CLK_EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC_CLK_EN",
+    "location": {
+      "column": "9",
+      "line": "84",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "ADC_CLK_EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4972@macro@ADC_RCGC0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC_RCGC0",
+    "location": {
+      "column": "9",
+      "line": "85",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "ADC_RCGC0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5057@macro@ADC0_SSPRI",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_SSPRI",
+    "location": {
+      "column": "9",
+      "line": "88",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "ADC0_SSPRI",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5130@macro@ADC0_ACTSS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_ACTSS",
+    "location": {
+      "column": "9",
+      "line": "89",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "ADC0_ACTSS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5201@macro@ADC0_EMUX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_EMUX",
+    "location": {
+      "column": "9",
+      "line": "90",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "ADC0_EMUX",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5271@macro@ADC0_SSMUX3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_SSMUX3",
+    "location": {
+      "column": "9",
+      "line": "91",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "ADC0_SSMUX3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5343@macro@ADC0_SSCTL3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_SSCTL3",
+    "location": {
+      "column": "9",
+      "line": "92",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "ADC0_SSCTL3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5432@macro@CLK_RCC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CLK_RCC",
+    "location": {
+      "column": "9",
+      "line": "95",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "CLK_RCC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5513@macro@CLK_RCC2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CLK_RCC2",
+    "location": {
+      "column": "9",
+      "line": "96",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "CLK_RCC2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5597@macro@RIS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RIS",
+    "location": {
+      "column": "9",
+      "line": "97",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "RIS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "C:\\Users\\candy\\474Group8\\init.c"
+    },
+    "name": "ADC_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PLL_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PLL_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "28",
+      "path": "C:\\Users\\candy\\474Group8\\init.c"
+    },
+    "name": "PLL_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PortF_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PortF_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "42",
+      "path": "C:\\Users\\candy\\474Group8\\init.c"
+    },
+    "name": "PortF_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer0_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Timer0_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "55",
+      "path": "C:\\Users\\candy\\474Group8\\init.c"
+    },
+    "name": "Timer0_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer0A_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Timer0A_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "Timer0A_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PortF_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PortF_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "10",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "PortF_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "2",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+      "line": "20",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "main",
     "origin": "project_file",
