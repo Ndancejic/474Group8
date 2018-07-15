@@ -1,4 +1,5 @@
 #include "ee474.h"
+#include "intrinsics.h"
 
 void ADC_Init(void){
   //enable GPIO pin
@@ -61,4 +62,17 @@ void Timer0_Init(void){
   TIMER_VAL0 = 0xF42400;  //set timer start to 16000000
   TIMER_INT0 |= 0x1F;  //enable Interrupts
   TIMER_DIS0 |= 0x11;  //enable the timer and output interrupt
+}
+
+void Interrupt_Init(void)
+{
+  GPIO_SENSE &= ~0x11;  //interrupt on edge
+  GPIO_IBE &= ~0x11;  //interrupt on one edge
+  GPIO_IEV |= 0x11;  //interrupt on rising edge
+  GPIO_CLEAR = 0x11;  //ICR
+  GPIO_IM |= 0x11;  //interupt mask register
+  EN0 |= 0x40080000;  //enable #19
+  PRI4 |= 0x20000000;  //Interrupt priority
+  PRI7 |= 0x00200000;  //Interrupt priority
+  __enable_interrupt();  //enable global interrupts
 }
