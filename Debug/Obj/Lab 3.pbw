@@ -1388,13 +1388,41 @@
     "scope": null
   },
   {
-    "ID": "c:ee474.h@5432@macro@CLK_RCC",
+    "ID": "c:ee474.h@5415@macro@ADC0_IM",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_IM",
+    "location": {
+      "column": "9",
+      "line": "93",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "ADC0_IM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5484@macro@ADC0_ISC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_ISC",
+    "location": {
+      "column": "9",
+      "line": "94",
+      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+    },
+    "name": "ADC0_ISC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5583@macro@CLK_RCC",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CLK_RCC",
     "location": {
       "column": "9",
-      "line": "95",
+      "line": "97",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
     },
     "name": "CLK_RCC",
@@ -1402,13 +1430,13 @@
     "scope": null
   },
   {
-    "ID": "c:ee474.h@5513@macro@CLK_RCC2",
+    "ID": "c:ee474.h@5664@macro@CLK_RCC2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CLK_RCC2",
     "location": {
       "column": "9",
-      "line": "96",
+      "line": "98",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
     },
     "name": "CLK_RCC2",
@@ -1416,13 +1444,13 @@
     "scope": null
   },
   {
-    "ID": "c:ee474.h@5597@macro@RIS",
+    "ID": "c:ee474.h@5748@macro@RIS",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RIS",
     "location": {
       "column": "9",
-      "line": "97",
+      "line": "99",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
     },
     "name": "RIS",
@@ -1450,7 +1478,7 @@
     "display": "void PLL_Init(void)",
     "location": {
       "column": "6",
-      "line": "28",
+      "line": "29",
       "path": "C:\\Users\\candy\\474Group8\\init.c"
     },
     "name": "PLL_Init",
@@ -1464,7 +1492,7 @@
     "display": "void PortF_Init(void)",
     "location": {
       "column": "6",
-      "line": "42",
+      "line": "43",
       "path": "C:\\Users\\candy\\474Group8\\init.c"
     },
     "name": "PortF_Init",
@@ -1478,10 +1506,290 @@
     "display": "void Timer0_Init(void)",
     "location": {
       "column": "6",
-      "line": "55",
+      "line": "56",
       "path": "C:\\Users\\candy\\474Group8\\init.c"
     },
     "name": "Timer0_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@49@macro@STATE_RED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STATE_RED",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "STATE_RED",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@70@macro@STATE_BLUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STATE_BLUE",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "STATE_BLUE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@92@macro@FLAG_NONE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLAG_NONE",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "FLAG_NONE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@113@macro@FLAG_ONE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLAG_ONE",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "FLAG_ONE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@135@macro@RCGCTIMER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCGCTIMER",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "RCGCTIMER",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@196@macro@GPTMCTL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPTMCTL",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "GPTMCTL",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@254@macro@GPTMCFG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPTMCFG",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "GPTMCFG",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@312@macro@GPTMTAMR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPTMTAMR",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "GPTMTAMR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@371@macro@GPTMTAILR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPTMTAILR",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "GPTMTAILR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@431@macro@GPTMRIS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPTMRIS",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "GPTMRIS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@489@macro@GPTMICR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPTMICR",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "GPTMICR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@547@macro@GPTMIMR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPTMIMR",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "GPTMIMR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@STATE",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "STATE",
+    "location": {
+      "column": "15",
+      "line": "18",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "STATE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@FLAG",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "FLAG",
+    "location": {
+      "column": "15",
+      "line": "19",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "FLAG",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LED_ON",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LED_ON(unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "21",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "LED_ON",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LED_OFF",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LED_OFF(void)",
+    "location": {
+      "column": "6",
+      "line": "22",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "LED_OFF",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Switching",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Switching(void)",
+    "location": {
+      "column": "6",
+      "line": "23",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "Switching",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Timer_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "26",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "Timer_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer_En",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Timer_En(void)",
+    "location": {
+      "column": "6",
+      "line": "36",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "Timer_En",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer_Dis",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Timer_Dis(void)",
+    "location": {
+      "column": "6",
+      "line": "46",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "Timer_Dis",
     "origin": "project_file",
     "scope": null
   },
@@ -1492,7 +1800,7 @@
     "display": "void Timer0A_Handler(void)",
     "location": {
       "column": "6",
-      "line": "4",
+      "line": "53",
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "Timer0A_Handler",
@@ -1506,7 +1814,7 @@
     "display": "void PortF_Handler(void)",
     "location": {
       "column": "6",
-      "line": "10",
+      "line": "59",
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "PortF_Handler",
@@ -1520,10 +1828,66 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "20",
+      "line": "69",
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LED_ON",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LED_ON(unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "82",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "LED_ON",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LED_OFF",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LED_OFF(void)",
+    "location": {
+      "column": "6",
+      "line": "88",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "LED_OFF",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Switching",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Switching(void)",
+    "location": {
+      "column": "6",
+      "line": "92",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "Switching",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@2283@F@Switching@flash",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "flash",
+    "location": {
+      "column": "7",
+      "line": "93",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "flash",
     "origin": "project_file",
     "scope": null
   }
