@@ -1,3 +1,4 @@
+#include "ee474.h"
 
 void ADC_Init(void){
   //enable GPIO pin
@@ -58,5 +59,5 @@ void Timer0_Init(void){
   TIMER_MODE |= 0x12;  //configure TAMR field in GPTMTAMR (set to periodic and count down)
   TIMER_VAL = 0xF42400;  //set timer start to 16000000
   TIMER_INT |= 0x1F;  //enable Interrupts
-  TIMER_DIS0 |= 0x1;  //enable the timer 
+  TIMER_DIS0 |= 0x1;  //enable the timer
 }
