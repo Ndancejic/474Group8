@@ -23,8 +23,8 @@ extern void SVC_Handler( void );
 extern void DebugMon_Handler( void );
 extern void PendSV_Handler( void );
 extern void SysTick_Handler( void );
-extern void Timer_Handler(void);
-extern void Button_Handler(void);
+extern void Timer0A_Handler(void);
+extern void PortF_Handler(void);
 
 typedef void( *intfunc )( void );
 typedef union { intfunc __fun; void * __ptr; } intvec_elem;
@@ -78,7 +78,7 @@ const intvec_elem __vector_table[] =
   0,
   0,
   0,
-  Timer_Handler,
+  Timer0A_Handler,
   0,
   0,
   0,
@@ -89,7 +89,7 @@ const intvec_elem __vector_table[] =
   0,
   0,
   0,
-  Button_Handler
+  PortF_Handler
 };
 
 #pragma call_graph_root = "interrupt"
@@ -111,9 +111,9 @@ __weak void PendSV_Handler( void ) { while (1) {} }
 #pragma call_graph_root = "interrupt"
 __weak void SysTick_Handler( void ) { while (1) {} }
 #pragma call_graph_root = "interrupt"
-__weak void Timer_Handler( void ) { while (1) { } }
+__weak void Timer0A_Handler( void ) { while (1) { } }
 #pragma call_graph_root = "interrupt"
-__weak void Button_Handler( void ) { while (1) { } }
+__weak void PortF_Handler( void ) { while (1) { } }
 
 
 void __cmain( void );
