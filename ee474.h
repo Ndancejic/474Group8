@@ -1,5 +1,5 @@
-#ifndef ee474.h
-#define ee474.h
+#ifndef EE474_H
+#define EE474_H
 
 //GPIO READ/WRITE MEMORY LOCATIONS
 #define GPIO_WRITE_PORTF (*((unsigned int *)0x400253fc)) //port F GPIODATA
@@ -44,6 +44,7 @@
 #define TIMER_POLL0 (*((unsigned int *)0x4003001C)) //Poll or wait for interrupt
 #define TIMER_MASK0 (*((unsigned int *)0x40030020)) //Poll or wait for interrupt
 #define TIMER_RESET0 (*((unsigned int *)0x40030024)) //reset flags
+
 //timer 1
 #define TIMER_EN1 (*((unsigned int *)0x400FE65C)) // enabling wide timers
 #define TIMER_DIS1 (*((unsigned int *)0x4003100C)) //disabling timer 1
@@ -89,5 +90,10 @@
 #define ADC0_EMUX (*((unsigned int *)0x40038014)) //enable sequencer
 #define ADC0_SSMUX3 (*((unsigned int *)0x400380A0)) //enable sequencer
 #define ADC0_SSCTL3 (*((unsigned int *)0x400380A4)) //enable sequencer
+
+//board Clock
+#define CLK_RCC (*((unsigned int *)0x400FE060)) // Run-Mode Clock Configuration
+#define CLK_RCC2 (*((unsigned int *)0x400FE070)) // Run-Mode Clock Configuration 2
+#define RIS (*((unsigned int *)0x400FE050))// Raw Interrupt Status
 
 #endif
