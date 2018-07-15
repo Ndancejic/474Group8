@@ -1,5 +1,11 @@
+#include "init.c"
+#include "ee474.h"
 
 int main()
 {
-  return 0;
+  
+  PortF_Init();
+  ADC_Init();
+  Timer0_Init();
+  PLL_Init();
 }
