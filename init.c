@@ -8,12 +8,12 @@ void ADC_Init(void){
   GPIO_REG_PORTE |= 0x04; //analog function
   GPIO_DEN_PORTE &= ~0x04; //enable analog
   GPIO_AMSEL_PORTE |= 0x04; //disable isolation
-  
+
   //enable ADC0
   //ADC_CLK_EN |= 0x1; //enable ADC0
   ADC_RCGC0 |= 0x10000;//activate ADC
   ADC_RCGC0 &= ~0x300; //set max freq
-  
+
   //enable sequencer 3
   ADC0_SSPRI = 0x0123; //set priority for ss3
   ADC0_ACTSS &= ~0x08; //disable ss3
@@ -45,13 +45,22 @@ void PLL_Init(int mhz) {
 void PortF_Init(void)
 {
   RCGCGPIO = 0xff;//enables GPIO clock on port
-  
+
   GPIO_LOCK_PORTF = 0x4C4F434B;//unlocks pin pf0
   GPIO_CR_PORTF = 0xff;  //commits pin pf0
   GPIO_PUR_PORTF = 0x11;  //turns on pulldown resistors
-  
+
   GPIO_DIR_PORTF = 0xee;  //set port F as output except for PF0 and PF4
   GPIO_DEN_PORTF = 0xff;  //enables digital PORT F
+}
+
+void PortA_Init(void)
+{
+  RCGCGPIO = 0xff;//enables GPIO clock on port
+  GPIO_DEN_PORTA &= ~0x02;  //disables digital PORT A
+  GPIO_AFSEL_PORTA &= ~0x02; //regular port function
+  GPIO_PCTL_PORTA |= (1<<1); //PCTL
+  GPIO_DIR_PORTA &= ~0x02;  //set port A as output except for PF0 and PF4
 }
 
 //timer initialization

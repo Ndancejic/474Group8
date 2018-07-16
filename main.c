@@ -42,21 +42,23 @@ void PortF_Handler(void) {
 void ADC0_Handler(void) {
   while((ADC0_RIS&0x08)==0){};   // wait for conversion done
   result = ADC0_SSFIFO3&0xFFF;   // read result
-
+  result = 147.5-((74*(3.3)*result)/4096);
+  GPIO_DATA_PORTA = result;
   ADC0_ISC = 0x0008;             // acknowledge completion
 }
 
 int main()
 {
-  
+
   PortF_Init();
+  PortA_Init();
   ADC_Init();
   Timer0_Init();
   PLL_Init(16);
   Interrupt_Init();
   LED_OFF();
   Switching();
-  
+
   return 0;
 }
 
@@ -91,7 +93,7 @@ void Switching(void) {
       PLL_Init(80);
       break;
     }
-    
+
     if (result > 0 && result <= 17) {
       LED_ON(RED);
     } else if (result > 17 && result <= 19) {

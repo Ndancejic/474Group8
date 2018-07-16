@@ -1,9 +1,9 @@
-"C:\Users\candy\474Group8\main.c"
+"C:\Users\nikol\Documents\EE 474\github\474Group8\main.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-C:\Users\candy\474Group8
+C:\Users\nikol\Documents\EE 474\github\474Group8
 -I
 C:\TI-CMSIS-Devices-8636\TI\LM4F\Include
 -I
