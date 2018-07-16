@@ -212,10 +212,6 @@
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 30</file>
-                </tool>
-                <tool>
                     <name>BICOMP</name>
                     <file> 12</file>
                 </tool>
@@ -227,7 +223,7 @@
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 13 5 23 0 1 2 34 3 42</file>
+                    <file> 13 23 1 0 5 2 34 3 42</file>
                 </tool>
             </inputs>
         </file>

@@ -1,19 +1,18 @@
 #include "init.c"
 #include "ee474.h"
 
-#define STATE_RED 4
-#define STATE_BLUE 5
+#define STATE_SW0 4
+#define STATE_SW4 5
 #define FLAG_NONE 0
 #define FLAG_ONE 3
 
-#define RCGCTIMER (*((volatile unsigned long *)0x400FE604))
-#define GPTMCTL (*((volatile unsigned long*)0x4003000C))
-#define GPTMCFG (*((volatile unsigned long*)0x40030000))
-#define GPTMTAMR (*((volatile unsigned long*)0x40030004))
-#define GPTMTAILR (*((volatile unsigned long*)0x40030028))
-#define GPTMRIS (*((volatile unsigned long*)0x4003001C))
-#define GPTMICR (*((volatile unsigned long*)0x40030024))
-#define GPTMIMR (*((volatile unsigned long*)0x40030018))
+#define RED 0x02
+#define BLUE 0x04
+#define VIOLET 0x06
+#define GREEN 0x08
+#define YELLOW 0x0A
+#define LIGHT_BLUE 0x0C
+#define WHITE 0x0E
 
 unsigned long STATE = 0;
 unsigned long FLAG = FLAG_NONE;
@@ -23,81 +22,47 @@ void LED_ON(unsigned int color);
 void LED_OFF(void);
 void Switching(void);
 
-// initialize timer that waits for 2 second
-void Timer_Init(void) {
-  RCGCTIMER |= 0x1;
-  GPTMCTL &= ~0x1;  // disables timer
-  GPTMCFG = 0x0;
-  GPTMTAMR |= (0x2<<0);  // set TAMR field in GPTMTAMR register to periodic mode
-  GPTMTAMR &= (0x0<<4);  // enables GPTM Timer to count down
-  GPTMTAILR = 0x00F42400; // sets interval to one second
-}
-
-// enables timer 0
-void Timer_En(void) {
-  GPTMIMR |= 0x1;  // enables time out interrupt mask
-  EN0 |= (0x1<<19);
-  GPTMCTL |= 0x1;  // enables timer 0, start counting
-  GPTMICR |= (0x1<<0); // reset timer 0
-  PRI4 = (3<<29);
-//  NVIC_PRI4_R = (NVIC_PRI4_R&0xFF00FFFF)|0xA0000000;
-}
-
-// disables timer 0
-void Timer_Dis(void) {
-  GPTMIMR &= ~0x1;  // disables time out interrupt mask
-  DIS0 &= ~(0x0<<19);
-  GPTMCTL &= ~0x1;  // disables timer
-  GPTMICR |= (0x1<<0); // reset timer 0
-}
-
 void Timer0A_Handler(void) {
   FLAG = FLAG_ONE;
   ADC0_PSSI = 0x008;
-  GPTMICR |= (0x1<<0);
+  TIMER_RESET0 |= (0x1<<0);
 }
 
 
 void PortF_Handler(void) {
-//  if (GPIO_PORTF_DATA == 0x01 || GPIO_PORTF_DATA == 0x05) {
-//
-//  }
-//  if (GPIO_PORTF_DATA == 0x10 || GPIO_PORTF_DATA == 0x12) {
-//
-//  }
-//  GPIO_PORTF_ICR |= 0x11;          // clear the interrupt flag before return
+  if (GPIO_WRITE_PORTF == 0x01) {
+    STATE = STATE_SW0;
+  }
+  if (GPIO_WRITE_PORTF == 0x10) {
+    STATE = STATE_SW4;
+  }
+  GPIO_ICR_PORTF |= 0x11; // clear the interrupt flag before return
 }
 
 void ADC0_Handler(void) {
-  while((ADC0_RIS&0x08)==0){};   // 2) wait for conversion done
-  result = ADC0_SSFIFO3&0xFFF;   // 3) read result
-  if (result < 40 || result > 0) {
-      LED_ON(0x02);
-  } else {
-    LED_OFF();
-   }
-  ADC0_ISC = 0x0008;             // 4) acknowledge completion
+  while((ADC0_RIS&0x08)==0){};   // wait for conversion done
+  result = ADC0_SSFIFO3&0xFFF;   // read result
+
+  ADC0_ISC = 0x0008;             // acknowledge completion
 }
 
 int main()
 {
-
+  
   PortF_Init();
   ADC_Init();
   Timer0_Init();
-  PLL_Init();
+  PLL_Init(16);
   Interrupt_Init();
   LED_OFF();
-  while (1) {
-  }
-//  Switching();
-
+  Switching();
+  
   return 0;
 }
 
 //turn on given color
 void LED_ON(unsigned int color){
-  GPIO_WRITE_PORTF |= 0x00;
+  GPIO_WRITE_PORTF = 0x00;
   GPIO_WRITE_PORTF |= color;
 }
 
@@ -107,39 +72,42 @@ void LED_OFF(void) {
 }
 
 void Switching(void) {
-  int flash = 0;
   while (1) {
     switch (GPIO_WRITE_PORTF & 0x11) {
     case 0x01: // switch 1
-      STATE = STATE_RED;
-      Timer_Dis();
+      STATE = STATE_SW0;
       break;
     case 0x10: // switch 2
-      STATE = STATE_BLUE;
-      Timer_En();
+      STATE = STATE_SW4;
       break;
     default:
       break;
     }
     switch (STATE) {
-    case STATE_RED:
-      GPIO_WRITE_PORTF = 0x00;
-      GPIO_WRITE_PORTF |= 0x02;
+    case STATE_SW0:
+      PLL_Init(4);
       break;
-    case STATE_BLUE:
-      if (FLAG == FLAG_ONE) {
-        FLAG = FLAG_NONE;
-        if (flash) {
-          flash = 0;
-          GPIO_WRITE_PORTF = 0x00;
-          GPIO_WRITE_PORTF |= 0x04;
-        } else {
-          flash = 1;
-          GPIO_WRITE_PORTF = 0x00;
-        }
-      }
+    case STATE_SW4:
+      PLL_Init(80);
       break;
     }
-
+    
+    if (result > 0 && result <= 17) {
+      LED_ON(RED);
+    } else if (result > 17 && result <= 19) {
+      LED_ON(BLUE);
+    } else if (result > 19 && result <= 21) {
+      LED_ON(VIOLET);
+    } else if (result > 21 && result <= 23) {
+      LED_ON(GREEN);
+    } else if (result > 23 && result <= 25) {
+      LED_ON(YELLOW);
+    } else if (result > 25 && result <= 27) {
+      LED_ON(LIGHT_BLUE);
+    } else if (result > 27 && result <= 40) {
+      LED_ON(WHITE);
+    } else {
+      LED_OFF();
+    }
   }
 }

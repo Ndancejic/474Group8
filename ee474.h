@@ -31,6 +31,7 @@
 #define GPIO_LOCK_PORTF (*((unsigned int *)0x40025520)) //unlocking GPIO Port F
 #define GPIO_CR_PORTF (*((unsigned int *)0x40025524)) //commiting pins Port F
 #define GPIO_PUR_PORTF (*((unsigned int *)0x40025510)) //enabling pull down resistors Port F
+#define GPIO_ICR_PORTF (*((unsigned long *)0x4002541C)) //clear the interrupt flag Port F
 //#define GPIO_REG_PORTA (*((unsigned int *)0x40025420)) //Alternate Function
 
 //TIMER INITIALIZATIONS MEMORY LOCATIONS
@@ -95,6 +96,7 @@
 #define ADC0_SSFIFO3 (*((unsigned int *)0x400380A8))
 #define ADC0_RIS (*((unsigned int *)0x40038004))
 #define ADC0_PSSI (*((unsigned int *)0x40038028))
+#define ADC0_SSFIFO3 (*((unsigned int *)0x400380A8)) //Conversion Result Data, ADC code
 
 //board Clock
 #define CLK_RCC (*((unsigned int *)0x400FE060)) // Run-Mode Clock Configuration
