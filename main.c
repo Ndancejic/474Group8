@@ -51,10 +51,10 @@ int main()
 {
 
   PortF_Init();
-  PortA_Init();
   ADC_Init();
   Timer0_Init();
   PLL_Init(16);
+  UART_Init();
   Interrupt_Init();
   LED_OFF();
   Switching();
@@ -88,9 +88,11 @@ void Switching(void) {
     switch (STATE) {
     case STATE_SW0:
       PLL_Init(4);
+      UART_Init();
       break;
     case STATE_SW4:
       PLL_Init(80);
+      UART_Init();
       break;
     }
 

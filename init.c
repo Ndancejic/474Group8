@@ -59,8 +59,9 @@ void PortA_Init(void)
   RCGCGPIO = 0xff;//enables GPIO clock on port
   GPIO_DEN_PORTA &= ~0x02;  //disables digital PORT A
   GPIO_AFSEL_PORTA &= ~0x02; //regular port function
-  GPIO_PCTL_PORTA |= (1<<1); //PCTL
+  GPIO_PCTL_PORTA |= 0x1; //PCTL
   GPIO_DIR_PORTA &= ~0x02;  //set port A as output except for PF0 and PF4
+  GPIO_DEN_PORTA |= 0x02;  //enables digital PORT A
 }
 
 //timer initialization
@@ -87,4 +88,35 @@ void Interrupt_Init(void)
   PRI4 |= 0x20000000;  //Interrupt priority
   PRI7 |= 0x00200000;  //Interrupt priority
   __enable_interrupt();  //enable global interrupts
+}
+
+void UART_Init(void)
+{
+  //enabling clocks
+  RCGCUART |= (1<<0); //enables clock on UART
+  RCGCGPIO = 0xff; //enables GPIO clock on portA
+  UART0_CTL &= ~0x0x00000001; //disable UART0
+
+  //setting up GPIO
+  GPIO_AFSEL_PORTA |= 0x03; //alternate hardware functions
+  GPIO_DR2R_PORTA &= ~0x03;
+  GPIO_DR4R_PORTA &= ~0x03;
+  GPIO_DR8R_PORTA |= 0x03;
+  GPIO_SLR_PORTA |= 0x03;
+  GPIO_PCTL_PORTA |= 0x11;
+
+  //finding the BaudRate
+  unsigned double BaudRate;
+  unsigned long ClkDiv = ((CLK_RCC2&0x1F800000)>>23);
+  BaudRate = 16000000/(16*ClkDiv);
+  unsigned int BaudRateInt = (int)BaudRate;
+  unsigned double BaudRateDec = (BaudRate - (double)BaudRateInt);
+  BaudRateDec = (int)(BaudRateDec * 64);
+
+  //setting the Baud Rate
+  UART0_IBRD = BaudRateInt;
+  UART0_FBRD = (int)BaudRateDec;
+  UART0_LCRH = 0x00000060;
+  UART0_CC = 0;
+  UART0_CTL |= 0x0x00000001; //enable UART0
 }

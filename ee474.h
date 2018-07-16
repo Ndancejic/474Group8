@@ -15,6 +15,10 @@
 #define GPIO_AFSEL_PORTA (*((unsigned int *)0x40004420)) //PA5 and PA6 regular port function
 #define GPIO_DEN_PORTA (*((unsigned int *)0x4000451C)) //Port A direction
 #define GPIO_DATA_PORTA (*((unsigned int *)0x400043FC)) //read port A
+#define GPIO_DR2R_PORTA (*((unsigned int *)0x40004500)) //Port A drive control 2mA
+#define GPIO_DR4R_PORTA (*((unsigned int *)0x40004504)) //Port A drive control 4mA
+#define GPIO_DR8R_PORTA (*((unsigned int *)0x40004508)) //Port A drive control 8mA
+#define GPIO_SLR_PORTA (*((unsigned int *)0x40004518)) //Port A slew rate
 
 //PortE:
 #define GPIO_DIR_PORTE (*((unsigned int *)0x40024400)) //GPIO direction Port F
@@ -102,5 +106,13 @@
 #define CLK_RCC (*((unsigned int *)0x400FE060)) // Run-Mode Clock Configuration
 #define CLK_RCC2 (*((unsigned int *)0x400FE070)) // Run-Mode Clock Configuration 2
 #define RIS (*((unsigned int *)0x400FE050))// Raw Interrupt Status
+
+//UART
+#define RCGCUART (*((unsigned int *)0x400FE618))// Raw Interrupt Status
+#define UART0_CTL (*((unsigned int *)0x4000C030))// Raw Interrupt Status
+#define UART0_IBRD (*((unsigned int *)0x4000C024))// Integer value of baud rate
+#define UART0_FBRD (*((unsigned int *)0x4000C028))// decimal value of baud rate
+#define UART0_LCRH (*((unsigned int *)0x4000C02C))// line control register
+#define UART0_CC (*((unsigned int *)0x4000CFC8))// line control register
 
 #endif
