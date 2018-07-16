@@ -6,8 +6,8 @@ void ADC_Init(void){
   RCGCGPIO |= 0x10; //enable PE4
   GPIO_DIR_PORTE &= ~0x04;
   GPIO_REG_PORTE |= 0x04; //analog function
-  GPIO_DEN_PORTE &= ~0x04; //enable analog
-  GPIO_AMSEL_PORTE |= 0x04; //disable isolation
+  GPIO_DEN_PORTE |= 0x04; //enable analog
+  GPIO_AMSEL_PORTE &= ~0x04; //disable isolation
 
   //enable ADC0
   //ADC_CLK_EN |= 0x1; //enable ADC0
@@ -95,7 +95,7 @@ void UART_Init(void)
   //enabling clocks
   RCGCUART |= (1<<0); //enables clock on UART
   RCGCGPIO = 0xff; //enables GPIO clock on portA
-  UART0_CTL &= ~0x0x00000001; //disable UART0
+  UART0_CTL &= ~0x00000001; //disable UART0
 
   //setting up GPIO
   GPIO_AFSEL_PORTA |= 0x03; //alternate hardware functions
@@ -106,11 +106,11 @@ void UART_Init(void)
   GPIO_PCTL_PORTA |= 0x11;
 
   //finding the BaudRate
-  unsigned double BaudRate;
+  double BaudRate;
   unsigned long ClkDiv = ((CLK_RCC2&0x1F800000)>>23);
   BaudRate = 16000000/(16*ClkDiv);
   unsigned int BaudRateInt = (int)BaudRate;
-  unsigned double BaudRateDec = (BaudRate - (double)BaudRateInt);
+  double BaudRateDec = (BaudRate - (double)BaudRateInt);
   BaudRateDec = (int)(BaudRateDec * 64);
 
   //setting the Baud Rate
@@ -118,5 +118,5 @@ void UART_Init(void)
   UART0_FBRD = (int)BaudRateDec;
   UART0_LCRH = 0x00000060;
   UART0_CC = 0;
-  UART0_CTL |= 0x0x00000001; //enable UART0
+  UART0_CTL |= 0x00000001; //enable UART0
 }

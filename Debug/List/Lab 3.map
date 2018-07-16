@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.30.1.114/W32 for ARM                  16/Jul/2018  15:19:34
+# IAR ELF Linker V8.30.1.114/W32 for ARM                  16/Jul/2018  16:27:03
 # Copyright 2007-2018 IAR Systems AB.
 #
 #    Output file  =  
@@ -8,7 +8,7 @@
 #    Map file     =  
 #        C:\Users\nikol\Documents\EE 474\github\474Group8\Debug\List\Lab 3.map
 #    Command line =  
-#        -f C:\Users\nikol\AppData\Local\Temp\EW64DA.tmp
+#        -f C:\Users\nikol\AppData\Local\Temp\EW2D83.tmp
 #        ("C:\Users\nikol\Documents\EE
 #        474\github\474Group8\Debug\Obj\cstartup_M.o"
 #        "C:\Users\nikol\Documents\EE 474\github\474Group8\Debug\Obj\main.o"
@@ -57,35 +57,37 @@ define block HEAP with size = 8K, alignment = 8 { };
   .intvec          const            0x0    0xbc  cstartup_M.o [1]
                                  - 0xbc    0xbc
 
-"P1":                                     0xbec
-  .text            ro code         0xbc   0x478  main.o [1]
-  .text            ro code        0x534    0x1a  U32ToDbl.o [3]
-  .text            ro code        0x54e    0x3a  zero_init3.o [4]
-  .text            ro code        0x588   0x1a2  DblMul.o [3]
-  .text            ro code        0x72a     0x2  cstartup_M.o [1]
-  .text            ro code        0x72c   0x246  DblDiv.o [3]
-  .text            ro code        0x972     0x2  cstartup_M.o [1]
-  .text            ro code        0x974    0xe2  DblSub.o [3]
-  .text            ro code        0xa56     0x2  cstartup_M.o [1]
-  .text            ro code        0xa58    0x28  DblToU32.o [3]
-  .text            ro code        0xa80   0x16a  DblAdd.o [3]
-  .text            ro code        0xbea     0x2  cstartup_M.o [1]
-  .text            ro code        0xbec    0x28  data_init.o [4]
-  .text            ro code        0xc14    0x22  fpinit_M.o [3]
-  .iar.init_table  const          0xc38    0x10  - Linker created -
-  .text            ro code        0xc48     0x2  cstartup_M.o [1]
-  .text            ro code        0xc4c    0x1e  cmain.o [4]
-  .text            ro code        0xc6a     0x4  low_level_init.o [2]
-  .text            ro code        0xc6e     0x4  exit.o [2]
-  .text            ro code        0xc72     0x2  cstartup_M.o [1]
-  .text            ro code        0xc74     0xa  cexit.o [4]
-  .text            ro code        0xc7e     0x2  cstartup_M.o [1]
-  .text            ro code        0xc80    0x14  exit.o [5]
-  .text            ro code        0xc94    0x10  cstartup_M.o [1]
-  .text            ro code        0xca4     0x2  cstartup_M.o [1]
-  .text            ro code        0xca6     0x2  cstartup_M.o [1]
-  .rodata          const          0xca8     0x0  zero_init3.o [4]
-                                - 0xca8   0xbec
+"P1":                                     0xd48
+  .text            ro code         0xbc   0x578  main.o [1]
+  .text            ro code        0x634    0x1a  U32ToDbl.o [3]
+  .text            ro code        0x64e    0x3a  zero_init3.o [4]
+  .text            ro code        0x688    0x3a  DblToS32.o [3]
+  .text            ro code        0x6c2     0x2  cstartup_M.o [1]
+  .text            ro code        0x6c4    0xe2  DblSub.o [3]
+  .text            ro code        0x7a6     0x2  cstartup_M.o [1]
+  .text            ro code        0x7a8   0x1a2  DblMul.o [3]
+  .text            ro code        0x94a     0x2  cstartup_M.o [1]
+  .text            ro code        0x94c    0x22  S32ToDbl.o [3]
+  .text            ro code        0x96e     0x2  cstartup_M.o [1]
+  .text            ro code        0x970   0x246  DblDiv.o [3]
+  .text            ro code        0xbb6     0x2  cstartup_M.o [1]
+  .text            ro code        0xbb8    0x28  DblToU32.o [3]
+  .text            ro code        0xbe0   0x16a  DblAdd.o [3]
+  .text            ro code        0xd4a     0x2  cstartup_M.o [1]
+  .text            ro code        0xd4c    0x28  data_init.o [4]
+  .text            ro code        0xd74    0x22  fpinit_M.o [3]
+  .iar.init_table  const          0xd98    0x10  - Linker created -
+  .text            ro code        0xda8     0x2  cstartup_M.o [1]
+  .text            ro code        0xdac    0x1e  cmain.o [4]
+  .text            ro code        0xdca     0x4  low_level_init.o [2]
+  .text            ro code        0xdce     0x4  exit.o [2]
+  .text            ro code        0xdd2     0x2  cstartup_M.o [1]
+  .text            ro code        0xdd4     0xa  cexit.o [4]
+  .text            ro code        0xdde     0x2  cstartup_M.o [1]
+  .text            ro code        0xde0    0x14  exit.o [5]
+  .text            ro code        0xdf4    0x10  cstartup_M.o [1]
+  .rodata          const          0xe04     0x0  zero_init3.o [4]
+                                - 0xe04   0xd48
 
 "P2", part 1 of 2:                          0xc
   .bss             zero     0x2000'0000     0x4  main.o [1]
@@ -102,7 +104,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-        0xca8     0x3'ffff  0x3'f358
+        0xe04     0x3'ffff  0x3'f1fc
   0x2000'000c  0x2000'000f       0x4
   0x2000'1010  0x2000'7fff    0x6ff0
 
@@ -131,9 +133,9 @@ command line/config:
 
 C:\Users\nikol\Documents\EE 474\github\474Group8\Debug\Obj: [1]
     cstartup_M.o           34      188
-    main.o              1 144                12
+    main.o              1 400                12
     -------------------------------------------
-    Total:              1 178      188       12
+    Total:              1 434      188       12
 
 dl7M_tln.a: [2]
     exit.o                  4
@@ -146,11 +148,13 @@ m7M_tls.a: [3]
     DblDiv.o              582
     DblMul.o              418
     DblSub.o              226
+    DblToS32.o             58
     DblToU32.o             40
+    S32ToDbl.o             34
     U32ToDbl.o             26
     fpinit_M.o             34
     -------------------------------------------
-    Total:              1 688
+    Total:              1 780
 
 rt7M_tl.a: [4]
     cexit.o                10
@@ -168,7 +172,7 @@ shb_l.a: [5]
     Gaps                    2        2
     Linker created                  16    4 096
 -----------------------------------------------
-    Grand Total:        3 034      206    4 108
+    Grand Total:        3 382      206    4 108
 
 
 *******************************************************************************
@@ -177,48 +181,50 @@ shb_l.a: [5]
 
 Entry                       Address  Size  Type      Object
 -----                       -------  ----  ----      ------
-.iar.init_table$$Base         0xc38         --   Gb  - Linker created -
-.iar.init_table$$Limit        0xc48         --   Gb  - Linker created -
-?main                         0xc4d        Code  Gb  cmain.o [4]
-ADC0_Handler                  0x313  0x4e  Code  Gb  main.o [1]
+.iar.init_table$$Base         0xd98         --   Gb  - Linker created -
+.iar.init_table$$Limit        0xda8         --   Gb  - Linker created -
+?main                         0xdad        Code  Gb  cmain.o [4]
+ADC0_Handler                  0x3d9  0x56  Code  Gb  main.o [1]
 ADC_Init                       0xbd  0xa2  Code  Gb  main.o [1]
 CSTACK$$Base            0x2000'0010         --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'1010         --   Gb  - Linker created -
 FLAG                    0x2000'0004   0x4  Data  Gb  main.o [1]
-Interrupt_Init                0x275  0x60  Code  Gb  main.o [1]
-LED_OFF                       0x397   0x8  Code  Gb  main.o [1]
-LED_ON                        0x389   0xe  Code  Gb  main.o [1]
-PLL_Init                      0x15f  0x7e  Code  Gb  main.o [1]
-PortA_Init                    0x1ff  0x38  Code  Gb  main.o [1]
-PortF_Handler                 0x2ed  0x26  Code  Gb  main.o [1]
-PortF_Init                    0x1dd  0x22  Code  Gb  main.o [1]
-Region$$Table$$Base           0xc38         --   Gb  - Linker created -
-Region$$Table$$Limit          0xc48         --   Gb  - Linker created -
+Interrupt_Init                0x25b  0x6a  Code  Gb  main.o [1]
+LED_OFF                       0x465   0x8  Code  Gb  main.o [1]
+LED_ON                        0x457   0xe  Code  Gb  main.o [1]
+PLL_Init                      0x15f  0x80  Code  Gb  main.o [1]
+PortF_Handler                 0x3b3  0x26  Code  Gb  main.o [1]
+PortF_Init                    0x1df  0x30  Code  Gb  main.o [1]
+Region$$Table$$Base           0xd98         --   Gb  - Linker created -
+Region$$Table$$Limit          0xda8         --   Gb  - Linker created -
 STATE                   0x2000'0000   0x4  Data  Gb  main.o [1]
-Switching                     0x39f  0xbc  Code  Gb  main.o [1]
-Timer0A_Handler               0x2d5  0x18  Code  Gb  main.o [1]
-Timer0_Init                   0x237  0x3e  Code  Gb  main.o [1]
-__aeabi_d2uiz                 0xa59        Code  Gb  DblToU32.o [3]
-__aeabi_ddiv                  0x72d        Code  Gb  DblDiv.o [3]
-__aeabi_dmul                  0x589        Code  Gb  DblMul.o [3]
-__aeabi_dsub                  0x975        Code  Gb  DblSub.o [3]
-__aeabi_ui2d                  0x535        Code  Gb  U32ToDbl.o [3]
-__cmain                       0xc4d        Code  Gb  cmain.o [4]
-__exit                        0xc81  0x14  Code  Gb  exit.o [5]
-__iar_dadd                    0x985        Code  Gb  DblSub.o [3]
-__iar_data_init3              0xbed  0x28  Code  Gb  data_init.o [4]
-__iar_dsub                    0xa81        Code  Gb  DblAdd.o [3]
-__iar_dsubStart               0xa93        Code  Gb  DblAdd.o [3]
-__iar_init_vfp                0xc15        Code  Gb  fpinit_M.o [3]
-__iar_program_start           0xc95  0x10  Code  Gb  cstartup_M.o [1]
-__iar_zero_init3              0x54f  0x3a  Code  Gb  zero_init3.o [4]
-__low_level_init              0xc6b   0x4  Code  Gb  low_level_init.o [2]
+Switching                     0x46d  0xc4  Code  Gb  main.o [1]
+Timer0A_Handler               0x39b  0x18  Code  Gb  main.o [1]
+Timer0_Init                   0x20f  0x4c  Code  Gb  main.o [1]
+UART_Init                     0x2c5  0xd6  Code  Gb  main.o [1]
+__aeabi_d2iz                  0x689        Code  Gb  DblToS32.o [3]
+__aeabi_d2uiz                 0xbb9        Code  Gb  DblToU32.o [3]
+__aeabi_ddiv                  0x971        Code  Gb  DblDiv.o [3]
+__aeabi_dmul                  0x7a9        Code  Gb  DblMul.o [3]
+__aeabi_dsub                  0x6c5        Code  Gb  DblSub.o [3]
+__aeabi_i2d                   0x94d        Code  Gb  S32ToDbl.o [3]
+__aeabi_ui2d                  0x635        Code  Gb  U32ToDbl.o [3]
+__cmain                       0xdad        Code  Gb  cmain.o [4]
+__exit                        0xde1  0x14  Code  Gb  exit.o [5]
+__iar_dadd                    0x6d5        Code  Gb  DblSub.o [3]
+__iar_data_init3              0xd4d  0x28  Code  Gb  data_init.o [4]
+__iar_dsub                    0xbe1        Code  Gb  DblAdd.o [3]
+__iar_dsubStart               0xbf3        Code  Gb  DblAdd.o [3]
+__iar_init_vfp                0xd75        Code  Gb  fpinit_M.o [3]
+__iar_program_start           0xdf5  0x10  Code  Gb  cstartup_M.o [1]
+__iar_zero_init3              0x64f  0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init              0xdcb   0x4  Code  Gb  low_level_init.o [2]
 __vector_table                  0x0  0xbc  Data  Gb  cstartup_M.o [1]
-_call_main                    0xc59        Code  Gb  cmain.o [4]
-_exit                         0xc75        Code  Gb  cexit.o [4]
-_main                         0xc67        Code  Gb  cmain.o [4]
-exit                          0xc6f   0x4  Code  Gb  exit.o [2]
-main                          0x361  0x28  Code  Gb  main.o [1]
+_call_main                    0xdb9        Code  Gb  cmain.o [4]
+_exit                         0xdd5        Code  Gb  cexit.o [4]
+_main                         0xdc7        Code  Gb  cmain.o [4]
+exit                          0xdcf   0x4  Code  Gb  exit.o [2]
+main                          0x42f  0x28  Code  Gb  main.o [1]
 result                  0x2000'0008   0x4  Data  Gb  main.o [1]
 
 
@@ -228,7 +234,7 @@ result                  0x2000'0008   0x4  Data  Gb  main.o [1]
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-  3 034 bytes of readonly  code memory
+  3 382 bytes of readonly  code memory
     206 bytes of readonly  data memory
   4 108 bytes of readwrite data memory
 
