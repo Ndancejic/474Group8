@@ -8732,6 +8732,342 @@
     "scope": null
   },
   {
+    "ID": "c:main.c@49@macro@STATE_SW0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STATE_SW0",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "STATE_SW0",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@70@macro@STATE_SW4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STATE_SW4",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "STATE_SW4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@91@macro@FLAG_NONE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLAG_NONE",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "FLAG_NONE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@112@macro@FLAG_ONE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLAG_ONE",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "FLAG_ONE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@134@macro@RED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RED",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "RED",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@152@macro@BLUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BLUE",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "BLUE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@171@macro@VIOLET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "VIOLET",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "VIOLET",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@192@macro@GREEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GREEN",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "GREEN",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@212@macro@YELLOW",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "YELLOW",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "YELLOW",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@233@macro@LIGHT_BLUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LIGHT_BLUE",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "LIGHT_BLUE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@258@macro@WHITE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WHITE",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "WHITE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@STATE",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "STATE",
+    "location": {
+      "column": "15",
+      "line": "17",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "STATE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@FLAG",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "FLAG",
+    "location": {
+      "column": "15",
+      "line": "18",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "FLAG",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@result",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "result",
+    "location": {
+      "column": "15",
+      "line": "19",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "result",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LED_ON",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LED_ON(unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "21",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "LED_ON",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LED_OFF",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LED_OFF(void)",
+    "location": {
+      "column": "6",
+      "line": "22",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "LED_OFF",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Switching",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Switching(void)",
+    "location": {
+      "column": "6",
+      "line": "23",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "Switching",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer0A_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Timer0A_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "25",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "Timer0A_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PortF_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PortF_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "32",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "PortF_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC0_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC0_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "42",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "ADC0_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "49",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LED_ON",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LED_ON(unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "64",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "LED_ON",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LED_OFF",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LED_OFF(void)",
+    "location": {
+      "column": "6",
+      "line": "70",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "LED_OFF",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Switching",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Switching(void)",
+    "location": {
+      "column": "6",
+      "line": "74",
+      "path": "C:\\Users\\candy\\474Group8\\main.c"
+    },
+    "name": "Switching",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:ee474.h@25@macro@EE474_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -9796,342 +10132,6 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@49@macro@STATE_SW0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "STATE_SW0",
-    "location": {
-      "column": "9",
-      "line": "4",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "STATE_SW0",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@70@macro@STATE_SW4",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "STATE_SW4",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "STATE_SW4",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@91@macro@FLAG_NONE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "FLAG_NONE",
-    "location": {
-      "column": "9",
-      "line": "6",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "FLAG_NONE",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@112@macro@FLAG_ONE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "FLAG_ONE",
-    "location": {
-      "column": "9",
-      "line": "7",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "FLAG_ONE",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@134@macro@RED",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RED",
-    "location": {
-      "column": "9",
-      "line": "9",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "RED",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@152@macro@BLUE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BLUE",
-    "location": {
-      "column": "9",
-      "line": "10",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "BLUE",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@171@macro@VIOLET",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "VIOLET",
-    "location": {
-      "column": "9",
-      "line": "11",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "VIOLET",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@192@macro@GREEN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GREEN",
-    "location": {
-      "column": "9",
-      "line": "12",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "GREEN",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@212@macro@YELLOW",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "YELLOW",
-    "location": {
-      "column": "9",
-      "line": "13",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "YELLOW",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@233@macro@LIGHT_BLUE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LIGHT_BLUE",
-    "location": {
-      "column": "9",
-      "line": "14",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "LIGHT_BLUE",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@258@macro@WHITE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "WHITE",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "WHITE",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@STATE",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "STATE",
-    "location": {
-      "column": "15",
-      "line": "17",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "STATE",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@FLAG",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "FLAG",
-    "location": {
-      "column": "15",
-      "line": "18",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "FLAG",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@result",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "result",
-    "location": {
-      "column": "15",
-      "line": "19",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "result",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LED_ON",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LED_ON(unsigned int)",
-    "location": {
-      "column": "6",
-      "line": "21",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "LED_ON",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LED_OFF",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LED_OFF(void)",
-    "location": {
-      "column": "6",
-      "line": "22",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "LED_OFF",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Switching",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Switching(void)",
-    "location": {
-      "column": "6",
-      "line": "23",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "Switching",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Timer0A_Handler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Timer0A_Handler(void)",
-    "location": {
-      "column": "6",
-      "line": "25",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "Timer0A_Handler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PortF_Handler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void PortF_Handler(void)",
-    "location": {
-      "column": "6",
-      "line": "32",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "PortF_Handler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ADC0_Handler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ADC0_Handler(void)",
-    "location": {
-      "column": "6",
-      "line": "42",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "ADC0_Handler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@main",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int main(void)",
-    "location": {
-      "column": "5",
-      "line": "49",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "main",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LED_ON",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LED_ON(unsigned int)",
-    "location": {
-      "column": "6",
-      "line": "65",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "LED_ON",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LED_OFF",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LED_OFF(void)",
-    "location": {
-      "column": "6",
-      "line": "71",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "LED_OFF",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Switching",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Switching(void)",
-    "location": {
-      "column": "6",
-      "line": "75",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "Switching",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:DLib_Defaults.h@1141@macro@_DLIB_DEFAULTS_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -10464,76 +10464,6 @@
       "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
     },
     "name": "__WEAK_DEFS",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Config_Full.h@101@macro@_DLIB_CONFIG_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_CONFIG_H",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
-    },
-    "name": "_DLIB_CONFIG_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Config_Full.h@210@macro@_DLIB_FULL_LOCALE_SUPPORT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_FULL_LOCALE_SUPPORT",
-    "location": {
-      "column": "9",
-      "line": "12",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
-    },
-    "name": "_DLIB_FULL_LOCALE_SUPPORT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Config_Full.h@286@macro@_DLIB_FILE_DESCRIPTOR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_FILE_DESCRIPTOR",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
-    },
-    "name": "_DLIB_FILE_DESCRIPTOR",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Config_Full.h@355@macro@_DLIB_FORMATTED_MULTIBYTE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_FORMATTED_MULTIBYTE",
-    "location": {
-      "column": "9",
-      "line": "18",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
-    },
-    "name": "_DLIB_FORMATTED_MULTIBYTE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Config_Full.h@440@macro@_DLIB_STRTOD_HEX_FLOAT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_STRTOD_HEX_FLOAT",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
-    },
-    "name": "_DLIB_STRTOD_HEX_FLOAT",
     "origin": "user_include",
     "scope": null
   },
@@ -11262,6 +11192,76 @@
       "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\iar_intrinsics_common.h"
     },
     "name": "__fmaf",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Config_Full.h@101@macro@_DLIB_CONFIG_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_CONFIG_H",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+    },
+    "name": "_DLIB_CONFIG_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Config_Full.h@210@macro@_DLIB_FULL_LOCALE_SUPPORT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_FULL_LOCALE_SUPPORT",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+    },
+    "name": "_DLIB_FULL_LOCALE_SUPPORT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Config_Full.h@286@macro@_DLIB_FILE_DESCRIPTOR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_FILE_DESCRIPTOR",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+    },
+    "name": "_DLIB_FILE_DESCRIPTOR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Config_Full.h@355@macro@_DLIB_FORMATTED_MULTIBYTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_FORMATTED_MULTIBYTE",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+    },
+    "name": "_DLIB_FORMATTED_MULTIBYTE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Config_Full.h@440@macro@_DLIB_STRTOD_HEX_FLOAT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STRTOD_HEX_FLOAT",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+    },
+    "name": "_DLIB_STRTOD_HEX_FLOAT",
     "origin": "user_include",
     "scope": null
   }
