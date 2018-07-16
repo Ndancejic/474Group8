@@ -17,6 +17,7 @@
 
 unsigned long STATE = 0;
 unsigned long FLAG = FLAG_NONE;
+unsigned long result = 0;
 
 void LED_ON(unsigned int color);
 void LED_OFF(void);
@@ -52,6 +53,7 @@ void Timer_Dis(void) {
 
 void Timer0A_Handler(void) {
   FLAG = FLAG_ONE;
+  ADC0_PSSI = 0x008;
   GPTMICR |= (0x1<<0);
 }
 
@@ -66,6 +68,17 @@ void PortF_Handler(void) {
 //  GPIO_PORTF_ICR |= 0x11;          // clear the interrupt flag before return
 }
 
+void ADC0_Handler(void) {
+  while((ADC0_RIS&0x08)==0){};   // 2) wait for conversion done
+  result = ADC0_SSFIFO3&0xFFF;   // 3) read result
+  if (result < 40 || result > 0) {
+      LED_ON(0x02);
+  } else {
+    LED_OFF();
+   }
+  ADC0_ISC = 0x0008;             // 4) acknowledge completion
+}
+
 int main()
 {
 
@@ -74,7 +87,10 @@ int main()
   Timer0_Init();
   PLL_Init();
   Interrupt_Init();
-  Switching();
+  LED_OFF();
+  while (1) {
+  }
+//  Switching();
 
   return 0;
 }

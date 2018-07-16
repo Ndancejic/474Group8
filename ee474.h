@@ -92,6 +92,9 @@
 #define ADC0_SSCTL3 (*((unsigned int *)0x400380A4)) //enable sequencer
 #define ADC0_IM (*((unsigned int *)0x40038008)) //enable INTERRUPTS
 #define ADC0_ISC (*((unsigned int *)0x4003800C)) //interrupt status and clearing
+#define ADC0_SSFIFO3 (*((unsigned int *)0x400380A8))
+#define ADC0_RIS (*((unsigned int *)0x40038004))
+#define ADC0_PSSI (*((unsigned int *)0x40038028))
 
 //board Clock
 #define CLK_RCC (*((unsigned int *)0x400FE060)) // Run-Mode Clock Configuration

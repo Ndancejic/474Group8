@@ -14,15 +14,15 @@ void ADC_Init(void){
   //ADC_CLK_EN |= 0x1; //enable ADC0
   ADC_RCGC0 |= 0x10000;//activate ADC
 //  delay = ADC_RCGC0; //wait for Clock
-  ADC_RCGC0 |= 0x300; //set max freq
+  ADC_RCGC0 &= ~0x300; //set max freq
 
   //enable sequencer 3
   ADC0_SSPRI = 0x0123; //set priority for ss3
   ADC0_ACTSS &= ~0x08; //disable ss3
-  ADC0_EMUX |= 0x5000; //set input to ss3
-  ADC0_SSMUX3 |= 0x000F; //clear field
+  ADC0_EMUX &= ~0xF000; //set input to ss3
+  ADC0_SSMUX3 &= ~0x000F; //clear field
   ADC0_SSMUX3 += 9; // input Ain9
-  ADC0_SSCTL3 = 0x000A; //temperature sensor
+  ADC0_SSCTL3 = 0x000E; //temperature sensor
   ADC0_ACTSS |= 0x08; //enable ss3
   ADC0_IM |= 0x8;
 }
@@ -66,12 +66,14 @@ void Timer0_Init(void){
 
 void Interrupt_Init(void)
 {
-  GPIO_SENSE &= ~0x11;  //interrupt on edge
-  GPIO_IBE &= ~0x11;  //interrupt on one edge
-  GPIO_IEV |= 0x11;  //interrupt on rising edge
-  GPIO_CLEAR = 0x11;  //ICR
-  GPIO_IM |= 0x11;  //interupt mask register
+  GPIO_SENSE_F &= ~0x11;  //interrupt on edge
+  GPIO_IBE_F &= ~0x11;  //interrupt on one edge
+  GPIO_IEV_F |= 0x11;  //interrupt on rising edge
+  GPIO_CLEAR_F = 0x11;  //ICR
+  GPIO_IM_F |= 0x11;  //interupt mask register
+  EN0 |= (1<<17); //enable #17
   EN0 |= 0x40080000;  //enable #19
+  PRI4 |= (1<<13);  //Interrupt priority
   PRI4 |= 0x20000000;  //Interrupt priority
   PRI7 |= 0x00200000;  //Interrupt priority
   __enable_interrupt();  //enable global interrupts

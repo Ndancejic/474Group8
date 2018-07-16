@@ -5,6 +5,9 @@
     <configuration>
         <name>Debug</name>
         <outputs>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$PROJ_DIR$\Debug\Obj\pll_init.o</file>
             <file>$PROJ_DIR$\ee474.h</file>
@@ -58,7 +61,7 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 8 14</file>
+                    <file> 11 17</file>
                 </tool>
             </outputs>
         </file>
@@ -67,13 +70,13 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 14</file>
+                    <file> 17</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 37 6 27 33 17 41 21</file>
+                    <file> 40 9 30 36 20 44 24</file>
                 </tool>
             </inputs>
         </file>
@@ -82,11 +85,11 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 18</file>
+                    <file> 21</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 38</file>
+                    <file> 41</file>
                 </tool>
             </outputs>
         </file>
@@ -95,17 +98,17 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 28</file>
+                    <file> 31</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 4</file>
+                    <file> 7</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 31 7 19 10 26 0</file>
+                    <file> 34 10 22 13 29 3</file>
                 </tool>
             </inputs>
         </file>
@@ -114,11 +117,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 6</file>
+                    <file> 9</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 12</file>
+                    <file> 15</file>
                 </tool>
             </outputs>
         </file>
@@ -127,11 +130,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 28</file>
+                    <file> 31</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 4</file>
+                    <file> 7</file>
                 </tool>
             </outputs>
         </file>
@@ -140,11 +143,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 35</file>
+                    <file> 38</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 18</file>
+                    <file> 21</file>
                 </tool>
             </outputs>
         </file>
@@ -153,17 +156,17 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 25</file>
+                    <file> 28</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 5</file>
+                    <file> 8</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 0 31 7 19 10 20</file>
+                    <file> 3 34 10 22 13 23</file>
                 </tool>
             </inputs>
         </file>
@@ -172,21 +175,21 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 1</file>
+                    <file> 4</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 24</file>
+                    <file> 27</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 7 19 31 10 26 0</file>
+                    <file> 10 22 34 13 29 3</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 19 10 31 7 26 0</file>
+                    <file> 22 13 34 10 29 3</file>
                 </tool>
             </inputs>
         </file>
@@ -195,13 +198,13 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 25</file>
+                    <file> 28</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 31 7 19 10 26 0</file>
+                    <file> 34 10 22 13 29 3</file>
                 </tool>
             </inputs>
         </file>
@@ -210,21 +213,21 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 27</file>
+                    <file> 30</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 9</file>
+                    <file> 12</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 39 2</file>
+                    <file> 42 5 1 0 34 13 23 3 2</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 2 39</file>
+                    <file> 13 5 23 0 1 2 34 3 42</file>
                 </tool>
             </inputs>
         </file>
@@ -233,15 +236,15 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 6</file>
+                    <file> 9</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 12</file>
+                    <file> 15</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 42</file>
+                    <file> 45</file>
                 </tool>
             </outputs>
         </file>
@@ -250,21 +253,21 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 36</file>
+                    <file> 39</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 40</file>
+                    <file> 43</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 2</file>
+                    <file> 5</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 2</file>
+                    <file> 5</file>
                 </tool>
             </inputs>
         </file>
@@ -273,17 +276,17 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 44</file>
+                    <file> 47</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 2</file>
+                    <file> 5</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 2</file>
+                    <file> 5</file>
                 </tool>
             </inputs>
         </file>
