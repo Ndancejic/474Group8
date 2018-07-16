@@ -10096,7 +10096,7 @@
     "display": "void LED_ON(unsigned int)",
     "location": {
       "column": "6",
-      "line": "65",
+      "line": "66",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "LED_ON",
@@ -10110,7 +10110,7 @@
     "display": "void LED_OFF(void)",
     "location": {
       "column": "6",
-      "line": "71",
+      "line": "72",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "LED_OFF",
@@ -10124,7 +10124,7 @@
     "display": "void Switching(void)",
     "location": {
       "column": "6",
-      "line": "75",
+      "line": "76",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "Switching",

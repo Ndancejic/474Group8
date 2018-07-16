@@ -12,7 +12,7 @@
 #define GPIO_ADIS_PORTA (*((unsigned int *)0x40004528)) //Port A analog disable
 #define GPIO_PCTL_PORTA (*((unsigned int *)0x4000452C)) //Port A PCTL
 #define GPIO_DIR_PORTA (*((unsigned int *)0x40004400)) //Port A direction
-#define GPIO_REG_PORTA (*((unsigned int *)0x40004420)) //PA5 and PA6 regular port function
+#define GPIO_AFSEL_PORTA (*((unsigned int *)0x40004420)) //PA5 and PA6 regular port function
 #define GPIO_DEN_PORTA (*((unsigned int *)0x4000451C)) //Port A direction
 #define GPIO_DATA_PORTA (*((unsigned int *)0x400043FC)) //read port A
 
