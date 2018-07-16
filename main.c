@@ -39,7 +39,7 @@ void Timer_En(void) {
   GPTMCTL |= 0x1;  // enables timer 0, start counting
   GPTMICR |= (0x1<<0); // reset timer 0
   PRI4 = (3<<29);
-//  NVIC_PRI4_R = (NVIC_PRI4_R&0xFF00FFFF)|0xA0000000; 
+//  NVIC_PRI4_R = (NVIC_PRI4_R&0xFF00FFFF)|0xA0000000;
 }
 
 // disables timer 0
@@ -68,13 +68,14 @@ void PortF_Handler(void) {
 
 int main()
 {
-  
+
   PortF_Init();
   ADC_Init();
   Timer0_Init();
   PLL_Init();
+  Interrupt_Init();
   Switching();
-  
+
   return 0;
 }
 
