@@ -114,5 +114,7 @@
 #define UART0_FBRD (*((unsigned int *)0x4000C028))// decimal value of baud rate
 #define UART0_LCRH (*((unsigned int *)0x4000C02C))// line control register
 #define UART0_CC (*((unsigned int *)0x4000CFC8))// line control register
+#define UART0_FR (*((unsigned int *)0x4000C018))//flag reister
+#define UART0_DR (*((unsigned int *)0x4000C000))//data read
 
 #endif

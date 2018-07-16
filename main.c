@@ -43,7 +43,8 @@ void ADC0_Handler(void) {
   while((ADC0_RIS&0x08)==0){};   // wait for conversion done
   result = ADC0_SSFIFO3&0xFFF;   // read result
   result = 147.5-((74*(3.3)*result)/4096);
-  GPIO_DATA_PORTA = result;
+  while(UART0_FR&0x0020 != 0);
+  UART0_DR = result;
   ADC0_ISC = 0x0008;             // acknowledge completion
 }
 

@@ -7380,6 +7380,1392 @@
     "scope": null
   },
   {
+    "ID": "c:ee474.h@25@macro@EE474_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "EE474_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "EE474_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@80@macro@GPIO_WRITE_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_WRITE_PORTF",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_WRITE_PORTF",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@156@macro@GPIO_READ_PF0_PF4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_READ_PF0_PF4",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_READ_PF0_PF4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@273@macro@RCGCGPIO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCGCGPIO",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "RCGCGPIO",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@362@macro@GPIO_EN_A",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_EN_A",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_EN_A",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@435@macro@GPIO_ADIS_PORTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_ADIS_PORTA",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_ADIS_PORTA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@516@macro@GPIO_PCTL_PORTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PCTL_PORTA",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_PCTL_PORTA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@587@macro@GPIO_DIR_PORTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DIR_PORTA",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_DIR_PORTA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@662@macro@GPIO_AFSEL_PORTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_AFSEL_PORTA",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_AFSEL_PORTA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@756@macro@GPIO_DEN_PORTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DEN_PORTA",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_DEN_PORTA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@831@macro@GPIO_DATA_PORTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DATA_PORTA",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_DATA_PORTA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@902@macro@GPIO_DR2R_PORTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DR2R_PORTA",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_DR2R_PORTA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@986@macro@GPIO_DR4R_PORTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DR4R_PORTA",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_DR4R_PORTA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1070@macro@GPIO_DR8R_PORTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DR8R_PORTA",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_DR8R_PORTA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1154@macro@GPIO_SLR_PORTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_SLR_PORTA",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_SLR_PORTA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1241@macro@GPIO_DIR_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DIR_PORTE",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_DIR_PORTE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1321@macro@GPIO_DEN_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DEN_PORTE",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_DEN_PORTE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1401@macro@GPIO_LOCK_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_LOCK_PORTE",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_LOCK_PORTE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1482@macro@GPIO_CR_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_CR_PORTE",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_CR_PORTE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1561@macro@GPIO_PUR_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PUR_PORTE",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_PUR_PORTE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1655@macro@GPIO_REG_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_REG_PORTE",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_REG_PORTE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1732@macro@GPIO_AMSEL_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_AMSEL_PORTE",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_AMSEL_PORTE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1822@macro@GPIO_DIR_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DIR_PORTF",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_DIR_PORTF",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1902@macro@GPIO_DEN_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DEN_PORTF",
+    "location": {
+      "column": "9",
+      "line": "34",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_DEN_PORTF",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1982@macro@GPIO_LOCK_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_LOCK_PORTF",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_LOCK_PORTF",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2063@macro@GPIO_CR_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_CR_PORTF",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_CR_PORTF",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2142@macro@GPIO_PUR_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PUR_PORTF",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_PUR_PORTF",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2236@macro@GPIO_ICR_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_ICR_PORTF",
+    "location": {
+      "column": "9",
+      "line": "38",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_ICR_PORTF",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2461@macro@TIMER_EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_EN",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2530@macro@TIMER_DIS0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_DIS0",
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_DIS0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2602@macro@TIMER_CON0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_CON0",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_CON0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2691@macro@TIMER_MODE0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MODE0",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_MODE0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2767@macro@TIMER_VAL0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_VAL0",
+    "location": {
+      "column": "9",
+      "line": "47",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_VAL0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2887@macro@TIMER_INT0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_INT0",
+    "location": {
+      "column": "9",
+      "line": "48",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_INT0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2970@macro@TIMER_POLL0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_POLL0",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_POLL0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3052@macro@TIMER_MASK0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MASK0",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_MASK0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3134@macro@TIMER_RESET0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_RESET0",
+    "location": {
+      "column": "9",
+      "line": "51",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_RESET0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3215@macro@TIMER_EN1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_EN1",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_EN1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3290@macro@TIMER_DIS1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_DIS1",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_DIS1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3362@macro@TIMER_CON1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_CON1",
+    "location": {
+      "column": "9",
+      "line": "56",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_CON1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3451@macro@TIMER_MODE1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MODE1",
+    "location": {
+      "column": "9",
+      "line": "57",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_MODE1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3527@macro@TIMER_VAL1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_VAL1",
+    "location": {
+      "column": "9",
+      "line": "58",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_VAL1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3647@macro@TIMER_INT1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_INT1",
+    "location": {
+      "column": "9",
+      "line": "59",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_INT1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3730@macro@TIMER_POLL1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_POLL1",
+    "location": {
+      "column": "9",
+      "line": "60",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_POLL1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3812@macro@TIMER_MASK1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MASK1",
+    "location": {
+      "column": "9",
+      "line": "61",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_MASK1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3894@macro@TIMER_RESET1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_RESET1",
+    "location": {
+      "column": "9",
+      "line": "62",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "TIMER_RESET1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3988@macro@GPIO_SENSE_F",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_SENSE_F",
+    "location": {
+      "column": "9",
+      "line": "66",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_SENSE_F",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4069@macro@GPIO_IBE_F",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_IBE_F",
+    "location": {
+      "column": "9",
+      "line": "67",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_IBE_F",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4144@macro@GPIO_IEV_F",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_IEV_F",
+    "location": {
+      "column": "9",
+      "line": "68",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_IEV_F",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4234@macro@GPIO_IM_F",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_IM_F",
+    "location": {
+      "column": "9",
+      "line": "69",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_IM_F",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4290@macro@GPIO_CLEAR_F",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_CLEAR_F",
+    "location": {
+      "column": "9",
+      "line": "70",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_CLEAR_F",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4344@macro@GPIO_STATUS_F",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_STATUS_F",
+    "location": {
+      "column": "9",
+      "line": "71",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_STATUS_F",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4435@macro@GPIO_SENSE_A",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_SENSE_A",
+    "location": {
+      "column": "9",
+      "line": "74",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_SENSE_A",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4516@macro@GPIO_IBE_A",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_IBE_A",
+    "location": {
+      "column": "9",
+      "line": "75",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_IBE_A",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4591@macro@GPIO_IEV_A",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_IEV_A",
+    "location": {
+      "column": "9",
+      "line": "76",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_IEV_A",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4681@macro@GPIO_IM_A",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_IM_A",
+    "location": {
+      "column": "9",
+      "line": "77",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_IM_A",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4737@macro@GPIO_CLEAR_A",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_CLEAR_A",
+    "location": {
+      "column": "9",
+      "line": "78",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_CLEAR_A",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4791@macro@GPIO_STATUS_A",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_STATUS_A",
+    "location": {
+      "column": "9",
+      "line": "79",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "GPIO_STATUS_A",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4872@macro@EN0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "EN0",
+    "location": {
+      "column": "9",
+      "line": "81",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "EN0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@4937@macro@DIS0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DIS0",
+    "location": {
+      "column": "9",
+      "line": "82",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "DIS0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5004@macro@PRI0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PRI0",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "PRI0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5081@macro@PRI4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PRI4",
+    "location": {
+      "column": "9",
+      "line": "84",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "PRI4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5158@macro@PRI5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PRI5",
+    "location": {
+      "column": "9",
+      "line": "85",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "PRI5",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5235@macro@PRI7",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PRI7",
+    "location": {
+      "column": "9",
+      "line": "86",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "PRI7",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5321@macro@ADC_CLK_EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC_CLK_EN",
+    "location": {
+      "column": "9",
+      "line": "89",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "ADC_CLK_EN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5392@macro@ADC_RCGC0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC_RCGC0",
+    "location": {
+      "column": "9",
+      "line": "90",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "ADC_RCGC0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5477@macro@ADC0_SSPRI",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_SSPRI",
+    "location": {
+      "column": "9",
+      "line": "93",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "ADC0_SSPRI",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5550@macro@ADC0_ACTSS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_ACTSS",
+    "location": {
+      "column": "9",
+      "line": "94",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "ADC0_ACTSS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5621@macro@ADC0_EMUX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_EMUX",
+    "location": {
+      "column": "9",
+      "line": "95",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "ADC0_EMUX",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5691@macro@ADC0_SSMUX3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_SSMUX3",
+    "location": {
+      "column": "9",
+      "line": "96",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "ADC0_SSMUX3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5763@macro@ADC0_SSCTL3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_SSCTL3",
+    "location": {
+      "column": "9",
+      "line": "97",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "ADC0_SSCTL3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5835@macro@ADC0_IM",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_IM",
+    "location": {
+      "column": "9",
+      "line": "98",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "ADC0_IM",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5904@macro@ADC0_ISC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_ISC",
+    "location": {
+      "column": "9",
+      "line": "99",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "ADC0_ISC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5986@macro@ADC0_SSFIFO3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_SSFIFO3",
+    "location": {
+      "column": "9",
+      "line": "100",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "ADC0_SSFIFO3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6040@macro@ADC0_RIS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_RIS",
+    "location": {
+      "column": "9",
+      "line": "101",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "ADC0_RIS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6090@macro@ADC0_PSSI",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_PSSI",
+    "location": {
+      "column": "9",
+      "line": "102",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "ADC0_PSSI",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6141@macro@ADC0_SSFIFO3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_SSFIFO3",
+    "location": {
+      "column": "9",
+      "line": "103",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "ADC0_SSFIFO3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6247@macro@CLK_RCC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CLK_RCC",
+    "location": {
+      "column": "9",
+      "line": "106",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "CLK_RCC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6328@macro@CLK_RCC2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CLK_RCC2",
+    "location": {
+      "column": "9",
+      "line": "107",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "CLK_RCC2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6412@macro@RIS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RIS",
+    "location": {
+      "column": "9",
+      "line": "108",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "RIS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6490@macro@RCGCUART",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCGCUART",
+    "location": {
+      "column": "9",
+      "line": "111",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "RCGCUART",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6563@macro@UART0_CTL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_CTL",
+    "location": {
+      "column": "9",
+      "line": "112",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "UART0_CTL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6637@macro@UART0_IBRD",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_IBRD",
+    "location": {
+      "column": "9",
+      "line": "113",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "UART0_IBRD",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6718@macro@UART0_FBRD",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_FBRD",
+    "location": {
+      "column": "9",
+      "line": "114",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "UART0_FBRD",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6799@macro@UART0_LCRH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_LCRH",
+    "location": {
+      "column": "9",
+      "line": "115",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "UART0_LCRH",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6875@macro@UART0_CC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_CC",
+    "location": {
+      "column": "9",
+      "line": "116",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "UART0_CC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6949@macro@UART0_FR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_FR",
+    "location": {
+      "column": "9",
+      "line": "117",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "UART0_FR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@7013@macro@UART0_DR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_DR",
+    "location": {
+      "column": "9",
+      "line": "118",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "UART0_DR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
+    },
+    "name": "ADC_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PLL_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PLL_Init(int)",
+    "location": {
+      "column": "6",
+      "line": "28",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
+    },
+    "name": "PLL_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PortF_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PortF_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "45",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
+    },
+    "name": "PortF_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PortA_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PortA_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "57",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
+    },
+    "name": "PortA_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer0_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Timer0_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "68",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
+    },
+    "name": "Timer0_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Interrupt_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Interrupt_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "78",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
+    },
+    "name": "Interrupt_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "93",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
+    },
+    "name": "UART_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:init.c@3803@F@UART_Init@BaudRate",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "BaudRate",
+    "location": {
+      "column": "10",
+      "line": "109",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
+    },
+    "name": "BaudRate",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:init.c@3823@F@UART_Init@ClkDiv",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "ClkDiv",
+    "location": {
+      "column": "17",
+      "line": "110",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
+    },
+    "name": "ClkDiv",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:init.c@3914@F@UART_Init@BaudRateInt",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "BaudRateInt",
+    "location": {
+      "column": "16",
+      "line": "112",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
+    },
+    "name": "BaudRateInt",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:init.c@3959@F@UART_Init@BaudRateDec",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "BaudRateDec",
+    "location": {
+      "column": "10",
+      "line": "113",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
+    },
+    "name": "BaudRateDec",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:yvals.h@116@macro@_YVALS",
     "What": "MacroDef",
     "defdec": "Def",
@@ -8662,2000 +10048,6 @@
     "scope": null
   },
   {
-    "ID": "c:@F@ADC_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ADC_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "4",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
-    },
-    "name": "ADC_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PLL_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void PLL_Init(int)",
-    "location": {
-      "column": "6",
-      "line": "28",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
-    },
-    "name": "PLL_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PortF_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void PortF_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "45",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
-    },
-    "name": "PortF_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Timer0_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Timer0_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "58",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
-    },
-    "name": "Timer0_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Interrupt_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Interrupt_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "68",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
-    },
-    "name": "Interrupt_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@49@macro@STATE_SW0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "STATE_SW0",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "4",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "line": "2",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "STATE_SW0",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@70@macro@STATE_SW4",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "STATE_SW4",
-    "location": {
-      "column": "9",
-      "line": "5",
-<<<<<<< HEAD
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "STATE_SW4",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@91@macro@FLAG_NONE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "FLAG_NONE",
-    "location": {
-      "column": "9",
-      "line": "6",
-<<<<<<< HEAD
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "FLAG_NONE",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@112@macro@FLAG_ONE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "FLAG_ONE",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "7",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "line": "9",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "FLAG_ONE",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@134@macro@RED",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RED",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "9",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "line": "11",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "RED",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@152@macro@BLUE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BLUE",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "10",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "line": "12",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "BLUE",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@171@macro@VIOLET",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "VIOLET",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "11",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "line": "13",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "VIOLET",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@192@macro@GREEN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GREEN",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "12",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "line": "14",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GREEN",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@212@macro@YELLOW",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "YELLOW",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "13",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "line": "15",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "YELLOW",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@233@macro@LIGHT_BLUE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LIGHT_BLUE",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "14",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "line": "16",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "LIGHT_BLUE",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@258@macro@WHITE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "WHITE",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "15",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "line": "17",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "WHITE",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@STATE",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "STATE",
-    "location": {
-<<<<<<< HEAD
-      "column": "15",
-      "line": "17",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "column": "9",
-      "line": "20",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "STATE",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@FLAG",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "FLAG",
-    "location": {
-<<<<<<< HEAD
-      "column": "15",
-      "line": "18",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "column": "9",
-      "line": "21",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "FLAG",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@result",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "result",
-    "location": {
-<<<<<<< HEAD
-      "column": "15",
-      "line": "19",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "column": "9",
-      "line": "22",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "result",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LED_ON",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LED_ON(unsigned int)",
-    "location": {
-<<<<<<< HEAD
-      "column": "6",
-      "line": "21",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "column": "9",
-      "line": "23",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "LED_ON",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LED_OFF",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LED_OFF(void)",
-    "location": {
-<<<<<<< HEAD
-      "column": "6",
-      "line": "22",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "column": "9",
-      "line": "24",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "LED_OFF",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Switching",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Switching(void)",
-    "location": {
-<<<<<<< HEAD
-      "column": "6",
-      "line": "23",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "column": "9",
-      "line": "25",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "Switching",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Timer0A_Handler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Timer0A_Handler(void)",
-    "location": {
-<<<<<<< HEAD
-      "column": "6",
-      "line": "25",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "column": "9",
-      "line": "26",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "Timer0A_Handler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@PortF_Handler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void PortF_Handler(void)",
-    "location": {
-<<<<<<< HEAD
-      "column": "6",
-      "line": "32",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "column": "9",
-      "line": "29",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "PortF_Handler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ADC0_Handler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void ADC0_Handler(void)",
-    "location": {
-<<<<<<< HEAD
-      "column": "6",
-      "line": "42",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "column": "9",
-      "line": "30",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "ADC0_Handler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@main",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int main(void)",
-    "location": {
-<<<<<<< HEAD
-      "column": "5",
-      "line": "49",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "column": "9",
-      "line": "31",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "main",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LED_ON",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LED_ON(unsigned int)",
-    "location": {
-<<<<<<< HEAD
-      "column": "6",
-      "line": "64",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "column": "9",
-      "line": "32",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "LED_ON",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LED_OFF",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LED_OFF(void)",
-    "location": {
-<<<<<<< HEAD
-      "column": "6",
-      "line": "70",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "column": "9",
-      "line": "33",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "LED_OFF",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Switching",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Switching(void)",
-    "location": {
-<<<<<<< HEAD
-      "column": "6",
-      "line": "74",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-=======
-      "column": "9",
-      "line": "34",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "Switching",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@25@macro@EE474_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "EE474_H",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "2",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "39",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "EE474_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@80@macro@GPIO_WRITE_PORTF",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_WRITE_PORTF",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "5",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "40",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_WRITE_PORTF",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@156@macro@GPIO_READ_PF0_PF4",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_READ_PF0_PF4",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "6",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "41",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_READ_PF0_PF4",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@273@macro@RCGCGPIO",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCGCGPIO",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "9",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "42",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "RCGCGPIO",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@362@macro@GPIO_EN_A",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_EN_A",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "11",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "43",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_EN_A",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@435@macro@GPIO_ADIS_PORTA",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_ADIS_PORTA",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "12",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "44",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_ADIS_PORTA",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@516@macro@GPIO_PCTL_PORTA",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PCTL_PORTA",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "13",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "45",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_PCTL_PORTA",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@587@macro@GPIO_DIR_PORTA",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_DIR_PORTA",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "14",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "46",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_DIR_PORTA",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@662@macro@GPIO_REG_PORTA",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_REG_PORTA",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "15",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "47",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_REG_PORTA",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@754@macro@GPIO_DEN_PORTA",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_DEN_PORTA",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "16",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "50",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_DEN_PORTA",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@829@macro@GPIO_DATA_PORTA",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_DATA_PORTA",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "17",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "51",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_DATA_PORTA",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@912@macro@GPIO_DIR_PORTE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_DIR_PORTE",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "20",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "52",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_DIR_PORTE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@992@macro@GPIO_DEN_PORTE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_DEN_PORTE",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "21",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "53",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_DEN_PORTE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@1072@macro@GPIO_LOCK_PORTE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_LOCK_PORTE",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "22",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "54",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_LOCK_PORTE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@1153@macro@GPIO_CR_PORTE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_CR_PORTE",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "23",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "55",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_CR_PORTE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@1232@macro@GPIO_PUR_PORTE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PUR_PORTE",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "24",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "56",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_PUR_PORTE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@1326@macro@GPIO_REG_PORTE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_REG_PORTE",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "25",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "57",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_REG_PORTE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@1403@macro@GPIO_AMSEL_PORTE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_AMSEL_PORTE",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "26",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "58",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_AMSEL_PORTE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@1493@macro@GPIO_DIR_PORTF",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_DIR_PORTF",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "29",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "62",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_DIR_PORTF",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@1573@macro@GPIO_DEN_PORTF",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_DEN_PORTF",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "30",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "63",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_DEN_PORTF",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@1653@macro@GPIO_LOCK_PORTF",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_LOCK_PORTF",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "31",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "64",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_LOCK_PORTF",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@1734@macro@GPIO_CR_PORTF",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_CR_PORTF",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "32",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "65",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_CR_PORTF",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@1813@macro@GPIO_PUR_PORTF",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_PUR_PORTF",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "33",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "66",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_PUR_PORTF",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@1907@macro@GPIO_ICR_PORTF",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_ICR_PORTF",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "34",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "67",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_ICR_PORTF",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@2132@macro@TIMER_EN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_EN",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "39",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "70",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "TIMER_EN",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@2201@macro@TIMER_DIS0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_DIS0",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "40",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "71",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "TIMER_DIS0",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@2273@macro@TIMER_CON0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_CON0",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "41",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "72",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "TIMER_CON0",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@2362@macro@TIMER_MODE0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_MODE0",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "42",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "73",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "TIMER_MODE0",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@2438@macro@TIMER_VAL0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_VAL0",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "43",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "74",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "TIMER_VAL0",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@2558@macro@TIMER_INT0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_INT0",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "44",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "75",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "TIMER_INT0",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@2641@macro@TIMER_POLL0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_POLL0",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "45",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "77",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "TIMER_POLL0",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@2723@macro@TIMER_MASK0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_MASK0",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "46",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "78",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "TIMER_MASK0",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@2805@macro@TIMER_RESET0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_RESET0",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "47",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "79",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "TIMER_RESET0",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@2886@macro@TIMER_EN1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_EN1",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "50",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "80",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "TIMER_EN1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@2961@macro@TIMER_DIS1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_DIS1",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "51",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "81",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "TIMER_DIS1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@3033@macro@TIMER_CON1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_CON1",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "52",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "82",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "TIMER_CON1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@3122@macro@TIMER_MODE1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_MODE1",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "53",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "85",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "TIMER_MODE1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@3198@macro@TIMER_VAL1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_VAL1",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "54",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "86",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "TIMER_VAL1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@3318@macro@TIMER_INT1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_INT1",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "55",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "89",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "TIMER_INT1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@3401@macro@TIMER_POLL1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_POLL1",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "56",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "90",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "TIMER_POLL1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@3483@macro@TIMER_MASK1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_MASK1",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "57",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "91",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "TIMER_MASK1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@3565@macro@TIMER_RESET1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_RESET1",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "58",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "92",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "TIMER_RESET1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@3659@macro@GPIO_SENSE_F",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_SENSE_F",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "62",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "93",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_SENSE_F",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@3740@macro@GPIO_IBE_F",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_IBE_F",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "63",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "94",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_IBE_F",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@3815@macro@GPIO_IEV_F",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_IEV_F",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "64",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "95",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_IEV_F",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@3905@macro@GPIO_IM_F",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_IM_F",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "65",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "96",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_IM_F",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@3961@macro@GPIO_CLEAR_F",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_CLEAR_F",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "66",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "97",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_CLEAR_F",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@4015@macro@GPIO_STATUS_F",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_STATUS_F",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "67",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "98",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_STATUS_F",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@4106@macro@GPIO_SENSE_A",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_SENSE_A",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "70",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "99",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_SENSE_A",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@4187@macro@GPIO_IBE_A",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_IBE_A",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "71",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "102",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_IBE_A",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@4262@macro@GPIO_IEV_A",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_IEV_A",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "72",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "103",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_IEV_A",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@4352@macro@GPIO_IM_A",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_IM_A",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "73",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "104",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_IM_A",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@4408@macro@GPIO_CLEAR_A",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_CLEAR_A",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "74",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "4",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_CLEAR_A",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@4462@macro@GPIO_STATUS_A",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "GPIO_STATUS_A",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "75",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "5",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "GPIO_STATUS_A",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@4543@macro@EN0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "EN0",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "77",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "6",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "EN0",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@4608@macro@DIS0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "DIS0",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "78",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "7",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "DIS0",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@4675@macro@PRI0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "PRI0",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "79",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "9",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "PRI0",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@4752@macro@PRI4",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "PRI4",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "80",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "10",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "PRI4",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@4829@macro@PRI5",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "PRI5",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "81",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "11",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "PRI5",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@4906@macro@PRI7",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "PRI7",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "82",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "12",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "PRI7",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@4992@macro@ADC_CLK_EN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ADC_CLK_EN",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "85",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "13",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "ADC_CLK_EN",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@5063@macro@ADC_RCGC0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ADC_RCGC0",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "86",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "14",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "ADC_RCGC0",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@5148@macro@ADC0_SSPRI",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ADC0_SSPRI",
-    "location": {
-      "column": "9",
-<<<<<<< HEAD
-      "line": "89",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "line": "15",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "ADC0_SSPRI",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@5221@macro@ADC0_ACTSS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ADC0_ACTSS",
-    "location": {
-<<<<<<< HEAD
-      "column": "9",
-      "line": "90",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "column": "15",
-      "line": "17",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "ADC0_ACTSS",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@5292@macro@ADC0_EMUX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ADC0_EMUX",
-    "location": {
-<<<<<<< HEAD
-      "column": "9",
-      "line": "91",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "column": "15",
-      "line": "18",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "ADC0_EMUX",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@5362@macro@ADC0_SSMUX3",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ADC0_SSMUX3",
-    "location": {
-<<<<<<< HEAD
-      "column": "9",
-      "line": "92",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "column": "15",
-      "line": "19",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "ADC0_SSMUX3",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@5434@macro@ADC0_SSCTL3",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ADC0_SSCTL3",
-    "location": {
-<<<<<<< HEAD
-      "column": "9",
-      "line": "93",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "column": "6",
-      "line": "21",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "ADC0_SSCTL3",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@5506@macro@ADC0_IM",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ADC0_IM",
-    "location": {
-<<<<<<< HEAD
-      "column": "9",
-      "line": "94",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "column": "6",
-      "line": "22",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "ADC0_IM",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@5575@macro@ADC0_ISC",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ADC0_ISC",
-    "location": {
-<<<<<<< HEAD
-      "column": "9",
-      "line": "95",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "column": "6",
-      "line": "23",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "ADC0_ISC",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@5657@macro@ADC0_SSFIFO3",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ADC0_SSFIFO3",
-    "location": {
-<<<<<<< HEAD
-      "column": "9",
-      "line": "96",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "column": "6",
-      "line": "25",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "ADC0_SSFIFO3",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@5711@macro@ADC0_RIS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ADC0_RIS",
-    "location": {
-<<<<<<< HEAD
-      "column": "9",
-      "line": "97",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "column": "6",
-      "line": "32",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "ADC0_RIS",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@5761@macro@ADC0_PSSI",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ADC0_PSSI",
-    "location": {
-<<<<<<< HEAD
-      "column": "9",
-      "line": "98",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "column": "6",
-      "line": "42",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "ADC0_PSSI",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@5812@macro@ADC0_SSFIFO3",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ADC0_SSFIFO3",
-    "location": {
-<<<<<<< HEAD
-      "column": "9",
-      "line": "99",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "column": "5",
-      "line": "50",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "ADC0_SSFIFO3",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@5918@macro@CLK_RCC",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CLK_RCC",
-    "location": {
-<<<<<<< HEAD
-      "column": "9",
-      "line": "102",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "column": "6",
-      "line": "66",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "CLK_RCC",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@5999@macro@CLK_RCC2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CLK_RCC2",
-    "location": {
-<<<<<<< HEAD
-      "column": "9",
-      "line": "103",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "column": "6",
-      "line": "72",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "CLK_RCC2",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ee474.h@6083@macro@RIS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RIS",
-    "location": {
-<<<<<<< HEAD
-      "column": "9",
-      "line": "104",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
-=======
-      "column": "6",
-      "line": "76",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
-    },
-    "name": "RIS",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:DLib_Defaults.h@1141@macro@_DLIB_DEFAULTS_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -10988,11 +10380,413 @@
       "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
     },
     "name": "__WEAK_DEFS",
-<<<<<<< HEAD
-    "origin": "user_include",
-=======
     "origin": "system_include",
->>>>>>> a01d0aa992a0c65871b43c4f6190d0a47a04038a
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@49@macro@STATE_SW0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STATE_SW0",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "STATE_SW0",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@70@macro@STATE_SW4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STATE_SW4",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "STATE_SW4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@91@macro@FLAG_NONE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLAG_NONE",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "FLAG_NONE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@112@macro@FLAG_ONE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLAG_ONE",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "FLAG_ONE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@134@macro@RED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RED",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "RED",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@152@macro@BLUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BLUE",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "BLUE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@171@macro@VIOLET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "VIOLET",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "VIOLET",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@192@macro@GREEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GREEN",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "GREEN",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@212@macro@YELLOW",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "YELLOW",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "YELLOW",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@233@macro@LIGHT_BLUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LIGHT_BLUE",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "LIGHT_BLUE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@258@macro@WHITE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WHITE",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "WHITE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@STATE",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "STATE",
+    "location": {
+      "column": "15",
+      "line": "17",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "STATE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@FLAG",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "FLAG",
+    "location": {
+      "column": "15",
+      "line": "18",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "FLAG",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@result",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "result",
+    "location": {
+      "column": "15",
+      "line": "19",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "result",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LED_ON",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LED_ON(unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "21",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "LED_ON",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LED_OFF",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LED_OFF(void)",
+    "location": {
+      "column": "6",
+      "line": "22",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "LED_OFF",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Switching",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Switching(void)",
+    "location": {
+      "column": "6",
+      "line": "23",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "Switching",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Timer0A_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Timer0A_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "25",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "Timer0A_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PortF_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PortF_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "32",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "PortF_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC0_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC0_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "42",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "ADC0_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "51",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LED_ON",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LED_ON(unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "67",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "LED_ON",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LED_OFF",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LED_OFF(void)",
+    "location": {
+      "column": "6",
+      "line": "73",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "LED_OFF",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Switching",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Switching(void)",
+    "location": {
+      "column": "6",
+      "line": "77",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "Switching",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Config_Full.h@101@macro@_DLIB_CONFIG_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_CONFIG_H",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+    },
+    "name": "_DLIB_CONFIG_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Config_Full.h@210@macro@_DLIB_FULL_LOCALE_SUPPORT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_FULL_LOCALE_SUPPORT",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+    },
+    "name": "_DLIB_FULL_LOCALE_SUPPORT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Config_Full.h@286@macro@_DLIB_FILE_DESCRIPTOR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_FILE_DESCRIPTOR",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+    },
+    "name": "_DLIB_FILE_DESCRIPTOR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Config_Full.h@355@macro@_DLIB_FORMATTED_MULTIBYTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_FORMATTED_MULTIBYTE",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+    },
+    "name": "_DLIB_FORMATTED_MULTIBYTE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Config_Full.h@440@macro@_DLIB_STRTOD_HEX_FLOAT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STRTOD_HEX_FLOAT",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+    },
+    "name": "_DLIB_STRTOD_HEX_FLOAT",
+    "origin": "system_include",
     "scope": null
   },
   {
@@ -11721,146 +11515,6 @@
     },
     "name": "__fmaf",
     "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Config_Full.h@101@macro@_DLIB_CONFIG_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_CONFIG_H",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
-    },
-    "name": "_DLIB_CONFIG_H",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Config_Full.h@210@macro@_DLIB_FULL_LOCALE_SUPPORT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_FULL_LOCALE_SUPPORT",
-    "location": {
-      "column": "9",
-      "line": "12",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
-    },
-    "name": "_DLIB_FULL_LOCALE_SUPPORT",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Config_Full.h@286@macro@_DLIB_FILE_DESCRIPTOR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_FILE_DESCRIPTOR",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
-    },
-    "name": "_DLIB_FILE_DESCRIPTOR",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Config_Full.h@355@macro@_DLIB_FORMATTED_MULTIBYTE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_FORMATTED_MULTIBYTE",
-    "location": {
-      "column": "9",
-      "line": "18",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
-    },
-    "name": "_DLIB_FORMATTED_MULTIBYTE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Config_Full.h@440@macro@_DLIB_STRTOD_HEX_FLOAT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_STRTOD_HEX_FLOAT",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
-    },
-    "name": "_DLIB_STRTOD_HEX_FLOAT",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Config_Full.h@101@macro@_DLIB_CONFIG_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_CONFIG_H",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
-    },
-    "name": "_DLIB_CONFIG_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Config_Full.h@210@macro@_DLIB_FULL_LOCALE_SUPPORT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_FULL_LOCALE_SUPPORT",
-    "location": {
-      "column": "9",
-      "line": "12",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
-    },
-    "name": "_DLIB_FULL_LOCALE_SUPPORT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Config_Full.h@286@macro@_DLIB_FILE_DESCRIPTOR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_FILE_DESCRIPTOR",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
-    },
-    "name": "_DLIB_FILE_DESCRIPTOR",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Config_Full.h@355@macro@_DLIB_FORMATTED_MULTIBYTE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_FORMATTED_MULTIBYTE",
-    "location": {
-      "column": "9",
-      "line": "18",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
-    },
-    "name": "_DLIB_FORMATTED_MULTIBYTE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Config_Full.h@440@macro@_DLIB_STRTOD_HEX_FLOAT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_STRTOD_HEX_FLOAT",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
-    },
-    "name": "_DLIB_STRTOD_HEX_FLOAT",
-    "origin": "user_include",
     "scope": null
   }
 ]
