@@ -125,11 +125,12 @@ void UART_Init(int mhz)
   UART0_CTL |= 0x00000300; //enable transmit and recieve UART0
   UART0_CTL |= 0x00000001; //enable UART0
   
-  
   //setting up GPIO
+  GPIO_ADIS_PORTA &= ~0x03; // disable analog
   GPIO_AFSEL_PORTA |= 0x03; //alternate hardware functions
   GPIO_DEN_PORTA |= 0x03;
   GPIO_DIR_PORTA = 0x2;
+
   //  GPIO_DR2R_PORTA &= ~0x03;
   //  GPIO_DR4R_PORTA &= ~0x03;
   //  GPIO_DR8R_PORTA |= 0x03;

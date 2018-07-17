@@ -19,6 +19,7 @@
 #define GPIO_DR4R_PORTA (*((unsigned int *)0x40004504)) //Port A drive control 4mA
 #define GPIO_DR8R_PORTA (*((unsigned int *)0x40004508)) //Port A drive control 8mA
 #define GPIO_SLR_PORTA (*((unsigned int *)0x40004518)) //Port A slew rate
+#define GPIO_DATA_PORTA (*((unsigned int *)0x400043fc)) //Port A data
 
 //PortE:
 #define GPIO_DIR_PORTE (*((unsigned int *)0x40024400)) //GPIO direction Port F
