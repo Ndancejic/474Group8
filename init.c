@@ -8,12 +8,12 @@ void ADC_Init(void){
   GPIO_REG_PORTE |= 0x04; //analog function
   GPIO_DEN_PORTE |= 0x04; //enable analog
   GPIO_AMSEL_PORTE &= ~0x04; //disable isolation
-
+  
   //enable ADC0
   //ADC_CLK_EN |= 0x1; //enable ADC0
   ADC_RCGC0 |= 0x10000;//activate ADC
   ADC_RCGC0 &= ~0x300; //set max freq
-
+  
   //enable sequencer 3
   ADC0_SSPRI = 0x0123; //set priority for ss3
   ADC0_ACTSS &= ~0x08; //disable ss3
@@ -45,11 +45,11 @@ void PLL_Init(int mhz) {
 void PortF_Init(void)
 {
   RCGCGPIO = 0xff;//enables GPIO clock on port
-
+  
   GPIO_LOCK_PORTF = 0x4C4F434B;//unlocks pin pf0
   GPIO_CR_PORTF = 0xff;  //commits pin pf0
   GPIO_PUR_PORTF = 0x11;  //turns on pulldown resistors
-
+  
   GPIO_DIR_PORTF = 0xee;  //set port F as output except for PF0 and PF4
   GPIO_DEN_PORTF = 0xff;  //enables digital PORT F
 }
@@ -93,30 +93,35 @@ void Interrupt_Init(void)
 void UART_Init(void)
 {
   //enabling clocks
-  RCGCUART |= (1<<0); //enables clock on UART
-  RCGCGPIO = 0xff; //enables GPIO clock on portA
+  RCGCUART |= 0x01; //enables clock on UART0
+  RCGCGPIO |= 0x1; //enables GPIO clock on portA
+  
   UART0_CTL &= ~0x00000001; //disable UART0
-
+  UART0_IBRD = 104;
+  UART0_FBRD = 11;
+  UART0_LCRH = 0x00000060;
+  UART0_CTL |= 0x00000001; //enable UART0
+  UART0_CC = 0;
+  UART0_CTL |= 0x00000300; //enable transmit and recieve UART0
+  
   //setting up GPIO
   GPIO_AFSEL_PORTA |= 0x03; //alternate hardware functions
+  GPIO_DEN_PORTA |= 0x03;
+  GPIO_DIR_PORTA = 0x2;
   GPIO_DR2R_PORTA &= ~0x03;
   GPIO_DR4R_PORTA &= ~0x03;
   GPIO_DR8R_PORTA |= 0x03;
   GPIO_SLR_PORTA |= 0x03;
-  GPIO_PCTL_PORTA |= 0x11;
-
+  GPIO_PCTL_PORTA |= (GPIO_PCTL_PORTA&0xFFFFFF00) + 0x11;
+  
   //finding the BaudRate
-  double BaudRate;
-  unsigned long ClkDiv = ((CLK_RCC2&0x1F800000)>>23);
-  BaudRate = 16000000/(16*ClkDiv);
-  unsigned int BaudRateInt = (int)BaudRate;
-  double BaudRateDec = (BaudRate - (double)BaudRateInt);
-  BaudRateDec = (int)(BaudRateDec * 64);
-
+  //  double BaudRate;
+  //  unsigned long ClkDiv = ((CLK_RCC2&0x1F800000)>>23);
+  //  BaudRate = 16000000/(16*ClkDiv);
+  //  unsigned int BaudRateInt = (int)BaudRate;
+  //  double BaudRateDec = (BaudRate - (double)BaudRateInt);
+  //  BaudRateDec = (int)(BaudRateDec * 64);
+  
+  //BaudRate = 16000000/(16*16000000);
   //setting the Baud Rate
-  UART0_IBRD = BaudRateInt;
-  UART0_FBRD = (int)BaudRateDec;
-  UART0_LCRH = 0x00000060;
-  UART0_CC = 0;
-  UART0_CTL |= 0x00000001; //enable UART0
 }

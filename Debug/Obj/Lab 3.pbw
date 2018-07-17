@@ -7380,586 +7380,800 @@
     "scope": null
   },
   {
-    "ID": "c:ee474.h@25@macro@EE474_H",
+    "ID": "c:yvals.h@116@macro@_YVALS",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "EE474_H",
+    "display": "_YVALS",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "2",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "5",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "EE474_H",
-    "origin": "user_include",
+    "name": "_YVALS",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@80@macro@GPIO_WRITE_PORTF",
+    "ID": "c:yvals.h@212@macro@_GLUE_B",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_WRITE_PORTF",
+    "display": "_GLUE_B",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "5",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "12",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_WRITE_PORTF",
-    "origin": "user_include",
+    "name": "_GLUE_B",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@156@macro@GPIO_READ_PF0_PF4",
+    "ID": "c:yvals.h@238@macro@_GLUE",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_READ_PF0_PF4",
+    "display": "_GLUE",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "6",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "13",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_READ_PF0_PF4",
-    "origin": "user_include",
+    "name": "_GLUE",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@273@macro@RCGCGPIO",
+    "ID": "c:yvals.h@271@macro@_GLUE3_B",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "RCGCGPIO",
+    "display": "_GLUE3_B",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "9",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "15",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "RCGCGPIO",
-    "origin": "user_include",
+    "name": "_GLUE3_B",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@362@macro@GPIO_EN_A",
+    "ID": "c:yvals.h@303@macro@_GLUE3",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_EN_A",
+    "display": "_GLUE3",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "11",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "16",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_EN_A",
-    "origin": "user_include",
+    "name": "_GLUE3",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@435@macro@GPIO_ADIS_PORTA",
+    "ID": "c:yvals.h@342@macro@_STRINGIFY_B",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_ADIS_PORTA",
+    "display": "_STRINGIFY_B",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "12",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "18",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_ADIS_PORTA",
-    "origin": "user_include",
+    "name": "_STRINGIFY_B",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@516@macro@GPIO_PCTL_PORTA",
+    "ID": "c:yvals.h@369@macro@_STRINGIFY",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_PCTL_PORTA",
+    "display": "_STRINGIFY",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "13",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "19",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_PCTL_PORTA",
-    "origin": "user_include",
+    "name": "_STRINGIFY",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@587@macro@GPIO_DIR_PORTA",
+    "ID": "c:yvals.h@466@macro@_ABINAME",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_DIR_PORTA",
+    "display": "_ABINAME",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "14",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "22",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_DIR_PORTA",
-    "origin": "user_include",
+    "name": "_ABINAME",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@662@macro@GPIO_AFSEL_PORTA",
+    "ID": "c:yvals.h@529@macro@_CPPLIB_VER",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_AFSEL_PORTA",
+    "display": "_CPPLIB_VER",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "15",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "25",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_AFSEL_PORTA",
-    "origin": "user_include",
+    "name": "_CPPLIB_VER",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@756@macro@GPIO_DEN_PORTA",
+    "ID": "c:yvals.h@607@macro@__IAR_SYSTEMS_LIB__",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_DEN_PORTA",
+    "display": "__IAR_SYSTEMS_LIB__",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "16",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "11",
+      "line": "29",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_DEN_PORTA",
-    "origin": "user_include",
+    "name": "__IAR_SYSTEMS_LIB__",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@831@macro@GPIO_DATA_PORTA",
+    "ID": "c:yvals.h@1717@macro@__EFF_NS",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_DATA_PORTA",
+    "display": "__EFF_NS",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "17",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "64",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_DATA_PORTA",
-    "origin": "user_include",
+    "name": "__EFF_NS",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@902@macro@GPIO_DR2R_PORTA",
+    "ID": "c:yvals.h@1808@macro@__EFF_NSNW1",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_DR2R_PORTA",
+    "display": "__EFF_NSNW1",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "18",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "65",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_DR2R_PORTA",
-    "origin": "user_include",
+    "name": "__EFF_NSNW1",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@986@macro@GPIO_DR4R_PORTA",
+    "ID": "c:yvals.h@1912@macro@__EFF_NE",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_DR4R_PORTA",
+    "display": "__EFF_NE",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "19",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "66",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_DR4R_PORTA",
-    "origin": "user_include",
+    "name": "__EFF_NE",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@1070@macro@GPIO_DR8R_PORTA",
+    "ID": "c:yvals.h@1990@macro@__EFF_NENR1",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_DR8R_PORTA",
+    "display": "__EFF_NENR1",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "20",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "67",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_DR8R_PORTA",
-    "origin": "user_include",
+    "name": "__EFF_NENR1",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@1154@macro@GPIO_SLR_PORTA",
+    "ID": "c:yvals.h@2080@macro@__EFF_NENR1R1",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_SLR_PORTA",
+    "display": "__EFF_NENR1R1",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "21",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "68",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_SLR_PORTA",
-    "origin": "user_include",
+    "name": "__EFF_NENR1R1",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@1241@macro@GPIO_DIR_PORTE",
+    "ID": "c:yvals.h@2181@macro@__EFF_NENR2",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_DIR_PORTE",
+    "display": "__EFF_NENR2",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "24",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "69",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_DIR_PORTE",
-    "origin": "user_include",
+    "name": "__EFF_NENR2",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@1321@macro@GPIO_DEN_PORTE",
+    "ID": "c:yvals.h@2271@macro@__EFF_NENR1NW2",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_DEN_PORTE",
+    "display": "__EFF_NENR1NW2",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "25",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "70",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_DEN_PORTE",
-    "origin": "user_include",
+    "name": "__EFF_NENR1NW2",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@1401@macro@GPIO_LOCK_PORTE",
+    "ID": "c:yvals.h@2374@macro@__EFF_NENR1NW2R1",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_LOCK_PORTE",
+    "display": "__EFF_NENR1NW2R1",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "26",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "71",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_LOCK_PORTE",
-    "origin": "user_include",
+    "name": "__EFF_NENR1NW2R1",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@1482@macro@GPIO_CR_PORTE",
+    "ID": "c:yvals.h@2490@macro@__EFF_NENW1",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_CR_PORTE",
+    "display": "__EFF_NENW1",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "27",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "72",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_CR_PORTE",
-    "origin": "user_include",
+    "name": "__EFF_NENW1",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@1561@macro@GPIO_PUR_PORTE",
+    "ID": "c:yvals.h@2581@macro@__EFF_NENW2",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_PUR_PORTE",
+    "display": "__EFF_NENW2",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "28",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "73",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_PUR_PORTE",
-    "origin": "user_include",
+    "name": "__EFF_NENW2",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@1655@macro@GPIO_REG_PORTE",
+    "ID": "c:yvals.h@2672@macro@__EFF_NENW2R1",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_REG_PORTE",
+    "display": "__EFF_NENW2R1",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "29",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "74",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_REG_PORTE",
-    "origin": "user_include",
+    "name": "__EFF_NENW2R1",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@1732@macro@GPIO_AMSEL_PORTE",
+    "ID": "c:yvals.h@2774@macro@__EFF_NENW1NW2",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_AMSEL_PORTE",
+    "display": "__EFF_NENW1NW2",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "30",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "75",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_AMSEL_PORTE",
-    "origin": "user_include",
+    "name": "__EFF_NENW1NW2",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@1822@macro@GPIO_DIR_PORTF",
+    "ID": "c:yvals.h@2867@macro@__EFF_NR1",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_DIR_PORTF",
+    "display": "__EFF_NR1",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "33",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "76",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_DIR_PORTF",
-    "origin": "user_include",
+    "name": "__EFF_NR1",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@1902@macro@GPIO_DEN_PORTF",
+    "ID": "c:yvals.h@2947@macro@__EFF_NR1NW2",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_DEN_PORTF",
+    "display": "__EFF_NR1NW2",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "34",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "77",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_DEN_PORTF",
-    "origin": "user_include",
+    "name": "__EFF_NR1NW2",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@1982@macro@GPIO_LOCK_PORTF",
+    "ID": "c:yvals.h@3040@macro@__EFF_NR1NW3",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_LOCK_PORTF",
+    "display": "__EFF_NR1NW3",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "35",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "78",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_LOCK_PORTF",
-    "origin": "user_include",
+    "name": "__EFF_NR1NW3",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@2063@macro@GPIO_CR_PORTF",
+    "ID": "c:yvals.h@3133@macro@__EFF_NW1",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_CR_PORTF",
+    "display": "__EFF_NW1",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "36",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "79",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_CR_PORTF",
-    "origin": "user_include",
+    "name": "__EFF_NW1",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@2142@macro@GPIO_PUR_PORTF",
+    "ID": "c:yvals.h@3214@macro@__EFF_NW2",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_PUR_PORTF",
+    "display": "__EFF_NW2",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "37",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "80",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_PUR_PORTF",
-    "origin": "user_include",
+    "name": "__EFF_NW2",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@2236@macro@GPIO_ICR_PORTF",
+    "ID": "c:yvals.h@3295@macro@__EFF_NW1NR2",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_ICR_PORTF",
+    "display": "__EFF_NW1NR2",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "38",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "81",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_ICR_PORTF",
-    "origin": "user_include",
+    "name": "__EFF_NW1NR2",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@2461@macro@TIMER_EN",
+    "ID": "c:yvals.h@3388@macro@__EFF_NW1NW2",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "TIMER_EN",
+    "display": "__EFF_NW1NW2",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "43",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "82",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "TIMER_EN",
-    "origin": "user_include",
+    "name": "__EFF_NW1NW2",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@2530@macro@TIMER_DIS0",
+    "ID": "c:yvals.h@3511@macro@__ATTRIBUTES",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "TIMER_DIS0",
+    "display": "__ATTRIBUTES",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "44",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "85",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "TIMER_DIS0",
-    "origin": "user_include",
+    "name": "__ATTRIBUTES",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@2602@macro@TIMER_CON0",
+    "ID": "c:yvals.h@3567@macro@__ATTRIBUTES_CAN_THROW",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "TIMER_CON0",
+    "display": "__ATTRIBUTES_CAN_THROW",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "45",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "86",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "TIMER_CON0",
-    "origin": "user_include",
+    "name": "__ATTRIBUTES_CAN_THROW",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@2691@macro@TIMER_MODE0",
+    "ID": "c:yvals.h@3613@macro@__ATTRIBUTES_NORETURN",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "TIMER_MODE0",
+    "display": "__ATTRIBUTES_NORETURN",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "46",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "87",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "TIMER_MODE0",
-    "origin": "user_include",
+    "name": "__ATTRIBUTES_NORETURN",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@2767@macro@TIMER_VAL0",
+    "ID": "c:yvals.h@3680@macro@__ATTRIBUTES_NORETURN_CAN_THROW",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "TIMER_VAL0",
+    "display": "__ATTRIBUTES_NORETURN_CAN_THROW",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "47",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "88",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "TIMER_VAL0",
-    "origin": "user_include",
+    "name": "__ATTRIBUTES_NORETURN_CAN_THROW",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@2887@macro@TIMER_INT0",
+    "ID": "c:yvals.h@3921@macro@_EXTERN_C",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "TIMER_INT0",
+    "display": "_EXTERN_C",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "48",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "11",
+      "line": "98",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "TIMER_INT0",
-    "origin": "user_include",
+    "name": "_EXTERN_C",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@2970@macro@TIMER_POLL0",
+    "ID": "c:yvals.h@3941@macro@_EXTERN_C_END",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "TIMER_POLL0",
+    "display": "_EXTERN_C_END",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "49",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "11",
+      "line": "99",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "TIMER_POLL0",
-    "origin": "user_include",
+    "name": "_EXTERN_C_END",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@3052@macro@TIMER_MASK0",
+    "ID": "c:yvals.h@3965@macro@_GLB",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "TIMER_MASK0",
+    "display": "_GLB",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "50",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "11",
+      "line": "100",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "TIMER_MASK0",
-    "origin": "user_include",
+    "name": "_GLB",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@3134@macro@TIMER_RESET0",
+    "ID": "c:yvals.h@4567@macro@_DLIB_ONLY_C89",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "TIMER_RESET0",
+    "display": "_DLIB_ONLY_C89",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "51",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "13",
+      "line": "123",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "TIMER_RESET0",
-    "origin": "user_include",
+    "name": "_DLIB_ONLY_C89",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@3215@macro@TIMER_EN1",
+    "ID": "c:yvals.h@4701@macro@_DLIB_ADD_EXTRA_SYMBOLS",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "TIMER_EN1",
+    "display": "_DLIB_ADD_EXTRA_SYMBOLS",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "54",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "11",
+      "line": "130",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "TIMER_EN1",
-    "origin": "user_include",
+    "name": "_DLIB_ADD_EXTRA_SYMBOLS",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@3290@macro@TIMER_DIS1",
+    "ID": "c:yvals.h@4792@macro@__STDC_WANT_LIB_EXT1__",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "TIMER_DIS1",
+    "display": "__STDC_WANT_LIB_EXT1__",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "55",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "11",
+      "line": "135",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "TIMER_DIS1",
-    "origin": "user_include",
+    "name": "__STDC_WANT_LIB_EXT1__",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@3362@macro@TIMER_CON1",
+    "ID": "c:yvals.h@5073@macro@__DEPREC",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "TIMER_CON1",
+    "display": "__DEPREC",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "56",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "11",
+      "line": "145",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "TIMER_CON1",
-    "origin": "user_include",
+    "name": "__DEPREC",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@3451@macro@TIMER_MODE1",
+    "ID": "c:yvals.h@5098@macro@__DEPREC_ATTRS",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "TIMER_MODE1",
+    "display": "__DEPREC_ATTRS",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "57",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "148",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "TIMER_MODE1",
-    "origin": "user_include",
+    "name": "__DEPREC_ATTRS",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@3527@macro@TIMER_VAL1",
+    "ID": "c:yvals.h@5153@macro@__DEPREC_ATTRS_CAN_THROW",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "TIMER_VAL1",
+    "display": "__DEPREC_ATTRS_CAN_THROW",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "58",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
     },
@@ -7990,227 +8204,315 @@
       "column": "9",
       "line": "60",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "149",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "TIMER_POLL1",
-    "origin": "user_include",
+    "name": "__DEPREC_ATTRS_CAN_THROW",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@3812@macro@TIMER_MASK1",
+    "ID": "c:yvals.h@6448@macro@_NOEXCEPT",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "TIMER_MASK1",
+    "display": "_NOEXCEPT",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "61",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "11",
+      "line": "195",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "TIMER_MASK1",
-    "origin": "user_include",
+    "name": "_NOEXCEPT",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@3894@macro@TIMER_RESET1",
+    "ID": "c:yvals.h@6558@macro@_THREAD_LOCAL",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "TIMER_RESET1",
+    "display": "_THREAD_LOCAL",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "62",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "15",
+      "line": "201",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "TIMER_RESET1",
-    "origin": "user_include",
+    "name": "_THREAD_LOCAL",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@3988@macro@GPIO_SENSE_F",
+    "ID": "c:yvals.h@6682@macro@_Restrict",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_SENSE_F",
+    "display": "_Restrict",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "66",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "13",
+      "line": "206",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_SENSE_F",
-    "origin": "user_include",
+    "name": "_Restrict",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@4069@macro@GPIO_IBE_F",
+    "ID": "c:yvals.h@6831@macro@_MBMAX",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_IBE_F",
+    "display": "_MBMAX",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "67",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "213",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_IBE_F",
-    "origin": "user_include",
+    "name": "_MBMAX",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@4144@macro@GPIO_IEV_F",
+    "ID": "c:yvals.h@6885@macro@_MAX_EXP_DIG",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_IEV_F",
+    "display": "_MAX_EXP_DIG",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "68",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "216",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_IEV_F",
-    "origin": "user_include",
+    "name": "_MAX_EXP_DIG",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@4234@macro@GPIO_IM_F",
+    "ID": "c:yvals.h@6911@macro@_MAX_INT_DIG",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_IM_F",
+    "display": "_MAX_INT_DIG",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "69",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "217",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_IM_F",
-    "origin": "user_include",
+    "name": "_MAX_INT_DIG",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@4290@macro@GPIO_CLEAR_F",
+    "ID": "c:yvals.h@6938@macro@_MAX_SIG_DIG",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_CLEAR_F",
+    "display": "_MAX_SIG_DIG",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "70",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "218",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_CLEAR_F",
-    "origin": "user_include",
+    "name": "_MAX_SIG_DIG",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@4344@macro@GPIO_STATUS_F",
-    "What": "MacroDef",
+    "ID": "c:yvals.h@T@_Wchart",
+    "What": "Typedef",
     "defdec": "Def",
-    "display": "GPIO_STATUS_F",
+    "display": "unsigned int",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "71",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "28",
+      "line": "232",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_STATUS_F",
-    "origin": "user_include",
+    "name": "_Wchart",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@4435@macro@GPIO_SENSE_A",
-    "What": "MacroDef",
+    "ID": "c:yvals.h@T@_Wintt",
+    "What": "Typedef",
     "defdec": "Def",
-    "display": "GPIO_SENSE_A",
+    "display": "unsigned int",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "74",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "30",
+      "line": "234",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_SENSE_A",
-    "origin": "user_include",
+    "name": "_Wintt",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@4516@macro@GPIO_IBE_A",
+    "ID": "c:yvals.h@7691@macro@_WCMIN",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_IBE_A",
+    "display": "_WCMIN",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "75",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "11",
+      "line": "250",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_IBE_A",
-    "origin": "user_include",
+    "name": "_WCMIN",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@4591@macro@GPIO_IEV_A",
+    "ID": "c:yvals.h@7711@macro@_WIMIN",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_IEV_A",
+    "display": "_WIMIN",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "76",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "11",
+      "line": "251",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_IEV_A",
-    "origin": "user_include",
+    "name": "_WIMIN",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@4681@macro@GPIO_IM_A",
+    "ID": "c:yvals.h@7736@macro@_WCMAX",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_IM_A",
+    "display": "_WCMAX",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "77",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "253",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_IM_A",
-    "origin": "user_include",
+    "name": "_WCMAX",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@4737@macro@GPIO_CLEAR_A",
+    "ID": "c:yvals.h@7768@macro@_WIMAX",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_CLEAR_A",
+    "display": "_WIMAX",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "78",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "254",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_CLEAR_A",
-    "origin": "user_include",
+    "name": "_WIMAX",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@4791@macro@GPIO_STATUS_A",
+    "ID": "c:yvals.h@7826@macro@_NULL",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "GPIO_STATUS_A",
+    "display": "_NULL",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "79",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "257",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "GPIO_STATUS_A",
-    "origin": "user_include",
+    "name": "_NULL",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@4872@macro@EN0",
-    "What": "MacroDef",
+    "ID": "c:yvals.h@T@_Sizet",
+    "What": "Typedef",
     "defdec": "Def",
-    "display": "EN0",
+    "display": "unsigned int",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "81",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "29",
+      "line": "260",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "EN0",
-    "origin": "user_include",
+    "name": "_Sizet",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@4937@macro@DIS0",
-    "What": "MacroDef",
+    "ID": "c:@S@_Mbstatet",
+    "What": "Struct",
     "defdec": "Def",
-    "display": "DIS0",
+    "display": "_Mbstatet",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "82",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
@@ -8343,1208 +8645,1800 @@
     },
     "name": "ADC0_EMUX",
     "origin": "user_include",
+=======
+      "column": "16",
+      "line": "263",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+    },
+    "members": [
+      {
+        "ID": "c:@S@_Mbstatet@FI@_Wchar",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Wchar",
+        "location": {
+          "column": "18",
+          "line": "266",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+        },
+        "name": "_Wchar",
+        "origin": "system_include",
+        "scope": "_Mbstatet"
+      },
+      {
+        "ID": "c:@S@_Mbstatet@FI@_State",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_State",
+        "location": {
+          "column": "18",
+          "line": "267",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+        },
+        "name": "_State",
+        "origin": "system_include",
+        "scope": "_Mbstatet"
+      },
+      {
+        "ID": "c:yvals.h@T@_Mbstatet",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct _Mbstatet",
+        "location": {
+          "column": "3",
+          "line": "299",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+        },
+        "name": "_Mbstatet",
+        "origin": "system_include",
+        "scope": "_Mbstatet"
+      }
+    ],
+    "name": "_Mbstatet",
+    "origin": "system_include",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "scope": null
   },
   {
-    "ID": "c:ee474.h@5691@macro@ADC0_SSMUX3",
+    "ID": "c:yvals.h@9084@macro@_Mbstinit",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "ADC0_SSMUX3",
+    "display": "_Mbstinit",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "96",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "11",
+      "line": "303",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "ADC0_SSMUX3",
-    "origin": "user_include",
+    "name": "_Mbstinit",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@5763@macro@ADC0_SSCTL3",
+    "ID": "c:yvals.h@9153@macro@_HAS_PRAGMA_PRINTF_ARGS",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "ADC0_SSCTL3",
+    "display": "_HAS_PRAGMA_PRINTF_ARGS",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "97",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "307",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "ADC0_SSCTL3",
-    "origin": "user_include",
+    "name": "_HAS_PRAGMA_PRINTF_ARGS",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@5835@macro@ADC0_IM",
+    "ID": "c:yvals.h@9276@macro@_VA_LIST_STACK_MEMORY_ATTRIBUTE",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "ADC0_IM",
+    "display": "_VA_LIST_STACK_MEMORY_ATTRIBUTE",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "98",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "13",
+      "line": "312",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "ADC0_IM",
-    "origin": "user_include",
+    "name": "_VA_LIST_STACK_MEMORY_ATTRIBUTE",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@5904@macro@ADC0_ISC",
-    "What": "MacroDef",
+    "ID": "c:@S@__va_list",
+    "What": "Struct",
     "defdec": "Def",
-    "display": "ADC0_ISC",
+    "display": "__va_list",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "99",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "18",
+      "line": "315",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "ADC0_ISC",
-    "origin": "user_include",
+    "members": [
+      {
+        "ID": "c:@S@__va_list@FI@_Ap",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Ap",
+        "location": {
+          "column": "43",
+          "line": "317",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+        },
+        "name": "_Ap",
+        "origin": "system_include",
+        "scope": "__va_list"
+      },
+      {
+        "ID": "c:yvals.h@T@__va_list",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct __va_list",
+        "location": {
+          "column": "5",
+          "line": "318",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+        },
+        "name": "__va_list",
+        "origin": "system_include",
+        "scope": "__va_list"
+      }
+    ],
+    "name": "__va_list",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@5986@macro@ADC0_SSFIFO3",
-    "What": "MacroDef",
+    "ID": "c:yvals.h@T@__Va_list",
+    "What": "Typedef",
     "defdec": "Def",
-    "display": "ADC0_SSFIFO3",
+    "display": "__va_list",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "100",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "21",
+      "line": "319",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "ADC0_SSFIFO3",
-    "origin": "user_include",
+    "name": "__Va_list",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@6040@macro@ADC0_RIS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ADC0_RIS",
+    "ID": "c:@S@__FILE",
+    "What": "Struct",
+    "defdec": "Dec",
+    "display": "__FILE",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "101",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "20",
+      "line": "332",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "ADC0_RIS",
-    "origin": "user_include",
+    "members": [
+      {
+        "ID": "c:yvals.h@T@_Filet",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct __FILE",
+        "location": {
+          "column": "27",
+          "line": "332",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+        },
+        "name": "_Filet",
+        "origin": "system_include",
+        "scope": "__FILE"
+      }
+    ],
+    "name": "__FILE",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@6090@macro@ADC0_PSSI",
-    "What": "MacroDef",
+    "ID": "c:@SA@_Fpost",
+    "What": "Struct",
     "defdec": "Def",
-    "display": "ADC0_PSSI",
+    "display": "",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "102",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
     },
     "name": "ADC0_PSSI",
     "origin": "user_include",
+=======
+      "line": "337",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@_Fpost@FI@_Off",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Off",
+        "location": {
+          "column": "15",
+          "line": "340",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+        },
+        "name": "_Off",
+        "origin": "system_include",
+        "scope": "_anonymous_yvals_h_337_9"
+      },
+      {
+        "ID": "c:@SA@_Fpost@FI@_Wstate",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "_Wstate",
+        "location": {
+          "column": "13",
+          "line": "344",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+        },
+        "name": "_Wstate",
+        "origin": "system_include",
+        "scope": "_anonymous_yvals_h_337_9"
+      },
+      {
+        "ID": "c:yvals.h@T@_Fpost",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct _Fpost",
+        "location": {
+          "column": "3",
+          "line": "345",
+          "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+        },
+        "name": "_Fpost",
+        "origin": "system_include",
+        "scope": "_anonymous_yvals_h_337_9"
+      }
+    ],
+    "name": "",
+    "origin": "system_include",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "scope": null
   },
   {
-    "ID": "c:ee474.h@6141@macro@ADC0_SSFIFO3",
+    "ID": "c:yvals.h@9928@macro@_FPOSOFF",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "ADC0_SSFIFO3",
+    "display": "_FPOSOFF",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "103",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "11",
+      "line": "348",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "ADC0_SSFIFO3",
-    "origin": "user_include",
+    "name": "_FPOSOFF",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@6247@macro@CLK_RCC",
+    "ID": "c:yvals.h@10002@macro@_MULTI_THREAD",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "CLK_RCC",
+    "display": "_MULTI_THREAD",
     "location": {
       "column": "9",
+<<<<<<< HEAD
       "line": "106",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "line": "352",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "CLK_RCC",
-    "origin": "user_include",
+    "name": "_MULTI_THREAD",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@6328@macro@CLK_RCC2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CLK_RCC2",
+    "ID": "c:@F@__iar_Locksyslock_Malloc",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __iar_Locksyslock_Malloc(void)",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "107",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "28",
+      "line": "358",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "CLK_RCC2",
-    "origin": "user_include",
+    "name": "__iar_Locksyslock_Malloc",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@6412@macro@RIS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RIS",
+    "ID": "c:@F@__iar_Locksyslock_Stream",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __iar_Locksyslock_Stream(void)",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "108",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "28",
+      "line": "359",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "RIS",
-    "origin": "user_include",
+    "name": "__iar_Locksyslock_Stream",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@6490@macro@RCGCUART",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "RCGCUART",
+    "ID": "c:@F@__iar_Locksyslock_Debug",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __iar_Locksyslock_Debug(void)",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "111",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "28",
+      "line": "360",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "RCGCUART",
-    "origin": "user_include",
+    "name": "__iar_Locksyslock_Debug",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@6563@macro@UART0_CTL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "UART0_CTL",
+    "ID": "c:@F@__iar_Locksyslock_StaticGuard",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __iar_Locksyslock_StaticGuard(void)",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "112",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "28",
+      "line": "361",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "UART0_CTL",
-    "origin": "user_include",
+    "name": "__iar_Locksyslock_StaticGuard",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@6637@macro@UART0_IBRD",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "UART0_IBRD",
+    "ID": "c:@F@__iar_Unlocksyslock_Malloc",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __iar_Unlocksyslock_Malloc(void)",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "113",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "28",
+      "line": "362",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "UART0_IBRD",
-    "origin": "user_include",
+    "name": "__iar_Unlocksyslock_Malloc",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@6718@macro@UART0_FBRD",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "UART0_FBRD",
+    "ID": "c:@F@__iar_Unlocksyslock_Stream",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __iar_Unlocksyslock_Stream(void)",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "114",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "28",
+      "line": "363",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "UART0_FBRD",
-    "origin": "user_include",
+    "name": "__iar_Unlocksyslock_Stream",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@6799@macro@UART0_LCRH",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "UART0_LCRH",
+    "ID": "c:@F@__iar_Unlocksyslock_Debug",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __iar_Unlocksyslock_Debug(void)",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "115",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "28",
+      "line": "364",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "UART0_LCRH",
-    "origin": "user_include",
+    "name": "__iar_Unlocksyslock_Debug",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:ee474.h@6875@macro@UART0_CC",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "UART0_CC",
+    "ID": "c:@F@__iar_Unlocksyslock_StaticGuard",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __iar_Unlocksyslock_StaticGuard(void)",
     "location": {
+<<<<<<< HEAD
       "column": "9",
       "line": "116",
       "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+=======
+      "column": "28",
+      "line": "365",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "UART0_CC",
-    "origin": "user_include",
+    "name": "__iar_Unlocksyslock_StaticGuard",
+    "origin": "system_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@ADC_Init",
     "What": "Function",
-    "defdec": "Def",
-    "display": "void ADC_Init(void)",
+=======
+    "ID": "c:@F@__iar_Lockfilelock",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __iar_Lockfilelock(_Filet *)",
     "location": {
+      "column": "32",
+      "line": "369",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+    },
+    "name": "__iar_Lockfilelock",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_Unlockfilelock",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __iar_Unlockfilelock(_Filet *)",
+    "location": {
+      "column": "32",
+      "line": "370",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+    },
+    "name": "__iar_Unlockfilelock",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:yvals.h@T@__iar_Rmtx",
+    "What": "Typedef",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "defdec": "Def",
+    "display": "void *",
+    "location": {
+<<<<<<< HEAD
       "column": "6",
       "line": "4",
       "path": "C:\\Users\\candy\\474Group8\\init.c"
+=======
+      "column": "17",
+      "line": "374",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "ADC_Init",
-    "origin": "project_file",
+    "name": "__iar_Rmtx",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@PLL_Init",
+    "ID": "c:@F@__iar_Initdynamiclock",
     "What": "Function",
-    "defdec": "Def",
-    "display": "void PLL_Init(int)",
+    "defdec": "Dec",
+    "display": "void __iar_Initdynamiclock(__iar_Rmtx *)",
     "location": {
+<<<<<<< HEAD
       "column": "6",
       "line": "28",
       "path": "C:\\Users\\candy\\474Group8\\init.c"
+=======
+      "column": "28",
+      "line": "376",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "PLL_Init",
-    "origin": "project_file",
+    "name": "__iar_Initdynamiclock",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@PortF_Init",
+    "ID": "c:@F@__iar_Dstdynamiclock",
     "What": "Function",
-    "defdec": "Def",
-    "display": "void PortF_Init(void)",
+    "defdec": "Dec",
+    "display": "void __iar_Dstdynamiclock(__iar_Rmtx *)",
     "location": {
+<<<<<<< HEAD
       "column": "6",
       "line": "45",
       "path": "C:\\Users\\candy\\474Group8\\init.c"
+=======
+      "column": "28",
+      "line": "377",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "PortF_Init",
-    "origin": "project_file",
+    "name": "__iar_Dstdynamiclock",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@PortA_Init",
+    "ID": "c:@F@__iar_Lockdynamiclock",
     "What": "Function",
-    "defdec": "Def",
-    "display": "void PortA_Init(void)",
+    "defdec": "Dec",
+    "display": "void __iar_Lockdynamiclock(__iar_Rmtx *)",
     "location": {
+<<<<<<< HEAD
       "column": "6",
       "line": "57",
       "path": "C:\\Users\\candy\\474Group8\\init.c"
+=======
+      "column": "28",
+      "line": "378",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "PortA_Init",
-    "origin": "project_file",
+    "name": "__iar_Lockdynamiclock",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@Timer0_Init",
+    "ID": "c:@F@__iar_Unlockdynamiclock",
     "What": "Function",
-    "defdec": "Def",
-    "display": "void Timer0_Init(void)",
+    "defdec": "Dec",
+    "display": "void __iar_Unlockdynamiclock(__iar_Rmtx *)",
     "location": {
+<<<<<<< HEAD
       "column": "6",
       "line": "68",
       "path": "C:\\Users\\candy\\474Group8\\init.c"
+=======
+      "column": "28",
+      "line": "379",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "Timer0_Init",
-    "origin": "project_file",
+    "name": "__iar_Unlockdynamiclock",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@Interrupt_Init",
-    "What": "Function",
+    "ID": "c:ee474.h@25@macro@EE474_H",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "void Interrupt_Init(void)",
+    "display": "EE474_H",
     "location": {
+<<<<<<< HEAD
       "column": "6",
       "line": "78",
       "path": "C:\\Users\\candy\\474Group8\\init.c"
+=======
+      "column": "9",
+      "line": "2",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "Interrupt_Init",
-    "origin": "project_file",
+    "name": "EE474_H",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@UART_Init",
-    "What": "Function",
+    "ID": "c:ee474.h@80@macro@GPIO_WRITE_PORTF",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "void UART_Init(void)",
+    "display": "GPIO_WRITE_PORTF",
     "location": {
+<<<<<<< HEAD
       "column": "6",
       "line": "93",
       "path": "C:\\Users\\candy\\474Group8\\init.c"
+=======
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "UART_Init",
-    "origin": "project_file",
+    "name": "GPIO_WRITE_PORTF",
+    "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:init.c@3805@F@UART_Init@BaudRate",
     "What": "Variable",
+=======
+    "ID": "c:ee474.h@156@macro@GPIO_READ_PF0_PF4",
+    "What": "MacroDef",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "defdec": "Def",
-    "display": "BaudRate",
+    "display": "GPIO_READ_PF0_PF4",
     "location": {
+<<<<<<< HEAD
       "column": "19",
       "line": "109",
       "path": "C:\\Users\\candy\\474Group8\\init.c"
+=======
+      "column": "9",
+      "line": "6",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "BaudRate",
-    "origin": "project_file",
+    "name": "GPIO_READ_PF0_PF4",
+    "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:init.c@3834@F@UART_Init@ClkDiv",
     "What": "Variable",
+=======
+    "ID": "c:ee474.h@273@macro@RCGCGPIO",
+    "What": "MacroDef",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "defdec": "Def",
-    "display": "ClkDiv",
+    "display": "RCGCGPIO",
     "location": {
+<<<<<<< HEAD
       "column": "17",
       "line": "110",
       "path": "C:\\Users\\candy\\474Group8\\init.c"
+=======
+      "column": "9",
+      "line": "9",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "ClkDiv",
-    "origin": "project_file",
+    "name": "RCGCGPIO",
+    "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:init.c@3925@F@UART_Init@BaudRateInt",
     "What": "Variable",
+=======
+    "ID": "c:ee474.h@362@macro@GPIO_EN_A",
+    "What": "MacroDef",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "defdec": "Def",
-    "display": "BaudRateInt",
+    "display": "GPIO_EN_A",
     "location": {
+<<<<<<< HEAD
       "column": "16",
       "line": "112",
       "path": "C:\\Users\\candy\\474Group8\\init.c"
+=======
+      "column": "9",
+      "line": "11",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "BaudRateInt",
-    "origin": "project_file",
+    "name": "GPIO_EN_A",
+    "origin": "user_include",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:init.c@3970@F@UART_Init@BaudRateDec",
     "What": "Variable",
+=======
+    "ID": "c:ee474.h@435@macro@GPIO_ADIS_PORTA",
+    "What": "MacroDef",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "defdec": "Def",
-    "display": "BaudRateDec",
+    "display": "GPIO_ADIS_PORTA",
     "location": {
+<<<<<<< HEAD
       "column": "19",
       "line": "113",
       "path": "C:\\Users\\candy\\474Group8\\init.c"
-    },
-    "name": "BaudRateDec",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@116@macro@_YVALS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_YVALS",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_YVALS",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@212@macro@_GLUE_B",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_GLUE_B",
-    "location": {
+=======
       "column": "9",
       "line": "12",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     },
-    "name": "_GLUE_B",
+    "name": "GPIO_ADIS_PORTA",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@238@macro@_GLUE",
+    "ID": "c:ee474.h@516@macro@GPIO_PCTL_PORTA",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_GLUE",
+    "display": "GPIO_PCTL_PORTA",
     "location": {
       "column": "9",
       "line": "13",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "_GLUE",
+<<<<<<< HEAD
+    "name": "_YVALS",
+=======
+    "name": "GPIO_PCTL_PORTA",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@271@macro@_GLUE3_B",
+    "ID": "c:ee474.h@587@macro@GPIO_DIR_PORTA",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_GLUE3_B",
+    "display": "GPIO_DIR_PORTA",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "_GLUE_B",
+=======
+    "name": "GPIO_DIR_PORTA",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@662@macro@GPIO_AFSEL_PORTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_AFSEL_PORTA",
     "location": {
       "column": "9",
       "line": "15",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "_GLUE3_B",
+<<<<<<< HEAD
+    "name": "_GLUE",
+=======
+    "name": "GPIO_AFSEL_PORTA",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@303@macro@_GLUE3",
+    "ID": "c:ee474.h@756@macro@GPIO_DEN_PORTA",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_GLUE3",
+    "display": "GPIO_DEN_PORTA",
     "location": {
       "column": "9",
       "line": "16",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "_GLUE3",
+<<<<<<< HEAD
+    "name": "_GLUE3_B",
+=======
+    "name": "GPIO_DEN_PORTA",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@342@macro@_STRINGIFY_B",
+    "ID": "c:ee474.h@831@macro@GPIO_DATA_PORTA",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_STRINGIFY_B",
+    "display": "GPIO_DATA_PORTA",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "_GLUE3",
+=======
+    "name": "GPIO_DATA_PORTA",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@902@macro@GPIO_DR2R_PORTA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DR2R_PORTA",
     "location": {
       "column": "9",
       "line": "18",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
+<<<<<<< HEAD
     "name": "_STRINGIFY_B",
+=======
+    "name": "GPIO_DR2R_PORTA",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@369@macro@_STRINGIFY",
+    "ID": "c:ee474.h@986@macro@GPIO_DR4R_PORTA",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_STRINGIFY",
+    "display": "GPIO_DR4R_PORTA",
     "location": {
       "column": "9",
       "line": "19",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
+<<<<<<< HEAD
     "name": "_STRINGIFY",
+=======
+    "name": "GPIO_DR4R_PORTA",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@466@macro@_ABINAME",
+    "ID": "c:ee474.h@1070@macro@GPIO_DR8R_PORTA",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_ABINAME",
+    "display": "GPIO_DR8R_PORTA",
     "location": {
       "column": "9",
-      "line": "22",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "line": "20",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
+<<<<<<< HEAD
     "name": "_ABINAME",
+=======
+    "name": "GPIO_DR8R_PORTA",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@529@macro@_CPPLIB_VER",
+    "ID": "c:ee474.h@1154@macro@GPIO_SLR_PORTA",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_CPPLIB_VER",
+    "display": "GPIO_SLR_PORTA",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "_CPPLIB_VER",
+=======
+    "name": "GPIO_SLR_PORTA",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1241@macro@GPIO_DIR_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DIR_PORTE",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__IAR_SYSTEMS_LIB__",
+=======
+    "name": "GPIO_DIR_PORTE",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1321@macro@GPIO_DEN_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DEN_PORTE",
     "location": {
       "column": "9",
       "line": "25",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "_CPPLIB_VER",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@607@macro@__IAR_SYSTEMS_LIB__",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__IAR_SYSTEMS_LIB__",
-    "location": {
-      "column": "11",
-      "line": "29",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__IAR_SYSTEMS_LIB__",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@1717@macro@__EFF_NS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NS",
-    "location": {
-      "column": "9",
-      "line": "64",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
+<<<<<<< HEAD
     "name": "__EFF_NS",
+=======
+    "name": "GPIO_DEN_PORTE",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@1808@macro@__EFF_NSNW1",
+    "ID": "c:ee474.h@1401@macro@GPIO_LOCK_PORTE",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__EFF_NSNW1",
+    "display": "GPIO_LOCK_PORTE",
     "location": {
       "column": "9",
-      "line": "65",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "line": "26",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
+<<<<<<< HEAD
     "name": "__EFF_NSNW1",
+=======
+    "name": "GPIO_LOCK_PORTE",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@1912@macro@__EFF_NE",
+    "ID": "c:ee474.h@1482@macro@GPIO_CR_PORTE",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__EFF_NE",
+    "display": "GPIO_CR_PORTE",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__EFF_NE",
+=======
+    "name": "GPIO_CR_PORTE",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1561@macro@GPIO_PUR_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PUR_PORTE",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__EFF_NENR1",
+=======
+    "name": "GPIO_PUR_PORTE",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1655@macro@GPIO_REG_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_REG_PORTE",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__EFF_NENR1R1",
+=======
+    "name": "GPIO_REG_PORTE",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1732@macro@GPIO_AMSEL_PORTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_AMSEL_PORTE",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__EFF_NENR2",
+=======
+    "name": "GPIO_AMSEL_PORTE",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1822@macro@GPIO_DIR_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DIR_PORTF",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__EFF_NENR1NW2",
+=======
+    "name": "GPIO_DIR_PORTF",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1902@macro@GPIO_DEN_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DEN_PORTF",
+    "location": {
+      "column": "9",
+      "line": "34",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__EFF_NENR1NW2R1",
+=======
+    "name": "GPIO_DEN_PORTF",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@1982@macro@GPIO_LOCK_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_LOCK_PORTF",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__EFF_NENW1",
+=======
+    "name": "GPIO_LOCK_PORTF",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2063@macro@GPIO_CR_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_CR_PORTF",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__EFF_NENW2",
+=======
+    "name": "GPIO_CR_PORTF",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2142@macro@GPIO_PUR_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PUR_PORTF",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__EFF_NENW2R1",
+=======
+    "name": "GPIO_PUR_PORTF",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2236@macro@GPIO_ICR_PORTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_ICR_PORTF",
+    "location": {
+      "column": "9",
+      "line": "38",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__EFF_NENW1NW2",
+=======
+    "name": "GPIO_ICR_PORTF",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2461@macro@TIMER_EN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_EN",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__EFF_NR1",
+=======
+    "name": "TIMER_EN",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2530@macro@TIMER_DIS0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_DIS0",
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__EFF_NR1NW2",
+=======
+    "name": "TIMER_DIS0",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2602@macro@TIMER_CON0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_CON0",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__EFF_NR1NW3",
+=======
+    "name": "TIMER_CON0",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2691@macro@TIMER_MODE0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MODE0",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__EFF_NW1",
+=======
+    "name": "TIMER_MODE0",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2767@macro@TIMER_VAL0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_VAL0",
+    "location": {
+      "column": "9",
+      "line": "47",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__EFF_NW2",
+=======
+    "name": "TIMER_VAL0",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2887@macro@TIMER_INT0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_INT0",
+    "location": {
+      "column": "9",
+      "line": "48",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__EFF_NW1NR2",
+=======
+    "name": "TIMER_INT0",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@2970@macro@TIMER_POLL0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_POLL0",
+    "location": {
+      "column": "9",
+      "line": "49",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__EFF_NW1NW2",
+=======
+    "name": "TIMER_POLL0",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3052@macro@TIMER_MASK0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MASK0",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__ATTRIBUTES",
+=======
+    "name": "TIMER_MASK0",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3134@macro@TIMER_RESET0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_RESET0",
+    "location": {
+      "column": "9",
+      "line": "51",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__ATTRIBUTES_CAN_THROW",
+=======
+    "name": "TIMER_RESET0",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3215@macro@TIMER_EN1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_EN1",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__ATTRIBUTES_NORETURN",
+=======
+    "name": "TIMER_EN1",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3290@macro@TIMER_DIS1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_DIS1",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__ATTRIBUTES_NORETURN_CAN_THROW",
+=======
+    "name": "TIMER_DIS1",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3362@macro@TIMER_CON1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_CON1",
+    "location": {
+      "column": "9",
+      "line": "56",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "_EXTERN_C",
+=======
+    "name": "TIMER_CON1",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3451@macro@TIMER_MODE1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MODE1",
+    "location": {
+      "column": "9",
+      "line": "57",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "_EXTERN_C_END",
+=======
+    "name": "TIMER_MODE1",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3527@macro@TIMER_VAL1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_VAL1",
+    "location": {
+      "column": "9",
+      "line": "58",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "_GLB",
+=======
+    "name": "TIMER_VAL1",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3647@macro@TIMER_INT1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_INT1",
+    "location": {
+      "column": "9",
+      "line": "59",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "_DLIB_ONLY_C89",
+=======
+    "name": "TIMER_INT1",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3730@macro@TIMER_POLL1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_POLL1",
+    "location": {
+      "column": "9",
+      "line": "60",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "_DLIB_ADD_EXTRA_SYMBOLS",
+=======
+    "name": "TIMER_POLL1",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3812@macro@TIMER_MASK1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MASK1",
+    "location": {
+      "column": "9",
+      "line": "61",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__STDC_WANT_LIB_EXT1__",
+=======
+    "name": "TIMER_MASK1",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3894@macro@TIMER_RESET1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_RESET1",
+    "location": {
+      "column": "9",
+      "line": "62",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__DEPREC",
+=======
+    "name": "TIMER_RESET1",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@3988@macro@GPIO_SENSE_F",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_SENSE_F",
     "location": {
       "column": "9",
       "line": "66",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "__EFF_NE",
+<<<<<<< HEAD
+    "name": "__DEPREC_ATTRS",
+=======
+    "name": "GPIO_SENSE_F",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@1990@macro@__EFF_NENR1",
+    "ID": "c:ee474.h@4069@macro@GPIO_IBE_F",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__EFF_NENR1",
+    "display": "GPIO_IBE_F",
     "location": {
       "column": "9",
       "line": "67",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "__EFF_NENR1",
+<<<<<<< HEAD
+    "name": "__DEPREC_ATTRS_CAN_THROW",
+=======
+    "name": "GPIO_IBE_F",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@2080@macro@__EFF_NENR1R1",
+    "ID": "c:ee474.h@4144@macro@GPIO_IEV_F",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__EFF_NENR1R1",
+    "display": "GPIO_IEV_F",
     "location": {
       "column": "9",
       "line": "68",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "__EFF_NENR1R1",
+<<<<<<< HEAD
+    "name": "_NOEXCEPT",
+=======
+    "name": "GPIO_IEV_F",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@2181@macro@__EFF_NENR2",
+    "ID": "c:ee474.h@4234@macro@GPIO_IM_F",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__EFF_NENR2",
+    "display": "GPIO_IM_F",
     "location": {
       "column": "9",
       "line": "69",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "__EFF_NENR2",
+<<<<<<< HEAD
+    "name": "_THREAD_LOCAL",
+=======
+    "name": "GPIO_IM_F",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@2271@macro@__EFF_NENR1NW2",
+    "ID": "c:ee474.h@4290@macro@GPIO_CLEAR_F",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__EFF_NENR1NW2",
+    "display": "GPIO_CLEAR_F",
     "location": {
       "column": "9",
       "line": "70",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "__EFF_NENR1NW2",
+<<<<<<< HEAD
+    "name": "_Restrict",
+=======
+    "name": "GPIO_CLEAR_F",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@2374@macro@__EFF_NENR1NW2R1",
+    "ID": "c:ee474.h@4344@macro@GPIO_STATUS_F",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__EFF_NENR1NW2R1",
+    "display": "GPIO_STATUS_F",
     "location": {
       "column": "9",
       "line": "71",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "__EFF_NENR1NW2R1",
+<<<<<<< HEAD
+    "name": "_MBMAX",
+=======
+    "name": "GPIO_STATUS_F",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@2490@macro@__EFF_NENW1",
+    "ID": "c:ee474.h@4435@macro@GPIO_SENSE_A",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__EFF_NENW1",
-    "location": {
-      "column": "9",
-      "line": "72",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__EFF_NENW1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@2581@macro@__EFF_NENW2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENW2",
-    "location": {
-      "column": "9",
-      "line": "73",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__EFF_NENW2",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@2672@macro@__EFF_NENW2R1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NENW2R1",
+    "display": "GPIO_SENSE_A",
     "location": {
       "column": "9",
       "line": "74",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "__EFF_NENW2R1",
+<<<<<<< HEAD
+    "name": "_MAX_EXP_DIG",
+=======
+    "name": "GPIO_SENSE_A",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@2774@macro@__EFF_NENW1NW2",
+    "ID": "c:ee474.h@4516@macro@GPIO_IBE_A",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__EFF_NENW1NW2",
+    "display": "GPIO_IBE_A",
     "location": {
       "column": "9",
       "line": "75",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "__EFF_NENW1NW2",
+<<<<<<< HEAD
+    "name": "_MAX_INT_DIG",
+=======
+    "name": "GPIO_IBE_A",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@2867@macro@__EFF_NR1",
+    "ID": "c:ee474.h@4591@macro@GPIO_IEV_A",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__EFF_NR1",
+    "display": "GPIO_IEV_A",
     "location": {
       "column": "9",
       "line": "76",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "__EFF_NR1",
+<<<<<<< HEAD
+    "name": "_MAX_SIG_DIG",
+=======
+    "name": "GPIO_IEV_A",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@2947@macro@__EFF_NR1NW2",
+    "ID": "c:ee474.h@4681@macro@GPIO_IM_A",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__EFF_NR1NW2",
+    "display": "GPIO_IM_A",
     "location": {
       "column": "9",
       "line": "77",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "__EFF_NR1NW2",
+<<<<<<< HEAD
+    "name": "_Wchart",
+=======
+    "name": "GPIO_IM_A",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@3040@macro@__EFF_NR1NW3",
+    "ID": "c:ee474.h@4737@macro@GPIO_CLEAR_A",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__EFF_NR1NW3",
+    "display": "GPIO_CLEAR_A",
     "location": {
       "column": "9",
       "line": "78",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "__EFF_NR1NW3",
+<<<<<<< HEAD
+    "name": "_Wintt",
+=======
+    "name": "GPIO_CLEAR_A",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@3133@macro@__EFF_NW1",
+    "ID": "c:ee474.h@4791@macro@GPIO_STATUS_A",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__EFF_NW1",
+    "display": "GPIO_STATUS_A",
     "location": {
       "column": "9",
       "line": "79",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "__EFF_NW1",
+<<<<<<< HEAD
+    "name": "_WCMIN",
+=======
+    "name": "GPIO_STATUS_A",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@3214@macro@__EFF_NW2",
+    "ID": "c:ee474.h@4872@macro@EN0",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__EFF_NW2",
-    "location": {
-      "column": "9",
-      "line": "80",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__EFF_NW2",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@3295@macro@__EFF_NW1NR2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__EFF_NW1NR2",
+    "display": "EN0",
     "location": {
       "column": "9",
       "line": "81",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "__EFF_NW1NR2",
+<<<<<<< HEAD
+    "name": "_WIMIN",
+=======
+    "name": "EN0",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@3388@macro@__EFF_NW1NW2",
+    "ID": "c:ee474.h@4937@macro@DIS0",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__EFF_NW1NW2",
+    "display": "DIS0",
     "location": {
       "column": "9",
       "line": "82",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "__EFF_NW1NW2",
+<<<<<<< HEAD
+    "name": "_WCMAX",
+=======
+    "name": "DIS0",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@3511@macro@__ATTRIBUTES",
+    "ID": "c:ee474.h@5004@macro@PRI0",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__ATTRIBUTES",
+    "display": "PRI0",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "_WIMAX",
+=======
+    "name": "PRI0",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5081@macro@PRI4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PRI4",
+    "location": {
+      "column": "9",
+      "line": "84",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "_NULL",
+=======
+    "name": "PRI4",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5158@macro@PRI5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PRI5",
     "location": {
       "column": "9",
       "line": "85",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "__ATTRIBUTES",
+<<<<<<< HEAD
+    "name": "_Sizet",
+=======
+    "name": "PRI5",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@3567@macro@__ATTRIBUTES_CAN_THROW",
+    "ID": "c:ee474.h@5235@macro@PRI7",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__ATTRIBUTES_CAN_THROW",
+    "display": "PRI7",
     "location": {
       "column": "9",
       "line": "86",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "__ATTRIBUTES_CAN_THROW",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@3613@macro@__ATTRIBUTES_NORETURN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__ATTRIBUTES_NORETURN",
-    "location": {
-      "column": "9",
-      "line": "87",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__ATTRIBUTES_NORETURN",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@3680@macro@__ATTRIBUTES_NORETURN_CAN_THROW",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__ATTRIBUTES_NORETURN_CAN_THROW",
-    "location": {
-      "column": "9",
-      "line": "88",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__ATTRIBUTES_NORETURN_CAN_THROW",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@3921@macro@_EXTERN_C",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_EXTERN_C",
-    "location": {
-      "column": "11",
-      "line": "98",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_EXTERN_C",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@3941@macro@_EXTERN_C_END",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_EXTERN_C_END",
-    "location": {
-      "column": "11",
-      "line": "99",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_EXTERN_C_END",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@3965@macro@_GLB",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_GLB",
-    "location": {
-      "column": "11",
-      "line": "100",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_GLB",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@4567@macro@_DLIB_ONLY_C89",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ONLY_C89",
-    "location": {
-      "column": "13",
-      "line": "123",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_DLIB_ONLY_C89",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@4701@macro@_DLIB_ADD_EXTRA_SYMBOLS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ADD_EXTRA_SYMBOLS",
-    "location": {
-      "column": "11",
-      "line": "130",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_DLIB_ADD_EXTRA_SYMBOLS",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@4792@macro@__STDC_WANT_LIB_EXT1__",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STDC_WANT_LIB_EXT1__",
-    "location": {
-      "column": "11",
-      "line": "135",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__STDC_WANT_LIB_EXT1__",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@5073@macro@__DEPREC",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__DEPREC",
-    "location": {
-      "column": "11",
-      "line": "145",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__DEPREC",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@5098@macro@__DEPREC_ATTRS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__DEPREC_ATTRS",
-    "location": {
-      "column": "9",
-      "line": "148",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__DEPREC_ATTRS",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@5153@macro@__DEPREC_ATTRS_CAN_THROW",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__DEPREC_ATTRS_CAN_THROW",
-    "location": {
-      "column": "9",
-      "line": "149",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__DEPREC_ATTRS_CAN_THROW",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@6448@macro@_NOEXCEPT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_NOEXCEPT",
-    "location": {
-      "column": "11",
-      "line": "195",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_NOEXCEPT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@6558@macro@_THREAD_LOCAL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_THREAD_LOCAL",
-    "location": {
-      "column": "15",
-      "line": "201",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_THREAD_LOCAL",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@6682@macro@_Restrict",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_Restrict",
-    "location": {
-      "column": "13",
-      "line": "206",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_Restrict",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@6831@macro@_MBMAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_MBMAX",
-    "location": {
-      "column": "9",
-      "line": "213",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_MBMAX",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@6885@macro@_MAX_EXP_DIG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_MAX_EXP_DIG",
-    "location": {
-      "column": "9",
-      "line": "216",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_MAX_EXP_DIG",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@6911@macro@_MAX_INT_DIG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_MAX_INT_DIG",
-    "location": {
-      "column": "9",
-      "line": "217",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_MAX_INT_DIG",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@6938@macro@_MAX_SIG_DIG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_MAX_SIG_DIG",
-    "location": {
-      "column": "9",
-      "line": "218",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_MAX_SIG_DIG",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@T@_Wchart",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned int",
-    "location": {
-      "column": "28",
-      "line": "232",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_Wchart",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@T@_Wintt",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned int",
-    "location": {
-      "column": "30",
-      "line": "234",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_Wintt",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@7691@macro@_WCMIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_WCMIN",
-    "location": {
-      "column": "11",
-      "line": "250",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_WCMIN",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@7711@macro@_WIMIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_WIMIN",
-    "location": {
-      "column": "11",
-      "line": "251",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_WIMIN",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@7736@macro@_WCMAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_WCMAX",
-    "location": {
-      "column": "9",
-      "line": "253",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_WCMAX",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@7768@macro@_WIMAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_WIMAX",
-    "location": {
-      "column": "9",
-      "line": "254",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_WIMAX",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@7826@macro@_NULL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_NULL",
-    "location": {
-      "column": "9",
-      "line": "257",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_NULL",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@T@_Sizet",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned int",
-    "location": {
-      "column": "29",
-      "line": "260",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_Sizet",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@S@_Mbstatet",
-    "What": "Struct",
-    "defdec": "Def",
-    "display": "_Mbstatet",
-    "location": {
-      "column": "16",
-      "line": "263",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
+<<<<<<< HEAD
     "members": [
       {
         "ID": "c:@S@_Mbstatet@FI@_Wchar",
@@ -9590,61 +10484,77 @@
       }
     ],
     "name": "_Mbstatet",
+=======
+    "name": "PRI7",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@9084@macro@_Mbstinit",
+    "ID": "c:ee474.h@5321@macro@ADC_CLK_EN",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_Mbstinit",
-    "location": {
-      "column": "11",
-      "line": "303",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_Mbstinit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@9153@macro@_HAS_PRAGMA_PRINTF_ARGS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_HAS_PRAGMA_PRINTF_ARGS",
+    "display": "ADC_CLK_EN",
     "location": {
       "column": "9",
-      "line": "307",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "line": "89",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "_HAS_PRAGMA_PRINTF_ARGS",
+<<<<<<< HEAD
+    "name": "_Mbstinit",
+=======
+    "name": "ADC_CLK_EN",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@9276@macro@_VA_LIST_STACK_MEMORY_ATTRIBUTE",
+    "ID": "c:ee474.h@5392@macro@ADC_RCGC0",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_VA_LIST_STACK_MEMORY_ATTRIBUTE",
+    "display": "ADC_RCGC0",
     "location": {
-      "column": "13",
-      "line": "312",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "column": "9",
+      "line": "90",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "_VA_LIST_STACK_MEMORY_ATTRIBUTE",
+<<<<<<< HEAD
+    "name": "_HAS_PRAGMA_PRINTF_ARGS",
+=======
+    "name": "ADC_RCGC0",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@S@__va_list",
-    "What": "Struct",
+    "ID": "c:ee474.h@5477@macro@ADC0_SSPRI",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "__va_list",
+    "display": "ADC0_SSPRI",
     "location": {
-      "column": "18",
-      "line": "315",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "column": "9",
+      "line": "93",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
+<<<<<<< HEAD
+    "name": "_VA_LIST_STACK_MEMORY_ATTRIBUTE",
+=======
+    "name": "ADC0_SSPRI",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5550@macro@ADC0_ACTSS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_ACTSS",
+    "location": {
+      "column": "9",
+      "line": "94",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
     "members": [
       {
         "ID": "c:@S@__va_list@FI@_Ap",
@@ -9676,33 +10586,55 @@
       }
     ],
     "name": "__va_list",
+=======
+    "name": "ADC0_ACTSS",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@T@__Va_list",
-    "What": "Typedef",
+    "ID": "c:ee474.h@5621@macro@ADC0_EMUX",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "__va_list",
+    "display": "ADC0_EMUX",
     "location": {
-      "column": "21",
-      "line": "319",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "column": "9",
+      "line": "95",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "__Va_list",
+    "name": "ADC0_EMUX",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@S@__FILE",
-    "What": "Struct",
-    "defdec": "Dec",
-    "display": "__FILE",
+    "ID": "c:ee474.h@5691@macro@ADC0_SSMUX3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_SSMUX3",
     "location": {
-      "column": "20",
-      "line": "332",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "column": "9",
+      "line": "96",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
+<<<<<<< HEAD
+    "name": "__Va_list",
+=======
+    "name": "ADC0_SSMUX3",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@5763@macro@ADC0_SSCTL3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_SSCTL3",
+    "location": {
+      "column": "9",
+      "line": "97",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
     "members": [
       {
         "ID": "c:yvals.h@T@_Filet",
@@ -9720,19 +10652,23 @@
       }
     ],
     "name": "__FILE",
+=======
+    "name": "ADC0_SSCTL3",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@SA@_Fpost",
-    "What": "Struct",
+    "ID": "c:ee474.h@5835@macro@ADC0_IM",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "",
+    "display": "ADC0_IM",
     "location": {
       "column": "9",
-      "line": "337",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "line": "98",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
+<<<<<<< HEAD
     "members": [
       {
         "ID": "c:@SA@_Fpost@FI@_Off",
@@ -9778,243 +10714,326 @@
       }
     ],
     "name": "",
+=======
+    "name": "ADC0_IM",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:yvals.h@9928@macro@_FPOSOFF",
+    "ID": "c:ee474.h@5904@macro@ADC0_ISC",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_FPOSOFF",
-    "location": {
-      "column": "11",
-      "line": "348",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "_FPOSOFF",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@10002@macro@_MULTI_THREAD",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_MULTI_THREAD",
+    "display": "ADC0_ISC",
     "location": {
       "column": "9",
-      "line": "352",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "line": "99",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
-    "name": "_MULTI_THREAD",
+<<<<<<< HEAD
+    "name": "_FPOSOFF",
+=======
+    "name": "ADC0_ISC",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@__iar_Locksyslock_Malloc",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __iar_Locksyslock_Malloc(void)",
-    "location": {
-      "column": "28",
-      "line": "358",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__iar_Locksyslock_Malloc",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Locksyslock_Stream",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __iar_Locksyslock_Stream(void)",
-    "location": {
-      "column": "28",
-      "line": "359",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__iar_Locksyslock_Stream",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Locksyslock_Debug",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __iar_Locksyslock_Debug(void)",
-    "location": {
-      "column": "28",
-      "line": "360",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__iar_Locksyslock_Debug",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Locksyslock_StaticGuard",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __iar_Locksyslock_StaticGuard(void)",
-    "location": {
-      "column": "28",
-      "line": "361",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__iar_Locksyslock_StaticGuard",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Unlocksyslock_Malloc",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __iar_Unlocksyslock_Malloc(void)",
-    "location": {
-      "column": "28",
-      "line": "362",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__iar_Unlocksyslock_Malloc",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Unlocksyslock_Stream",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __iar_Unlocksyslock_Stream(void)",
-    "location": {
-      "column": "28",
-      "line": "363",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__iar_Unlocksyslock_Stream",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Unlocksyslock_Debug",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __iar_Unlocksyslock_Debug(void)",
-    "location": {
-      "column": "28",
-      "line": "364",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__iar_Unlocksyslock_Debug",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Unlocksyslock_StaticGuard",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __iar_Unlocksyslock_StaticGuard(void)",
-    "location": {
-      "column": "28",
-      "line": "365",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__iar_Unlocksyslock_StaticGuard",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Lockfilelock",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __iar_Lockfilelock(_Filet *)",
-    "location": {
-      "column": "32",
-      "line": "369",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__iar_Lockfilelock",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_Unlockfilelock",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __iar_Unlockfilelock(_Filet *)",
-    "location": {
-      "column": "32",
-      "line": "370",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
-    },
-    "name": "__iar_Unlockfilelock",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:yvals.h@T@__iar_Rmtx",
-    "What": "Typedef",
+    "ID": "c:ee474.h@5986@macro@ADC0_SSFIFO3",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "void *",
+    "display": "ADC0_SSFIFO3",
     "location": {
-      "column": "17",
-      "line": "374",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "column": "9",
+      "line": "100",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
+<<<<<<< HEAD
+    "name": "_MULTI_THREAD",
+=======
+    "name": "ADC0_SSFIFO3",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6040@macro@ADC0_RIS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_RIS",
+    "location": {
+      "column": "9",
+      "line": "101",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__iar_Locksyslock_Malloc",
+=======
+    "name": "ADC0_RIS",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6090@macro@ADC0_PSSI",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_PSSI",
+    "location": {
+      "column": "9",
+      "line": "102",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__iar_Locksyslock_Stream",
+=======
+    "name": "ADC0_PSSI",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6141@macro@ADC0_SSFIFO3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ADC0_SSFIFO3",
+    "location": {
+      "column": "9",
+      "line": "103",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__iar_Locksyslock_Debug",
+=======
+    "name": "ADC0_SSFIFO3",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6247@macro@CLK_RCC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CLK_RCC",
+    "location": {
+      "column": "9",
+      "line": "106",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__iar_Locksyslock_StaticGuard",
+=======
+    "name": "CLK_RCC",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6328@macro@CLK_RCC2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CLK_RCC2",
+    "location": {
+      "column": "9",
+      "line": "107",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__iar_Unlocksyslock_Malloc",
+=======
+    "name": "CLK_RCC2",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6412@macro@RIS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RIS",
+    "location": {
+      "column": "9",
+      "line": "108",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+    "name": "RIS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6490@macro@RCGCUART",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCGCUART",
+    "location": {
+      "column": "9",
+      "line": "111",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__iar_Unlocksyslock_Stream",
+=======
+    "name": "RCGCUART",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6563@macro@UART0_CTL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_CTL",
+    "location": {
+      "column": "9",
+      "line": "112",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__iar_Unlocksyslock_Debug",
+=======
+    "name": "UART0_CTL",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6637@macro@UART0_IBRD",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_IBRD",
+    "location": {
+      "column": "9",
+      "line": "113",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__iar_Unlocksyslock_StaticGuard",
+=======
+    "name": "UART0_IBRD",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6718@macro@UART0_FBRD",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_FBRD",
+    "location": {
+      "column": "9",
+      "line": "114",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__iar_Lockfilelock",
+=======
+    "name": "UART0_FBRD",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6799@macro@UART0_LCRH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_LCRH",
+    "location": {
+      "column": "9",
+      "line": "115",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
+    "name": "__iar_Unlockfilelock",
+=======
+    "name": "UART0_LCRH",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ee474.h@6875@macro@UART0_CC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_CC",
+    "location": {
+      "column": "9",
+      "line": "116",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
+    },
+<<<<<<< HEAD
     "name": "__iar_Rmtx",
+=======
+    "name": "UART0_CC",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@__iar_Initdynamiclock",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __iar_Initdynamiclock(__iar_Rmtx *)",
+    "ID": "c:ee474.h@6949@macro@UART0_FR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_FR",
     "location": {
-      "column": "28",
-      "line": "376",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "column": "9",
+      "line": "117",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
+<<<<<<< HEAD
     "name": "__iar_Initdynamiclock",
+=======
+    "name": "UART0_FR",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@__iar_Dstdynamiclock",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __iar_Dstdynamiclock(__iar_Rmtx *)",
+    "ID": "c:ee474.h@7013@macro@UART0_DR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART0_DR",
     "location": {
-      "column": "28",
-      "line": "377",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "column": "9",
+      "line": "118",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
+<<<<<<< HEAD
     "name": "__iar_Dstdynamiclock",
+=======
+    "name": "UART0_DR",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@__iar_Lockdynamiclock",
+    "ID": "c:@F@ADC_Init",
     "What": "Function",
-    "defdec": "Dec",
-    "display": "void __iar_Lockdynamiclock(__iar_Rmtx *)",
+    "defdec": "Def",
+    "display": "void ADC_Init(void)",
     "location": {
-      "column": "28",
-      "line": "378",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "column": "6",
+      "line": "4",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
     },
+<<<<<<< HEAD
     "name": "__iar_Lockdynamiclock",
     "origin": "user_include",
+=======
+    "name": "ADC_Init",
+    "origin": "project_file",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "scope": null
   },
   {
-    "ID": "c:@F@__iar_Unlockdynamiclock",
+    "ID": "c:@F@PLL_Init",
     "What": "Function",
-    "defdec": "Dec",
-    "display": "void __iar_Unlockdynamiclock(__iar_Rmtx *)",
+    "defdec": "Def",
+    "display": "void PLL_Init(int)",
     "location": {
-      "column": "28",
-      "line": "379",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\yvals.h"
+      "column": "6",
+      "line": "28",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
     },
+<<<<<<< HEAD
     "name": "__iar_Unlockdynamiclock",
     "origin": "user_include",
     "scope": null
@@ -10030,10 +11049,28 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "STATE_SW0",
+=======
+    "name": "PLL_Init",
     "origin": "project_file",
     "scope": null
   },
   {
+    "ID": "c:@F@PortF_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PortF_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "45",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
+    },
+    "name": "PortF_Init",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+<<<<<<< HEAD
     "ID": "c:main.c@70@macro@STATE_SW4",
     "What": "MacroDef",
     "defdec": "Def",
@@ -10044,10 +11081,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "STATE_SW4",
+=======
+    "ID": "c:@F@PortA_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PortA_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "57",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
+    },
+    "name": "PortA_Init",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:main.c@91@macro@FLAG_NONE",
     "What": "MacroDef",
     "defdec": "Def",
@@ -10058,10 +11108,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "FLAG_NONE",
+=======
+    "ID": "c:@F@Timer0_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Timer0_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "68",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
+    },
+    "name": "Timer0_Init",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:main.c@112@macro@FLAG_ONE",
     "What": "MacroDef",
     "defdec": "Def",
@@ -10072,10 +11135,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "FLAG_ONE",
+=======
+    "ID": "c:@F@Interrupt_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Interrupt_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "78",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
+    },
+    "name": "Interrupt_Init",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:main.c@134@macro@RED",
     "What": "MacroDef",
     "defdec": "Def",
@@ -10086,10 +11162,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "RED",
+=======
+    "ID": "c:@F@UART_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "93",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
+    },
+    "name": "UART_Init",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:main.c@152@macro@BLUE",
     "What": "MacroDef",
     "defdec": "Def",
@@ -10100,10 +11189,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "BLUE",
+=======
+    "ID": "c:main.c@49@macro@STATE_SW0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STATE_SW0",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "STATE_SW0",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:main.c@171@macro@VIOLET",
     "What": "MacroDef",
     "defdec": "Def",
@@ -10114,10 +11216,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "VIOLET",
+=======
+    "ID": "c:main.c@70@macro@STATE_SW4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STATE_SW4",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "STATE_SW4",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:main.c@192@macro@GREEN",
     "What": "MacroDef",
     "defdec": "Def",
@@ -10128,10 +11243,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "GREEN",
+=======
+    "ID": "c:main.c@91@macro@FLAG_NONE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLAG_NONE",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "FLAG_NONE",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:main.c@212@macro@YELLOW",
     "What": "MacroDef",
     "defdec": "Def",
@@ -10142,10 +11270,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "YELLOW",
+=======
+    "ID": "c:main.c@112@macro@FLAG_ONE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLAG_ONE",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "FLAG_ONE",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:main.c@233@macro@LIGHT_BLUE",
     "What": "MacroDef",
     "defdec": "Def",
@@ -10156,10 +11297,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "LIGHT_BLUE",
+=======
+    "ID": "c:main.c@134@macro@RED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RED",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "RED",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:main.c@258@macro@WHITE",
     "What": "MacroDef",
     "defdec": "Def",
@@ -10170,10 +11324,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "WHITE",
+=======
+    "ID": "c:main.c@152@macro@BLUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BLUE",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "BLUE",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@STATE",
     "What": "Variable",
     "defdec": "Def",
@@ -10184,10 +11351,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "STATE",
+=======
+    "ID": "c:main.c@171@macro@VIOLET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "VIOLET",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "VIOLET",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@FLAG",
     "What": "Variable",
     "defdec": "Def",
@@ -10198,10 +11378,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "FLAG",
+=======
+    "ID": "c:main.c@192@macro@GREEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GREEN",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "GREEN",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@result",
     "What": "Variable",
     "defdec": "Def",
@@ -10212,10 +11405,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "result",
+=======
+    "ID": "c:main.c@212@macro@YELLOW",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "YELLOW",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "YELLOW",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@LED_ON",
     "What": "Function",
     "defdec": "Dec",
@@ -10226,10 +11432,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "LED_ON",
+=======
+    "ID": "c:main.c@233@macro@LIGHT_BLUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LIGHT_BLUE",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "LIGHT_BLUE",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@LED_OFF",
     "What": "Function",
     "defdec": "Dec",
@@ -10240,10 +11459,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "LED_OFF",
+=======
+    "ID": "c:main.c@258@macro@WHITE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WHITE",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "WHITE",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@Switching",
     "What": "Function",
     "defdec": "Dec",
@@ -10254,10 +11486,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "Switching",
+=======
+    "ID": "c:@STATE",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "STATE",
+    "location": {
+      "column": "15",
+      "line": "17",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "STATE",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@Timer0A_Handler",
     "What": "Function",
     "defdec": "Def",
@@ -10268,10 +11513,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "Timer0A_Handler",
+=======
+    "ID": "c:@FLAG",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "FLAG",
+    "location": {
+      "column": "15",
+      "line": "18",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "FLAG",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@PortF_Handler",
     "What": "Function",
     "defdec": "Def",
@@ -10282,10 +11540,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "PortF_Handler",
+=======
+    "ID": "c:@result",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "result",
+    "location": {
+      "column": "15",
+      "line": "19",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "result",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@ADC0_Handler",
     "What": "Function",
     "defdec": "Def",
@@ -10296,10 +11567,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "ADC0_Handler",
+=======
+    "ID": "c:@F@LED_ON",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LED_ON(unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "21",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "LED_ON",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
@@ -10310,10 +11594,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "main",
+=======
+    "ID": "c:@F@LED_OFF",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LED_OFF(void)",
+    "location": {
+      "column": "6",
+      "line": "22",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "LED_OFF",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@LED_ON",
     "What": "Function",
     "defdec": "Def",
@@ -10324,10 +11621,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "LED_ON",
+=======
+    "ID": "c:@F@Switching",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Switching(void)",
+    "location": {
+      "column": "6",
+      "line": "23",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "Switching",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@LED_OFF",
     "What": "Function",
     "defdec": "Def",
@@ -10338,10 +11648,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "LED_OFF",
+=======
+    "ID": "c:@F@Timer0A_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Timer0A_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "25",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "Timer0A_Handler",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:@F@Switching",
     "What": "Function",
     "defdec": "Def",
@@ -10352,10 +11675,23 @@
       "path": "C:\\Users\\candy\\474Group8\\main.c"
     },
     "name": "Switching",
+=======
+    "ID": "c:@F@PortF_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PortF_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "32",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "PortF_Handler",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "origin": "project_file",
     "scope": null
   },
   {
+<<<<<<< HEAD
     "ID": "c:DLib_Defaults.h@1141@macro@_DLIB_DEFAULTS_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -10689,76 +12025,436 @@
     },
     "name": "__WEAK_DEFS",
     "origin": "user_include",
+=======
+    "ID": "c:@F@ADC0_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC0_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "42",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "ADC0_Handler",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:DLib_Config_Full.h@101@macro@_DLIB_CONFIG_H",
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "51",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LED_ON",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LED_ON(unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "66",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "LED_ON",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LED_OFF",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LED_OFF(void)",
+    "location": {
+      "column": "6",
+      "line": "72",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "LED_OFF",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Switching",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Switching(void)",
+    "location": {
+      "column": "6",
+      "line": "76",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
+    },
+    "name": "Switching",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@1141@macro@_DLIB_DEFAULTS_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_DLIB_CONFIG_H",
+    "display": "_DLIB_DEFAULTS_H",
     "location": {
       "column": "9",
-      "line": "5",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+      "line": "31",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
     },
+    "name": "_DLIB_DEFAULTS_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@3351@macro@_DLIB_STDOUT_USES_STATIC_BUFFER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STDOUT_USES_STATIC_BUFFER",
+    "location": {
+      "column": "11",
+      "line": "100",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_STDOUT_USES_STATIC_BUFFER",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@4517@macro@_DLIB_LOCALE_TABLE_MEMORY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_LOCALE_TABLE_MEMORY",
+    "location": {
+      "column": "11",
+      "line": "135",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_LOCALE_TABLE_MEMORY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@6764@macro@_DLIB_PRINTF_MULTIBYTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRINTF_MULTIBYTE",
+    "location": {
+      "column": "11",
+      "line": "213",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_PRINTF_MULTIBYTE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@7654@macro@_DLIB_PRINTF_INT_TYPE_IS_INT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRINTF_INT_TYPE_IS_INT",
+    "location": {
+      "column": "11",
+      "line": "238",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_PRINTF_INT_TYPE_IS_INT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@8240@macro@_DLIB_PRINTF_INT_TYPE_IS_LONG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRINTF_INT_TYPE_IS_LONG",
+    "location": {
+      "column": "11",
+      "line": "255",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_PRINTF_INT_TYPE_IS_LONG",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@9064@macro@_DLIB_PRINTF_CHAR_BY_CHAR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRINTF_CHAR_BY_CHAR",
+    "location": {
+      "column": "11",
+      "line": "277",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_PRINTF_CHAR_BY_CHAR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@9727@macro@_DLIB_SCANF_MULTIBYTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_SCANF_MULTIBYTE",
+    "location": {
+      "column": "11",
+      "line": "301",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_SCANF_MULTIBYTE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@10355@macro@_DLIB_STRFTIME_MULTIBYTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STRFTIME_MULTIBYTE",
+    "location": {
+      "column": "11",
+      "line": "321",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_STRFTIME_MULTIBYTE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@10920@macro@_DLIB_QSORT_USE_BUBBLE_SORT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_QSORT_USE_BUBBLE_SORT",
+    "location": {
+      "column": "11",
+      "line": "340",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_QSORT_USE_BUBBLE_SORT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@11459@macro@_DLIB_RAND_USE_SIMPLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_RAND_USE_SIMPLE",
+    "location": {
+      "column": "11",
+      "line": "365",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_RAND_USE_SIMPLE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@11636@macro@_DLIB_DEBUG_BREAK_FUNCTION_ATTRIBUTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_DEBUG_BREAK_FUNCTION_ATTRIBUTE",
+    "location": {
+      "column": "11",
+      "line": "374",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_DEBUG_BREAK_FUNCTION_ATTRIBUTE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@12339@macro@_DLIB_DATA_ATTR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_DATA_ATTR",
+    "location": {
+      "column": "11",
+      "line": "390",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_DATA_ATTR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@12425@macro@_DLIB_CONST_ATTR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_CONST_ATTR",
+    "location": {
+      "column": "13",
+      "line": "395",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_CONST_ATTR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@13017@macro@_DLIB_MBSTATET_USES_UNSIGNED_LONG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_MBSTATET_USES_UNSIGNED_LONG",
+    "location": {
+      "column": "15",
+      "line": "421",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_MBSTATET_USES_UNSIGNED_LONG",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@13192@macro@_DLIB_TIME_USES_LONG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_TIME_USES_LONG",
+    "location": {
+      "column": "15",
+      "line": "429",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_TIME_USES_LONG",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@13725@macro@_DLIB_AEABI_DIFUNC_CONTAINS_OFFSETS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_AEABI_DIFUNC_CONTAINS_OFFSETS",
+    "location": {
+      "column": "13",
+      "line": "443",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_AEABI_DIFUNC_CONTAINS_OFFSETS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@14311@macro@_DLIB_FAST_FMA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_FAST_FMA",
+    "location": {
+      "column": "11",
+      "line": "471",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_FAST_FMA",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@15181@macro@_DLIB_INCLUDE_DLMALLOC_ALTERNATIVE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_INCLUDE_DLMALLOC_ALTERNATIVE",
+    "location": {
+      "column": "13",
+      "line": "501",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+    "name": "_DLIB_INCLUDE_DLMALLOC_ALTERNATIVE",
+    "origin": "system_include",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Defaults.h@15546@macro@_DLIB_TIME_ALLOW_64",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_TIME_ALLOW_64",
+    "location": {
+      "column": "13",
+      "line": "523",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
+    },
+<<<<<<< HEAD
     "name": "_DLIB_CONFIG_H",
     "origin": "user_include",
+=======
+    "name": "_DLIB_TIME_ALLOW_64",
+    "origin": "system_include",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "scope": null
   },
   {
-    "ID": "c:DLib_Config_Full.h@210@macro@_DLIB_FULL_LOCALE_SUPPORT",
+    "ID": "c:DLib_Defaults.h@15735@macro@_DLIB_TIME_USES_64_DEFAULT",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_DLIB_FULL_LOCALE_SUPPORT",
+    "display": "_DLIB_TIME_USES_64_DEFAULT",
     "location": {
-      "column": "9",
-      "line": "12",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+      "column": "11",
+      "line": "537",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
     },
+<<<<<<< HEAD
     "name": "_DLIB_FULL_LOCALE_SUPPORT",
     "origin": "user_include",
+=======
+    "name": "_DLIB_TIME_USES_64_DEFAULT",
+    "origin": "system_include",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "scope": null
   },
   {
-    "ID": "c:DLib_Config_Full.h@286@macro@_DLIB_FILE_DESCRIPTOR",
+    "ID": "c:DLib_Defaults.h@15978@macro@_DLIB_ALLOW_LARGE_CONSTANT_TABLES_FOR_MATH",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_DLIB_FILE_DESCRIPTOR",
+    "display": "_DLIB_ALLOW_LARGE_CONSTANT_TABLES_FOR_MATH",
     "location": {
-      "column": "9",
-      "line": "15",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+      "column": "11",
+      "line": "548",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
     },
+<<<<<<< HEAD
     "name": "_DLIB_FILE_DESCRIPTOR",
     "origin": "user_include",
+=======
+    "name": "_DLIB_ALLOW_LARGE_CONSTANT_TABLES_FOR_MATH",
+    "origin": "system_include",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "scope": null
   },
   {
-    "ID": "c:DLib_Config_Full.h@355@macro@_DLIB_FORMATTED_MULTIBYTE",
+    "ID": "c:DLib_Defaults.h@16361@macro@__WEAK",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_DLIB_FORMATTED_MULTIBYTE",
+    "display": "__WEAK",
     "location": {
-      "column": "9",
-      "line": "18",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+      "column": "11",
+      "line": "565",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
     },
+<<<<<<< HEAD
     "name": "_DLIB_FORMATTED_MULTIBYTE",
     "origin": "user_include",
+=======
+    "name": "__WEAK",
+    "origin": "system_include",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "scope": null
   },
   {
-    "ID": "c:DLib_Config_Full.h@440@macro@_DLIB_STRTOD_HEX_FLOAT",
+    "ID": "c:DLib_Defaults.h@16415@macro@__WEAK_DEFS",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_DLIB_STRTOD_HEX_FLOAT",
+    "display": "__WEAK_DEFS",
     "location": {
-      "column": "9",
-      "line": "21",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+      "column": "11",
+      "line": "566",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Defaults.h"
     },
+<<<<<<< HEAD
     "name": "_DLIB_STRTOD_HEX_FLOAT",
     "origin": "user_include",
+=======
+    "name": "__WEAK_DEFS",
+    "origin": "system_include",
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     "scope": null
   },
   {
@@ -11109,6 +12805,76 @@
     },
     "name": "_CPPINIT_ATTR",
     "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Config_Full.h@101@macro@_DLIB_CONFIG_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_CONFIG_H",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+    },
+    "name": "_DLIB_CONFIG_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Config_Full.h@210@macro@_DLIB_FULL_LOCALE_SUPPORT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_FULL_LOCALE_SUPPORT",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+    },
+    "name": "_DLIB_FULL_LOCALE_SUPPORT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Config_Full.h@286@macro@_DLIB_FILE_DESCRIPTOR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_FILE_DESCRIPTOR",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+    },
+    "name": "_DLIB_FILE_DESCRIPTOR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Config_Full.h@355@macro@_DLIB_FORMATTED_MULTIBYTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_FORMATTED_MULTIBYTE",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+    },
+    "name": "_DLIB_FORMATTED_MULTIBYTE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Config_Full.h@440@macro@_DLIB_STRTOD_HEX_FLOAT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STRTOD_HEX_FLOAT",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Full.h"
+    },
+    "name": "_DLIB_STRTOD_HEX_FLOAT",
+    "origin": "system_include",
     "scope": null
   },
   {

@@ -16,7 +16,11 @@
         <ShowSource>1</ShowSource>
     </Trace1>
     <DebugChecksum>
+<<<<<<< HEAD
         <Checksum>3073680747</Checksum>
+=======
+        <Checksum>3783865936</Checksum>
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     </DebugChecksum>
     <CodeCoverage>
         <Enabled>_ 0</Enabled>
@@ -76,12 +80,6 @@
         <LMIFTDIserialNo>0E222462</LMIFTDIserialNo>
         <LMIFTDIfoundProbes />
     </LMIFTDIDriver>
-    <DisassembleMode>
-        <mode>0</mode>
-    </DisassembleMode>
-    <Breakpoints>
-        <Count>0</Count>
-    </Breakpoints>
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
@@ -91,16 +89,29 @@
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
+<<<<<<< HEAD
     <Aliases>
         <A0>_ "C:\Users\nikol\Documents\EE 474\github\474Group8\init.c" ""</A0>
         <A1>_ "C:\Users\nikol\Documents\EE 474\github\474Group8\main.c" ""</A1>
         <Count>2</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
+=======
+>>>>>>> 4e85aac90ae09791fe970ae9fba12092e992c364
     <CallStackLog>
         <Enabled>0</Enabled>
     </CallStackLog>
     <CallStackStripe>
         <ShowTiming>1</ShowTiming>
     </CallStackStripe>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints>
+        <Count>0</Count>
+    </Breakpoints>
+    <Aliases>
+        <Count>0</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
 </settings>
