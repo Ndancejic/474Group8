@@ -90,29 +90,11 @@ void Interrupt_Init(void)
   __enable_interrupt();  //enable global interrupts
 }
 
-void UART_Init(void)
+void UART_Init(int mhz)
 {
   //enabling clocks
   RCGCUART |= 0x01; //enables clock on UART0
   RCGCGPIO |= 0x1; //enables GPIO clock on portA
-  
-  UART0_CTL &= ~0x00000001; //disable UART0
-  UART0_IBRD = 104;
-  UART0_FBRD = 11;
-  UART0_LCRH = 0x00000060;
-  UART0_CTL |= 0x00000001; //enable UART0
-  UART0_CC = 0;
-  UART0_CTL |= 0x00000300; //enable transmit and recieve UART0
-  
-  //setting up GPIO
-  GPIO_AFSEL_PORTA |= 0x03; //alternate hardware functions
-  GPIO_DEN_PORTA |= 0x03;
-  GPIO_DIR_PORTA = 0x2;
-  GPIO_DR2R_PORTA &= ~0x03;
-  GPIO_DR4R_PORTA &= ~0x03;
-  GPIO_DR8R_PORTA |= 0x03;
-  GPIO_SLR_PORTA |= 0x03;
-  GPIO_PCTL_PORTA |= (GPIO_PCTL_PORTA&0xFFFFFF00) + 0x11;
   
   //finding the BaudRate
   //  double BaudRate;
@@ -124,4 +106,33 @@ void UART_Init(void)
   
   //BaudRate = 16000000/(16*16000000);
   //setting the Baud Rate
+  
+  UART0_CTL &= ~0x00000001; //disable UART0
+  if (mhz == 80) {
+    UART0_IBRD = 520;
+    UART0_FBRD = 54;
+  }
+  if (mhz == 16) {
+    UART0_IBRD = 104;
+    UART0_FBRD = 11;
+  }
+  if (mhz == 4) {
+    UART0_IBRD = 26;
+    UART0_FBRD = 3;
+  }
+  UART0_CC = 0;
+  UART0_LCRH = 0x00000060;
+  UART0_CTL |= 0x00000300; //enable transmit and recieve UART0
+  UART0_CTL |= 0x00000001; //enable UART0
+  
+  
+  //setting up GPIO
+  GPIO_AFSEL_PORTA |= 0x03; //alternate hardware functions
+  GPIO_DEN_PORTA |= 0x03;
+  GPIO_DIR_PORTA = 0x2;
+  //  GPIO_DR2R_PORTA &= ~0x03;
+  //  GPIO_DR4R_PORTA &= ~0x03;
+  //  GPIO_DR8R_PORTA |= 0x03;
+  //  GPIO_SLR_PORTA |= 0x03;
+  GPIO_PCTL_PORTA |= (GPIO_PCTL_PORTA&0xFFFFFF00) + 0x11; // configure PA0 and PA1 pins for UART functions
 }

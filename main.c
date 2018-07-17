@@ -5,6 +5,7 @@
 #define STATE_SW4 5
 #define FLAG_NONE 0
 #define FLAG_ONE 3
+#define FLAG_ADC 5
 
 #define RED 0x02
 #define BLUE 0x04
@@ -40,21 +41,21 @@ void PortF_Handler(void) {
 }
 
 void ADC0_Handler(void) {
+  FLAG = FLAG_ADC;
   while((ADC0_RIS&0x08)==0){};   // wait for conversion done
   result = ADC0_SSFIFO3&0xFFF;   // read result
-  result = 147.5-((74*(3.3)*result)/4096);
+  result = (long) (147.5-((74*(3.3)*result)/4096));
   while(UART0_FR&0x0020 != 0);
-  UART0_DR = 0x11;
+  UART0_DR = 1;
   ADC0_ISC = 0x0008;             // acknowledge completion
 }
 
 int main()
 {
-
   PortF_Init();
   Timer0_Init();
   PLL_Init(16);
-  UART_Init();
+  UART_Init(16);
   ADC_Init();
   Interrupt_Init();
   LED_OFF();
@@ -75,6 +76,15 @@ void LED_OFF(void) {
 
 void Switching(void) {
   while (1) {
+    //    if (FLAG == FLAG_ADC) {
+    //      while((ADC0_RIS&0x08)==0){};   // wait for conversion done
+    //      result = ADC0_SSFIFO3&0xFFF;   // read result
+    //      result = (long) (147.5-((74*(3.3)*result)/4096));
+    //      while(UART0_FR&0x0020 != 0);
+    //      UART0_DR = result;
+    //      FLAG = FLAG_NONE;
+    //    }
+    
     switch (GPIO_WRITE_PORTF & 0x11) {
     case 0x01: // switch 1
       STATE = STATE_SW0;
@@ -88,14 +98,14 @@ void Switching(void) {
     switch (STATE) {
     case STATE_SW0:
       PLL_Init(4);
-      UART_Init();
+      UART_Init(4);
       break;
     case STATE_SW4:
       PLL_Init(80);
-      UART_Init();
+      UART_Init(80);
       break;
     }
-
+    
     if (result > 0 && result <= 17) {
       LED_ON(RED);
     } else if (result > 17 && result <= 19) {
