@@ -1,22 +1,18 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.30.1.114/W32 for ARM                  16/Jul/2018  16:27:03
+# IAR ELF Linker V8.30.1.114/W32 for ARM                  16/Jul/2018  16:44:24
 # Copyright 2007-2018 IAR Systems AB.
 #
-#    Output file  =  
-#        C:\Users\nikol\Documents\EE 474\github\474Group8\Debug\Exe\Lab 3.out
-#    Map file     =  
-#        C:\Users\nikol\Documents\EE 474\github\474Group8\Debug\List\Lab 3.map
+#    Output file  =  C:\Users\candy\474Group8\Debug\Exe\Lab 3.out
+#    Map file     =  C:\Users\candy\474Group8\Debug\List\Lab 3.map
 #    Command line =  
-#        -f C:\Users\nikol\AppData\Local\Temp\EW2D83.tmp
-#        ("C:\Users\nikol\Documents\EE
-#        474\github\474Group8\Debug\Obj\cstartup_M.o"
-#        "C:\Users\nikol\Documents\EE 474\github\474Group8\Debug\Obj\main.o"
-#        --no_out_extension -o "C:\Users\nikol\Documents\EE
-#        474\github\474Group8\Debug\Exe\Lab 3.out" --redirect
+#        -f C:\Users\candy\AppData\Local\Temp\EW5163.tmp
+#        (C:\Users\candy\474Group8\Debug\Obj\cstartup_M.o
+#        C:\Users\candy\474Group8\Debug\Obj\main.o --no_out_extension -o
+#        "C:\Users\candy\474Group8\Debug\Exe\Lab 3.out" --redirect
 #        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
-#        "C:\Users\nikol\Documents\EE 474\github\474Group8\Debug\List\Lab
-#        3.map" --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        "C:\Users\candy\474Group8\Debug\List\Lab 3.map" --config "C:\Program
+#        Files (x86)\IAR Systems\Embedded Workbench
 #        8.1\arm\config\linker\TexasInstruments\TM4C123GH6.icf" --semihosting
 #        --entry __iar_program_start --vfe --text_out locale)
 #
@@ -131,7 +127,7 @@ command line/config:
     -------------------------------------------
     Total:
 
-C:\Users\nikol\Documents\EE 474\github\474Group8\Debug\Obj: [1]
+C:\Users\candy\474Group8\Debug\Obj: [1]
     cstartup_M.o           34      188
     main.o              1 400                12
     -------------------------------------------
@@ -228,7 +224,7 @@ main                          0x42f  0x28  Code  Gb  main.o [1]
 result                  0x2000'0008   0x4  Data  Gb  main.o [1]
 
 
-[1] = C:\Users\nikol\Documents\EE 474\github\474Group8\Debug\Obj
+[1] = C:\Users\candy\474Group8\Debug\Obj
 [2] = dl7M_tln.a
 [3] = m7M_tls.a
 [4] = rt7M_tl.a
