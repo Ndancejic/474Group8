@@ -44,7 +44,7 @@ void ADC0_Handler(void) {
   result = ADC0_SSFIFO3&0xFFF;   // read result
   result = 147.5-((74*(3.3)*result)/4096);
   while(UART0_FR&0x0020 != 0);
-  UART0_DR = result;
+  UART0_DR = 0x11;
   ADC0_ISC = 0x0008;             // acknowledge completion
 }
 
@@ -52,14 +52,13 @@ int main()
 {
 
   PortF_Init();
-  ADC_Init();
   Timer0_Init();
   PLL_Init(16);
   UART_Init();
+  ADC_Init();
   Interrupt_Init();
   LED_OFF();
   Switching();
-
   return 0;
 }
 
