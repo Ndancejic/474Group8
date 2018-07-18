@@ -12,7 +12,7 @@
         <ByteLimit>50</ByteLimit>
     </Stack>
     <LMIFTDIDriver>
-        <LMIFTDIserialNo>0E222694</LMIFTDIserialNo>
+        <LMIFTDIserialNo>0E222462</LMIFTDIserialNo>
         <LMIFTDIfoundProbes />
     </LMIFTDIDriver>
     <DebugChecksum>
