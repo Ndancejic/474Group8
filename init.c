@@ -32,12 +32,15 @@ void PLL_Init(int mhz) {
   CLK_RCC2 &= ~(0x7<<4); // set oscillator source to main oscillator, 000 OSCSRC2
   CLK_RCC2 &= ~(0x1<<13); // activate PLL by clearing PWRDN
   CLK_RCC2 |= (0x1<<30); // create a 7 bit divisor using the 400 MHz PLL output, DIV400
-  if (mhz == 80)
+  if (mhz == 80){
     CLK_RCC2 = (CLK_RCC2&~ 0x1FC00000) + (0x4<<22); // set desired system divider to /5, SYSDIV
-  if (mhz == 4)
+  }
+  if (mhz == 4){
     CLK_RCC2 = (CLK_RCC2&~ 0x1FC00000) + (0x63<<22); // set desired system divider to /100, SYSDIV
-  if (mhz == 16)
+  }
+  if (mhz == 16){
     CLK_RCC2 = (CLK_RCC2&~ 0x1FC00000) + (0x18<<22); // set desired system divider to /25, SYSDIV
+  }
   while ((RIS & (0x1<<6)) == 0) {}; // wait for the PLL to lock
   CLK_RCC2 &= ~(0x1<<11); // wait for the PLL to lock
 }

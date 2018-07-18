@@ -7,7 +7,7 @@
     "location": {
       "column": "13",
       "line": "15",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "__iar_program_start",
     "origin": "project_file",
@@ -21,7 +21,7 @@
     "location": {
       "column": "13",
       "line": "17",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "NMI_Handler",
     "origin": "project_file",
@@ -35,7 +35,7 @@
     "location": {
       "column": "13",
       "line": "18",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "HardFault_Handler",
     "origin": "project_file",
@@ -49,7 +49,7 @@
     "location": {
       "column": "13",
       "line": "19",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "MemManage_Handler",
     "origin": "project_file",
@@ -63,7 +63,7 @@
     "location": {
       "column": "13",
       "line": "20",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "BusFault_Handler",
     "origin": "project_file",
@@ -77,7 +77,7 @@
     "location": {
       "column": "13",
       "line": "21",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "UsageFault_Handler",
     "origin": "project_file",
@@ -91,7 +91,7 @@
     "location": {
       "column": "13",
       "line": "22",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "SVC_Handler",
     "origin": "project_file",
@@ -105,7 +105,7 @@
     "location": {
       "column": "13",
       "line": "23",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "DebugMon_Handler",
     "origin": "project_file",
@@ -119,7 +119,7 @@
     "location": {
       "column": "13",
       "line": "24",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "PendSV_Handler",
     "origin": "project_file",
@@ -133,7 +133,7 @@
     "location": {
       "column": "13",
       "line": "25",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "SysTick_Handler",
     "origin": "project_file",
@@ -147,7 +147,7 @@
     "location": {
       "column": "13",
       "line": "26",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "Timer0A_Handler",
     "origin": "project_file",
@@ -161,7 +161,7 @@
     "location": {
       "column": "13",
       "line": "27",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "PortF_Handler",
     "origin": "project_file",
@@ -175,7 +175,7 @@
     "location": {
       "column": "13",
       "line": "28",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "ADC0_Handler",
     "origin": "project_file",
@@ -189,7 +189,7 @@
     "location": {
       "column": "16",
       "line": "30",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "intfunc",
     "origin": "project_file",
@@ -203,7 +203,7 @@
     "location": {
       "column": "9",
       "line": "31",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "members": [
       {
@@ -214,7 +214,7 @@
         "location": {
           "column": "25",
           "line": "31",
-          "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+          "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
         },
         "name": "__fun",
         "origin": "project_file",
@@ -228,7 +228,7 @@
         "location": {
           "column": "39",
           "line": "31",
-          "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+          "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
         },
         "name": "__ptr",
         "origin": "project_file",
@@ -242,7 +242,7 @@
         "location": {
           "column": "48",
           "line": "31",
-          "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+          "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
         },
         "name": "intvec_elem",
         "origin": "project_file",
@@ -261,7 +261,7 @@
     "location": {
       "column": "19",
       "line": "44",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "__vector_table",
     "origin": "project_file",
@@ -275,7 +275,7 @@
     "location": {
       "column": "13",
       "line": "97",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "NMI_Handler",
     "origin": "project_file",
@@ -289,7 +289,7 @@
     "location": {
       "column": "13",
       "line": "99",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "HardFault_Handler",
     "origin": "project_file",
@@ -303,7 +303,7 @@
     "location": {
       "column": "13",
       "line": "101",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "MemManage_Handler",
     "origin": "project_file",
@@ -317,7 +317,7 @@
     "location": {
       "column": "13",
       "line": "103",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "BusFault_Handler",
     "origin": "project_file",
@@ -331,7 +331,7 @@
     "location": {
       "column": "13",
       "line": "105",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "UsageFault_Handler",
     "origin": "project_file",
@@ -345,7 +345,7 @@
     "location": {
       "column": "13",
       "line": "107",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "SVC_Handler",
     "origin": "project_file",
@@ -359,7 +359,7 @@
     "location": {
       "column": "13",
       "line": "109",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "DebugMon_Handler",
     "origin": "project_file",
@@ -373,7 +373,7 @@
     "location": {
       "column": "13",
       "line": "111",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "PendSV_Handler",
     "origin": "project_file",
@@ -387,7 +387,7 @@
     "location": {
       "column": "13",
       "line": "113",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "SysTick_Handler",
     "origin": "project_file",
@@ -401,7 +401,7 @@
     "location": {
       "column": "13",
       "line": "115",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "Timer0A_Handler",
     "origin": "project_file",
@@ -415,7 +415,7 @@
     "location": {
       "column": "13",
       "line": "117",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "PortF_Handler",
     "origin": "project_file",
@@ -429,7 +429,7 @@
     "location": {
       "column": "13",
       "line": "119",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "ADC0_Handler",
     "origin": "project_file",
@@ -443,7 +443,7 @@
     "location": {
       "column": "6",
       "line": "122",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "__cmain",
     "origin": "project_file",
@@ -457,7 +457,7 @@
     "location": {
       "column": "13",
       "line": "123",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "__iar_init_core",
     "origin": "project_file",
@@ -471,7 +471,7 @@
     "location": {
       "column": "13",
       "line": "124",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "__iar_init_vfp",
     "origin": "project_file",
@@ -485,7 +485,7 @@
     "location": {
       "column": "6",
       "line": "127",
-      "path": "C:\\Users\\candy\\474Group8\\cstartup_M.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\cstartup_M.c"
     },
     "name": "__iar_program_start",
     "origin": "project_file",
@@ -8010,7 +8010,7 @@
     "display": "void PortF_Init(void)",
     "location": {
       "column": "6",
-      "line": "45",
+      "line": "48",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
     },
     "name": "PortF_Init",
@@ -8024,7 +8024,7 @@
     "display": "void PortA_Init(void)",
     "location": {
       "column": "6",
-      "line": "57",
+      "line": "60",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
     },
     "name": "PortA_Init",
@@ -8038,7 +8038,7 @@
     "display": "void Timer0_Init(unsigned long)",
     "location": {
       "column": "6",
-      "line": "68",
+      "line": "71",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
     },
     "name": "Timer0_Init",
@@ -8052,7 +8052,7 @@
     "display": "void Interrupt_Init(void)",
     "location": {
       "column": "6",
-      "line": "78",
+      "line": "81",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
     },
     "name": "Interrupt_Init",
@@ -8066,7 +8066,7 @@
     "display": "void UART_Init(int)",
     "location": {
       "column": "6",
-      "line": "93",
+      "line": "96",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
     },
     "name": "UART_Init",
@@ -8074,13 +8074,13 @@
     "scope": null
   },
   {
-    "ID": "c:init.c@3478@F@UART_Init@i",
+    "ID": "c:init.c@3496@F@UART_Init@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "11",
-      "line": "97",
+      "line": "100",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
     },
     "name": "i",
@@ -8088,13 +8088,13 @@
     "scope": null
   },
   {
-    "ID": "c:init.c@3562@F@UART_Init@i",
+    "ID": "c:init.c@3580@F@UART_Init@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "11",
-      "line": "99",
+      "line": "102",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
     },
     "name": "i",
@@ -11672,41 +11672,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@70@macro@STATE_SW0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "STATE_SW0",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
-    },
-    "name": "STATE_SW0",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@91@macro@STATE_SW4",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "STATE_SW4",
-    "location": {
-      "column": "9",
-      "line": "6",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
-    },
-    "name": "STATE_SW4",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@112@macro@FLAG_NONE",
+    "ID": "c:main.c@70@macro@FLAG_NONE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "FLAG_NONE",
     "location": {
       "column": "9",
-      "line": "7",
+      "line": "5",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "FLAG_NONE",
@@ -11714,13 +11686,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@133@macro@FLAG_ONE",
+    "ID": "c:main.c@91@macro@FLAG_ONE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "FLAG_ONE",
     "location": {
       "column": "9",
-      "line": "8",
+      "line": "6",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "FLAG_ONE",
@@ -11728,13 +11700,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@153@macro@FLAG_ADC",
+    "ID": "c:main.c@111@macro@FLAG_ADC",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "FLAG_ADC",
     "location": {
       "column": "9",
-      "line": "9",
+      "line": "7",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "FLAG_ADC",
@@ -11742,13 +11714,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@175@macro@RED",
+    "ID": "c:main.c@133@macro@RED",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RED",
     "location": {
       "column": "9",
-      "line": "11",
+      "line": "9",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "RED",
@@ -11756,13 +11728,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@193@macro@BLUE",
+    "ID": "c:main.c@151@macro@BLUE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "BLUE",
     "location": {
       "column": "9",
-      "line": "12",
+      "line": "10",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "BLUE",
@@ -11770,13 +11742,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@212@macro@VIOLET",
+    "ID": "c:main.c@170@macro@VIOLET",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "VIOLET",
     "location": {
       "column": "9",
-      "line": "13",
+      "line": "11",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "VIOLET",
@@ -11784,13 +11756,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@233@macro@GREEN",
+    "ID": "c:main.c@191@macro@GREEN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GREEN",
     "location": {
       "column": "9",
-      "line": "14",
+      "line": "12",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "GREEN",
@@ -11798,13 +11770,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@253@macro@YELLOW",
+    "ID": "c:main.c@211@macro@YELLOW",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "YELLOW",
     "location": {
       "column": "9",
-      "line": "15",
+      "line": "13",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "YELLOW",
@@ -11812,13 +11784,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@274@macro@LIGHT_BLUE",
+    "ID": "c:main.c@232@macro@LIGHT_BLUE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LIGHT_BLUE",
     "location": {
       "column": "9",
-      "line": "16",
+      "line": "14",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "LIGHT_BLUE",
@@ -11826,13 +11798,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@299@macro@WHITE",
+    "ID": "c:main.c@257@macro@WHITE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "WHITE",
     "location": {
       "column": "9",
-      "line": "17",
+      "line": "15",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "WHITE",
@@ -11840,13 +11812,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@321@macro@MHZ16",
+    "ID": "c:main.c@279@macro@MHZ16",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "MHZ16",
     "location": {
       "column": "9",
-      "line": "19",
+      "line": "17",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "MHZ16",
@@ -11854,13 +11826,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@360@macro@MHZ80",
+    "ID": "c:main.c@318@macro@MHZ80",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "MHZ80",
     "location": {
       "column": "9",
-      "line": "20",
+      "line": "18",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "MHZ80",
@@ -11868,30 +11840,16 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@400@macro@MHZ4",
+    "ID": "c:main.c@358@macro@MHZ4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "MHZ4",
     "location": {
       "column": "9",
-      "line": "21",
+      "line": "19",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "MHZ4",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@STATE",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "STATE",
-    "location": {
-      "column": "15",
-      "line": "23",
-      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
-    },
-    "name": "STATE",
     "origin": "project_file",
     "scope": null
   },
@@ -11902,7 +11860,7 @@
     "display": "FLAG",
     "location": {
       "column": "15",
-      "line": "24",
+      "line": "21",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "FLAG",
@@ -11916,7 +11874,7 @@
     "display": "result",
     "location": {
       "column": "15",
-      "line": "25",
+      "line": "23",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "result",
@@ -11930,7 +11888,7 @@
     "display": "output",
     "location": {
       "column": "15",
-      "line": "26",
+      "line": "24",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "output",
@@ -11944,7 +11902,7 @@
     "display": "SerialFlag",
     "location": {
       "column": "5",
-      "line": "27",
+      "line": "26",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "SerialFlag",
@@ -11958,7 +11916,7 @@
     "display": "void LED_ON(unsigned int)",
     "location": {
       "column": "6",
-      "line": "29",
+      "line": "28",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "LED_ON",
@@ -11972,7 +11930,7 @@
     "display": "void LED_OFF(void)",
     "location": {
       "column": "6",
-      "line": "30",
+      "line": "29",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "LED_OFF",
@@ -11986,7 +11944,7 @@
     "display": "void Switching(void)",
     "location": {
       "column": "6",
-      "line": "31",
+      "line": "30",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "Switching",
@@ -12000,7 +11958,7 @@
     "display": "void transmit(char)",
     "location": {
       "column": "6",
-      "line": "33",
+      "line": "32",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "transmit",
@@ -12014,7 +11972,7 @@
     "display": "int recieve(void)",
     "location": {
       "column": "5",
-      "line": "38",
+      "line": "37",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "recieve",
@@ -12028,7 +11986,7 @@
     "display": "void Timer0A_Handler(void)",
     "location": {
       "column": "6",
-      "line": "43",
+      "line": "42",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "Timer0A_Handler",
@@ -12042,7 +12000,7 @@
     "display": "void PortF_Handler(void)",
     "location": {
       "column": "6",
-      "line": "50",
+      "line": "49",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "PortF_Handler",
@@ -12056,7 +12014,7 @@
     "display": "void ADC0_Handler(void)",
     "location": {
       "column": "6",
-      "line": "60",
+      "line": "70",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "ADC0_Handler",
@@ -12064,13 +12022,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1268@F@ADC0_Handler@ADCvalue",
+    "ID": "c:main.c@1500@F@ADC0_Handler@ADCvalue",
     "What": "Variable",
     "defdec": "Def",
     "display": "ADCvalue",
     "location": {
       "column": "17",
-      "line": "63",
+      "line": "73",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "ADCvalue",
@@ -12084,7 +12042,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "69",
+      "line": "79",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "main",
@@ -12098,7 +12056,7 @@
     "display": "void LED_ON(unsigned int)",
     "location": {
       "column": "6",
-      "line": "83",
+      "line": "93",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "LED_ON",
@@ -12112,7 +12070,7 @@
     "display": "void LED_OFF(void)",
     "location": {
       "column": "6",
-      "line": "89",
+      "line": "99",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "LED_OFF",
@@ -12126,7 +12084,7 @@
     "display": "void Switching(void)",
     "location": {
       "column": "6",
-      "line": "93",
+      "line": "103",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "Switching",
@@ -12134,13 +12092,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2976@F@Switching@tempResult",
+    "ID": "c:main.c@2671@F@Switching@tempResult",
     "What": "Variable",
     "defdec": "Def",
     "display": "tempResult",
     "location": {
       "column": "22",
-      "line": "139",
+      "line": "124",
       "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "tempResult",

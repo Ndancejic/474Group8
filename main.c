@@ -2,8 +2,6 @@
 #include "init.c"
 #include "ee474.h"
 
-#define STATE_SW0 4
-#define STATE_SW4 5
 #define FLAG_NONE 0
 #define FLAG_ONE 3
 #define FLAG_ADC 5
@@ -20,7 +18,6 @@
 #define MHZ80 (unsigned long)0x4C4B400
 #define MHZ4 (unsigned long)0x3D0900
 
-unsigned long STATE = 0;
 unsigned long FLAG = FLAG_NONE;
 
 unsigned long result = 0;
@@ -51,10 +48,21 @@ void Timer0A_Handler(void) {
 
 void PortF_Handler(void) {
   if (GPIO_WRITE_PORTF == 0x01) {
-    STATE = STATE_SW0;
+    //STATE = STATE_SW0;
+    ADC0_IM &= ~0x8;
+    PLL_Init(4);
+    UART_Init(4);
+    TIMER_VAL0 = MHZ4;  //set timer start to 4000000
+    ADC0_IM |= 0x8;
+    LED_ON(RED);
   }
   if (GPIO_WRITE_PORTF == 0x10) {
-    STATE = STATE_SW4;
+    //STATE = STATE_SW4;
+    ADC0_IM &= ~0x8;
+    PLL_Init(80);
+    UART_Init(80);
+    TIMER_VAL0 = MHZ80;  //set timer start to 4000000
+    ADC0_IM |= 0x8;   
   }
   GPIO_ICR_PORTF |= 0x11; // clear the interrupt flag before return
 }
@@ -93,32 +101,7 @@ void LED_OFF(void) {
 }
 
 void Switching(void) {
-  while (1) {    
-    switch (GPIO_WRITE_PORTF & 0x11) {
-    case 0x01: // switch 1
-      STATE = STATE_SW0;
-      break;
-    case 0x10: // switch 2
-      STATE = STATE_SW4;
-      break;
-    default:
-      break;
-    }
-    switch (STATE) {
-    case STATE_SW0:
-      PLL_Init(4);
-      UART_Init(4);
-      TIMER_EN &= ~0x01; //disable Timer0
-      Timer0_Init(MHZ4);
-      break;
-    case STATE_SW4:
-      PLL_Init(80);
-      UART_Init(80);
-      TIMER_EN &= ~0x01; //disable Timer0
-      Timer0_Init(MHZ80);
-      break;
-    }
-    
+  while (1) {      
     if (result > 0 && result <= 17) {
       LED_ON(RED);
     } else if (result > 17 && result <= 19) {
@@ -140,13 +123,12 @@ void Switching(void) {
     if(FLAG == FLAG_ADC){
       unsigned short tempResult = (unsigned short)result;
       output[0] = tempResult/10 + 0x30;  // tens digit
-      tempResult = tempResult%10;               // n is now between 0 and 9
+      tempResult = tempResult%10;
       output[1] = tempResult + 0x30;     // ones digit
       output[2] = 0;            // null termination
       transmit(output[0]);
       transmit(output[1]);
+      FLAG = FLAG_NONE;
     }
-    
-    FLAG = FLAG_NONE;
   }
 }
