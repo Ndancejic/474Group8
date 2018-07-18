@@ -1,3 +1,4 @@
+#include <stdint.h>
 #include "init.c"
 #include "ee474.h"
 
@@ -15,13 +16,31 @@
 #define LIGHT_BLUE 0x0C
 #define WHITE 0x0E
 
+#define MHZ16 (unsigned long)0xF42400
+#define MHZ80 (unsigned long)0x4C4B400
+#define MHZ4 (unsigned long)0x3D0900
+
 unsigned long STATE = 0;
 unsigned long FLAG = FLAG_NONE;
+
 unsigned long result = 0;
+unsigned char output[3];
+
+int SerialFlag = 0;
 
 void LED_ON(unsigned int color);
 void LED_OFF(void);
 void Switching(void);
+
+void transmit(char data){
+  while(UART0_FR&0x0020 != 0);
+  UART0_DR = data;
+}
+
+int recieve(){
+  while(UART0_FR&0x0010 != 0);
+  return ((int) (UART0_DR&0xFF));
+}
 
 void Timer0A_Handler(void) {
   FLAG = FLAG_ONE;
@@ -43,17 +62,16 @@ void PortF_Handler(void) {
 void ADC0_Handler(void) {
   FLAG = FLAG_ADC;
   while((ADC0_RIS&0x08)==0){};   // wait for conversion done
-  result = ADC0_SSFIFO3&0xFFF;   // read result
-  result = (long) (147.5-((74*(3.3)*result)/4096));
-  while(UART0_FR&0x0020 != 0);
-  UART0_DR = 1;
+  unsigned long ADCvalue = ADC0_SSFIFO3&0xFFF;   // read result
+  result = (long) (147.5-((74*(3.3)*ADCvalue)/4096));
   ADC0_ISC = 0x0008;             // acknowledge completion
+  ADC0_DCISC |=0x8;
 }
 
 int main()
 {
   PortF_Init();
-  Timer0_Init();
+  Timer0_Init(MHZ16);
   PLL_Init(16);
   UART_Init(16);
   ADC_Init();
@@ -75,16 +93,7 @@ void LED_OFF(void) {
 }
 
 void Switching(void) {
-  while (1) {
-    //    if (FLAG == FLAG_ADC) {
-    //      while((ADC0_RIS&0x08)==0){};   // wait for conversion done
-    //      result = ADC0_SSFIFO3&0xFFF;   // read result
-    //      result = (long) (147.5-((74*(3.3)*result)/4096));
-    //      while(UART0_FR&0x0020 != 0);
-    //      UART0_DR = result;
-    //      FLAG = FLAG_NONE;
-    //    }
-    
+  while (1) {    
     switch (GPIO_WRITE_PORTF & 0x11) {
     case 0x01: // switch 1
       STATE = STATE_SW0;
@@ -99,10 +108,14 @@ void Switching(void) {
     case STATE_SW0:
       PLL_Init(4);
       UART_Init(4);
+      TIMER_EN &= ~0x01; //disable Timer0
+      Timer0_Init(MHZ4);
       break;
     case STATE_SW4:
       PLL_Init(80);
       UART_Init(80);
+      TIMER_EN &= ~0x01; //disable Timer0
+      Timer0_Init(MHZ80);
       break;
     }
     
@@ -123,5 +136,17 @@ void Switching(void) {
     } else {
       LED_OFF();
     }
+    
+    if(FLAG == FLAG_ADC){
+      unsigned short tempResult = (unsigned short)result;
+      output[0] = tempResult/10 + 0x30;  // tens digit
+      tempResult = tempResult%10;               // n is now between 0 and 9
+      output[1] = tempResult + 0x30;     // ones digit
+      output[2] = 0;            // null termination
+      transmit(output[0]);
+      transmit(output[1]);
+    }
+    
+    FLAG = FLAG_NONE;
   }
 }

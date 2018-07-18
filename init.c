@@ -65,12 +65,12 @@ void PortA_Init(void)
 }
 
 //timer initialization
-void Timer0_Init(void){
+void Timer0_Init(unsigned long mhz){
   TIMER_EN |= 0x01; //enable Timer0
   TIMER_DIS0 &= ~0x01;//Ensure that timer is disbled
   TIMER_CON0 = 0x00000000;  //select 32-bit timer
   TIMER_MODE0 |= 0x12;  //configure TAMR field in GPTMTAMR (set to periodic and count down)
-  TIMER_VAL0 = 0xF42400;  //set timer start to 16000000
+  TIMER_VAL0 = mhz;  //set timer start to 16000000
   TIMER_INT0 |= 0x1F;  //enable Interrupts
   TIMER_DIS0 |= 0x11;  //enable the timer and output interrupt
 }
@@ -94,18 +94,9 @@ void UART_Init(int mhz)
 {
   //enabling clocks
   RCGCUART |= 0x01; //enables clock on UART0
+  for(int i = 0; i < 100; i ++);
   RCGCGPIO |= 0x1; //enables GPIO clock on portA
-  
-  //finding the BaudRate
-  //  double BaudRate;
-  //  unsigned long ClkDiv = ((CLK_RCC2&0x1F800000)>>23);
-  //  BaudRate = 16000000/(16*ClkDiv);
-  //  unsigned int BaudRateInt = (int)BaudRate;
-  //  double BaudRateDec = (BaudRate - (double)BaudRateInt);
-  //  BaudRateDec = (int)(BaudRateDec * 64);
-  
-  //BaudRate = 16000000/(16*16000000);
-  //setting the Baud Rate
+  for(int i = 0; i < 100; i ++);
   
   UART0_CTL &= ~0x00000001; //disable UART0
   if (mhz == 80) {
@@ -131,9 +122,11 @@ void UART_Init(int mhz)
   GPIO_DEN_PORTA |= 0x03;
   GPIO_DIR_PORTA = 0x2;
 
-  //  GPIO_DR2R_PORTA &= ~0x03;
-  //  GPIO_DR4R_PORTA &= ~0x03;
-  //  GPIO_DR8R_PORTA |= 0x03;
-  //  GPIO_SLR_PORTA |= 0x03;
+  GPIO_DR2R_PORTA &= ~0x03;
+  GPIO_DR4R_PORTA &= ~0x03;
+  GPIO_DR8R_PORTA |= 0x03;
+  GPIO_SLR_PORTA |= 0x03;
   GPIO_PCTL_PORTA |= (GPIO_PCTL_PORTA&0xFFFFFF00) + 0x11; // configure PA0 and PA1 pins for UART functions
+  while(GPIO_DATA_PORTA&0x2 != 0x2);
+  GPIO_DATA_PORTA = 0;
 }

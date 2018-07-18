@@ -19,7 +19,6 @@
 #define GPIO_DR4R_PORTA (*((unsigned int *)0x40004504)) //Port A drive control 4mA
 #define GPIO_DR8R_PORTA (*((unsigned int *)0x40004508)) //Port A drive control 8mA
 #define GPIO_SLR_PORTA (*((unsigned int *)0x40004518)) //Port A slew rate
-#define GPIO_DATA_PORTA (*((unsigned int *)0x400043fc)) //Port A data
 
 //PortE:
 #define GPIO_DIR_PORTE (*((unsigned int *)0x40024400)) //GPIO direction Port F
@@ -102,6 +101,7 @@
 #define ADC0_RIS (*((unsigned int *)0x40038004))
 #define ADC0_PSSI (*((unsigned int *)0x40038028))
 #define ADC0_SSFIFO3 (*((unsigned int *)0x400380A8)) //Conversion Result Data, ADC code
+#define ADC0_DCISC (*((unsigned int *)0x40038034)) //Conversion Result Data, ADC code
 
 //board Clock
 #define CLK_RCC (*((unsigned int *)0x400FE060)) // Run-Mode Clock Configuration
