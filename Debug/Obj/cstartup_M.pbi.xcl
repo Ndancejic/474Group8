@@ -1,13 +1,13 @@
-"C:\Users\nikol\Documents\EE 474\github\474Group8\cstartup_M.c"
+"C:\Users\candy\474Group8\cstartup_M.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-C:\Users\nikol\Documents\EE 474\github\474Group8
+C:\Users\candy\474Group8
 -I
 C:\TI-CMSIS-Devices-8636\TI\LM4F\Include
 -I
-C:\ti\TivaWare_C_Series-2.1.3.156
+C:\ti\TivaWare_C_Series-2.1.4.178
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\inc
 -I
@@ -15,7 +15,7 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\inc\c
 -I
 C:\TI-CMSIS-Devices-8636\TI\LM4F\Include
 -I
-C:\ti\TivaWare_C_Series-2.1.3.156
+C:\ti\TivaWare_C_Series-2.1.4.178
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

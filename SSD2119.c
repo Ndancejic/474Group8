@@ -75,8 +75,8 @@ typedef struct {
 TODO: Please fill the information based on the datasheet
 ******************************************************************/
 // TODO: dimensions of the LCD in pixels
-#define LCD_HEIGHT 208     
-#define LCD_WIDTH 302      
+#define LCD_HEIGHT 240
+#define LCD_WIDTH 320  
 
 
 
@@ -187,7 +187,7 @@ void LCD_GPIOInit(void){
   unsigned long wait = 0;
   
   SYSCTL_RCGC2_R |= SYSCTL_RCGC2_GPIOB;  // activate parallel data pins
-  GPIO_PORTB_DIR_R |= 0xFF;              // activate port B
+//  GPIO_PORTB_DIR_R |= 0xFF;              // activate port B
   wait++;                                // wait for port activation
   wait++;                                // wait for port activation
   GPIO_PORTB_DIR_R |= 0xFF;              // make PB0-7 outputs
@@ -201,9 +201,9 @@ void LCD_GPIOInit(void){
   wait++;                                // wait for port activation
   GPIO_PORTA_DIR_R |= 0xF0;              // make PA4-7 outputs
   GPIO_PORTA_AFSEL_R &= ~0xF0;           // disable alternate functions 
-  GPIO_PORTB_DEN_R |= 0xF0;              // enable digital I/O on PA4-7
+  GPIO_PORTA_DEN_R |= 0xF0;              // enable digital I/O on PA4-7
   GPIO_PORTA_DR8R_R |= 0xF0; 
-  GPIO_PORTA_PCTL_R |= 0x11111111;
+  GPIO_PORTA_PCTL_R |= 0x00000000;
   LCD_CTRL |= 0xFF;
   
   
@@ -219,17 +219,17 @@ void LCD_GPIOInit(void){
 //  PA6     RS  Register/Data select signal     | CS  | RS  | WR  | RD  |
 //  PA7     CS  Chip select signal              -------------------------
 void LCD_WriteCommand(unsigned char data){volatile unsigned long delay;
-LCD_CTRL |= 0x30;  // Set CS=0, RS=0, WR=1, RD=1 for LCD_CTRL
+LCD_CTRL = 0x30;  // Set CS=0, RS=0, WR=1, RD=1 for LCD_CTRL
 LCD_DATA = 0;     // Write 0 as MSB of command data for LCD_DATA
 delay++;
-LCD_CTRL |= 0x10;  // Set WR low for LCD_CTRL
+LCD_CTRL = 0x10;  // Set WR low for LCD_CTRL
 delay++;
-LCD_CTRL |= 0x30;  // Set WR high for LCD_CTRL  
+LCD_CTRL = 0x30;  // Set WR high for LCD_CTRL  
 LCD_DATA = data;  // Write data as LSB of command data for LCD_DATA
 delay++;
-LCD_CTRL |= 0x10;  // Set WR low for LCD_CTRL
+LCD_CTRL = 0x10;  // Set WR low for LCD_CTRL
 delay++;
-LCD_CTRL |= 0xF0;  // Set all high for LCD_CTRL
+LCD_CTRL = 0xF0;  // Set all high for LCD_CTRL
 }
 
 // ************** LCD_WriteData ***************************

@@ -1,6 +1,7 @@
 #include <stdint.h>
 #include "init.c"
 #include "ee474.h"
+#include "SSD2119.h"
 
 #define FLAG_NONE 0
 #define FLAG_ONE 3
@@ -85,6 +86,12 @@ int main()
   ADC_Init();
   Interrupt_Init();
   LED_OFF();
+  LCD_Init();
+  while (1) {
+    LCD_ColorFill(((0xFF>>3)<<11) | ((0xFF>>2)<<5) | (0x55>>3));
+//  LCD_SetCursor(0, 0)
+//  LCD_PrintChar('1');
+  }
   Switching();
   return 0;
 }
