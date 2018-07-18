@@ -89,6 +89,7 @@
 //ADC
 #define ADC_CLK_EN (*((unsigned int *)0x400FE638)) //ADC Clock enable
 #define ADC_RCGC0 (*((unsigned int *)0x400FE100)) //ADC Clock enable
+#define ADC0_DCISC_R (*((unsigned int *)0x40038034)) //ADC Clock enable
 
 //sequencer
 #define ADC0_SSPRI (*((unsigned int *)0x400FE020)) //sequencer priority

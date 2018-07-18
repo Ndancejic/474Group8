@@ -16,7 +16,7 @@
         <LMIFTDIfoundProbes />
     </LMIFTDIDriver>
     <DebugChecksum>
-        <Checksum>756255330</Checksum>
+        <Checksum>1443699609</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -26,14 +26,56 @@
         <ShowArgs>0</ShowArgs>
     </CallStack>
     <Disassembly>
+        <InstrCount>0</InstrCount>
         <MixedMode>1</MixedMode>
     </Disassembly>
-    <DisassembleMode>
-        <mode>0</mode>
-    </DisassembleMode>
-    <Breakpoints>
+    <CodeCoverage>
+        <Enabled>_ 0</Enabled>
+    </CodeCoverage>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>1</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <InterruptLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <DataLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <Breakpoints2>
         <Count>0</Count>
-    </Breakpoints>
+    </Breakpoints2>
+    <Interrupts>
+        <Enabled>1</Enabled>
+    </Interrupts>
+    <MemConfig>
+        <Base>1</Base>
+        <Manual>0</Manual>
+        <Ddf>1</Ddf>
+        <TypeViol>0</TypeViol>
+        <Stop>1</Stop>
+    </MemConfig>
+    <Simulator>
+        <Freq>10000000</Freq>
+        <FreqHi>0</FreqHi>
+        <MultiCoreRunAll>1</MultiCoreRunAll>
+    </Simulator>
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
@@ -43,16 +85,22 @@
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
-    <Aliases>
-        <A0>_ "C:\Users\nikol\Documents\EE 474\github\474Group8\init.c" ""</A0>
-        <A1>_ "C:\Users\nikol\Documents\EE 474\github\474Group8\main.c" ""</A1>
-        <Count>2</Count>
-        <SuppressDialog>0</SuppressDialog>
-    </Aliases>
     <CallStackLog>
         <Enabled>0</Enabled>
     </CallStackLog>
     <CallStackStripe>
         <ShowTiming>1</ShowTiming>
     </CallStackStripe>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints>
+        <Count>0</Count>
+    </Breakpoints>
+    <Aliases>
+        <A0>_ "C:\Users\nikol\Documents\EE 474\github\474Group8\init.c" ""</A0>
+        <A1>_ "C:\Users\nikol\Documents\EE 474\github\474Group8\main.c" ""</A1>
+        <Count>2</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
 </settings>

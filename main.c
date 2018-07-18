@@ -1,8 +1,12 @@
+#include <stdint.h>
 #include "init.c"
 #include "ee474.h"
+#include "SSD2119.h"
 
 #define STATE_SW0 4
 #define STATE_SW4 5
+#define STATE_NONE 1
+
 #define FLAG_NONE 0
 #define FLAG_ONE 3
 #define FLAG_ADC 5
@@ -46,8 +50,9 @@ void ADC0_Handler(void) {
   result = ADC0_SSFIFO3&0xFFF;   // read result
   result = (long) (147.5-((74*(3.3)*result)/4096));
   while(UART0_FR&0x0020 != 0);
-  UART0_DR = 1;
-  ADC0_ISC = 0x0008;             // acknowledge completion
+  UART0_DR = 'a';
+  ADC0_ISC |= 0x0008;             // acknowledge completion
+  ADC0_DCISC_R |= 0x8;            // reset
 }
 
 int main()
@@ -76,15 +81,15 @@ void LED_OFF(void) {
 
 void Switching(void) {
   while (1) {
-    //    if (FLAG == FLAG_ADC) {
-    //      while((ADC0_RIS&0x08)==0){};   // wait for conversion done
-    //      result = ADC0_SSFIFO3&0xFFF;   // read result
-    //      result = (long) (147.5-((74*(3.3)*result)/4096));
-    //      while(UART0_FR&0x0020 != 0);
-    //      UART0_DR = result;
-    //      FLAG = FLAG_NONE;
-    //    }
-    
+//    if (FLAG == FLAG_ADC) {
+//      while((ADC0_RIS&0x08)==0){};   // wait for conversion done
+//      result = ADC0_SSFIFO3&0xFFF;   // read result
+//      result = (long) (147.5-((74*(3.3)*result)/4096));
+//      while(UART0_FR&0x0020 != 0);
+//      UART0_DR = 'a';
+//      ADC0_ISC |= 0x0008;             // acknowledge completion
+//      FLAG = FLAG_NONE;
+//    }
     switch (GPIO_WRITE_PORTF & 0x11) {
     case 0x01: // switch 1
       STATE = STATE_SW0;
@@ -99,10 +104,12 @@ void Switching(void) {
     case STATE_SW0:
       PLL_Init(4);
       UART_Init(4);
+      STATE = STATE_NONE;
       break;
     case STATE_SW4:
       PLL_Init(80);
       UART_Init(80);
+      STATE = STATE_NONE;
       break;
     }
     

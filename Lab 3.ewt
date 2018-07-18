@@ -2375,4 +2375,10 @@
     <file>
         <name>$PROJ_DIR$\main.c</name>
     </file>
+    <file>
+        <name>$PROJ_DIR$\SSD2119.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\SSD2119.h</name>
+    </file>
 </project>
