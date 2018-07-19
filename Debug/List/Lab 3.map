@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.30.1.114/W32 for ARM                  18/Jul/2018  21:41:14
+# IAR ELF Linker V8.30.1.114/W32 for ARM                  18/Jul/2018  21:49:48
 # Copyright 2007-2018 IAR Systems AB.
 #
 #    Output file  =  
@@ -8,7 +8,7 @@
 #    Map file     =  
 #        C:\Users\nikol\Documents\EE 474\github\474Group8\Debug\List\Lab 3.map
 #    Command line =  
-#        -f C:\Users\nikol\AppData\Local\Temp\EW897A.tmp
+#        -f C:\Users\nikol\AppData\Local\Temp\EW618B.tmp
 #        ("C:\Users\nikol\Documents\EE
 #        474\github\474Group8\Debug\Obj\cstartup_M.o"
 #        "C:\Users\nikol\Documents\EE 474\github\474Group8\Debug\Obj\main.o"
@@ -58,37 +58,37 @@ define block HEAP with size = 8K, alignment = 8 { };
   .intvec          const            0x0    0xbc  cstartup_M.o [1]
                                  - 0xbc    0xbc
 
-"P1":                                    0x1336
+"P1":                                    0x135e
   .text            ro code         0xbc   0x538  SSD2119.o [1]
-  .text            ro code        0x5f4   0x498  main.o [1]
-  .text            ro code        0xa8c    0x1a  U32ToDbl.o [3]
-  .text            ro code        0xaa6    0x3a  zero_init3.o [4]
-  .text            ro code        0xae0   0x1a2  DblMul.o [3]
-  .text            ro code        0xc82     0x2  cstartup_M.o [1]
-  .text            ro code        0xc84   0x246  DblDiv.o [3]
-  .text            ro code        0xeca     0x2  cstartup_M.o [1]
-  .text            ro code        0xecc    0xe2  DblSub.o [3]
-  .text            ro code        0xfae     0x2  cstartup_M.o [1]
-  .text            ro code        0xfb0    0x3a  DblToS32.o [3]
-  .text            ro code        0xfea     0x2  cstartup_M.o [1]
-  .text            ro code        0xfec   0x16a  DblAdd.o [3]
-  .text            ro code       0x1156     0x2  cstartup_M.o [1]
-  .rodata          const         0x1158   0x1e0  SSD2119.o [1]
-  .text            ro code       0x1338    0x28  data_init.o [4]
-  .text            ro code       0x1360    0x22  fpinit_M.o [3]
-  .iar.init_table  const         0x1384    0x10  - Linker created -
-  .text            ro code       0x1394     0x2  cstartup_M.o [1]
-  .text            ro code       0x1398    0x1e  cmain.o [4]
-  .text            ro code       0x13b6     0x4  low_level_init.o [2]
-  .text            ro code       0x13ba     0x4  exit.o [2]
-  .text            ro code       0x13be     0x2  cstartup_M.o [1]
-  .text            ro code       0x13c0     0xa  cexit.o [4]
-  .text            ro code       0x13ca     0x2  cstartup_M.o [1]
-  .text            ro code       0x13cc    0x14  exit.o [5]
-  .text            ro code       0x13e0    0x10  cstartup_M.o [1]
-  .text            ro code       0x13f0     0x2  cstartup_M.o [1]
-  .rodata          const         0x13f2     0x0  zero_init3.o [4]
-                               - 0x13f2  0x1336
+  .text            ro code        0x5f4   0x4c0  main.o [1]
+  .text            ro code        0xab4    0x1a  U32ToDbl.o [3]
+  .text            ro code        0xace    0x3a  zero_init3.o [4]
+  .text            ro code        0xb08   0x1a2  DblMul.o [3]
+  .text            ro code        0xcaa     0x2  cstartup_M.o [1]
+  .text            ro code        0xcac   0x246  DblDiv.o [3]
+  .text            ro code        0xef2     0x2  cstartup_M.o [1]
+  .text            ro code        0xef4    0xe2  DblSub.o [3]
+  .text            ro code        0xfd6     0x2  cstartup_M.o [1]
+  .text            ro code        0xfd8    0x3a  DblToS32.o [3]
+  .text            ro code       0x1012     0x2  cstartup_M.o [1]
+  .text            ro code       0x1014   0x16a  DblAdd.o [3]
+  .text            ro code       0x117e     0x2  cstartup_M.o [1]
+  .rodata          const         0x1180   0x1e0  SSD2119.o [1]
+  .text            ro code       0x1360    0x28  data_init.o [4]
+  .text            ro code       0x1388    0x22  fpinit_M.o [3]
+  .iar.init_table  const         0x13ac    0x10  - Linker created -
+  .text            ro code       0x13bc     0x2  cstartup_M.o [1]
+  .text            ro code       0x13c0    0x1e  cmain.o [4]
+  .text            ro code       0x13de     0x4  low_level_init.o [2]
+  .text            ro code       0x13e2     0x4  exit.o [2]
+  .text            ro code       0x13e6     0x2  cstartup_M.o [1]
+  .text            ro code       0x13e8     0xa  cexit.o [4]
+  .text            ro code       0x13f2     0x2  cstartup_M.o [1]
+  .text            ro code       0x13f4    0x14  exit.o [5]
+  .text            ro code       0x1408    0x10  cstartup_M.o [1]
+  .text            ro code       0x1418     0x2  cstartup_M.o [1]
+  .rodata          const         0x141a     0x0  zero_init3.o [4]
+                               - 0x141a  0x135e
 
 "P2", part 1 of 2:                         0x10
   .bss             zero     0x2000'0000     0x4  main.o [1]
@@ -107,7 +107,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-       0x13f2     0x3'ffff  0x3'ec0e
+       0x141a     0x3'ffff  0x3'ebe6
   0x2000'1010  0x2000'7fff    0x6ff0
 
 
@@ -136,9 +136,9 @@ command line/config:
 C:\Users\nikol\Documents\EE 474\github\474Group8\Debug\Obj: [1]
     SSD2119.o           1 336      480        6
     cstartup_M.o           34      188
-    main.o              1 176                 8
+    main.o              1 216                 8
     -------------------------------------------
-    Total:              2 546      668       14
+    Total:              2 586      668       14
 
 dl7M_tln.a: [2]
     exit.o                  4
@@ -173,7 +173,7 @@ shb_l.a: [5]
     Gaps                    2        2
     Linker created                  16    4 096
 -----------------------------------------------
-    Grand Total:        4 420      686    4 110
+    Grand Total:        4 460      686    4 110
 
 
 *******************************************************************************
@@ -182,16 +182,16 @@ shb_l.a: [5]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
-.iar.init_table$$Base        0x1384          --   Gb  - Linker created -
-.iar.init_table$$Limit       0x1394          --   Gb  - Linker created -
-?main                        0x1399         Code  Gb  cmain.o [4]
-ADC0_Handler                  0x8eb   0x54  Code  Gb  main.o [1]
+.iar.init_table$$Base        0x13ac          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x13bc          --   Gb  - Linker created -
+?main                        0x13c1         Code  Gb  cmain.o [4]
+ADC0_Handler                  0x913   0x54  Code  Gb  main.o [1]
 ADC_Init                      0x5f5   0xa2  Code  Gb  main.o [1]
-ASCII                        0x1158  0x1e0  Data  Lc  SSD2119.o [1]
+ASCII                        0x1180  0x1e0  Data  Lc  SSD2119.o [1]
 CSTACK$$Base            0x2000'0010          --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'1010          --   Gb  - Linker created -
 FLAG                    0x2000'0000    0x4  Data  Gb  main.o [1]
-Interrupt_Init                0x753   0x32  Code  Gb  main.o [1]
+Interrupt_Init                0x75f   0x3a  Code  Gb  main.o [1]
 LCD_ColorFill                 0x3a9   0x16  Code  Gb  SSD2119.o [1]
 LCD_DrawFilledRect            0x57d   0x62  Code  Gb  SSD2119.o [1]
 LCD_DrawPixel                 0x549   0x34  Code  Gb  SSD2119.o [1]
@@ -201,41 +201,41 @@ LCD_PrintChar                 0x3bf   0xcc  Code  Gb  SSD2119.o [1]
 LCD_PrintInteger              0x4ad   0x6a  Code  Gb  SSD2119.o [1]
 LCD_SetCursor                 0x48b    0xe  Code  Gb  SSD2119.o [1]
 LCD_SetTextColor              0x499   0x14  Code  Gb  SSD2119.o [1]
+LCD_Switch                    0x9a9   0x28  Code  Gb  main.o [1]
 LCD_WriteCommand              0x15d   0x42  Code  Gb  SSD2119.o [1]
 LCD_WriteData                 0x19f   0x48  Code  Gb  SSD2119.o [1]
-LED_ON                        0x973    0xe  Code  Gb  main.o [1]
+LED_ON                        0x99b    0xe  Code  Gb  main.o [1]
 PLL_Init                      0x697   0x80  Code  Gb  main.o [1]
-PortF_Handler                 0x881   0x6a  Code  Gb  main.o [1]
-Region$$Table$$Base          0x1384          --   Gb  - Linker created -
-Region$$Table$$Limit         0x1394          --   Gb  - Linker created -
-Switching                     0x981   0x28  Code  Gb  main.o [1]
-Timer0A_Handler               0x869   0x18  Code  Gb  main.o [1]
-Timer0_Init                   0x717   0x3c  Code  Gb  main.o [1]
-UART_Init                     0x785   0xe4  Code  Gb  main.o [1]
-__aeabi_d2iz                  0xfb1         Code  Gb  DblToS32.o [3]
-__aeabi_ddiv                  0xc85         Code  Gb  DblDiv.o [3]
-__aeabi_dmul                  0xae1         Code  Gb  DblMul.o [3]
-__aeabi_dsub                  0xecd         Code  Gb  DblSub.o [3]
-__aeabi_ui2d                  0xa8d         Code  Gb  U32ToDbl.o [3]
-__cmain                      0x1399         Code  Gb  cmain.o [4]
-__exit                       0x13cd   0x14  Code  Gb  exit.o [5]
-__iar_dadd                    0xedd         Code  Gb  DblSub.o [3]
-__iar_data_init3             0x1339   0x28  Code  Gb  data_init.o [4]
-__iar_dsub                    0xfed         Code  Gb  DblAdd.o [3]
-__iar_dsubStart               0xfff         Code  Gb  DblAdd.o [3]
-__iar_init_vfp               0x1361         Code  Gb  fpinit_M.o [3]
-__iar_program_start          0x13e1   0x10  Code  Gb  cstartup_M.o [1]
-__iar_zero_init3              0xaa7   0x3a  Code  Gb  zero_init3.o [4]
-__low_level_init             0x13b7    0x4  Code  Gb  low_level_init.o [2]
+PortF_Handler                 0x8a9   0x6a  Code  Gb  main.o [1]
+Region$$Table$$Base          0x13ac          --   Gb  - Linker created -
+Region$$Table$$Limit         0x13bc          --   Gb  - Linker created -
+Timer0A_Handler               0x891   0x18  Code  Gb  main.o [1]
+Timer0_Init                   0x717   0x48  Code  Gb  main.o [1]
+UART_Init                     0x799   0xf8  Code  Gb  main.o [1]
+__aeabi_d2iz                  0xfd9         Code  Gb  DblToS32.o [3]
+__aeabi_ddiv                  0xcad         Code  Gb  DblDiv.o [3]
+__aeabi_dmul                  0xb09         Code  Gb  DblMul.o [3]
+__aeabi_dsub                  0xef5         Code  Gb  DblSub.o [3]
+__aeabi_ui2d                  0xab5         Code  Gb  U32ToDbl.o [3]
+__cmain                      0x13c1         Code  Gb  cmain.o [4]
+__exit                       0x13f5   0x14  Code  Gb  exit.o [5]
+__iar_dadd                    0xf05         Code  Gb  DblSub.o [3]
+__iar_data_init3             0x1361   0x28  Code  Gb  data_init.o [4]
+__iar_dsub                   0x1015         Code  Gb  DblAdd.o [3]
+__iar_dsubStart              0x1027         Code  Gb  DblAdd.o [3]
+__iar_init_vfp               0x1389         Code  Gb  fpinit_M.o [3]
+__iar_program_start          0x1409   0x10  Code  Gb  cstartup_M.o [1]
+__iar_zero_init3              0xacf   0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init             0x13df    0x4  Code  Gb  low_level_init.o [2]
 __vector_table                  0x0   0xbc  Data  Gb  cstartup_M.o [1]
-_call_main                   0x13a5         Code  Gb  cmain.o [4]
-_exit                        0x13c1         Code  Gb  cexit.o [4]
-_main                        0x13b3         Code  Gb  cmain.o [4]
+_call_main                   0x13cd         Code  Gb  cmain.o [4]
+_exit                        0x13e9         Code  Gb  cexit.o [4]
+_main                        0x13db         Code  Gb  cmain.o [4]
 convertColor                  0x389   0x20  Code  Gb  SSD2119.o [1]
 cursorX                 0x2000'0008    0x2  Data  Gb  SSD2119.o [1]
 cursorY                 0x2000'000a    0x2  Data  Gb  SSD2119.o [1]
-exit                         0x13bb    0x4  Code  Gb  exit.o [2]
-main                          0x93f   0x34  Code  Gb  main.o [1]
+exit                         0x13e3    0x4  Code  Gb  exit.o [2]
+main                          0x967   0x34  Code  Gb  main.o [1]
 result                  0x2000'0004    0x4  Data  Gb  main.o [1]
 textColor               0x2000'000c    0x2  Data  Gb  SSD2119.o [1]
 
@@ -246,7 +246,7 @@ textColor               0x2000'000c    0x2  Data  Gb  SSD2119.o [1]
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-  4 420 bytes of readonly  code memory
+  4 460 bytes of readonly  code memory
     686 bytes of readonly  data memory
   4 110 bytes of readwrite data memory
 

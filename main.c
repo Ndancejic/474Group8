@@ -29,6 +29,7 @@ int SerialFlag = 0;
 void LED_ON(unsigned int color);
 void LED_OFF(void);
 void Switching(void);
+void LCD_Switch(void);
 
 void transmit(char data){
   while(UART0_FR&0x0020 != 0);
@@ -79,17 +80,21 @@ void ADC0_Handler(void) {
 
 int main()
 {
-  //PortF_Init();
   Timer0_Init(MHZ16);
   PLL_Init(16);
-//  UART_Init(16);
   ADC_Init();
   Interrupt_Init();
-  //LED_OFF();
-  LCD_Init();
-  LCD_ColorFill(((0xFF>>3)<<11) | ((0xFF>>2)<<5) | (0xFF>>3));
-  LCD_SetTextColor(0,0,0);
-  Switching();
+  if(LCD_USED){
+    LCD_Init();
+    LCD_ColorFill(((0xFF>>3)<<11) | ((0xFF>>2)<<5) | (0xFF>>3));
+    LCD_SetTextColor(0,0,0);
+    LCD_Switch();
+  } else {
+    PortF_Init();
+    UART_Init(16);
+    LED_OFF();
+    Switching();
+  }
   return 0;
 }
 
@@ -104,37 +109,47 @@ void LED_OFF(void) {
   GPIO_WRITE_PORTF = 0x00;
 }
 
+//switching if LCD not initialized
 void Switching(void) {
   while (1) {      
-//    if (result > 0 && result <= 17) {
-//      LED_ON(RED);
-//    } else if (result > 17 && result <= 19) {
-//      LED_ON(BLUE);
-//    } else if (result > 19 && result <= 21) {
-//      LED_ON(VIOLET);
-//    } else if (result > 21 && result <= 23) {
-//      LED_ON(GREEN);
-//    } else if (result > 23 && result <= 25) {
-//      LED_ON(YELLOW);
-//    } else if (result > 25 && result <= 27) {
-//      LED_ON(LIGHT_BLUE);
-//    } else if (result > 27 && result <= 40) {
-//      LED_ON(WHITE);
-//    } else {
-//      LED_OFF();
-//    }
+    if (result > 0 && result <= 17) {
+      LED_ON(RED);
+    } else if (result > 17 && result <= 19) {
+      LED_ON(BLUE);
+    } else if (result > 19 && result <= 21) {
+      LED_ON(VIOLET);
+    } else if (result > 21 && result <= 23) {
+      LED_ON(GREEN);
+    } else if (result > 23 && result <= 25) {
+      LED_ON(YELLOW);
+    } else if (result > 25 && result <= 27) {
+      LED_ON(LIGHT_BLUE);
+    } else if (result > 27 && result <= 40) {
+      LED_ON(WHITE);
+    } else {
+      LED_OFF();
+    }
     
     if(FLAG == FLAG_ADC){
-//      unsigned short tempResult = (unsigned short)result;
+      unsigned short tempResult = (unsigned short)result;
+      output[0] = tempResult/10 + 0x30;  // tens digit
+      tempResult = tempResult%10;
+      output[1] = tempResult + 0x30;     // ones digit
+      output[2] = 0;            // null termination
+      transmit(output[0]);
+      transmit(output[1]);
+      FLAG = FLAG_NONE;
+    }
+  }
+}
+
+//switching temperature if LCD on
+void LCD_Switch(void){
+  while (1) {      
+    if(FLAG == FLAG_ADC){
       LCD_ColorFill(((0xFF>>3)<<11) | ((0xFF>>2)<<5) | (0xFF>>3));
       LCD_SetCursor(0,0);
       LCD_PrintInteger(result);
-//      output[0] = tempResult/10 + 0x30;  // tens digit
-//      tempResult = tempResult%10;
-//      output[1] = tempResult + 0x30;     // ones digit
-//      output[2] = 0;            // null termination
-//      transmit(output[0]);
-//      transmit(output[1]);
       FLAG = FLAG_NONE;
     }
   }
