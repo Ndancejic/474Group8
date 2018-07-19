@@ -1,4 +1,5 @@
 #include <stdint.h>
+#include <math.h>
 #include "init.c"
 #include "ee474.h"
 #include "SSD2119.h"
@@ -33,6 +34,26 @@ unsigned long FLAG = FLAG_NONE;
 unsigned long result = 0;
 unsigned char output[3];
 
+typedef struct Node {
+  short x, y, z;
+} Node;
+
+typedef struct Edge {
+  short n1, n2;
+} Edge;
+
+typedef struct Nodes {
+  Node n[8];
+} Nodes;
+
+typedef struct Edges {
+  Edge e[1];
+} Edges;
+
+Node nodes[8] = {{-45, -45, -45}, {-45, -45, 45}, {-45, 45, -45}, {-45, 45, 45}, {45, -45, -45}, {45, -45, 45}, {45, 45, -45}, {45, 45, 45}};
+Edge edges[12] = {{0, 1}, {1, 3}, {3, 2}, {2, 0}, {4, 5}, {5, 7}, {7, 6}, {6, 4}, {0, 4}, {1, 5}, {2, 6}, {3, 7}};
+
+
 //draw
 int centerx = 160;
 int centery = 120;
@@ -41,9 +62,12 @@ int width = 60;
 int height = 6*20 + 20;
 int starty = 20;
 
+
 void LED_ON(unsigned int color);
 void LED_OFF(void);
 void Switching(void);
+void Rotating_Cube(void);
+void Rotate_X(short theta);
 void LCD_Switch(void);
 
 void transmit(char data){
@@ -79,7 +103,7 @@ void PortF_Handler(void) {
     PLL_Init(80);
     UART_Init(80);
     TIMER_VAL0 = MHZ80;  //set timer start to 4000000
-    ADC0_IM |= 0x8;   
+    ADC0_IM |= 0x8;
   }
   GPIO_ICR_PORTF |= 0x11; // clear the interrupt flag before return
 }
@@ -129,6 +153,55 @@ void drawStoplight(void){
   }
 }
 
+void Rotate_X(short theta) {
+  double sinTheta = sin(theta);
+  double cosTheta = cos(theta);
+  for (int i = 0; i < 8; i++) {
+    short y = nodes[i].y;
+    short z = nodes[i].z;
+    nodes[i].y = (short)(y * cosTheta - z * sinTheta);
+    nodes[i].z = (short)(z * cosTheta + y * sinTheta);
+  }
+}
+
+void Rotate_Y(short theta) {
+  double sinTheta = sin(theta);
+  double cosTheta = cos(theta);
+  for (int i = 0; i < 8; i++) {
+    short x = nodes[i].x;
+    short z = nodes[i].z;
+    nodes[i].x = (short)(x * cosTheta - z * sinTheta);
+    nodes[i].z = (short)(z * cosTheta + x * sinTheta);
+  }
+}
+
+void Rotate_Z(short theta) {
+  double sinTheta = sin(theta);
+  double cosTheta = cos(theta);
+  for (int i = 0; i < 8; i++) {
+    short y = nodes[i].y;
+    short x = nodes[i].x;
+    nodes[i].y = (short)(y * cosTheta - x * sinTheta);
+    nodes[i].x = (short)(x * cosTheta + y * sinTheta);
+  }
+}
+
+void drawCube(){
+  for (int i = 0; i < 12; i++){
+    Node n1 = nodes[edges[i].n1];
+    Node n2 = nodes[edges[i].n2];
+    LCD_DrawLine(centerx + n1.x, centery + n1.y, centerx + n2.x, centery + n2.y, Color4[0]);
+  }
+}
+
+void eraseCube(){
+  for (int i = 0; i < 12; i++){
+    Node n1 = nodes[edges[i].n1];
+    Node n2 = nodes[edges[i].n2];
+    LCD_DrawLine(centerx + n1.x, centery + n1.y, centerx + n2.x, centery + n2.y, Color4[15]);
+  }
+}
+
 int main()
 {
   PLL_Init(16);
@@ -140,20 +213,26 @@ int main()
   if(LCD_USED){
     LCD_Init();
     Touch_Init();
-    
+
     STATE = STOP;
-    
+
     //set up background
     LCD_ColorFill(((0xFF>>3)<<11) | ((0xFF>>2)<<5) | (0xFF>>3));
-    
-    //draw Buttons
-    LCD_DrawFilledCircle(centerx - 90, centery + 40, radius, ((0xFF>>3)<<11) | ((0x55>>2)<<5) | (0x55>>3));
-    LCD_DrawCircle(centerx - 90, centery + 40, radius, 0);
-    LCD_DrawFilledCircle(centerx + 90, centery + 40, radius, ((0x55>>3)<<11) | ((0x55>>2)<<5) | (0xFF>>3));
-    LCD_DrawCircle(centerx + 90, centery + 40, radius, 0);
-    
-    //draw stoplight
-    drawStoplight();
+
+    if(TRAFFIC){
+      //draw Buttons
+      LCD_DrawFilledCircle(centerx - 90, centery + 40, radius, ((0xFF>>3)<<11) | ((0x55>>2)<<5) | (0x55>>3));
+      LCD_DrawCircle(centerx - 90, centery + 40, radius, 0);
+      LCD_DrawFilledCircle(centerx + 90, centery + 40, radius, ((0x55>>3)<<11) | ((0x55>>2)<<5) | (0xFF>>3));
+      LCD_DrawCircle(centerx + 90, centery + 40, radius, 0);
+
+      //draw stoplight
+      drawStoplight();
+    }
+
+    if(CUBE){
+      drawCube();
+    }
     
     LCD_SetTextColor(0,0,0);
     LCD_Switch();
@@ -179,7 +258,7 @@ void LED_OFF(void) {
 
 //switching if LCD not initialized
 void Switching(void) {
-  while (1) {      
+  while (1) {
     if (result > 0 && result <= 17) {
       LED_ON(RED);
     } else if (result > 17 && result <= 19) {
@@ -197,7 +276,7 @@ void Switching(void) {
     } else {
       LED_OFF();
     }
-    
+
     if(FLAG == FLAG_ADC){
       unsigned short tempResult = (unsigned short)result;
       output[0] = tempResult/10 + 0x30;  // tens digit
@@ -213,7 +292,7 @@ void Switching(void) {
 
 //switching temperature if LCD on
 void LCD_Switch(void){
-  while (1) {      
+  while (1) {
     if(LCD_TOUCH){
       LCD_DrawFilledRect(0, 0, 22, 18, ((0xFF>>3)<<11) | ((0xFF>>2)<<5) | (0xFF>>3));
       long cal[7] = {
@@ -228,29 +307,36 @@ void LCD_Switch(void){
       long xPos, yPos, temp;
       xPos = Touch_ReadX();
       yPos = Touch_ReadY();
-      
+
       temp = (((xPos * cal[0]) + (yPos * cal[1]) + cal[2]) / cal[6]);
       yPos =(((xPos * cal[3]) + (yPos * cal[4]) + cal[5]) / cal[6]);
       xPos = temp;
-      
+
       xPos = xPos - 100;
       if(xPos < 0) xPos = 0;
       yPos = yPos - 80;
       if(yPos < 0) yPos = 0;
-      
+
       LCD_SetCursor(0,0);
       LCD_PrintInteger(xPos);
       LCD_SetCursor(0,8);
       LCD_PrintInteger(yPos);
-      
-      if(yPos > 20 && yPos < 60 && xPos > 100 && xPos < 140){
-        STATE = PASS;
-        drawStoplight();
+      if(TRAFFIC){
+        if(yPos > 20 && yPos < 60 && xPos > 100 && xPos < 140){
+          STATE = PASS;
+          drawStoplight();
+        }
+        if(yPos > 60 && yPos < 100 && xPos > 10 && xPos < 50){
+          STATE = GO;
+          drawStoplight();
+        }
       }
-      if(yPos > 60 && yPos < 100 && xPos > 10 && xPos < 50){
-        STATE = GO;
-        drawStoplight();
-      }      
+      if(CUBE){
+        eraseCube();
+        Rotate_X(10);
+        Rotate_Y(10);
+        drawCube();
+      }
     } else {
       if(FLAG == FLAG_ADC){
         LCD_ColorFill(((0xFF>>3)<<11) | ((0xFF>>2)<<5) | (0xFF>>3));

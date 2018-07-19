@@ -3,7 +3,8 @@
 
 #define LCD_USED 1
 #define LCD_TOUCH 1
-#define TRAFFIC 1
+#define TRAFFIC 0
+#define CUBE 1
 
 void ADC_Init(void){
   //enable GPIO pin

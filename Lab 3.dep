@@ -5,146 +5,83 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\cstartup_M.c</file>
-            <file>$PROJ_DIR$\SSD2119.c</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\SSD2119.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\timer.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
             <file>$PROJ_DIR$\..\..\..\Lab2B\switch.c</file>
             <file>$PROJ_DIR$\..\..\..\Lab2B\cstartup_M.c</file>
+            <file>$PROJ_DIR$\SSD2119.h</file>
+            <file>$PROJ_DIR$\main.c</file>
             <file>$PROJ_DIR$\Debug\List\Lab 3.map</file>
             <file>$PROJ_DIR$\Debug\Obj\init.pbi</file>
-            <file>$PROJ_DIR$\pll_init.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
             <file>$PROJ_DIR$\Debug\Obj\led.o</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\functions.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\pll_init.o</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\pll_init.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\functions.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\led.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\SSD2119.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
             <file>$PROJ_DIR$\switch.c</file>
             <file>$PROJ_DIR$\Debug\Obj\cstartup_M.pbi</file>
             <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\pll_init.o</file>
             <file>$PROJ_DIR$\Debug\Obj\pll_init.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\cstartup_M.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\cstartup_M.c</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\Debug\Exe\Lab 3.out</file>
+            <file>$PROJ_DIR$\timer.c</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$PROJ_DIR$\Debug\Obj\switch.__cstat.et</file>
-            <file>$PROJ_DIR$\led.c</file>
             <file>$PROJ_DIR$\Debug\Obj\Lab 3.pbd</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-            <file>$PROJ_DIR$\timer.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\cstartup_M.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
             <file>$PROJ_DIR$\..\..\..\Lab2B\timer.c</file>
-            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
-            <file>$PROJ_DIR$\init.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\init.o</file>
-            <file>$PROJ_DIR$\Debug\Exe\Lab 3.out</file>
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$TOOLKIT_DIR$\inc\c\math.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\switch.pbi</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$PROJ_DIR$\..\..\..\Lab2B\led.c</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\SSD2119.o</file>
+            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
             <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
             <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\functions.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+            <file>$PROJ_DIR$\led.c</file>
+            <file>$PROJ_DIR$\init.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\cstartup_M.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\init.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\switch.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\Lab2B\led.c</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
             <file>$PROJ_DIR$\..\..\..\..\..\..\ti\TivaWare_C_Series-2.1.4.178\inc\tm4c123gh6pm.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\SSD2119.o</file>
             <file>$PROJ_DIR$\Debug\Obj\SSD2119.pbi</file>
-            <file>$PROJ_DIR$\functions.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
             <file>$PROJ_DIR$\ee474.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 36 8</file>
+                    <file> 25 4</file>
                 </tool>
             </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\cstartup_M.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 31</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 20</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 23</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\SSD2119.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 45</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 50</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 47 52 46 13 44 25 49 3</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 25 46 3 13 44 49 52 47</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 39</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 29</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 47 52 46 13 44 25 34 53 24 17 21 3</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 13 44 21 53 46 25 34 3 52 24 17 47</file>
-                </tool>
-            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\..\..\..\Lab2B\switch.c</name>
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 40</file>
+                    <file> 48</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 46 47 52 13 5 25</file>
+                    <file> 37 38 42 7 12 27</file>
                 </tool>
             </inputs>
         </file>
@@ -153,34 +90,80 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 31</file>
+                    <file> 46</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 20</file>
+                    <file> 17</file>
                 </tool>
             </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 42 37 7 32 27 35 50 45 54 41 15 18 2</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 2 18 45 37 35 54 42 41 38 7 32 27 50 15</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\pll_init.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 15</file>
+                    <file> 20</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 22</file>
+                    <file> 21</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 47 52 46 13 5 25</file>
+                    <file> 38 42 37 7 12 27</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 52 13 46 47 5 25</file>
+                    <file> 42 7 37 38 12 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\SSD2119.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 42 37 7 32 27 51 2</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 27 37 2 7 32 51 42 38</file>
                 </tool>
             </inputs>
         </file>
@@ -189,43 +172,62 @@
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 40</file>
+                    <file> 48</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 26</file>
+                    <file> 28</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 25 46 47 52 13 44</file>
+                    <file> 27 37 38 42 7 32</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\led.c</name>
+            <name>$PROJ_DIR$\cstartup_M.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 12</file>
+                    <file> 46</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 18</file>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 22</file>
                 </tool>
             </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\Lab 3.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 4</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 36 46 30 52 8 31 24 34</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\timer.c</name>
             <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 54</file>
+                    <file> 43</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 4</file>
+                    <file> 19</file>
                 </tool>
             </outputs>
         </file>
@@ -234,11 +236,43 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 11</file>
+                    <file> 14</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\functions.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
                     <file> 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\led.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11</file>
                 </tool>
             </outputs>
         </file>
@@ -247,36 +281,21 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 35</file>
+                    <file> 47</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 9</file>
+                    <file> 5</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 53</file>
+                    <file> 54</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 53</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\Lab 3.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 8</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 33 31 39 45 16 41 43 37</file>
+                    <file> 54</file>
                 </tool>
             </inputs>
         </file>
@@ -285,36 +304,17 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 12</file>
+                    <file> 6</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 18</file>
+                    <file> 11</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 46 47 52 13 5 25</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\functions.c</name>
-            <outputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 14</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 53</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 53</file>
+                    <file> 37 38 42 7 12 27</file>
                 </tool>
             </inputs>
         </file>

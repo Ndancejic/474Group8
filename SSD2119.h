@@ -3,6 +3,8 @@
 #ifndef SSD2119_H
 #define SSD2119_H
 
+unsigned short const extern Color4[16];
+
 // ************** LCD_GPIOInit ****************************
 // - Initializes Port B to be used as the data bus and
 //   Port A 4-7 as controller signals
