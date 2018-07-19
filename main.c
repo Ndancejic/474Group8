@@ -3,6 +3,9 @@
 #include "ee474.h"
 #include "SSD2119.h"
 
+#define BMP_WIDTH_OFFSET        0x0012
+#define BMP_HEIGHT_OFFSET       0x0016
+
 #define FLAG_NONE 0
 #define FLAG_ONE 3
 #define FLAG_ADC 5
@@ -19,12 +22,24 @@
 #define MHZ80 (unsigned long)0x4C4B400
 #define MHZ4 (unsigned long)0x3D0900
 
-unsigned long FLAG = FLAG_NONE;
+typedef enum {
+  STOP,
+  GO,
+  PASS
+} state;
 
+state STATE;
+unsigned long FLAG = FLAG_NONE;
 unsigned long result = 0;
 unsigned char output[3];
 
-int SerialFlag = 0;
+//draw
+int centerx = 160;
+int centery = 120;
+int radius = 30;
+int width = 60;
+int height = 6*20 + 20;
+int starty = 20;
 
 void LED_ON(unsigned int color);
 void LED_OFF(void);
@@ -43,14 +58,15 @@ int recieve(){
 
 void Timer0A_Handler(void) {
   FLAG = FLAG_ONE;
-  ADC0_PSSI = 0x008;
+  if(!LCD_TOUCH){
+    ADC0_PSSI = 0x008;
+  }
   TIMER_RESET0 |= (0x1<<0);
 }
 
 
 void PortF_Handler(void) {
   if (GPIO_WRITE_PORTF == 0x01) {
-    //STATE = STATE_SW0;
     ADC0_IM &= ~0x8;
     PLL_Init(4);
     UART_Init(4);
@@ -59,7 +75,6 @@ void PortF_Handler(void) {
     LED_ON(RED);
   }
   if (GPIO_WRITE_PORTF == 0x10) {
-    //STATE = STATE_SW4;
     ADC0_IM &= ~0x8;
     PLL_Init(80);
     UART_Init(80);
@@ -78,15 +93,68 @@ void ADC0_Handler(void) {
   ADC0_DCISC |=0x8;
 }
 
+void drawStoplight(void){
+  radius = 20;
+  switch(STATE){
+    case STOP:
+      LCD_DrawFilledRect(centerx-width/2, starty, width, height, ((0xAA>>3)<<11) | ((0x55>>2)<<5) | (0x00>>3));
+      LCD_DrawRect(centerx-width/2, starty, width, height, 0);
+      LCD_DrawFilledCircle(centerx, starty + radius + 5, radius, ((0x00>>3)<<11) | ((0xAA>>2)<<5) | (0x00>>3));
+      LCD_DrawCircle(centerx, starty + radius + 5, radius, 0);
+      LCD_DrawFilledCircle(centerx, starty + 3*radius + 10, radius, ((0xAA>>3)<<11) | ((0xAA>>2)<<5) | (0xAA>>3));
+      LCD_DrawCircle(centerx, starty + 3*radius + 10, radius, 0);
+      LCD_DrawFilledCircle(centerx, starty + 5*radius + 15, radius, ((0xFF>>3)<<11) | ((0x55>>2)<<5) | (0x55>>3));
+      LCD_DrawCircle(centerx, starty + 5*radius + 15, radius, 0);
+      break;
+    case GO:
+      LCD_DrawFilledRect(centerx-width/2, starty, width, height, ((0xAA>>3)<<11) | ((0x55>>2)<<5) | (0x00>>3));
+      LCD_DrawRect(centerx-width/2, starty, width, height, 0);
+      LCD_DrawFilledCircle(centerx, starty + radius + 5, radius, ((0x55>>3)<<11) | ((0xFF>>2)<<5) | (0x55>>3));
+      LCD_DrawCircle(centerx, starty + radius + 5, radius, 0);
+      LCD_DrawFilledCircle(centerx, starty + 3*radius + 10, radius, ((0xAA>>3)<<11) | ((0xAA>>2)<<5) | (0xAA>>3));
+      LCD_DrawCircle(centerx, starty + 3*radius + 10, radius, 0);
+      LCD_DrawFilledCircle(centerx, starty + 5*radius + 15, radius, ((0xAA>>3)<<11) | ((0x00>>2)<<5) | (0x00>>3));
+      LCD_DrawCircle(centerx, starty + 5*radius + 15, radius, 0);
+      break;
+    case PASS:
+      LCD_DrawFilledRect(centerx-width/2, starty, width, height, ((0xAA>>3)<<11) | ((0x55>>2)<<5) | (0x00>>3));
+      LCD_DrawRect(centerx-width/2, starty, width, height, 0);
+      LCD_DrawFilledCircle(centerx, starty + radius + 5, radius, ((0x00>>3)<<11) | ((0xAA>>2)<<5) | (0x00>>3));
+      LCD_DrawCircle(centerx, starty + radius + 5, radius, 0);
+      LCD_DrawFilledCircle(centerx, starty + 3*radius + 10, radius, ((0xFF>>3)<<11) | ((0xFF>>2)<<5) | (0x55>>3));
+      LCD_DrawCircle(centerx, starty + 3*radius + 10, radius, 0);
+      LCD_DrawFilledCircle(centerx, starty + 5*radius + 15, radius, ((0xAA>>3)<<11) | ((0x00>>2)<<5) | (0x00>>3));
+      LCD_DrawCircle(centerx, starty + 5*radius + 15, radius, 0);
+      break;
+  }
+}
+
 int main()
 {
-  Timer0_Init(MHZ16);
   PLL_Init(16);
-  ADC_Init();
   Interrupt_Init();
+  if(!LCD_TOUCH){
+    ADC_Init();
+    Timer0_Init(MHZ16);
+  }
   if(LCD_USED){
     LCD_Init();
+    Touch_Init();
+    
+    STATE = STOP;
+    
+    //set up background
     LCD_ColorFill(((0xFF>>3)<<11) | ((0xFF>>2)<<5) | (0xFF>>3));
+    
+    //draw Buttons
+    LCD_DrawFilledCircle(centerx - 90, centery + 40, radius, ((0xFF>>3)<<11) | ((0x55>>2)<<5) | (0x55>>3));
+    LCD_DrawCircle(centerx - 90, centery + 40, radius, 0);
+    LCD_DrawFilledCircle(centerx + 90, centery + 40, radius, ((0x55>>3)<<11) | ((0x55>>2)<<5) | (0xFF>>3));
+    LCD_DrawCircle(centerx + 90, centery + 40, radius, 0);
+    
+    //draw stoplight
+    drawStoplight();
+    
     LCD_SetTextColor(0,0,0);
     LCD_Switch();
   } else {
@@ -146,11 +214,50 @@ void Switching(void) {
 //switching temperature if LCD on
 void LCD_Switch(void){
   while (1) {      
-    if(FLAG == FLAG_ADC){
-      LCD_ColorFill(((0xFF>>3)<<11) | ((0xFF>>2)<<5) | (0xFF>>3));
+    if(LCD_TOUCH){
+      LCD_DrawFilledRect(0, 0, 22, 18, ((0xFF>>3)<<11) | ((0xFF>>2)<<5) | (0xFF>>3));
+      long cal[7] = {
+        280448,	//   86784,          // M0
+        -3200,	// -1536,          // M1
+        -220093760,	//-17357952,      // M2
+        -3096,		//-144,           // M3
+        -275592,		//-78576,         // M4
+        866602824,	// 69995856,       // M5
+        2287498		//201804,         // M6
+      };
+      long xPos, yPos, temp;
+      xPos = Touch_ReadX();
+      yPos = Touch_ReadY();
+      
+      temp = (((xPos * cal[0]) + (yPos * cal[1]) + cal[2]) / cal[6]);
+      yPos =(((xPos * cal[3]) + (yPos * cal[4]) + cal[5]) / cal[6]);
+      xPos = temp;
+      
+      xPos = xPos - 100;
+      if(xPos < 0) xPos = 0;
+      yPos = yPos - 80;
+      if(yPos < 0) yPos = 0;
+      
       LCD_SetCursor(0,0);
-      LCD_PrintInteger(result);
-      FLAG = FLAG_NONE;
+      LCD_PrintInteger(xPos);
+      LCD_SetCursor(0,8);
+      LCD_PrintInteger(yPos);
+      
+      if(yPos > 20 && yPos < 60 && xPos > 100 && xPos < 140){
+        STATE = PASS;
+        drawStoplight();
+      }
+      if(yPos > 60 && yPos < 100 && xPos > 10 && xPos < 50){
+        STATE = GO;
+        drawStoplight();
+      }      
+    } else {
+      if(FLAG == FLAG_ADC){
+        LCD_ColorFill(((0xFF>>3)<<11) | ((0xFF>>2)<<5) | (0xFF>>3));
+        LCD_SetCursor(0,0);
+        LCD_PrintInteger(result);
+        FLAG = FLAG_NONE;
+      }
     }
   }
 }
