@@ -1355,7 +1355,7 @@ unsigned long Touch_ReadZ2(void){
 
 void Touch_BeginWaitForTouch(void){
   // XP = 1  XN = DIG IN, INT ON FALL EDGE YP = Hi-Z YN = 0
-  DisableInterrupts();
+  //DisableInterrupts();
   
   // Set XP high
   TOUCH_XP = 0xFF;
@@ -1379,11 +1379,11 @@ void Touch_BeginWaitForTouch(void){
   GPIO_PORTA_IM_R  |=  0x08;      // (f) arm interrupt on PF4
   
   
-  NVIC_PRI0_R = (NVIC_PRI7_R&0xFFFFFF00)|0x000000a0;
-  NVIC_EN0_R = 1;  // (h) enable IRQ=0, interrupt 16 in NVIC
+  //NVIC_PRI0_R = (NVIC_PRI7_R&0xFFFFFF00)|0x000000a0;
+  //NVIC_EN0_R = 1;  // (h) enable IRQ=0, interrupt 16 in NVIC
   
   
-  EnableInterrupts();
+  //EnableInterrupts();
 }
 
 long Touch_GetCoords(void){

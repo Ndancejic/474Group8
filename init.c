@@ -3,8 +3,8 @@
 
 #define LCD_USED 1
 #define LCD_TOUCH 1
-#define TRAFFIC 0
-#define CUBE 1
+#define TRAFFIC 1
+#define CUBE 0
 
 void ADC_Init(void){
   //enable GPIO pin
@@ -42,6 +42,12 @@ void PLL_Init(int mhz) {
   }
   if (mhz == 4){
     CLK_RCC2 = (CLK_RCC2&~ 0x1FC00000) + (0x63<<22); // set desired system divider to /100, SYSDIV
+  }
+  if (mhz == 8){
+    CLK_RCC2 = (CLK_RCC2&~ 0x1FC00000) + (0x31<<22); // set desired system divider to /50, SYSDIV
+  }
+  if (mhz == 10){
+    CLK_RCC2 = (CLK_RCC2&~ 0x1FC00000) + (0x27<<22); // set desired system divider to /40, SYSDIV
   }
   if (mhz == 16){
     CLK_RCC2 = (CLK_RCC2&~ 0x1FC00000) + (0x18<<22); // set desired system divider to /25, SYSDIV

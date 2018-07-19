@@ -26,6 +26,7 @@ extern void SysTick_Handler( void );
 extern void Timer0A_Handler(void);
 extern void PortF_Handler(void);
 extern void ADC0_Handler(void);
+extern void PortA_Handler(void);
 
 typedef void( *intfunc )( void );
 typedef union { intfunc __fun; void * __ptr; } intvec_elem;
@@ -60,7 +61,7 @@ const intvec_elem __vector_table[] =
   0,
   PendSV_Handler,
   SysTick_Handler,
-  0,
+  PortA_Handler,
   0,
   0,
   0,
@@ -117,6 +118,8 @@ __weak void Timer0A_Handler( void ) { while (1) { } }
 __weak void PortF_Handler( void ) { while (1) { } }
 #pragma call_graph_root = "interrupt"
 __weak void ADC0_Handler( void ) { while (1) { } }
+#pragma call_graph_root = "interrupt"
+__weak void PortA_Handler( void ) { while (1) { } }
 
 
 void __cmain( void );
