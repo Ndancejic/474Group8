@@ -412,13 +412,13 @@ void LCD_PrintChar(unsigned char data){
   for(i=0; i<5; i=i+1){
     tempData = ASCII[data - 0x20][i];
     for (j=0; j<8; j=j+1){
-      // This would print transparent letters
-      // if (tempData & 0x01) {
-      //     LCD_DrawPixel(cursorX + i, cursorY + j, textColor);
-      // }
+       //This would print transparent letters
+       if (tempData & 0x01) {
+           LCD_DrawPixel(cursorX + i, cursorY + j, textColor);
+       }
       
       // This will overwrite the entire character block (non-transparent)
-      LCD_DrawPixel(cursorX + i, cursorY + j, (tempData & 0x01) * textColor);
+      //LCD_DrawPixel(cursorX + i, cursorY + j, (tempData & 0x01) * textColor);
       
       // Shift to our next pixel
       tempData = tempData >> 1;

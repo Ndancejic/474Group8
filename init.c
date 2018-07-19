@@ -80,11 +80,11 @@ void Timer0_Init(unsigned long mhz){
 
 void Interrupt_Init(void)
 {
-  GPIO_SENSE_F &= ~0x11;  //interrupt on edge
-  GPIO_IBE_F &= ~0x11;  //interrupt on one edge
-  GPIO_IEV_F |= 0x11;  //interrupt on rising edge
-  GPIO_CLEAR_F = 0x11;  //ICR
-  GPIO_IM_F |= 0x11;  //interupt mask register
+//  GPIO_SENSE_F &= ~0x11;  //interrupt on edge
+//  GPIO_IBE_F &= ~0x11;  //interrupt on one edge
+//  GPIO_IEV_F |= 0x11;  //interrupt on rising edge
+//  GPIO_CLEAR_F = 0x11;  //ICR
+//  GPIO_IM_F |= 0x11;  //interupt mask register
   EN0 |= (1<<17); //enable #17
   EN0 |= 0x40080000;  //enable #19
   PRI4 |= (1<<13);  //Interrupt priority

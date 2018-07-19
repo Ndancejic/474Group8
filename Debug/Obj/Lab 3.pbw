@@ -4153,7 +4153,7 @@
     "location": {
       "column": "6",
       "line": "4",
-      "path": "C:\\Users\\candy\\474Group8\\init.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
     },
     "name": "ADC_Init",
     "origin": "project_file",
@@ -4167,7 +4167,7 @@
     "location": {
       "column": "6",
       "line": "28",
-      "path": "C:\\Users\\candy\\474Group8\\init.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
     },
     "name": "PLL_Init",
     "origin": "project_file",
@@ -4181,7 +4181,7 @@
     "location": {
       "column": "6",
       "line": "48",
-      "path": "C:\\Users\\candy\\474Group8\\init.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
     },
     "name": "PortF_Init",
     "origin": "project_file",
@@ -4195,7 +4195,7 @@
     "location": {
       "column": "6",
       "line": "60",
-      "path": "C:\\Users\\candy\\474Group8\\init.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
     },
     "name": "PortA_Init",
     "origin": "project_file",
@@ -4209,7 +4209,7 @@
     "location": {
       "column": "6",
       "line": "71",
-      "path": "C:\\Users\\candy\\474Group8\\init.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
     },
     "name": "Timer0_Init",
     "origin": "project_file",
@@ -4223,7 +4223,7 @@
     "location": {
       "column": "6",
       "line": "81",
-      "path": "C:\\Users\\candy\\474Group8\\init.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
     },
     "name": "Interrupt_Init",
     "origin": "project_file",
@@ -4237,35 +4237,35 @@
     "location": {
       "column": "6",
       "line": "96",
-      "path": "C:\\Users\\candy\\474Group8\\init.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
     },
     "name": "UART_Init",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:init.c@3496@F@UART_Init@i",
+    "ID": "c:init.c@3506@F@UART_Init@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "11",
       "line": "100",
-      "path": "C:\\Users\\candy\\474Group8\\init.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
     },
     "name": "i",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:init.c@3580@F@UART_Init@i",
+    "ID": "c:init.c@3590@F@UART_Init@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "11",
       "line": "102",
-      "path": "C:\\Users\\candy\\474Group8\\init.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\init.c"
     },
     "name": "i",
     "origin": "project_file",
@@ -4279,7 +4279,7 @@
     "location": {
       "column": "9",
       "line": "2",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "EE474_H",
     "origin": "user_include",
@@ -4293,7 +4293,7 @@
     "location": {
       "column": "9",
       "line": "5",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_WRITE_PORTF",
     "origin": "user_include",
@@ -4307,7 +4307,7 @@
     "location": {
       "column": "9",
       "line": "6",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_READ_PF0_PF4",
     "origin": "user_include",
@@ -4321,7 +4321,7 @@
     "location": {
       "column": "9",
       "line": "9",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "RCGCGPIO",
     "origin": "user_include",
@@ -4335,7 +4335,7 @@
     "location": {
       "column": "9",
       "line": "11",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_EN_A",
     "origin": "user_include",
@@ -4349,7 +4349,7 @@
     "location": {
       "column": "9",
       "line": "12",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_ADIS_PORTA",
     "origin": "user_include",
@@ -4363,7 +4363,7 @@
     "location": {
       "column": "9",
       "line": "13",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_PCTL_PORTA",
     "origin": "user_include",
@@ -4377,7 +4377,7 @@
     "location": {
       "column": "9",
       "line": "14",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_DIR_PORTA",
     "origin": "user_include",
@@ -4391,7 +4391,7 @@
     "location": {
       "column": "9",
       "line": "15",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_AFSEL_PORTA",
     "origin": "user_include",
@@ -4405,7 +4405,7 @@
     "location": {
       "column": "9",
       "line": "16",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_DEN_PORTA",
     "origin": "user_include",
@@ -4419,7 +4419,7 @@
     "location": {
       "column": "9",
       "line": "17",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_DATA_PORTA",
     "origin": "user_include",
@@ -4433,7 +4433,7 @@
     "location": {
       "column": "9",
       "line": "18",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_DR2R_PORTA",
     "origin": "user_include",
@@ -4447,7 +4447,7 @@
     "location": {
       "column": "9",
       "line": "19",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_DR4R_PORTA",
     "origin": "user_include",
@@ -4461,7 +4461,7 @@
     "location": {
       "column": "9",
       "line": "20",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_DR8R_PORTA",
     "origin": "user_include",
@@ -4475,7 +4475,7 @@
     "location": {
       "column": "9",
       "line": "21",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_SLR_PORTA",
     "origin": "user_include",
@@ -4489,7 +4489,7 @@
     "location": {
       "column": "9",
       "line": "24",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_DIR_PORTE",
     "origin": "user_include",
@@ -4503,7 +4503,7 @@
     "location": {
       "column": "9",
       "line": "25",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_DEN_PORTE",
     "origin": "user_include",
@@ -4517,7 +4517,7 @@
     "location": {
       "column": "9",
       "line": "26",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_LOCK_PORTE",
     "origin": "user_include",
@@ -4531,7 +4531,7 @@
     "location": {
       "column": "9",
       "line": "27",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_CR_PORTE",
     "origin": "user_include",
@@ -4545,7 +4545,7 @@
     "location": {
       "column": "9",
       "line": "28",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_PUR_PORTE",
     "origin": "user_include",
@@ -4559,7 +4559,7 @@
     "location": {
       "column": "9",
       "line": "29",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_REG_PORTE",
     "origin": "user_include",
@@ -4573,7 +4573,7 @@
     "location": {
       "column": "9",
       "line": "30",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_AMSEL_PORTE",
     "origin": "user_include",
@@ -4587,7 +4587,7 @@
     "location": {
       "column": "9",
       "line": "33",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_DIR_PORTF",
     "origin": "user_include",
@@ -4601,7 +4601,7 @@
     "location": {
       "column": "9",
       "line": "34",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_DEN_PORTF",
     "origin": "user_include",
@@ -4615,7 +4615,7 @@
     "location": {
       "column": "9",
       "line": "35",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_LOCK_PORTF",
     "origin": "user_include",
@@ -4629,7 +4629,7 @@
     "location": {
       "column": "9",
       "line": "36",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_CR_PORTF",
     "origin": "user_include",
@@ -4643,7 +4643,7 @@
     "location": {
       "column": "9",
       "line": "37",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_PUR_PORTF",
     "origin": "user_include",
@@ -4657,7 +4657,7 @@
     "location": {
       "column": "9",
       "line": "38",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_ICR_PORTF",
     "origin": "user_include",
@@ -4671,7 +4671,7 @@
     "location": {
       "column": "9",
       "line": "43",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "TIMER_EN",
     "origin": "user_include",
@@ -4685,7 +4685,7 @@
     "location": {
       "column": "9",
       "line": "44",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "TIMER_DIS0",
     "origin": "user_include",
@@ -4699,7 +4699,7 @@
     "location": {
       "column": "9",
       "line": "45",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "TIMER_CON0",
     "origin": "user_include",
@@ -4713,7 +4713,7 @@
     "location": {
       "column": "9",
       "line": "46",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "TIMER_MODE0",
     "origin": "user_include",
@@ -4727,7 +4727,7 @@
     "location": {
       "column": "9",
       "line": "47",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "TIMER_VAL0",
     "origin": "user_include",
@@ -4741,7 +4741,7 @@
     "location": {
       "column": "9",
       "line": "48",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "TIMER_INT0",
     "origin": "user_include",
@@ -4755,7 +4755,7 @@
     "location": {
       "column": "9",
       "line": "49",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "TIMER_POLL0",
     "origin": "user_include",
@@ -4769,7 +4769,7 @@
     "location": {
       "column": "9",
       "line": "50",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "TIMER_MASK0",
     "origin": "user_include",
@@ -4783,7 +4783,7 @@
     "location": {
       "column": "9",
       "line": "51",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "TIMER_RESET0",
     "origin": "user_include",
@@ -4797,7 +4797,7 @@
     "location": {
       "column": "9",
       "line": "54",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "TIMER_EN1",
     "origin": "user_include",
@@ -4811,7 +4811,7 @@
     "location": {
       "column": "9",
       "line": "55",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "TIMER_DIS1",
     "origin": "user_include",
@@ -4825,7 +4825,7 @@
     "location": {
       "column": "9",
       "line": "56",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "TIMER_CON1",
     "origin": "user_include",
@@ -4839,7 +4839,7 @@
     "location": {
       "column": "9",
       "line": "57",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "TIMER_MODE1",
     "origin": "user_include",
@@ -4853,7 +4853,7 @@
     "location": {
       "column": "9",
       "line": "58",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "TIMER_VAL1",
     "origin": "user_include",
@@ -4867,7 +4867,7 @@
     "location": {
       "column": "9",
       "line": "59",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "TIMER_INT1",
     "origin": "user_include",
@@ -4881,7 +4881,7 @@
     "location": {
       "column": "9",
       "line": "60",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "TIMER_POLL1",
     "origin": "user_include",
@@ -4895,7 +4895,7 @@
     "location": {
       "column": "9",
       "line": "61",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "TIMER_MASK1",
     "origin": "user_include",
@@ -4909,7 +4909,7 @@
     "location": {
       "column": "9",
       "line": "62",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "TIMER_RESET1",
     "origin": "user_include",
@@ -4923,7 +4923,7 @@
     "location": {
       "column": "9",
       "line": "66",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_SENSE_F",
     "origin": "user_include",
@@ -4937,7 +4937,7 @@
     "location": {
       "column": "9",
       "line": "67",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_IBE_F",
     "origin": "user_include",
@@ -4951,7 +4951,7 @@
     "location": {
       "column": "9",
       "line": "68",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_IEV_F",
     "origin": "user_include",
@@ -4965,7 +4965,7 @@
     "location": {
       "column": "9",
       "line": "69",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_IM_F",
     "origin": "user_include",
@@ -4979,7 +4979,7 @@
     "location": {
       "column": "9",
       "line": "70",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_CLEAR_F",
     "origin": "user_include",
@@ -4993,7 +4993,7 @@
     "location": {
       "column": "9",
       "line": "71",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_STATUS_F",
     "origin": "user_include",
@@ -5007,7 +5007,7 @@
     "location": {
       "column": "9",
       "line": "74",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_SENSE_A",
     "origin": "user_include",
@@ -5021,7 +5021,7 @@
     "location": {
       "column": "9",
       "line": "75",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_IBE_A",
     "origin": "user_include",
@@ -5035,7 +5035,7 @@
     "location": {
       "column": "9",
       "line": "76",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_IEV_A",
     "origin": "user_include",
@@ -5049,7 +5049,7 @@
     "location": {
       "column": "9",
       "line": "77",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_IM_A",
     "origin": "user_include",
@@ -5063,7 +5063,7 @@
     "location": {
       "column": "9",
       "line": "78",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_CLEAR_A",
     "origin": "user_include",
@@ -5077,7 +5077,7 @@
     "location": {
       "column": "9",
       "line": "79",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "GPIO_STATUS_A",
     "origin": "user_include",
@@ -5091,7 +5091,7 @@
     "location": {
       "column": "9",
       "line": "81",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "EN0",
     "origin": "user_include",
@@ -5105,7 +5105,7 @@
     "location": {
       "column": "9",
       "line": "82",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "DIS0",
     "origin": "user_include",
@@ -5119,7 +5119,7 @@
     "location": {
       "column": "9",
       "line": "83",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "PRI0",
     "origin": "user_include",
@@ -5133,7 +5133,7 @@
     "location": {
       "column": "9",
       "line": "84",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "PRI4",
     "origin": "user_include",
@@ -5147,7 +5147,7 @@
     "location": {
       "column": "9",
       "line": "85",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "PRI5",
     "origin": "user_include",
@@ -5161,7 +5161,7 @@
     "location": {
       "column": "9",
       "line": "86",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "PRI7",
     "origin": "user_include",
@@ -5175,7 +5175,7 @@
     "location": {
       "column": "9",
       "line": "89",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "ADC_CLK_EN",
     "origin": "user_include",
@@ -5189,7 +5189,7 @@
     "location": {
       "column": "9",
       "line": "90",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "ADC_RCGC0",
     "origin": "user_include",
@@ -5203,7 +5203,7 @@
     "location": {
       "column": "9",
       "line": "93",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "ADC0_SSPRI",
     "origin": "user_include",
@@ -5217,7 +5217,7 @@
     "location": {
       "column": "9",
       "line": "94",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "ADC0_ACTSS",
     "origin": "user_include",
@@ -5231,7 +5231,7 @@
     "location": {
       "column": "9",
       "line": "95",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "ADC0_EMUX",
     "origin": "user_include",
@@ -5245,7 +5245,7 @@
     "location": {
       "column": "9",
       "line": "96",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "ADC0_SSMUX3",
     "origin": "user_include",
@@ -5259,7 +5259,7 @@
     "location": {
       "column": "9",
       "line": "97",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "ADC0_SSCTL3",
     "origin": "user_include",
@@ -5273,7 +5273,7 @@
     "location": {
       "column": "9",
       "line": "98",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "ADC0_IM",
     "origin": "user_include",
@@ -5287,7 +5287,7 @@
     "location": {
       "column": "9",
       "line": "99",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "ADC0_ISC",
     "origin": "user_include",
@@ -5301,7 +5301,7 @@
     "location": {
       "column": "9",
       "line": "100",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "ADC0_SSFIFO3",
     "origin": "user_include",
@@ -5315,7 +5315,7 @@
     "location": {
       "column": "9",
       "line": "101",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "ADC0_RIS",
     "origin": "user_include",
@@ -5329,7 +5329,7 @@
     "location": {
       "column": "9",
       "line": "102",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "ADC0_PSSI",
     "origin": "user_include",
@@ -5343,7 +5343,7 @@
     "location": {
       "column": "9",
       "line": "103",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "ADC0_SSFIFO3",
     "origin": "user_include",
@@ -5357,7 +5357,7 @@
     "location": {
       "column": "9",
       "line": "104",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "ADC0_DCISC",
     "origin": "user_include",
@@ -5371,7 +5371,7 @@
     "location": {
       "column": "9",
       "line": "107",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "CLK_RCC",
     "origin": "user_include",
@@ -5385,7 +5385,7 @@
     "location": {
       "column": "9",
       "line": "108",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "CLK_RCC2",
     "origin": "user_include",
@@ -5399,7 +5399,7 @@
     "location": {
       "column": "9",
       "line": "109",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "RIS",
     "origin": "user_include",
@@ -5413,7 +5413,7 @@
     "location": {
       "column": "9",
       "line": "112",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "RCGCUART",
     "origin": "user_include",
@@ -5427,7 +5427,7 @@
     "location": {
       "column": "9",
       "line": "113",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "UART0_CTL",
     "origin": "user_include",
@@ -5441,7 +5441,7 @@
     "location": {
       "column": "9",
       "line": "114",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "UART0_IBRD",
     "origin": "user_include",
@@ -5455,7 +5455,7 @@
     "location": {
       "column": "9",
       "line": "115",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "UART0_FBRD",
     "origin": "user_include",
@@ -5469,7 +5469,7 @@
     "location": {
       "column": "9",
       "line": "116",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "UART0_LCRH",
     "origin": "user_include",
@@ -5483,7 +5483,7 @@
     "location": {
       "column": "9",
       "line": "117",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "UART0_CC",
     "origin": "user_include",
@@ -5497,7 +5497,7 @@
     "location": {
       "column": "9",
       "line": "118",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "UART0_FR",
     "origin": "user_include",
@@ -5511,7 +5511,7 @@
     "location": {
       "column": "9",
       "line": "119",
-      "path": "C:\\Users\\candy\\474Group8\\ee474.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\ee474.h"
     },
     "name": "UART0_DR",
     "origin": "user_include",
@@ -10454,20 +10454,6 @@
     "scope": null
   },
   {
-    "ID": "c:stdint.h@T@__data_intptr_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "int",
-    "location": {
-      "column": "1",
-      "line": "89",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\stdint.h"
-    },
-    "name": "__data_intptr_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:stdint.h@T@__data_uintptr_t",
     "What": "Typedef",
     "defdec": "Def",
@@ -10478,6 +10464,20 @@
       "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\stdint.h"
     },
     "name": "__data_uintptr_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdint.h@T@__data_intptr_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "int",
+    "location": {
+      "column": "1",
+      "line": "89",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\stdint.h"
+    },
+    "name": "__data_intptr_t",
     "origin": "system_include",
     "scope": null
   },
@@ -12029,7 +12029,7 @@
     "location": {
       "column": "9",
       "line": "6",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "FLAG_NONE",
     "origin": "project_file",
@@ -12043,7 +12043,7 @@
     "location": {
       "column": "9",
       "line": "7",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "FLAG_ONE",
     "origin": "project_file",
@@ -12057,7 +12057,7 @@
     "location": {
       "column": "9",
       "line": "8",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "FLAG_ADC",
     "origin": "project_file",
@@ -12071,7 +12071,7 @@
     "location": {
       "column": "9",
       "line": "10",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "RED",
     "origin": "project_file",
@@ -12085,7 +12085,7 @@
     "location": {
       "column": "9",
       "line": "11",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "BLUE",
     "origin": "project_file",
@@ -12099,7 +12099,7 @@
     "location": {
       "column": "9",
       "line": "12",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "VIOLET",
     "origin": "project_file",
@@ -12113,7 +12113,7 @@
     "location": {
       "column": "9",
       "line": "13",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "GREEN",
     "origin": "project_file",
@@ -12127,7 +12127,7 @@
     "location": {
       "column": "9",
       "line": "14",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "YELLOW",
     "origin": "project_file",
@@ -12141,7 +12141,7 @@
     "location": {
       "column": "9",
       "line": "15",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "LIGHT_BLUE",
     "origin": "project_file",
@@ -12155,7 +12155,7 @@
     "location": {
       "column": "9",
       "line": "16",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "WHITE",
     "origin": "project_file",
@@ -12169,7 +12169,7 @@
     "location": {
       "column": "9",
       "line": "18",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "MHZ16",
     "origin": "project_file",
@@ -12183,7 +12183,7 @@
     "location": {
       "column": "9",
       "line": "19",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "MHZ80",
     "origin": "project_file",
@@ -12197,7 +12197,7 @@
     "location": {
       "column": "9",
       "line": "20",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "MHZ4",
     "origin": "project_file",
@@ -12211,7 +12211,7 @@
     "location": {
       "column": "15",
       "line": "22",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "FLAG",
     "origin": "project_file",
@@ -12225,7 +12225,7 @@
     "location": {
       "column": "15",
       "line": "24",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "result",
     "origin": "project_file",
@@ -12239,7 +12239,7 @@
     "location": {
       "column": "15",
       "line": "25",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "output",
     "origin": "project_file",
@@ -12253,7 +12253,7 @@
     "location": {
       "column": "5",
       "line": "27",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "SerialFlag",
     "origin": "project_file",
@@ -12267,7 +12267,7 @@
     "location": {
       "column": "6",
       "line": "29",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "LED_ON",
     "origin": "project_file",
@@ -12281,7 +12281,7 @@
     "location": {
       "column": "6",
       "line": "30",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "LED_OFF",
     "origin": "project_file",
@@ -12295,7 +12295,7 @@
     "location": {
       "column": "6",
       "line": "31",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "Switching",
     "origin": "project_file",
@@ -12309,7 +12309,7 @@
     "location": {
       "column": "6",
       "line": "33",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "transmit",
     "origin": "project_file",
@@ -12323,7 +12323,7 @@
     "location": {
       "column": "5",
       "line": "38",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "recieve",
     "origin": "project_file",
@@ -12337,7 +12337,7 @@
     "location": {
       "column": "6",
       "line": "43",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "Timer0A_Handler",
     "origin": "project_file",
@@ -12351,7 +12351,7 @@
     "location": {
       "column": "6",
       "line": "50",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "PortF_Handler",
     "origin": "project_file",
@@ -12365,7 +12365,7 @@
     "location": {
       "column": "6",
       "line": "71",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "ADC0_Handler",
     "origin": "project_file",
@@ -12379,7 +12379,7 @@
     "location": {
       "column": "17",
       "line": "74",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "ADCvalue",
     "origin": "project_file",
@@ -12393,7 +12393,7 @@
     "location": {
       "column": "5",
       "line": "80",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "main",
     "origin": "project_file",
@@ -12406,8 +12406,8 @@
     "display": "void LED_ON(unsigned int)",
     "location": {
       "column": "6",
-      "line": "100",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "line": "97",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "LED_ON",
     "origin": "project_file",
@@ -12420,8 +12420,8 @@
     "display": "void LED_OFF(void)",
     "location": {
       "column": "6",
-      "line": "106",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "line": "103",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "LED_OFF",
     "origin": "project_file",
@@ -12434,24 +12434,10 @@
     "display": "void Switching(void)",
     "location": {
       "column": "6",
-      "line": "110",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
+      "line": "107",
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\main.c"
     },
     "name": "Switching",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:main.c@2844@F@Switching@tempResult",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "tempResult",
-    "location": {
-      "column": "22",
-      "line": "131",
-      "path": "C:\\Users\\candy\\474Group8\\main.c"
-    },
-    "name": "tempResult",
     "origin": "project_file",
     "scope": null
   },
@@ -12463,7 +12449,7 @@
     "location": {
       "column": "9",
       "line": "4",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "SSD2119_H",
     "origin": "user_include",
@@ -12477,7 +12463,7 @@
     "location": {
       "column": "6",
       "line": "10",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_GPIOInit",
     "origin": "user_include",
@@ -12491,7 +12477,7 @@
     "location": {
       "column": "6",
       "line": "10",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_GPIOInit",
     "origin": "user_include",
@@ -12505,7 +12491,7 @@
     "location": {
       "column": "6",
       "line": "16",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_WriteCommand",
     "origin": "user_include",
@@ -12519,7 +12505,7 @@
     "location": {
       "column": "6",
       "line": "16",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_WriteCommand",
     "origin": "user_include",
@@ -12533,7 +12519,7 @@
     "location": {
       "column": "6",
       "line": "22",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_WriteData",
     "origin": "user_include",
@@ -12547,7 +12533,7 @@
     "location": {
       "column": "6",
       "line": "22",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_WriteData",
     "origin": "user_include",
@@ -12561,7 +12547,7 @@
     "location": {
       "column": "6",
       "line": "28",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_Init",
     "origin": "user_include",
@@ -12575,7 +12561,7 @@
     "location": {
       "column": "6",
       "line": "28",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_Init",
     "origin": "user_include",
@@ -12589,7 +12575,7 @@
     "location": {
       "column": "16",
       "line": "34",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "convertColor",
     "origin": "user_include",
@@ -12603,7 +12589,7 @@
     "location": {
       "column": "16",
       "line": "34",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "convertColor",
     "origin": "user_include",
@@ -12617,7 +12603,7 @@
     "location": {
       "column": "6",
       "line": "39",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_ColorFill",
     "origin": "user_include",
@@ -12631,7 +12617,7 @@
     "location": {
       "column": "6",
       "line": "39",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_ColorFill",
     "origin": "user_include",
@@ -12645,7 +12631,7 @@
     "location": {
       "column": "5",
       "line": "44",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "abs",
     "origin": "user_include",
@@ -12659,7 +12645,7 @@
     "location": {
       "column": "5",
       "line": "44",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "abs",
     "origin": "user_include",
@@ -12673,7 +12659,7 @@
     "location": {
       "column": "6",
       "line": "53",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_PrintChar",
     "origin": "user_include",
@@ -12687,7 +12673,7 @@
     "location": {
       "column": "6",
       "line": "53",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_PrintChar",
     "origin": "user_include",
@@ -12701,7 +12687,7 @@
     "location": {
       "column": "6",
       "line": "58",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_PrintString",
     "origin": "user_include",
@@ -12715,7 +12701,7 @@
     "location": {
       "column": "6",
       "line": "58",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_PrintString",
     "origin": "user_include",
@@ -12729,7 +12715,7 @@
     "location": {
       "column": "6",
       "line": "63",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_SetCursor",
     "origin": "user_include",
@@ -12743,7 +12729,7 @@
     "location": {
       "column": "6",
       "line": "63",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_SetCursor",
     "origin": "user_include",
@@ -12757,7 +12743,7 @@
     "location": {
       "column": "6",
       "line": "70",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_Goto",
     "origin": "user_include",
@@ -12771,7 +12757,7 @@
     "location": {
       "column": "6",
       "line": "70",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_Goto",
     "origin": "user_include",
@@ -12785,7 +12771,7 @@
     "location": {
       "column": "6",
       "line": "75",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_SetTextColor",
     "origin": "user_include",
@@ -12799,7 +12785,7 @@
     "location": {
       "column": "6",
       "line": "75",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_SetTextColor",
     "origin": "user_include",
@@ -12813,7 +12799,7 @@
     "location": {
       "column": "6",
       "line": "88",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "printf",
     "origin": "user_include",
@@ -12827,7 +12813,7 @@
     "location": {
       "column": "6",
       "line": "88",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "printf",
     "origin": "user_include",
@@ -12841,7 +12827,7 @@
     "location": {
       "column": "6",
       "line": "93",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_PrintInteger",
     "origin": "user_include",
@@ -12855,7 +12841,7 @@
     "location": {
       "column": "6",
       "line": "93",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_PrintInteger",
     "origin": "user_include",
@@ -12869,7 +12855,7 @@
     "location": {
       "column": "6",
       "line": "98",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_PrintHex",
     "origin": "user_include",
@@ -12883,7 +12869,7 @@
     "location": {
       "column": "6",
       "line": "98",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_PrintHex",
     "origin": "user_include",
@@ -12897,7 +12883,7 @@
     "location": {
       "column": "6",
       "line": "103",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_PrintBinary",
     "origin": "user_include",
@@ -12911,7 +12897,7 @@
     "location": {
       "column": "6",
       "line": "103",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_PrintBinary",
     "origin": "user_include",
@@ -12925,7 +12911,7 @@
     "location": {
       "column": "6",
       "line": "108",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_PrintFloat",
     "origin": "user_include",
@@ -12939,7 +12925,7 @@
     "location": {
       "column": "6",
       "line": "108",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_PrintFloat",
     "origin": "user_include",
@@ -12953,7 +12939,7 @@
     "location": {
       "column": "6",
       "line": "117",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_DrawPixel",
     "origin": "user_include",
@@ -12967,7 +12953,7 @@
     "location": {
       "column": "6",
       "line": "117",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_DrawPixel",
     "origin": "user_include",
@@ -12981,7 +12967,7 @@
     "location": {
       "column": "6",
       "line": "122",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_DrawPixelRGB",
     "origin": "user_include",
@@ -12995,7 +12981,7 @@
     "location": {
       "column": "6",
       "line": "122",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_DrawPixelRGB",
     "origin": "user_include",
@@ -13009,7 +12995,7 @@
     "location": {
       "column": "6",
       "line": "128",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_DrawLine",
     "origin": "user_include",
@@ -13023,7 +13009,7 @@
     "location": {
       "column": "6",
       "line": "128",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_DrawLine",
     "origin": "user_include",
@@ -13037,7 +13023,7 @@
     "location": {
       "column": "6",
       "line": "133",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_DrawRect",
     "origin": "user_include",
@@ -13051,7 +13037,7 @@
     "location": {
       "column": "6",
       "line": "133",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_DrawRect",
     "origin": "user_include",
@@ -13065,7 +13051,7 @@
     "location": {
       "column": "6",
       "line": "138",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_DrawFilledRect",
     "origin": "user_include",
@@ -13079,7 +13065,7 @@
     "location": {
       "column": "6",
       "line": "138",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_DrawFilledRect",
     "origin": "user_include",
@@ -13093,7 +13079,7 @@
     "location": {
       "column": "6",
       "line": "143",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_DrawCircle",
     "origin": "user_include",
@@ -13107,7 +13093,7 @@
     "location": {
       "column": "6",
       "line": "143",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_DrawCircle",
     "origin": "user_include",
@@ -13121,7 +13107,7 @@
     "location": {
       "column": "6",
       "line": "148",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_DrawFilledCircle",
     "origin": "user_include",
@@ -13135,7 +13121,7 @@
     "location": {
       "column": "6",
       "line": "148",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_DrawFilledCircle",
     "origin": "user_include",
@@ -13149,7 +13135,7 @@
     "location": {
       "column": "6",
       "line": "160",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_DrawImage",
     "origin": "user_include",
@@ -13163,7 +13149,7 @@
     "location": {
       "column": "6",
       "line": "160",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_DrawImage",
     "origin": "user_include",
@@ -13177,7 +13163,7 @@
     "location": {
       "column": "6",
       "line": "175",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_DrawBMP",
     "origin": "user_include",
@@ -13191,7 +13177,7 @@
     "location": {
       "column": "6",
       "line": "175",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "LCD_DrawBMP",
     "origin": "user_include",
@@ -13205,7 +13191,7 @@
     "location": {
       "column": "19",
       "line": "179",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "ASCII",
     "origin": "user_include",
@@ -13219,7 +13205,7 @@
     "location": {
       "column": "6",
       "line": "285",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "Touch_Init",
     "origin": "user_include",
@@ -13233,7 +13219,7 @@
     "location": {
       "column": "6",
       "line": "285",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "Touch_Init",
     "origin": "user_include",
@@ -13247,7 +13233,7 @@
     "location": {
       "column": "15",
       "line": "294",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "Touch_ReadX",
     "origin": "user_include",
@@ -13261,7 +13247,7 @@
     "location": {
       "column": "15",
       "line": "294",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "Touch_ReadX",
     "origin": "user_include",
@@ -13275,7 +13261,7 @@
     "location": {
       "column": "15",
       "line": "302",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "Touch_ReadY",
     "origin": "user_include",
@@ -13289,7 +13275,7 @@
     "location": {
       "column": "15",
       "line": "302",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "Touch_ReadY",
     "origin": "user_include",
@@ -13303,7 +13289,7 @@
     "location": {
       "column": "15",
       "line": "310",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "Touch_ReadZ1",
     "origin": "user_include",
@@ -13317,7 +13303,7 @@
     "location": {
       "column": "15",
       "line": "310",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "Touch_ReadZ1",
     "origin": "user_include",
@@ -13331,7 +13317,7 @@
     "location": {
       "column": "15",
       "line": "318",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "Touch_ReadZ2",
     "origin": "user_include",
@@ -13345,7 +13331,7 @@
     "location": {
       "column": "15",
       "line": "318",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "Touch_ReadZ2",
     "origin": "user_include",
@@ -13359,7 +13345,7 @@
     "location": {
       "column": "6",
       "line": "321",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "Touch_GetCoords",
     "origin": "user_include",
@@ -13373,7 +13359,7 @@
     "location": {
       "column": "6",
       "line": "321",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "Touch_GetCoords",
     "origin": "user_include",
@@ -13387,7 +13373,7 @@
     "location": {
       "column": "6",
       "line": "323",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "Touch_BeginWaitForTouch",
     "origin": "user_include",
@@ -13401,7 +13387,7 @@
     "location": {
       "column": "6",
       "line": "323",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.h"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.h"
     },
     "name": "Touch_BeginWaitForTouch",
     "origin": "user_include",
@@ -106767,7 +106753,7 @@
     "location": {
       "column": "22",
       "line": "45",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "Color4",
     "origin": "project_file",
@@ -106781,7 +106767,7 @@
     "location": {
       "column": "16",
       "line": "65",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "cursorX",
     "origin": "project_file",
@@ -106795,7 +106781,7 @@
     "location": {
       "column": "16",
       "line": "66",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "cursorY",
     "origin": "project_file",
@@ -106809,7 +106795,7 @@
     "location": {
       "column": "16",
       "line": "67",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "textColor",
     "origin": "project_file",
@@ -106823,7 +106809,7 @@
     "location": {
       "column": "9",
       "line": "69",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "members": [
       {
@@ -106834,7 +106820,7 @@
         "location": {
           "column": "9",
           "line": "70",
-          "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+          "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
         },
         "name": "x",
         "origin": "project_file",
@@ -106848,7 +106834,7 @@
         "location": {
           "column": "9",
           "line": "71",
-          "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+          "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
         },
         "name": "y",
         "origin": "project_file",
@@ -106862,7 +106848,7 @@
         "location": {
           "column": "3",
           "line": "72",
-          "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+          "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
         },
         "name": "coord",
         "origin": "project_file",
@@ -106881,7 +106867,7 @@
     "location": {
       "column": "9",
       "line": "78",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_HEIGHT",
     "origin": "project_file",
@@ -106895,7 +106881,7 @@
     "location": {
       "column": "9",
       "line": "79",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_WIDTH",
     "origin": "project_file",
@@ -106909,7 +106895,7 @@
     "location": {
       "column": "9",
       "line": "85",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "CONVERT24BPP",
     "origin": "project_file",
@@ -106923,7 +106909,7 @@
     "location": {
       "column": "9",
       "line": "88",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "CONVERT8BPP",
     "origin": "project_file",
@@ -106937,7 +106923,7 @@
     "location": {
       "column": "9",
       "line": "91",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "CONVERT4BPP",
     "origin": "project_file",
@@ -106951,7 +106937,7 @@
     "location": {
       "column": "9",
       "line": "94",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "BMP_WIDTH_OFFSET",
     "origin": "project_file",
@@ -106965,7 +106951,7 @@
     "location": {
       "column": "9",
       "line": "95",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "BMP_HEIGHT_OFFSET",
     "origin": "project_file",
@@ -106979,7 +106965,7 @@
     "location": {
       "column": "9",
       "line": "96",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "BMP_DATA_OFFSET",
     "origin": "project_file",
@@ -106993,7 +106979,7 @@
     "location": {
       "column": "9",
       "line": "97",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "BMP_BPP_OFFSET",
     "origin": "project_file",
@@ -107007,7 +106993,7 @@
     "location": {
       "column": "9",
       "line": "100",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_DEVICE_CODE_READ_REG",
     "origin": "project_file",
@@ -107021,7 +107007,7 @@
     "location": {
       "column": "9",
       "line": "101",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_OSC_START_REG",
     "origin": "project_file",
@@ -107035,7 +107021,7 @@
     "location": {
       "column": "9",
       "line": "102",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_OUTPUT_CTRL_REG",
     "origin": "project_file",
@@ -107049,7 +107035,7 @@
     "location": {
       "column": "9",
       "line": "103",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_LCD_DRIVE_AC_CTRL_REG",
     "origin": "project_file",
@@ -107063,7 +107049,7 @@
     "location": {
       "column": "9",
       "line": "104",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_PWR_CTRL_1_REG",
     "origin": "project_file",
@@ -107077,7 +107063,7 @@
     "location": {
       "column": "9",
       "line": "105",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_DISPLAY_CTRL_REG",
     "origin": "project_file",
@@ -107091,7 +107077,7 @@
     "location": {
       "column": "9",
       "line": "106",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_FRAME_CYCLE_CTRL_REG",
     "origin": "project_file",
@@ -107105,7 +107091,7 @@
     "location": {
       "column": "9",
       "line": "107",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_PWR_CTRL_2_REG",
     "origin": "project_file",
@@ -107119,7 +107105,7 @@
     "location": {
       "column": "9",
       "line": "108",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_PWR_CTRL_3_REG",
     "origin": "project_file",
@@ -107133,7 +107119,7 @@
     "location": {
       "column": "9",
       "line": "109",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_PWR_CTRL_4_REG",
     "origin": "project_file",
@@ -107147,7 +107133,7 @@
     "location": {
       "column": "9",
       "line": "110",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_GATE_SCAN_START_REG",
     "origin": "project_file",
@@ -107161,7 +107147,7 @@
     "location": {
       "column": "9",
       "line": "111",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_SLEEP_MODE_REG",
     "origin": "project_file",
@@ -107175,7 +107161,7 @@
     "location": {
       "column": "9",
       "line": "112",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_ENTRY_MODE_REG",
     "origin": "project_file",
@@ -107189,7 +107175,7 @@
     "location": {
       "column": "9",
       "line": "113",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_GEN_IF_CTRL_REG",
     "origin": "project_file",
@@ -107203,7 +107189,7 @@
     "location": {
       "column": "9",
       "line": "114",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_PWR_CTRL_5_REG",
     "origin": "project_file",
@@ -107217,7 +107203,7 @@
     "location": {
       "column": "9",
       "line": "115",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_RAM_DATA_REG",
     "origin": "project_file",
@@ -107231,7 +107217,7 @@
     "location": {
       "column": "9",
       "line": "116",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_FRAME_FREQ_REG",
     "origin": "project_file",
@@ -107245,7 +107231,7 @@
     "location": {
       "column": "9",
       "line": "117",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_VCOM_OTP_1_REG",
     "origin": "project_file",
@@ -107259,7 +107245,7 @@
     "location": {
       "column": "9",
       "line": "118",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_VCOM_OTP_2_REG",
     "origin": "project_file",
@@ -107273,7 +107259,7 @@
     "location": {
       "column": "9",
       "line": "119",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_GAMMA_CTRL_1_REG",
     "origin": "project_file",
@@ -107287,7 +107273,7 @@
     "location": {
       "column": "9",
       "line": "120",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_GAMMA_CTRL_2_REG",
     "origin": "project_file",
@@ -107301,7 +107287,7 @@
     "location": {
       "column": "9",
       "line": "121",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_GAMMA_CTRL_3_REG",
     "origin": "project_file",
@@ -107315,7 +107301,7 @@
     "location": {
       "column": "9",
       "line": "122",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_GAMMA_CTRL_4_REG",
     "origin": "project_file",
@@ -107329,7 +107315,7 @@
     "location": {
       "column": "9",
       "line": "123",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_GAMMA_CTRL_5_REG",
     "origin": "project_file",
@@ -107343,7 +107329,7 @@
     "location": {
       "column": "9",
       "line": "124",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_GAMMA_CTRL_6_REG",
     "origin": "project_file",
@@ -107357,7 +107343,7 @@
     "location": {
       "column": "9",
       "line": "125",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_GAMMA_CTRL_7_REG",
     "origin": "project_file",
@@ -107371,7 +107357,7 @@
     "location": {
       "column": "9",
       "line": "126",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_GAMMA_CTRL_8_REG",
     "origin": "project_file",
@@ -107385,7 +107371,7 @@
     "location": {
       "column": "9",
       "line": "127",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_GAMMA_CTRL_9_REG",
     "origin": "project_file",
@@ -107399,7 +107385,7 @@
     "location": {
       "column": "9",
       "line": "128",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_GAMMA_CTRL_10_REG",
     "origin": "project_file",
@@ -107413,7 +107399,7 @@
     "location": {
       "column": "9",
       "line": "129",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_V_RAM_POS_REG",
     "origin": "project_file",
@@ -107427,7 +107413,7 @@
     "location": {
       "column": "9",
       "line": "130",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_H_RAM_START_REG",
     "origin": "project_file",
@@ -107441,7 +107427,7 @@
     "location": {
       "column": "9",
       "line": "131",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_H_RAM_END_REG",
     "origin": "project_file",
@@ -107455,7 +107441,7 @@
     "location": {
       "column": "9",
       "line": "132",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_X_RAM_ADDR_REG",
     "origin": "project_file",
@@ -107469,7 +107455,7 @@
     "location": {
       "column": "9",
       "line": "133",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "SSD2119_Y_RAM_ADDR_REG",
     "origin": "project_file",
@@ -107483,7 +107469,7 @@
     "location": {
       "column": "9",
       "line": "134",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "ENTRY_MODE_DEFAULT",
     "origin": "project_file",
@@ -107497,7 +107483,7 @@
     "location": {
       "column": "9",
       "line": "138",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "MAX_CHARS_X",
     "origin": "project_file",
@@ -107511,7 +107497,7 @@
     "location": {
       "column": "9",
       "line": "139",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "MAX_CHARS_Y",
     "origin": "project_file",
@@ -107525,7 +107511,7 @@
     "location": {
       "column": "9",
       "line": "142",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "HORIZ_DIRECTION",
     "origin": "project_file",
@@ -107539,7 +107525,7 @@
     "location": {
       "column": "9",
       "line": "143",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "VERT_DIRECTION",
     "origin": "project_file",
@@ -107553,7 +107539,7 @@
     "location": {
       "column": "9",
       "line": "144",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "ENTRY_MODE_DEFAULT",
     "origin": "project_file",
@@ -107567,7 +107553,7 @@
     "location": {
       "column": "9",
       "line": "145",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "MAKE_ENTRY_MODE",
     "origin": "project_file",
@@ -107581,7 +107567,7 @@
     "location": {
       "column": "9",
       "line": "148",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_RD_PIN",
     "origin": "project_file",
@@ -107595,7 +107581,7 @@
     "location": {
       "column": "9",
       "line": "149",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_WR_PIN",
     "origin": "project_file",
@@ -107609,7 +107595,7 @@
     "location": {
       "column": "9",
       "line": "150",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_RS_PIN",
     "origin": "project_file",
@@ -107623,7 +107609,7 @@
     "location": {
       "column": "9",
       "line": "151",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_CS_PIN",
     "origin": "project_file",
@@ -107637,7 +107623,7 @@
     "location": {
       "column": "9",
       "line": "152",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_CTRL",
     "origin": "project_file",
@@ -107651,7 +107637,7 @@
     "location": {
       "column": "9",
       "line": "153",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_DATA",
     "origin": "project_file",
@@ -107665,7 +107651,7 @@
     "location": {
       "column": "6",
       "line": "160",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "ADC_Init_",
     "origin": "project_file",
@@ -107679,7 +107665,7 @@
     "location": {
       "column": "15",
       "line": "168",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "ADC_Read",
     "origin": "project_file",
@@ -107693,7 +107679,7 @@
     "location": {
       "column": "6",
       "line": "176",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "ADC_SetChannel",
     "origin": "project_file",
@@ -107707,7 +107693,7 @@
     "location": {
       "column": "6",
       "line": "186",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_GPIOInit",
     "origin": "project_file",
@@ -107721,7 +107707,7 @@
     "location": {
       "column": "17",
       "line": "187",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "wait",
     "origin": "project_file",
@@ -107735,7 +107721,7 @@
     "location": {
       "column": "6",
       "line": "221",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_WriteCommand",
     "origin": "project_file",
@@ -107749,7 +107735,7 @@
     "location": {
       "column": "66",
       "line": "221",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "delay",
     "origin": "project_file",
@@ -107763,7 +107749,7 @@
     "location": {
       "column": "6",
       "line": "243",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_WriteData",
     "origin": "project_file",
@@ -107777,7 +107763,7 @@
     "location": {
       "column": "64",
       "line": "243",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "delay",
     "origin": "project_file",
@@ -107791,7 +107777,7 @@
     "location": {
       "column": "6",
       "line": "261",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_Init",
     "origin": "project_file",
@@ -107805,7 +107791,7 @@
     "location": {
       "column": "17",
       "line": "262",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "count",
     "origin": "project_file",
@@ -107819,7 +107805,7 @@
     "location": {
       "column": "16",
       "line": "363",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "convertColor",
     "origin": "project_file",
@@ -107833,7 +107819,7 @@
     "location": {
       "column": "6",
       "line": "370",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_ColorFill",
     "origin": "project_file",
@@ -107847,7 +107833,7 @@
     "location": {
       "column": "5",
       "line": "378",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "abs",
     "origin": "project_file",
@@ -107861,7 +107847,7 @@
     "location": {
       "column": "6",
       "line": "390",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_PrintChar",
     "origin": "project_file",
@@ -107875,7 +107861,7 @@
     "location": {
       "column": "17",
       "line": "391",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "i",
     "origin": "project_file",
@@ -107889,7 +107875,7 @@
     "location": {
       "column": "19",
       "line": "391",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "j",
     "origin": "project_file",
@@ -107903,7 +107889,7 @@
     "location": {
       "column": "21",
       "line": "391",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "tempData",
     "origin": "project_file",
@@ -107917,21 +107903,21 @@
     "location": {
       "column": "6",
       "line": "435",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_PrintString",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@17529@F@LCD_PrintString@i",
+    "ID": "c:SSD2119.c@17525@F@LCD_PrintString@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "18",
       "line": "436",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "i",
     "origin": "project_file",
@@ -107945,7 +107931,7 @@
     "location": {
       "column": "6",
       "line": "448",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_SetCursor",
     "origin": "project_file",
@@ -107959,7 +107945,7 @@
     "location": {
       "column": "6",
       "line": "466",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_Goto",
     "origin": "project_file",
@@ -107973,7 +107959,7 @@
     "location": {
       "column": "6",
       "line": "474",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_SetTextColor",
     "origin": "project_file",
@@ -107987,203 +107973,203 @@
     "location": {
       "column": "6",
       "line": "490",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "printf",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@19460@F@printf@k",
+    "ID": "c:SSD2119.c@19456@F@printf@k",
     "What": "Variable",
     "defdec": "Def",
     "display": "k",
     "location": {
       "column": "17",
       "line": "491",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "k",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@19484@F@printf@next_arg",
+    "ID": "c:SSD2119.c@19480@F@printf@next_arg",
     "What": "Variable",
     "defdec": "Def",
     "display": "next_arg",
     "location": {
       "column": "9",
       "line": "492",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "next_arg",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@19689@F@printf@p",
+    "ID": "c:SSD2119.c@19685@F@printf@p",
     "What": "Variable",
     "defdec": "Def",
     "display": "p",
     "location": {
       "column": "15",
       "line": "496",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "p",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@19726@F@printf@x",
+    "ID": "c:SSD2119.c@19722@F@printf@x",
     "What": "Variable",
     "defdec": "Def",
     "display": "x",
     "location": {
       "column": "14",
       "line": "497",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "x",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@19869@F@printf@p",
+    "ID": "c:SSD2119.c@19865@F@printf@p",
     "What": "Variable",
     "defdec": "Def",
     "display": "p",
     "location": {
       "column": "15",
       "line": "501",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "p",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@19906@F@printf@x",
+    "ID": "c:SSD2119.c@19902@F@printf@x",
     "What": "Variable",
     "defdec": "Def",
     "display": "x",
     "location": {
       "column": "14",
       "line": "502",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "x",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@20043@F@printf@p",
+    "ID": "c:SSD2119.c@20039@F@printf@p",
     "What": "Variable",
     "defdec": "Def",
     "display": "p",
     "location": {
       "column": "16",
       "line": "506",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "p",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@20082@F@printf@x",
+    "ID": "c:SSD2119.c@20078@F@printf@x",
     "What": "Variable",
     "defdec": "Def",
     "display": "x",
     "location": {
       "column": "15",
       "line": "507",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "x",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@20239@F@printf@p",
+    "ID": "c:SSD2119.c@20235@F@printf@p",
     "What": "Variable",
     "defdec": "Def",
     "display": "p",
     "location": {
       "column": "16",
       "line": "511",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "p",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@20278@F@printf@x",
+    "ID": "c:SSD2119.c@20274@F@printf@x",
     "What": "Variable",
     "defdec": "Def",
     "display": "x",
     "location": {
       "column": "15",
       "line": "512",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "x",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@20422@F@printf@p",
+    "ID": "c:SSD2119.c@20418@F@printf@p",
     "What": "Variable",
     "defdec": "Def",
     "display": "p",
     "location": {
       "column": "15",
       "line": "516",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "p",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@20459@F@printf@x",
+    "ID": "c:SSD2119.c@20455@F@printf@x",
     "What": "Variable",
     "defdec": "Def",
     "display": "x",
     "location": {
       "column": "14",
       "line": "517",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "x",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@20595@F@printf@p",
+    "ID": "c:SSD2119.c@20591@F@printf@p",
     "What": "Variable",
     "defdec": "Def",
     "display": "p",
     "location": {
       "column": "15",
       "line": "521",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "p",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@20632@F@printf@x",
+    "ID": "c:SSD2119.c@20628@F@printf@x",
     "What": "Variable",
     "defdec": "Def",
     "display": "x",
     "location": {
       "column": "14",
       "line": "522",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "x",
     "origin": "project_file",
@@ -108197,49 +108183,49 @@
     "location": {
       "column": "6",
       "line": "541",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_PrintInteger",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@21244@F@LCD_PrintInteger@i",
+    "ID": "c:SSD2119.c@21240@F@LCD_PrintInteger@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "17",
       "line": "542",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "i",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@21268@F@LCD_PrintInteger@sign",
+    "ID": "c:SSD2119.c@21264@F@LCD_PrintInteger@sign",
     "What": "Variable",
     "defdec": "Def",
     "display": "sign",
     "location": {
       "column": "17",
       "line": "543",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "sign",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@21297@F@LCD_PrintInteger@tempString",
+    "ID": "c:SSD2119.c@21293@F@LCD_PrintInteger@tempString",
     "What": "Variable",
     "defdec": "Def",
     "display": "tempString",
     "location": {
       "column": "17",
       "line": "544",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "tempString",
     "origin": "project_file",
@@ -108253,35 +108239,35 @@
     "location": {
       "column": "6",
       "line": "580",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_PrintHex",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@22096@F@LCD_PrintHex@i",
+    "ID": "c:SSD2119.c@22092@F@LCD_PrintHex@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "17",
       "line": "581",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "i",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@22120@F@LCD_PrintHex@tempString",
+    "ID": "c:SSD2119.c@22116@F@LCD_PrintHex@tempString",
     "What": "Variable",
     "defdec": "Def",
     "display": "tempString",
     "location": {
       "column": "17",
       "line": "582",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "tempString",
     "origin": "project_file",
@@ -108295,49 +108281,49 @@
     "location": {
       "column": "6",
       "line": "617",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_PrintBinary",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@22931@F@LCD_PrintBinary@i",
+    "ID": "c:SSD2119.c@22927@F@LCD_PrintBinary@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "17",
       "line": "618",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "i",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@22955@F@LCD_PrintBinary@j",
+    "ID": "c:SSD2119.c@22951@F@LCD_PrintBinary@j",
     "What": "Variable",
     "defdec": "Def",
     "display": "j",
     "location": {
       "column": "17",
       "line": "619",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "j",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@22979@F@LCD_PrintBinary@tempString",
+    "ID": "c:SSD2119.c@22975@F@LCD_PrintBinary@tempString",
     "What": "Variable",
     "defdec": "Def",
     "display": "tempString",
     "location": {
       "column": "17",
       "line": "620",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "tempString",
     "origin": "project_file",
@@ -108351,21 +108337,21 @@
     "location": {
       "column": "6",
       "line": "656",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_PrintFloat",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@23843@F@LCD_PrintFloat@temp",
+    "ID": "c:SSD2119.c@23839@F@LCD_PrintFloat@temp",
     "What": "Variable",
     "defdec": "Def",
     "display": "temp",
     "location": {
       "column": "8",
       "line": "657",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "temp",
     "origin": "project_file",
@@ -108379,7 +108365,7 @@
     "location": {
       "column": "6",
       "line": "679",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_DrawPixel",
     "origin": "project_file",
@@ -108393,7 +108379,7 @@
     "location": {
       "column": "6",
       "line": "697",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_DrawPixelRGB",
     "origin": "project_file",
@@ -108407,147 +108393,147 @@
     "location": {
       "column": "6",
       "line": "705",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_DrawLine",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@25759@F@LCD_DrawLine@x0",
+    "ID": "c:SSD2119.c@25755@F@LCD_DrawLine@x0",
     "What": "Variable",
     "defdec": "Def",
     "display": "x0",
     "location": {
       "column": "9",
       "line": "706",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "x0",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@25781@F@LCD_DrawLine@x1",
+    "ID": "c:SSD2119.c@25777@F@LCD_DrawLine@x1",
     "What": "Variable",
     "defdec": "Def",
     "display": "x1",
     "location": {
       "column": "9",
       "line": "707",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "x1",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@25801@F@LCD_DrawLine@y0",
+    "ID": "c:SSD2119.c@25797@F@LCD_DrawLine@y0",
     "What": "Variable",
     "defdec": "Def",
     "display": "y0",
     "location": {
       "column": "9",
       "line": "708",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "y0",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@25823@F@LCD_DrawLine@y1",
+    "ID": "c:SSD2119.c@25819@F@LCD_DrawLine@y1",
     "What": "Variable",
     "defdec": "Def",
     "display": "y1",
     "location": {
       "column": "9",
       "line": "709",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "y1",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@25847@F@LCD_DrawLine@dx",
+    "ID": "c:SSD2119.c@25843@F@LCD_DrawLine@dx",
     "What": "Variable",
     "defdec": "Def",
     "display": "dx",
     "location": {
       "column": "9",
       "line": "711",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "dx",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@25847@F@LCD_DrawLine@sx",
+    "ID": "c:SSD2119.c@25843@F@LCD_DrawLine@sx",
     "What": "Variable",
     "defdec": "Dec",
     "display": "sx",
     "location": {
       "column": "26",
       "line": "711",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "sx",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@25894@F@LCD_DrawLine@dy",
+    "ID": "c:SSD2119.c@25890@F@LCD_DrawLine@dy",
     "What": "Variable",
     "defdec": "Def",
     "display": "dy",
     "location": {
       "column": "9",
       "line": "712",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "dy",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@25894@F@LCD_DrawLine@sy",
+    "ID": "c:SSD2119.c@25890@F@LCD_DrawLine@sy",
     "What": "Variable",
     "defdec": "Dec",
     "display": "sy",
     "location": {
       "column": "26",
       "line": "712",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "sy",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@25942@F@LCD_DrawLine@err",
+    "ID": "c:SSD2119.c@25938@F@LCD_DrawLine@err",
     "What": "Variable",
     "defdec": "Def",
     "display": "err",
     "location": {
       "column": "9",
       "line": "713",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "err",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@25942@F@LCD_DrawLine@e2",
+    "ID": "c:SSD2119.c@25938@F@LCD_DrawLine@e2",
     "What": "Variable",
     "defdec": "Dec",
     "display": "e2",
     "location": {
       "column": "37",
       "line": "713",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "e2",
     "origin": "project_file",
@@ -108561,7 +108547,7 @@
     "location": {
       "column": "6",
       "line": "727",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_DrawRect",
     "origin": "project_file",
@@ -108575,35 +108561,35 @@
     "location": {
       "column": "6",
       "line": "737",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_DrawFilledRect",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@26979@F@LCD_DrawFilledRect@i",
+    "ID": "c:SSD2119.c@26975@F@LCD_DrawFilledRect@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "7",
       "line": "738",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "i",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@26979@F@LCD_DrawFilledRect@j",
+    "ID": "c:SSD2119.c@26975@F@LCD_DrawFilledRect@j",
     "What": "Variable",
     "defdec": "Dec",
     "display": "j",
     "location": {
       "column": "10",
       "line": "738",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "j",
     "origin": "project_file",
@@ -108617,77 +108603,77 @@
     "location": {
       "column": "6",
       "line": "759",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_DrawCircle",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@27682@F@LCD_DrawCircle@f",
+    "ID": "c:SSD2119.c@27678@F@LCD_DrawCircle@f",
     "What": "Variable",
     "defdec": "Def",
     "display": "f",
     "location": {
       "column": "7",
       "line": "760",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "f",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@27705@F@LCD_DrawCircle@ddF_x",
+    "ID": "c:SSD2119.c@27701@F@LCD_DrawCircle@ddF_x",
     "What": "Variable",
     "defdec": "Def",
     "display": "ddF_x",
     "location": {
       "column": "7",
       "line": "761",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "ddF_x",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@27723@F@LCD_DrawCircle@ddF_y",
+    "ID": "c:SSD2119.c@27719@F@LCD_DrawCircle@ddF_y",
     "What": "Variable",
     "defdec": "Def",
     "display": "ddF_y",
     "location": {
       "column": "7",
       "line": "762",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "ddF_y",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@27751@F@LCD_DrawCircle@x",
+    "ID": "c:SSD2119.c@27747@F@LCD_DrawCircle@x",
     "What": "Variable",
     "defdec": "Def",
     "display": "x",
     "location": {
       "column": "7",
       "line": "763",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "x",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@27765@F@LCD_DrawCircle@y",
+    "ID": "c:SSD2119.c@27761@F@LCD_DrawCircle@y",
     "What": "Variable",
     "defdec": "Def",
     "display": "y",
     "location": {
       "column": "7",
       "line": "764",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "y",
     "origin": "project_file",
@@ -108701,63 +108687,63 @@
     "location": {
       "column": "6",
       "line": "799",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_DrawFilledCircle",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@28844@F@LCD_DrawFilledCircle@x",
+    "ID": "c:SSD2119.c@28840@F@LCD_DrawFilledCircle@x",
     "What": "Variable",
     "defdec": "Def",
     "display": "x",
     "location": {
       "column": "9",
       "line": "800",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "x",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@28844@F@LCD_DrawFilledCircle@y",
+    "ID": "c:SSD2119.c@28840@F@LCD_DrawFilledCircle@y",
     "What": "Variable",
     "defdec": "Dec",
     "display": "y",
     "location": {
       "column": "21",
       "line": "800",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "y",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@28872@F@LCD_DrawFilledCircle@radiusError",
+    "ID": "c:SSD2119.c@28868@F@LCD_DrawFilledCircle@radiusError",
     "What": "Variable",
     "defdec": "Def",
     "display": "radiusError",
     "location": {
       "column": "9",
       "line": "801",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "radiusError",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@28900@F@LCD_DrawFilledCircle@i",
+    "ID": "c:SSD2119.c@28896@F@LCD_DrawFilledCircle@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "9",
       "line": "802",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "i",
     "origin": "project_file",
@@ -108771,77 +108757,77 @@
     "location": {
       "column": "6",
       "line": "849",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_DrawImage",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@30339@F@LCD_DrawImage@i",
+    "ID": "c:SSD2119.c@30335@F@LCD_DrawImage@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "9",
       "line": "850",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "i",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@30339@F@LCD_DrawImage@j",
+    "ID": "c:SSD2119.c@30335@F@LCD_DrawImage@j",
     "What": "Variable",
     "defdec": "Dec",
     "display": "j",
     "location": {
       "column": "12",
       "line": "850",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "j",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@30339@F@LCD_DrawImage@pixelCount",
+    "ID": "c:SSD2119.c@30335@F@LCD_DrawImage@pixelCount",
     "What": "Variable",
     "defdec": "Dec",
     "display": "pixelCount",
     "location": {
       "column": "15",
       "line": "850",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "pixelCount",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@30830@F@LCD_DrawImage@pixelData",
+    "ID": "c:SSD2119.c@30826@F@LCD_DrawImage@pixelData",
     "What": "Variable",
     "defdec": "Def",
     "display": "pixelData",
     "location": {
       "column": "25",
       "line": "869",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "pixelData",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@31127@F@LCD_DrawImage@pixelData",
+    "ID": "c:SSD2119.c@31123@F@LCD_DrawImage@pixelData",
     "What": "Variable",
     "defdec": "Def",
     "display": "pixelData",
     "location": {
       "column": "16",
       "line": "878",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "pixelData",
     "origin": "project_file",
@@ -108855,315 +108841,315 @@
     "location": {
       "column": "6",
       "line": "900",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "LCD_DrawBMP",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@31867@F@LCD_DrawBMP@i",
+    "ID": "c:SSD2119.c@31863@F@LCD_DrawBMP@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "9",
       "line": "901",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "i",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@31867@F@LCD_DrawBMP@j",
+    "ID": "c:SSD2119.c@31863@F@LCD_DrawBMP@j",
     "What": "Variable",
     "defdec": "Dec",
     "display": "j",
     "location": {
       "column": "12",
       "line": "901",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "j",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@31867@F@LCD_DrawBMP@bpp",
+    "ID": "c:SSD2119.c@31863@F@LCD_DrawBMP@bpp",
     "What": "Variable",
     "defdec": "Dec",
     "display": "bpp",
     "location": {
       "column": "15",
       "line": "901",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "bpp",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@31887@F@LCD_DrawBMP@width",
+    "ID": "c:SSD2119.c@31883@F@LCD_DrawBMP@width",
     "What": "Variable",
     "defdec": "Def",
     "display": "width",
     "location": {
       "column": "8",
       "line": "902",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "width",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@31887@F@LCD_DrawBMP@height",
+    "ID": "c:SSD2119.c@31883@F@LCD_DrawBMP@height",
     "What": "Variable",
     "defdec": "Dec",
     "display": "height",
     "location": {
       "column": "15",
       "line": "902",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "height",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@31887@F@LCD_DrawBMP@dataOffset",
+    "ID": "c:SSD2119.c@31883@F@LCD_DrawBMP@dataOffset",
     "What": "Variable",
     "defdec": "Dec",
     "display": "dataOffset",
     "location": {
       "column": "23",
       "line": "902",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "dataOffset",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@31922@F@LCD_DrawBMP@pixelOffset",
+    "ID": "c:SSD2119.c@31918@F@LCD_DrawBMP@pixelOffset",
     "What": "Variable",
     "defdec": "Def",
     "display": "pixelOffset",
     "location": {
       "column": "24",
       "line": "903",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "pixelOffset",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@32793@F@LCD_DrawBMP@pixelData",
+    "ID": "c:SSD2119.c@32789@F@LCD_DrawBMP@pixelData",
     "What": "Variable",
     "defdec": "Def",
     "display": "pixelData",
     "location": {
       "column": "25",
       "line": "933",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "pixelData",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@33479@F@LCD_DrawBMP@pixelData",
+    "ID": "c:SSD2119.c@33475@F@LCD_DrawBMP@pixelData",
     "What": "Variable",
     "defdec": "Def",
     "display": "pixelData",
     "location": {
       "column": "25",
       "line": "948",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "pixelData",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@34013@F@LCD_DrawBMP@pixelData",
+    "ID": "c:SSD2119.c@34009@F@LCD_DrawBMP@pixelData",
     "What": "Variable",
     "defdec": "Def",
     "display": "pixelData",
     "location": {
       "column": "25",
       "line": "960",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "pixelData",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@34413@macro@TOUCH_YN",
+    "ID": "c:SSD2119.c@34409@macro@TOUCH_YN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TOUCH_YN",
     "location": {
       "column": "9",
       "line": "973",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "TOUCH_YN",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@34490@macro@TOUCH_XP",
+    "ID": "c:SSD2119.c@34486@macro@TOUCH_XP",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TOUCH_XP",
     "location": {
       "column": "9",
       "line": "974",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "TOUCH_XP",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@34567@macro@TOUCH_XN",
+    "ID": "c:SSD2119.c@34563@macro@TOUCH_XN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TOUCH_XN",
     "location": {
       "column": "9",
       "line": "975",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "TOUCH_XN",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@34651@macro@TOUCH_YP",
+    "ID": "c:SSD2119.c@34647@macro@TOUCH_YP",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TOUCH_YP",
     "location": {
       "column": "9",
       "line": "976",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "TOUCH_YP",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@34737@macro@PA2",
+    "ID": "c:SSD2119.c@34733@macro@PA2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PA2",
     "location": {
       "column": "9",
       "line": "978",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "PA2",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@34759@macro@PA3",
+    "ID": "c:SSD2119.c@34755@macro@PA3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PA3",
     "location": {
       "column": "9",
       "line": "979",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "PA3",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@34781@macro@PE4",
+    "ID": "c:SSD2119.c@34777@macro@PE4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PE4",
     "location": {
       "column": "9",
       "line": "980",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "PE4",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@34803@macro@PE5",
+    "ID": "c:SSD2119.c@34799@macro@PE5",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PE5",
     "location": {
       "column": "9",
       "line": "981",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "PE5",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@34827@macro@NUM_SAMPLES",
+    "ID": "c:SSD2119.c@34823@macro@NUM_SAMPLES",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "NUM_SAMPLES",
     "location": {
       "column": "9",
       "line": "983",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "NUM_SAMPLES",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@34850@macro@NUM_VALS_TO_AVG",
+    "ID": "c:SSD2119.c@34846@macro@NUM_VALS_TO_AVG",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "NUM_VALS_TO_AVG",
     "location": {
       "column": "9",
       "line": "984",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "NUM_VALS_TO_AVG",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@34879@macro@XVAL_MIN",
+    "ID": "c:SSD2119.c@34875@macro@XVAL_MIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "XVAL_MIN",
     "location": {
       "column": "9",
       "line": "986",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "XVAL_MIN",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@34904@macro@YVAL_MIN",
+    "ID": "c:SSD2119.c@34900@macro@YVAL_MIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "YVAL_MIN",
     "location": {
       "column": "9",
       "line": "987",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "YVAL_MIN",
     "origin": "project_file",
@@ -109177,7 +109163,7 @@
     "location": {
       "column": "15",
       "line": "989",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "Touch_WaitForInput",
     "origin": "project_file",
@@ -109191,7 +109177,7 @@
     "location": {
       "column": "7",
       "line": "990",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "Touch_XVal",
     "origin": "project_file",
@@ -109205,7 +109191,7 @@
     "location": {
       "column": "7",
       "line": "991",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "Touch_YVal",
     "origin": "project_file",
@@ -109219,7 +109205,7 @@
     "location": {
       "column": "6",
       "line": "994",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "DisableInterrupts",
     "origin": "project_file",
@@ -109233,7 +109219,7 @@
     "location": {
       "column": "6",
       "line": "995",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "EnableInterrupts",
     "origin": "project_file",
@@ -109247,21 +109233,21 @@
     "location": {
       "column": "6",
       "line": "1023",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "Touch_Init",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@35874@F@Touch_Init@wait",
+    "ID": "c:SSD2119.c@35870@F@Touch_Init@wait",
     "What": "Variable",
     "defdec": "Def",
     "display": "wait",
     "location": {
       "column": "17",
       "line": "1024",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "wait",
     "origin": "project_file",
@@ -109275,21 +109261,21 @@
     "location": {
       "column": "6",
       "line": "1051",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "ADC_Init_",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@36755@F@ADC_Init_@wait",
+    "ID": "c:SSD2119.c@36751@F@ADC_Init_@wait",
     "What": "Variable",
     "defdec": "Def",
     "display": "wait",
     "location": {
       "column": "8",
       "line": "1052",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "wait",
     "origin": "project_file",
@@ -109303,21 +109289,21 @@
     "location": {
       "column": "15",
       "line": "1092",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "ADC_Read",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@37868@F@ADC_Read@result",
+    "ID": "c:SSD2119.c@37864@F@ADC_Read@result",
     "What": "Variable",
     "defdec": "Def",
     "display": "result",
     "location": {
       "column": "17",
       "line": "1093",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "result",
     "origin": "project_file",
@@ -109331,7 +109317,7 @@
     "location": {
       "column": "6",
       "line": "1116",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "ADC_SetChannel",
     "origin": "project_file",
@@ -109345,49 +109331,49 @@
     "location": {
       "column": "15",
       "line": "1134",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "Touch_ReadX",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@39071@F@Touch_ReadX@i",
+    "ID": "c:SSD2119.c@39067@F@Touch_ReadX@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "8",
       "line": "1135",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "i",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@39086@F@Touch_ReadX@sum",
+    "ID": "c:SSD2119.c@39082@F@Touch_ReadX@sum",
     "What": "Variable",
     "defdec": "Def",
     "display": "sum",
     "location": {
       "column": "8",
       "line": "1136",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "sum",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@39103@F@Touch_ReadX@result",
+    "ID": "c:SSD2119.c@39099@F@Touch_ReadX@result",
     "What": "Variable",
     "defdec": "Def",
     "display": "result",
     "location": {
       "column": "8",
       "line": "1137",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "result",
     "origin": "project_file",
@@ -109401,49 +109387,49 @@
     "location": {
       "column": "15",
       "line": "1187",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "Touch_ReadY",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@40635@F@Touch_ReadY@i",
+    "ID": "c:SSD2119.c@40631@F@Touch_ReadY@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "8",
       "line": "1188",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "i",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@40650@F@Touch_ReadY@sum",
+    "ID": "c:SSD2119.c@40646@F@Touch_ReadY@sum",
     "What": "Variable",
     "defdec": "Def",
     "display": "sum",
     "location": {
       "column": "8",
       "line": "1189",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "sum",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@40667@F@Touch_ReadY@result",
+    "ID": "c:SSD2119.c@40663@F@Touch_ReadY@result",
     "What": "Variable",
     "defdec": "Def",
     "display": "result",
     "location": {
       "column": "8",
       "line": "1190",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "result",
     "origin": "project_file",
@@ -109457,49 +109443,49 @@
     "location": {
       "column": "15",
       "line": "1237",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "Touch_ReadZ1",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@42131@F@Touch_ReadZ1@i",
+    "ID": "c:SSD2119.c@42127@F@Touch_ReadZ1@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "8",
       "line": "1238",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "i",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@42146@F@Touch_ReadZ1@sum",
+    "ID": "c:SSD2119.c@42142@F@Touch_ReadZ1@sum",
     "What": "Variable",
     "defdec": "Def",
     "display": "sum",
     "location": {
       "column": "8",
       "line": "1239",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "sum",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@42163@F@Touch_ReadZ1@result",
+    "ID": "c:SSD2119.c@42159@F@Touch_ReadZ1@result",
     "What": "Variable",
     "defdec": "Def",
     "display": "result",
     "location": {
       "column": "8",
       "line": "1240",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "result",
     "origin": "project_file",
@@ -109513,49 +109499,49 @@
     "location": {
       "column": "15",
       "line": "1285",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "Touch_ReadZ2",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@43632@F@Touch_ReadZ2@i",
+    "ID": "c:SSD2119.c@43628@F@Touch_ReadZ2@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "8",
       "line": "1286",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "i",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@43647@F@Touch_ReadZ2@sum",
+    "ID": "c:SSD2119.c@43643@F@Touch_ReadZ2@sum",
     "What": "Variable",
     "defdec": "Def",
     "display": "sum",
     "location": {
       "column": "8",
       "line": "1287",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "sum",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@43664@F@Touch_ReadZ2@result",
+    "ID": "c:SSD2119.c@43660@F@Touch_ReadZ2@result",
     "What": "Variable",
     "defdec": "Def",
     "display": "result",
     "location": {
       "column": "8",
       "line": "1288",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "result",
     "origin": "project_file",
@@ -109569,7 +109555,7 @@
     "location": {
       "column": "6",
       "line": "1356",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "Touch_BeginWaitForTouch",
     "origin": "project_file",
@@ -109583,77 +109569,77 @@
     "location": {
       "column": "6",
       "line": "1389",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "Touch_GetCoords",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@46526@F@Touch_GetCoords@result",
+    "ID": "c:SSD2119.c@46522@F@Touch_GetCoords@result",
     "What": "Variable",
     "defdec": "Def",
     "display": "result",
     "location": {
       "column": "8",
       "line": "1390",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "result",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@46526@F@Touch_GetCoords@temp",
+    "ID": "c:SSD2119.c@46522@F@Touch_GetCoords@temp",
     "What": "Variable",
     "defdec": "Dec",
     "display": "temp",
     "location": {
       "column": "16",
       "line": "1390",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "temp",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@46526@F@Touch_GetCoords@xPos",
+    "ID": "c:SSD2119.c@46522@F@Touch_GetCoords@xPos",
     "What": "Variable",
     "defdec": "Dec",
     "display": "xPos",
     "location": {
       "column": "22",
       "line": "1390",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "xPos",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@46526@F@Touch_GetCoords@yPos",
+    "ID": "c:SSD2119.c@46522@F@Touch_GetCoords@yPos",
     "What": "Variable",
     "defdec": "Dec",
     "display": "yPos",
     "location": {
       "column": "28",
       "line": "1390",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "yPos",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:SSD2119.c@46564@F@Touch_GetCoords@cal",
+    "ID": "c:SSD2119.c@46560@F@Touch_GetCoords@cal",
     "What": "Variable",
     "defdec": "Def",
     "display": "cal",
     "location": {
       "column": "8",
       "line": "1392",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "cal",
     "origin": "project_file",
@@ -109667,7 +109653,7 @@
     "location": {
       "column": "6",
       "line": "1416",
-      "path": "C:\\Users\\candy\\474Group8\\SSD2119.c"
+      "path": "C:\\Users\\nikol\\Documents\\EE 474\\github\\474Group8\\SSD2119.c"
     },
     "name": "GPIOPortA_Handler",
     "origin": "project_file",
