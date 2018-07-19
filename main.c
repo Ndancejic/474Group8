@@ -18,6 +18,10 @@
 #define LIGHT_BLUE 0x0C
 #define WHITE 0x0E
 
+#define PE3_GREEN 0x10
+#define PE4_YELLOW 0x20
+#define PE5_RED 0x40
+
 #define MHZ16 (unsigned long)0xF42400
 #define MHZ80 (unsigned long)0x4C4B400
 #define MHZ4 (unsigned long)0x3D0900
@@ -25,7 +29,8 @@
 typedef enum {
   STOP,
   GO,
-  PASS
+  PASS,
+  INIT
 } state;
 
 state STATE;
@@ -172,9 +177,17 @@ void LED_ON(unsigned int color){
   GPIO_WRITE_PORTF |= color;
 }
 
-//make PA2 low
 void LED_OFF(void) {
   GPIO_WRITE_PORTF = 0x00;
+}
+
+void LED_On_PortE(unsigned int color) {
+  GPIO_DATA_PORTE = 0;
+  GPIO_DATA_PORTE |= color;
+}
+
+void LED_Off_PortE(void) {
+  GPIO_DATA_PORTE = 0;
 }
 
 //switching if LCD not initialized
