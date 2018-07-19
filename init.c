@@ -146,3 +146,17 @@ void UART_Init(int mhz)
   while(GPIO_DATA_PORTA&0x2 != 0x2);
   GPIO_DATA_PORTA = 0;
 }
+
+// Port E
+void LED_Init(void) {
+  volatile unsigned long delay;
+  RCGC2GPIO |= 0x10;        // activate clock for port E
+  delay = RCGC2GPIO;
+  
+  GPIO_PCTL_PORTE &= ~0xF00;  // regular GPIO*
+  GPIO_AMSEL_PORTE &= ~0x1C;  // disable analog on PA2, PA3, PA4
+  GPIO_DIR_PORTE |= 0x1C;     // set direction to onput
+  GPIO_REG_PORTE &= ~0x1C;  // regular port function
+  GPIO_DEN_PORTE |= 0x1C;     //enable digital port
+}
+

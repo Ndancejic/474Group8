@@ -7,6 +7,7 @@
 
 //GPIO INITIALIZATIONS
 #define RCGCGPIO (*((unsigned int *)0x400FE608)) //location for enabling GPIO
+#define RCGC2GPIO (*((unsigned int *)0x400FE108)) //run mode clock gating control
 //PortA:
 #define GPIO_EN_A (*((unsigned int *)0x400FE108)) //enable gpio portA ?
 #define GPIO_ADIS_PORTA (*((unsigned int *)0x40004528)) //Port A analog disable
@@ -21,13 +22,15 @@
 #define GPIO_SLR_PORTA (*((unsigned int *)0x40004518)) //Port A slew rate
 
 //PortE:
-#define GPIO_DIR_PORTE (*((unsigned int *)0x40024400)) //GPIO direction Port F
-#define GPIO_DEN_PORTE (*((unsigned int *)0x4002451C)) //digital enable Port F
-#define GPIO_LOCK_PORTE (*((unsigned int *)0x40024520)) //unlocking GPIO Port F
-#define GPIO_CR_PORTE (*((unsigned int *)0x40024524)) //commiting pins Port F
-#define GPIO_PUR_PORTE (*((unsigned int *)0x40024510)) //enabling pull down resistors Port F
-#define GPIO_REG_PORTE (*((unsigned int *)0x40024420)) //Alternate Function
+#define GPIO_DIR_PORTE (*((unsigned int *)0x40024400)) //GPIO direction Port E
+#define GPIO_DEN_PORTE (*((unsigned int *)0x4002451C)) //digital enable Port E
+#define GPIO_LOCK_PORTE (*((unsigned int *)0x40024520)) //unlocking GPIO Port E
+#define GPIO_CR_PORTE (*((unsigned int *)0x40024524)) //commiting pins Port E
+#define GPIO_PUR_PORTE (*((unsigned int *)0x40024510)) //enabling pull down resistors Port E
+#define GPIO_REG_PORTE (*((unsigned int *)0x40024420)) //Alternate Function GPIOAFSEL
 #define GPIO_AMSEL_PORTE (*((unsigned int *)0x40024528)) //disable isolation
+#define GPIO_DATA_PORTE (*((unsigned int *)0x400243fc)) //port E GPIODATA
+#define GPIO_PCTL_PORTE (*((unsigned int *)0x4002452c))
 
 //PortF:
 #define GPIO_DIR_PORTF (*((unsigned int *)0x40025400)) //GPIO direction Port F
