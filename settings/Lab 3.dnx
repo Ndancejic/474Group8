@@ -12,11 +12,11 @@
         <ByteLimit>50</ByteLimit>
     </Stack>
     <LMIFTDIDriver>
-        <LMIFTDIserialNo>0E222694</LMIFTDIserialNo>
+        <LMIFTDIserialNo>0E222462</LMIFTDIserialNo>
         <LMIFTDIfoundProbes />
     </LMIFTDIDriver>
     <DebugChecksum>
-        <Checksum>255844821</Checksum>
+        <Checksum>737247408</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -42,9 +42,11 @@
     <Aliases>
         <A0>_ "C:\Users\candy\474Group8\init.c" ""</A0>
         <A1>_ "C:\Users\candy\474Group8\main.c" ""</A1>
-        <A2>_ "C:\Users\nikol\Documents\EE 474\github\474Group8\init.c" ""</A2>
-        <A3>_ "C:\Users\nikol\Documents\EE 474\github\474Group8\main.c" ""</A3>
-        <Count>4</Count>
+        <A2>_ "C:\Users\nikol\Documents\EE 474\github\474Group8\SSD2119.c" ""</A2>
+        <A3>_ "C:\Users\nikol\Documents\EE 474\github\474Group8\cstartup_M.c" ""</A3>
+        <A4>_ "C:\Users\nikol\Documents\EE 474\github\474Group8\init.c" ""</A4>
+        <A5>_ "C:\Users\nikol\Documents\EE 474\github\474Group8\main.c" ""</A5>
+        <Count>6</Count>
         <SuppressDialog>1</SuppressDialog>
     </Aliases>
     <CallStackLog>

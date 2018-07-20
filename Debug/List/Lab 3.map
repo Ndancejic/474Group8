@@ -1,30 +1,16 @@
 ###############################################################################
 #
-<<<<<<< HEAD
-# IAR ELF Linker V8.30.1.114/W32 for ARM                  19/Jul/2018  13:09:47
-=======
-# IAR ELF Linker V8.30.1.114/W32 for ARM                  19/Jul/2018  01:48:40
->>>>>>> 71d666e93faea4e6e3652aa28a77281f62dede81
+# IAR ELF Linker V8.30.1.114/W32 for ARM                  20/Jul/2018  01:47:20
 # Copyright 2007-2018 IAR Systems AB.
 #
 #    Output file  =  C:\Users\candy\474Group8\Debug\Exe\Lab 3.out
 #    Map file     =  C:\Users\candy\474Group8\Debug\List\Lab 3.map
 #    Command line =  
-<<<<<<< HEAD
-#        -f C:\Users\nikol\AppData\Local\Temp\EWB2C5.tmp
-#        ("C:\Users\nikol\Documents\EE
-#        474\github\474Group8\Debug\Obj\cstartup_M.o"
-#        "C:\Users\nikol\Documents\EE 474\github\474Group8\Debug\Obj\main.o"
-#        "C:\Users\nikol\Documents\EE 474\github\474Group8\Debug\Obj\SSD2119.o"
-#        --no_out_extension -o "C:\Users\nikol\Documents\EE
-#        474\github\474Group8\Debug\Exe\Lab 3.out" --redirect
-=======
-#        -f C:\Users\candy\AppData\Local\Temp\EW52CF.tmp
+#        -f C:\Users\candy\AppData\Local\Temp\EW78C6.tmp
 #        (C:\Users\candy\474Group8\Debug\Obj\cstartup_M.o
 #        C:\Users\candy\474Group8\Debug\Obj\main.o
 #        C:\Users\candy\474Group8\Debug\Obj\SSD2119.o --no_out_extension -o
 #        "C:\Users\candy\474Group8\Debug\Exe\Lab 3.out" --redirect
->>>>>>> 71d666e93faea4e6e3652aa28a77281f62dede81
 #        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
 #        "C:\Users\candy\474Group8\Debug\List\Lab 3.map" --config "C:\Program
 #        Files (x86)\IAR Systems\Embedded Workbench
@@ -69,73 +55,76 @@ initialize by copy { rw };
   .intvec            const            0x0    0xbc  cstartup_M.o [1]
                                    - 0xbc    0xbc
 
-"P1":                                      0x1f06
-  .text              ro code         0xbc   0xc68  SSD2119.o [1]
-  .text              ro code        0xd24   0x920  main.o [1]
-  .text              ro code       0x1644    0x1a  U32ToDbl.o [3]
-  .text              ro code       0x165e     0x2  cstartup_M.o [1]
-  .text              ro code       0x1660   0x1a2  DblMul.o [3]
-  .text              ro code       0x1802     0x2  cstartup_M.o [1]
-  .text              ro code       0x1804   0x246  DblDiv.o [3]
-  .text              ro code       0x1a4a     0x2  cstartup_M.o [1]
-  .text              ro code       0x1a4c    0xe2  DblSub.o [3]
-  .text              ro code       0x1b2e     0x2  cstartup_M.o [1]
-  .text              ro code       0x1b30    0x3a  DblToS32.o [3]
-  .text              ro code       0x1b6a     0x2  cstartup_M.o [1]
-  .text              ro code       0x1b6c   0x16a  DblAdd.o [3]
-  .text              ro code       0x1cd6     0x2  cstartup_M.o [1]
-  .rodata            const         0x1cd8   0x1e0  SSD2119.o [1]
-  .text              ro code       0x1eb8    0x38  packbits_init_single.o [4]
-  .text              ro code       0x1ef0    0x28  data_init.o [4]
-  .text              ro code       0x1f18    0x22  fpinit_M.o [3]
-  .iar.init_table    const         0x1f3c    0x10  - Linker created -
-  .text              ro code       0x1f4c     0x2  cstartup_M.o [1]
-  .text              ro code       0x1f50    0x1e  cmain.o [4]
-  .text              ro code       0x1f6e     0x4  low_level_init.o [2]
-  .text              ro code       0x1f72     0x4  exit.o [2]
-  .text              ro code       0x1f76     0x2  cstartup_M.o [1]
-  .text              ro code       0x1f78     0xa  cexit.o [4]
-  .text              ro code       0x1f82     0x2  cstartup_M.o [1]
-  .text              ro code       0x1f84    0x14  exit.o [5]
-  .text              ro code       0x1f98    0x10  cstartup_M.o [1]
-  .text              ro code       0x1fa8     0x2  cstartup_M.o [1]
-  .rodata            const         0x1faa     0x0  packbits_init_single.o [4]
-  Initializer bytes  const         0x1faa    0x18  <for P2-1>
-                                 - 0x1fc2  0x1f06
+"P1":                                      0x1eb0
+  .text              ro code         0xbc   0x994  SSD2119.o [1]
+  .text              ro code        0xa50   0x648  main.o [1]
+  .text              ro code       0x1098    0x1a  U32ToDbl.o [3]
+  .text              ro code       0x10b2    0x7a  lz77_init_single.o [4]
+  .text              ro code       0x112c   0x1a2  DblMul.o [3]
+  .text              ro code       0x12ce     0x2  cstartup_M.o [1]
+  .text              ro code       0x12d0   0x246  DblDiv.o [3]
+  .text              ro code       0x1516     0x2  cstartup_M.o [1]
+  .text              ro code       0x1518    0xe2  DblSub.o [3]
+  .text              ro code       0x15fa     0x2  cstartup_M.o [1]
+  .text              ro code       0x15fc    0x3a  DblToS32.o [3]
+  .text              ro code       0x1636     0x2  cstartup_M.o [1]
+  .text              ro code       0x1638   0x17a  DblAdd.o [3]
+  .text              ro code       0x17b2     0x2  cstartup_M.o [1]
+  .text              ro code       0x17b4    0x22  S32ToDbl.o [3]
+  .text              ro code       0x17d6     0x2  cstartup_M.o [1]
+  .text              ro code       0x17d8    0x1e  math_wrappers64.o [3]
+  .text              ro code       0x17f6     0x2  cstartup_M.o [1]
+  .text              ro code       0x17f8   0x44c  cos_sin64.o [3]
+  .text              ro code       0x1c44    0x2e  DblCmpLe.o [3]
+  .text              ro code       0x1c72     0x2  cstartup_M.o [1]
+  .rodata            const         0x1c74   0x1e0  SSD2119.o [1]
+  .text              ro code       0x1e54    0x28  data_init.o [4]
+  .text              ro code       0x1e7c    0x22  fpinit_M.o [3]
+  .iar.init_table    const         0x1ea0    0x10  - Linker created -
+  .text              ro code       0x1eb0     0x2  cstartup_M.o [1]
+  .rodata            const         0x1eb4    0x20  SSD2119.o [1]
+  .text              ro code       0x1ed4    0x1e  cmain.o [4]
+  .text              ro code       0x1ef2     0x4  low_level_init.o [2]
+  .text              ro code       0x1ef6     0x4  exit.o [2]
+  .text              ro code       0x1efa     0x2  cstartup_M.o [1]
+  .text              ro code       0x1efc     0xa  cexit.o [4]
+  .text              ro code       0x1f08    0x14  exit.o [5]
+  .text              ro code       0x1f1c    0x10  cstartup_M.o [1]
+  .rodata            const         0x1f2c     0x0  lz77_init_single.o [4]
+  Initializer bytes  const         0x1f2c    0x40  <for P2-1>
+                                 - 0x1f6c  0x1eb0
 
-"P2", part 1 of 2:                           0x37
-  P2-1                        0x2000'0000    0x37  <Init block>
-    .data            inited   0x2000'0000     0x4  main.o [1]
-    .data            inited   0x2000'0004     0x4  main.o [1]
-    .data            inited   0x2000'0008     0x4  main.o [1]
-    .data            inited   0x2000'000c     0x4  main.o [1]
-    .data            inited   0x2000'0010     0x4  main.o [1]
-    .data            inited   0x2000'0014     0x4  main.o [1]
-    .bss             inited   0x2000'0018     0x4  main.o [1]
-    .bss             inited   0x2000'001c     0x4  main.o [1]
-    .bss             inited   0x2000'0020     0x4  main.o [1]
-    .bss             inited   0x2000'0024     0x4  main.o [1]
-    .bss             inited   0x2000'0028     0x4  main.o [1]
-    .bss             inited   0x2000'002c     0x2  SSD2119.o [1]
-    .bss             inited   0x2000'002e     0x2  SSD2119.o [1]
-    .bss             inited   0x2000'0030     0x2  SSD2119.o [1]
-    .bss             inited   0x2000'0032     0x2  SSD2119.o [1]
-    .bss             inited   0x2000'0034     0x2  SSD2119.o [1]
-    .bss             inited   0x2000'0036     0x1  main.o [1]
-                            - 0x2000'0037    0x37
+"P2", part 1 of 2:                          0x117
+  P2-1                        0x2000'0000   0x117  <Init block>
+    .data            inited   0x2000'0000    0xc0  main.o [1]
+    .data            inited   0x2000'00c0    0x30  main.o [1]
+    .bss             inited   0x2000'00f0     0x4  main.o [1]
+    .bss             inited   0x2000'00f4     0x4  main.o [1]
+    .bss             inited   0x2000'00f8     0x4  main.o [1]
+    .bss             inited   0x2000'00fc     0x4  main.o [1]
+    .bss             inited   0x2000'0100     0x4  main.o [1]
+    .bss             inited   0x2000'0104     0x4  main.o [1]
+    .bss             inited   0x2000'0108     0x4  main.o [1]
+    .bss             inited   0x2000'010c     0x2  SSD2119.o [1]
+    .bss             inited   0x2000'010e     0x2  SSD2119.o [1]
+    .bss             inited   0x2000'0110     0x2  SSD2119.o [1]
+    .bss             inited   0x2000'0112     0x2  SSD2119.o [1]
+    .bss             inited   0x2000'0114     0x2  SSD2119.o [1]
+    .bss             inited   0x2000'0116     0x1  main.o [1]
+                            - 0x2000'0117   0x117
 
 "P2", part 2 of 2:                         0x1000
-  CSTACK                      0x2000'0038  0x1000  <Block>
-    CSTACK           uninit   0x2000'0038  0x1000  <Block tail>
-                            - 0x2000'1038  0x1000
+  CSTACK                      0x2000'0118  0x1000  <Block>
+    CSTACK           uninit   0x2000'0118  0x1000  <Block tail>
+                            - 0x2000'1118  0x1000
 
 Unused ranges:
 
          From           To      Size
          ----           --      ----
-       0x1fc2     0x3'ffff  0x3'e03e
-  0x2000'0037  0x2000'0037       0x1
-  0x2000'1038  0x2000'7fff    0x6fc8
+       0x1f6c     0x3'ffff  0x3'e094
+  0x2000'0117  0x2000'0117       0x1
+  0x2000'1118  0x2000'7fff    0x6ee8
 
 
 *******************************************************************************
@@ -144,11 +133,11 @@ Unused ranges:
 
           Address      Size
           -------      ----
-Copy/packbits (__iar_packbits_init_single3)
-    1 source range, total size 0x18 (43% of destination):
-               0x1faa  0x18
-    1 destination range, total size 0x37:
-          0x2000'0000  0x37
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x40 (22% of destination):
+               0x1f2c   0x40
+    1 destination range, total size 0x117:
+          0x2000'0000  0x117
 
 
 
@@ -156,60 +145,57 @@ Copy/packbits (__iar_packbits_init_single3)
 *** MODULE SUMMARY
 ***
 
-    Module                  ro code  ro data  rw data
-    ------                  -------  -------  -------
+    Module              ro code  ro data  rw data
+    ------              -------  -------  -------
 command line/config:
-    -------------------------------------------------
+    ---------------------------------------------
     Total:
 
-<<<<<<< HEAD
-C:\Users\nikol\Documents\EE 474\github\474Group8\Debug\Obj: [1]
-    SSD2119.o                 3 176      484       10
-    cstartup_M.o                 36      188
-    main.o                    2 336       20       45
-=======
 C:\Users\candy\474Group8\Debug\Obj: [1]
-    SSD2119.o                 3 048      486       10
-    cstartup_M.o                 34      188
-    main.o                    2 156       46       33
->>>>>>> 71d666e93faea4e6e3652aa28a77281f62dede81
-    -------------------------------------------------
-    Total:                    5 548      692       55
+    SSD2119.o             2 452      514       10
+    cstartup_M.o             36      188
+    main.o                1 608       62      269
+    ---------------------------------------------
+    Total:                4 096      764      279
 
 dl7M_tln.a: [2]
-    exit.o                        4
-    low_level_init.o              4
-    -------------------------------------------------
-    Total:                        8
+    exit.o                    4
+    low_level_init.o          4
+    ---------------------------------------------
+    Total:                    8
 
 m7M_tls.a: [3]
-    DblAdd.o                    362
-    DblDiv.o                    582
-    DblMul.o                    418
-    DblSub.o                    226
-    DblToS32.o                   58
-    U32ToDbl.o                   26
-    fpinit_M.o                   34
-    -------------------------------------------------
-    Total:                    1 706
+    DblAdd.o                378
+    DblCmpLe.o               46
+    DblDiv.o                582
+    DblMul.o                418
+    DblSub.o                226
+    DblToS32.o               58
+    S32ToDbl.o               34
+    U32ToDbl.o               26
+    cos_sin64.o           1 100
+    fpinit_M.o               34
+    math_wrappers64.o        30
+    ---------------------------------------------
+    Total:                2 932
 
 rt7M_tl.a: [4]
-    cexit.o                      10
-    cmain.o                      30
-    data_init.o                  40
-    packbits_init_single.o       56
-    -------------------------------------------------
-    Total:                      136
+    cexit.o                  10
+    cmain.o                  30
+    data_init.o              40
+    lz77_init_single.o      122
+    ---------------------------------------------
+    Total:                  202
 
 shb_l.a: [5]
-    exit.o                       20
-    -------------------------------------------------
-    Total:                       20
+    exit.o                   20
+    ---------------------------------------------
+    Total:                   20
 
-    Gaps                          2        2
-    Linker created                        16    4 096
------------------------------------------------------
-    Grand Total:              7 420      710    4 151
+    Gaps                      2        4
+    Linker created                    16    4 096
+-------------------------------------------------
+    Grand Total:          7 260      784    4 375
 
 
 *******************************************************************************
@@ -218,88 +204,102 @@ shb_l.a: [5]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
-.iar.init_table$$Base        0x1f3c          --   Gb  - Linker created -
-.iar.init_table$$Limit       0x1f4c          --   Gb  - Linker created -
-?main                        0x1f51         Code  Gb  cmain.o [4]
-ADC0_Handler                  0xfef   0x66  Code  Gb  main.o [1]
-ADC_Init_                     0x9d5   0x80  Code  Gb  SSD2119.o [1]
-ADC_Read                      0xa5d   0x26  Code  Gb  SSD2119.o [1]
-ADC_SetChannel                0xa83   0x30  Code  Gb  SSD2119.o [1]
-ASCII                        0x1cd8  0x1e0  Data  Lc  SSD2119.o [1]
-CSTACK$$Base            0x2000'0038          --   Gb  - Linker created -
-CSTACK$$Limit           0x2000'1038          --   Gb  - Linker created -
-FLAG                    0x2000'0024    0x4  Data  Gb  main.o [1]
-Interrupt_Init                0xe0d   0x3a  Code  Gb  main.o [1]
+.iar.init_table$$Base        0x1ea0          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x1eb0          --   Gb  - Linker created -
+?main                        0x1ed5         Code  Gb  cmain.o [4]
+ADC0_Handler                  0xba3   0x66  Code  Gb  main.o [1]
+ADC_Init_                     0x701   0x80  Code  Gb  SSD2119.o [1]
+ADC_Read                      0x789   0x26  Code  Gb  SSD2119.o [1]
+ADC_SetChannel                0x7af   0x30  Code  Gb  SSD2119.o [1]
+ASCII                        0x1c74  0x1e0  Data  Lc  SSD2119.o [1]
+CSTACK$$Base            0x2000'0118          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'1118          --   Gb  - Linker created -
+Color4                       0x1eb4   0x20  Data  Gb  SSD2119.o [1]
+Draw_Cube                     0xd1d   0xbe  Code  Gb  main.o [1]
+Erase_Cube                    0xde1   0xbe  Code  Gb  main.o [1]
+FLAG                    0x2000'00f8    0x4  Data  Gb  main.o [1]
 LCD_ColorFill                 0x3a9   0x16  Code  Gb  SSD2119.o [1]
-LCD_DrawCircle                0x74d  0x140  Code  Gb  SSD2119.o [1]
-LCD_DrawFilledCircle          0x88d  0x10a  Code  Gb  SSD2119.o [1]
-LCD_DrawFilledRect            0x6eb   0x62  Code  Gb  SSD2119.o [1]
+LCD_Cube                      0xc13   0xe4  Code  Gb  main.o [1]
+LCD_DrawFilledRect            0x661   0x62  Code  Gb  SSD2119.o [1]
 LCD_DrawLine                  0x585   0xdc  Code  Gb  SSD2119.o [1]
 LCD_DrawPixel                 0x551   0x34  Code  Gb  SSD2119.o [1]
-LCD_DrawRect                  0x661   0x8a  Code  Gb  SSD2119.o [1]
 LCD_GPIOInit                   0xbd   0xa0  Code  Gb  SSD2119.o [1]
 LCD_Init                      0x1e7  0x1a2  Code  Gb  SSD2119.o [1]
 LCD_PrintChar                 0x3c9   0xcc  Code  Gb  SSD2119.o [1]
 LCD_PrintInteger              0x4b7   0x6a  Code  Gb  SSD2119.o [1]
 LCD_SetCursor                 0x495    0xe  Code  Gb  SSD2119.o [1]
 LCD_SetTextColor              0x4a3   0x14  Code  Gb  SSD2119.o [1]
-LCD_Switch                   0x14d1   0xc8  Code  Gb  main.o [1]
 LCD_WriteCommand              0x15d   0x42  Code  Gb  SSD2119.o [1]
 LCD_WriteData                 0x19f   0x48  Code  Gb  SSD2119.o [1]
-LED_ON                       0x148d    0xe  Code  Gb  main.o [1]
-PLL_Init                      0xd25   0xa0  Code  Gb  main.o [1]
-PortF_Handler                 0xf75   0x7a  Code  Gb  main.o [1]
-Region$$Table$$Base          0x1f3c          --   Gb  - Linker created -
-Region$$Table$$Limit         0x1f4c          --   Gb  - Linker created -
-STATE                   0x2000'0036    0x1  Data  Gb  main.o [1]
-TIMER                   0x2000'0020    0x4  Data  Gb  main.o [1]
-Timer0A_Handler               0xf55   0x20  Code  Gb  main.o [1]
-Timer0_Init                   0xdc5   0x48  Code  Gb  main.o [1]
+PLL_Init                      0xa51   0xa0  Code  Gb  main.o [1]
+PortF_Handler                 0xb75   0x2e  Code  Gb  main.o [1]
+Region$$Table$$Base          0x1ea0          --   Gb  - Linker created -
+Region$$Table$$Limit         0x1eb0          --   Gb  - Linker created -
+Rotate_X                      0xea5   0xc8  Code  Gb  main.o [1]
+Rotate_Y                      0xf6d   0xc8  Code  Gb  main.o [1]
+SW                      0x2000'0100    0x4  Data  Gb  main.o [1]
+TIMER_2                 0x2000'0104    0x4  Data  Gb  main.o [1]
+TIMER_5                 0x2000'0108    0x4  Data  Gb  main.o [1]
+TOUCH_ENABLE            0x2000'0116    0x1  Data  Gb  main.o [1]
+Timer0A_Handler               0xb39   0x3c  Code  Gb  main.o [1]
+Timer0_Init                   0xaf1   0x48  Code  Gb  main.o [1]
 Touch_BeginWaitForTouch
-                              0xc3d   0x64  Code  Gb  SSD2119.o [1]
-Touch_Init                    0x997   0x3e  Code  Gb  SSD2119.o [1]
-Touch_ReadX                   0xabd   0xca  Code  Gb  SSD2119.o [1]
-Touch_ReadY                   0xb8d   0xac  Code  Gb  SSD2119.o [1]
-Touch_XVal              0x2000'0032    0x2  Data  Gb  SSD2119.o [1]
-Touch_YVal              0x2000'0034    0x2  Data  Gb  SSD2119.o [1]
-UART_Init                     0xe47  0x10e  Code  Gb  main.o [1]
-__aeabi_d2iz                 0x1b31         Code  Gb  DblToS32.o [3]
-__aeabi_ddiv                 0x1805         Code  Gb  DblDiv.o [3]
-__aeabi_dmul                 0x1661         Code  Gb  DblMul.o [3]
-__aeabi_dsub                 0x1a4d         Code  Gb  DblSub.o [3]
-__aeabi_ui2d                 0x1645         Code  Gb  U32ToDbl.o [3]
-__cmain                      0x1f51         Code  Gb  cmain.o [4]
-__exit                       0x1f85   0x14  Code  Gb  exit.o [5]
-__iar_dadd                   0x1a5d         Code  Gb  DblSub.o [3]
-__iar_data_init3             0x1ef1   0x28  Code  Gb  data_init.o [4]
-__iar_dsub                   0x1b6d         Code  Gb  DblAdd.o [3]
-__iar_dsubStart              0x1b7f         Code  Gb  DblAdd.o [3]
-__iar_init_vfp               0x1f19         Code  Gb  fpinit_M.o [3]
-__iar_packbits_init_single3
-                             0x1eb9   0x38  Code  Gb  packbits_init_single.o [4]
-__iar_program_start          0x1f99   0x10  Code  Gb  cstartup_M.o [1]
-__low_level_init             0x1f6f    0x4  Code  Gb  low_level_init.o [2]
+                              0x969   0x64  Code  Gb  SSD2119.o [1]
+Touch_Init                    0x6c3   0x3e  Code  Gb  SSD2119.o [1]
+Touch_ReadX                   0x7e9   0xca  Code  Gb  SSD2119.o [1]
+Touch_ReadY                   0x8b9   0xac  Code  Gb  SSD2119.o [1]
+Touch_XVal              0x2000'0112    0x2  Data  Gb  SSD2119.o [1]
+Touch_YVal              0x2000'0114    0x2  Data  Gb  SSD2119.o [1]
+__aeabi_cdcmple              0x1c45         Code  Gb  DblCmpLe.o [3]
+__aeabi_d2iz                 0x15fd         Code  Gb  DblToS32.o [3]
+__aeabi_dadd                 0x1639         Code  Gb  DblAdd.o [3]
+__aeabi_ddiv                 0x12d1         Code  Gb  DblDiv.o [3]
+__aeabi_dmul                 0x112d         Code  Gb  DblMul.o [3]
+__aeabi_dsub                 0x1519         Code  Gb  DblSub.o [3]
+__aeabi_i2d                  0x17b5         Code  Gb  S32ToDbl.o [3]
+__aeabi_ui2d                 0x1099         Code  Gb  U32ToDbl.o [3]
+__cmain                      0x1ed5         Code  Gb  cmain.o [4]
+__exit                       0x1f09   0x14  Code  Gb  exit.o [5]
+__iar_Sin64                  0x17f9  0x3b2  Code  Lc  cos_sin64.o [3]
+__iar_cos64                  0x1c3d    0x4  Code  Gb  cos_sin64.o [3]
+__iar_cos_medium             0x1c3d    0x4  Code  Gb  cos_sin64.o [3]
+__iar_cos_medium64           0x1c3d    0x4  Code  Gb  cos_sin64.o [3]
+__iar_cos_mediuml            0x1c3d    0x4  Code  Gb  cos_sin64.o [3]
+__iar_dadd                   0x1529         Code  Gb  DblSub.o [3]
+__iar_data_init3             0x1e55   0x28  Code  Gb  data_init.o [4]
+__iar_dsub                   0x1649         Code  Gb  DblAdd.o [3]
+__iar_dsubStart              0x165b         Code  Gb  DblAdd.o [3]
+__iar_init_vfp               0x1e7d         Code  Gb  fpinit_M.o [3]
+__iar_lz77_init_single3
+                             0x10b3   0x7a  Code  Gb  lz77_init_single.o [4]
+__iar_program_start          0x1f1d   0x10  Code  Gb  cstartup_M.o [1]
+__iar_sin64                  0x1c41    0x4  Code  Gb  cos_sin64.o [3]
+__iar_sin_medium             0x1c41    0x4  Code  Gb  cos_sin64.o [3]
+__iar_sin_medium64           0x1c41    0x4  Code  Gb  cos_sin64.o [3]
+__iar_sin_mediuml            0x1c41    0x4  Code  Gb  cos_sin64.o [3]
+__iar_vfp_cos                0x17df    0xc  Code  Gb  math_wrappers64.o [3]
+__iar_vfp_sin                0x17eb    0xc  Code  Gb  math_wrappers64.o [3]
+__low_level_init             0x1ef3    0x4  Code  Gb  low_level_init.o [2]
 __vector_table                  0x0   0xbc  Data  Gb  cstartup_M.o [1]
-_call_main                   0x1f5d         Code  Gb  cmain.o [4]
-_exit                        0x1f79         Code  Gb  cexit.o [4]
-_main                        0x1f6b         Code  Gb  cmain.o [4]
+_call_main                   0x1ee1         Code  Gb  cmain.o [4]
+_exit                        0x1efd         Code  Gb  cexit.o [4]
+_main                        0x1eef         Code  Gb  cmain.o [4]
 abs                           0x3bf    0xa  Code  Gb  SSD2119.o [1]
-centerx                 0x2000'0000    0x4  Data  Gb  main.o [1]
-centery                 0x2000'0004    0x4  Data  Gb  main.o [1]
 convertColor                  0x389   0x20  Code  Gb  SSD2119.o [1]
-cursorX                 0x2000'002c    0x2  Data  Gb  SSD2119.o [1]
-cursorY                 0x2000'002e    0x2  Data  Gb  SSD2119.o [1]
-drawStoplight                0x1055  0x37e  Code  Gb  main.o [1]
-exit                         0x1f73    0x4  Code  Gb  exit.o [2]
-height                  0x2000'0010    0x4  Data  Gb  main.o [1]
-main                         0x13dd   0xaa  Code  Gb  main.o [1]
-radius                  0x2000'0008    0x4  Data  Gb  main.o [1]
-result                  0x2000'0028    0x4  Data  Gb  main.o [1]
-starty                  0x2000'0014    0x4  Data  Gb  main.o [1]
-textColor               0x2000'0030    0x2  Data  Gb  SSD2119.o [1]
-width                   0x2000'000c    0x4  Data  Gb  main.o [1]
-xPos                    0x2000'0018    0x4  Data  Gb  main.o [1]
-yPos                    0x2000'001c    0x4  Data  Gb  main.o [1]
+cos                          0x1c3d    0x4  Code  Gb  cos_sin64.o [3]
+cosl                         0x1c3d    0x4  Code  Gb  cos_sin64.o [3]
+cursorX                 0x2000'010c    0x2  Data  Gb  SSD2119.o [1]
+cursorY                 0x2000'010e    0x2  Data  Gb  SSD2119.o [1]
+edges                   0x2000'00c0   0x30  Data  Gb  main.o [1]
+exit                         0x1ef7    0x4  Code  Gb  exit.o [2]
+main                          0xc09    0xa  Code  Gb  main.o [1]
+nodes                   0x2000'0000   0xc0  Data  Gb  main.o [1]
+result                  0x2000'00fc    0x4  Data  Gb  main.o [1]
+sin                          0x1c41    0x4  Code  Gb  cos_sin64.o [3]
+sinl                         0x1c41    0x4  Code  Gb  cos_sin64.o [3]
+textColor               0x2000'0110    0x2  Data  Gb  SSD2119.o [1]
+xPos                    0x2000'00f0    0x4  Data  Gb  main.o [1]
+yPos                    0x2000'00f4    0x4  Data  Gb  main.o [1]
 
 
 [1] = C:\Users\candy\474Group8\Debug\Obj
@@ -308,9 +308,9 @@ yPos                    0x2000'001c    0x4  Data  Gb  main.o [1]
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-  7 420 bytes of readonly  code memory
-    710 bytes of readonly  data memory
-  4 151 bytes of readwrite data memory
+  7 260 bytes of readonly  code memory
+    784 bytes of readonly  data memory
+  4 375 bytes of readwrite data memory
 
 Errors: none
 Warnings: none

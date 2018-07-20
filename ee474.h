@@ -52,6 +52,8 @@
 #define TIMER_POLL0 (*((unsigned int *)0x4003001C)) //Poll or wait for interrupt
 #define TIMER_MASK0 (*((unsigned int *)0x40030020)) //Poll or wait for interrupt
 #define TIMER_RESET0 (*((unsigned int *)0x40030024)) //reset flags
+#define TIMER_GPTMCTL (*((unsigned int*)0x4003000C))// enables timer 0, start counting
+#define TIMER_GPTMIMR (*((unsigned int*)0x40030018)) //enables time out interrupt mask
 
 //timer 1
 #define TIMER_EN1 (*((unsigned int *)0x400FE65C)) // enabling wide timers
@@ -120,5 +122,15 @@
 #define UART0_CC (*((unsigned int *)0x4000CFC8))// line control register
 #define UART0_FR (*((unsigned int *)0x4000C018))//flag reister
 #define UART0_DR (*((unsigned int *)0x4000C000))//data read
+
+//Timer0
+#define RCGCTIMER (*((volatile unsigned long *)0x400FE604))
+#define GPTMCTL (*((volatile unsigned long*)0x4003000C))
+#define GPTMCFG (*((volatile unsigned long*)0x40030000))
+#define GPTMTAMR (*((volatile unsigned long*)0x40030004))
+#define GPTMTAILR (*((volatile unsigned long*)0x40030028))
+#define GPTMRIS (*((volatile unsigned long*)0x4003001C))
+#define GPTMICR (*((volatile unsigned long*)0x40030024))
+#define GPTMIMR (*((volatile unsigned long*)0x40030018))
 
 #endif

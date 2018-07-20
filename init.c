@@ -2,8 +2,8 @@
 #include "intrinsics.h"
 
 #define LCD_USED 1
-#define LCD_TOUCH 1
-#define TRAFFIC 1
+//#define LCD_TOUCH 0
+#define TRAFFIC 0
 #define CUBE 0
 
 void ADC_Init(void){
@@ -43,11 +43,11 @@ void PLL_Init(int mhz) {
   if (mhz == 4){
     CLK_RCC2 = (CLK_RCC2&~ 0x1FC00000) + (0x63<<22); // set desired system divider to /100, SYSDIV
   }
+  if (mhz == 5){
+    CLK_RCC2 = (CLK_RCC2&~ 0x1FC00000) + (0x4F<<22); // set desired system divider to /80, SYSDIV
+  }
   if (mhz == 8){
     CLK_RCC2 = (CLK_RCC2&~ 0x1FC00000) + (0x31<<22); // set desired system divider to /50, SYSDIV
-  }
-  if (mhz == 10){
-    CLK_RCC2 = (CLK_RCC2&~ 0x1FC00000) + (0x27<<22); // set desired system divider to /40, SYSDIV
   }
   if (mhz == 16){
     CLK_RCC2 = (CLK_RCC2&~ 0x1FC00000) + (0x18<<22); // set desired system divider to /25, SYSDIV
@@ -89,20 +89,51 @@ void Timer0_Init(unsigned long mhz){
   TIMER_DIS0 |= 0x11;  //enable the timer and output interrupt
 }
 
+// initialize timer that waits for 1 second
+void Timer_Init(void) {
+  RCGCTIMER |= 0x1;
+  GPTMCTL &= ~0x1;  // disables timer
+  GPTMCFG = 0x0;
+  GPTMTAMR |= (0x2<<0);  // set TAMR field in GPTMTAMR register to periodic mode
+  GPTMTAMR &= (0x0<<4);  // enables GPTM Timer to count down
+  GPTMTAILR = 0x00F42400; // sets interval to one second
+  GPTMIMR |= 0x1;  // enables time out interrupt mask
+  EN0 |= (0x1<<19);
+  GPTMCTL |= 0x1;  // enables timer 0, start counting
+  GPTMICR |= (0x1<<0); // reset timer 0
+  PRI4 = (3<<29);
+}
+
 void Interrupt_Init(void)
 {
-  if(!LCD_USED){
-    GPIO_SENSE_F &= ~0x11;  //interrupt on edge
-    GPIO_IBE_F &= ~0x11;  //interrupt on one edge
-    GPIO_IEV_F |= 0x11;  //interrupt on rising edge
-    GPIO_CLEAR_F = 0x11;  //ICR
-    GPIO_IM_F |= 0x11;  //interupt mask register
-  }
+//  if(!LCD_USED){ // don't initialize port F
+  GPIO_SENSE_F &= ~0x11;  //interrupt on edge
+  GPIO_IBE_F &= ~0x11;  //interrupt on one edge
+  GPIO_IEV_F &= ~0x11;  //interrupt on rising edge
+  GPIO_CLEAR_F = 0x11;  //ICR
+  GPIO_IM_F |= 0x11;  //interupt mask register
+  
+  EN0 |= (1<<30); //enable #30
+  PRI7 |= (3<<21);  //Interrupt priority port F
+    
   EN0 |= (1<<17); //enable #17
+  PRI4 |= (3<<13);  //Interrupt priority seq 3
+  
   EN0 |= 0x40080000;  //enable #19
-  PRI4 |= (1<<13);  //Interrupt priority
-  PRI4 |= 0x20000000;  //Interrupt priority
-  PRI7 |= 0x00200000;  //Interrupt priority
+  PRI4 |= (3<<29);  //Interrupt priority timer 0
+
+//  PRI4 |= (1<<13);  //Interrupt priority seq 3
+//  PRI4 |= 0x20000000;  //Interrupt priority timer 0
+//  PRI7 |= 0x00200000;  //Interrupt priority port F
+  __enable_interrupt();  //enable global interrupts
+}
+
+
+void Timer_Interrupt(void) {
+  TIMER_GPTMIMR |= 0x1;  // enables time out interrupt mask
+  EN0 |= (1<<30); //enable #30
+  TIMER_GPTMCTL |= 0x1;  // enables timer 0, start counting
+  PRI4 |= (3<<29);  //Interrupt priority timer 
   __enable_interrupt();  //enable global interrupts
 }
 
@@ -153,10 +184,10 @@ void LED_Init(void) {
   RCGC2GPIO |= 0x10;        // activate clock for port E
   delay = RCGC2GPIO;
   
-  GPIO_PCTL_PORTE &= ~0xF00;  // regular GPIO*
-  GPIO_AMSEL_PORTE &= ~0x1C;  // disable analog on PA2, PA3, PA4
-  GPIO_DIR_PORTE |= 0x1C;     // set direction to onput
-  GPIO_REG_PORTE &= ~0x1C;  // regular port function
-  GPIO_DEN_PORTE |= 0x1C;     //enable digital port
+  GPIO_PCTL_PORTE &= ~0xFFF0;  // regular GPIO*
+  GPIO_AMSEL_PORTE &= ~0x0E;  // disable analog on PE1, PE2, PE3
+  GPIO_DIR_PORTE |= 0x0E;     // set direction to onput
+  GPIO_REG_PORTE &= ~0x0E;  // regular port function
+  GPIO_DEN_PORTE |= 0x0E;     //enable digital port
 }
 
