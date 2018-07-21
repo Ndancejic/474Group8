@@ -170,9 +170,9 @@ int main()
 
   //  Switching();
   //  LCD_Print_Temp();
-    LCD_Cube();
+//    LCD_Cube();
 //  LCD_Cube_Colored();
-//  LCD_Traffic();
+  LCD_Traffic();
   
   return 0;
 }
@@ -261,6 +261,7 @@ void LCD_Traffic(void) {
   int radius = 30;
   int starty = 20;
 
+  LED_Init();
   Timer_Init();
   PLL_Init(16);
   LCD_Init();
