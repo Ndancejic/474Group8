@@ -37,8 +37,14 @@ void PLL_Init(int mhz) {
   CLK_RCC2 &= ~(0x7<<4); // set oscillator source to main oscillator, 000 OSCSRC2
   CLK_RCC2 &= ~(0x1<<13); // activate PLL by clearing PWRDN
   CLK_RCC2 |= (0x1<<30); // create a 7 bit divisor using the 400 MHz PLL output, DIV400
+  if (mhz == 100){
+    CLK_RCC2 = (CLK_RCC2&~ 0x1FC00000) + (0x3<<22); // set desired system divider to /5, SYSDIV
+  }
   if (mhz == 80){
     CLK_RCC2 = (CLK_RCC2&~ 0x1FC00000) + (0x4<<22); // set desired system divider to /5, SYSDIV
+  }
+  if (mhz == 40){
+    CLK_RCC2 = (CLK_RCC2&~ 0x1FC00000) + (0x9<<22); // set desired system divider to /10, SYSDIV
   }
   if (mhz == 4){
     CLK_RCC2 = (CLK_RCC2&~ 0x1FC00000) + (0x63<<22); // set desired system divider to /100, SYSDIV
@@ -90,13 +96,13 @@ void Timer0_Init(unsigned long mhz){
 }
 
 // initialize timer that waits for 1 second
-void Timer_Init(void) {
+void Timer_Init(unsigned long div) {
   RCGCTIMER |= 0x1;
   GPTMCTL &= ~0x1;  // disables timer
   GPTMCFG = 0x0;
   GPTMTAMR |= (0x2<<0);  // set TAMR field in GPTMTAMR register to periodic mode
   GPTMTAMR &= (0x0<<4);  // enables GPTM Timer to count down
-  GPTMTAILR = 0x00F42400; // sets interval to one second
+  GPTMTAILR = 0x00F42400 / div; // sets interval to one second
   GPTMIMR |= 0x1;  // enables time out interrupt mask
   EN0 |= (0x1<<19);
   GPTMCTL |= 0x1;  // enables timer 0, start counting

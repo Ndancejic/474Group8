@@ -1,6 +1,7 @@
 #include <stdint.h>
 #include <math.h>
 #include <stdbool.h>
+#include <stdlib.h>
 #include "init.c"
 #include "ee474.h"
 #include "SSD2119.h"
@@ -12,6 +13,7 @@
 #define FLAG_NONE 0
 #define FLAG_ONE 3
 #define FLAG_ADC 5
+#define FLAG_DRAW 2
 
 // on board led
 #define RED 0x02
@@ -34,8 +36,10 @@
 // mHz in hex
 #define MHZ16 (unsigned long)0xF42400
 #define MHZ80 (unsigned long)0x4C4B400
+#define MHZ100 (unsigned long)0x5F5E100
 #define MHZ4 (unsigned long)0x3D0900
 #define MHZ5 (unsigned long)0x4C4B40
+#define MHZ40 (unsigned long)0x2625A00
 
 // center of the screen (pixels)
 #define centerx 160
@@ -46,7 +50,7 @@
 #define start_coory 900
 #define pass_coorx 200
 #define pass_coory 700
-#define untouch_coorx 1600
+#define untouch_coorx 1200
 #define untouch_coory 700
 
 long yTouch = 615;
@@ -90,8 +94,14 @@ typedef struct Edges {
   Edge e[1];
 } Edges;
 
+typedef struct Planes {
+  Plane p[6];
+} Planes;
+
 Node nodes[8] = {{-45, -45, -45}, {-45, -45, 45}, {-45, 45, -45}, {-45, 45, 45}, {45, -45, -45}, {45, -45, 45}, {45, 45, -45}, {45, 45, 45}};
 Edge edges[12] = {{0, 1}, {1, 3}, {3, 2}, {2, 0}, {4, 5}, {5, 7}, {7, 6}, {6, 4}, {0, 4}, {1, 5}, {2, 6}, {3, 7}};
+Plane planes[6] = {{0, 1, 2, 3}, {4, 5, 0, 1}, {0, 4, 2, 6}, {4, 5, 6, 7}, {5, 1, 7, 3}, {6, 7, 2, 3}};
+
 
 void Switching(void);
 void Rotating_Cube(void);
@@ -108,6 +118,11 @@ void LCD_Traffic(void);
 void Rotate_X(short theta);
 void Rotate_Y(short theta);
 void Rotate_Z(short theta);
+double findSlope(double x0, double y0, double x1, double y1);
+double findY(double slope, double x0, double y0, double xPos);
+void Draw_Filled_Cube(unsigned short color);
+void LCD_DrawFilledPara(Plane p, unsigned short color);
+int Get_NodeZ();
 
 
 void transmit(char data){
@@ -145,14 +160,16 @@ void Timer0A_Handler(void) {
     ADC0_PSSI = 0x008;
   TIMER_2++;
   TIMER_5++;
+  FLAG = FLAG_DRAW;
   TIMER_RESET0 |= (0x1<<0);
 }
 
 void PortF_Handler(void) {
-  if (GPIO_WRITE_PORTF & 0x01 == 0x01)
-    SW = 1;
-  if (GPIO_WRITE_PORTF & 0x10 == 0x10)
-    SW = 2;
+  if (GPIO_READ_PF0_PF4 == 0x01)
+    SW = SW1;
+  if (GPIO_READ_PF0_PF4 == 0x10)
+    SW = SW2;
+  
   GPIO_ICR_PORTF |= 0x11; // clear the interrupt flag before return
 }
 
@@ -167,27 +184,29 @@ void ADC0_Handler(void) {
 
 int main()
 {  
-
-  //  Switching();
+  
+//  Switching();
   //  LCD_Print_Temp();
-//    LCD_Cube();
-//  LCD_Cube_Colored();
-  LCD_Traffic();
+  //    LCD_Cube();
+    LCD_Cube_Colored();
+  //  LCD_Traffic();
   
   return 0;
 }
 
 void LCD_Cube_Colored(void) {
-  Timer0_Init(MHZ5);
-  PLL_Init(5);
+  //  Timer0_Init(MHZ16);
+  PLL_Init(80);
   LCD_Init();
   Touch_Init();
   TOUCH_ENABLE = true;
   Touch_BeginWaitForTouch();
+//  Timer_Interrupt();
+  unsigned short color = 1;
   
   LCD_ColorFill(Color4[15]);
   LCD_SetTextColor(0,0,0);
-  Draw_Cube();
+  Draw_Filled_Cube(Color4[color%16]);
   
   while (1) {
     LCD_DrawFilledRect(0, 0, 25, 18, ((0xFF>>3)<<11) | ((0xFF>>2)<<5) | (0xFF>>3));
@@ -195,7 +214,7 @@ void LCD_Cube_Colored(void) {
     LCD_PrintInteger(xPos);
     LCD_SetCursor(0,8);
     LCD_PrintInteger(yPos);
-
+    
     xPos = Touch_ReadX();
     yPos = Touch_ReadY();
     
@@ -205,13 +224,19 @@ void LCD_Cube_Colored(void) {
     if(yPos < 0) yPos = 0;
     
     // screen's been touched
-    if(abs(xPos - untouch_coorx) >= 20 && abs(yPos - untouch_coory) >= 20){
-      
+    if(abs(xPos - untouch_coorx) >= 200 && abs(yPos - untouch_coory) >= 200){
+      color ++;
     } 
-    Erase_Cube();
+    //    if (FLAG == FLAG_DRAW) {
+    FLAG = FLAG_NONE;
+    LCD_ColorFill(Color4[15]);
+    //      Draw_Filled_Cube(Color4[15]);
+    //      Erase_Cube();
     Rotate_X(30);
-    Rotate_Y(-30);
-    Draw_Cube();
+    Rotate_Y(30);
+    Draw_Filled_Cube(Color4[color % 16]);
+    for (int i = 0; i < 100000; i++);
+    //    }
   }
 }
 
@@ -234,7 +259,7 @@ void LCD_Cube(void) {
     LCD_PrintInteger(xPos);
     LCD_SetCursor(0,8);
     LCD_PrintInteger(yPos);
-
+    
     xPos = Touch_ReadX();
     yPos = Touch_ReadY();
     
@@ -244,13 +269,12 @@ void LCD_Cube(void) {
     if(yPos < 0) yPos = 0;
     
     // screen's been touched
-    if(abs(xPos - untouch_coorx) >= 20 && abs(yPos - untouch_coory) >= 20){
+    if(abs(xPos - untouch_coorx) >= 200 && abs(yPos - untouch_coory) >= 200){
       rotate = !rotate;
     } 
     if (rotate) {
       Erase_Cube();
       Rotate_X(30);
-      Rotate_Y(-30);
     }
     Draw_Cube();
   }
@@ -260,15 +284,15 @@ void LCD_Cube(void) {
 void LCD_Traffic(void) {
   int radius = 30;
   int starty = 20;
-
+  
   LED_Init();
-  Timer_Init();
+  Timer_Init(1);
   PLL_Init(16);
   LCD_Init();
   Touch_Init();
   TOUCH_ENABLE = true;
   Timer_Interrupt();
-//  Touch_BeginWaitForTouch();
+  //  Touch_BeginWaitForTouch();
   STATE = INIT;
   
   //set up background
@@ -290,7 +314,7 @@ void LCD_Traffic(void) {
     LCD_PrintInteger(xPos);
     LCD_SetCursor(0,8);
     LCD_PrintInteger(yPos);
-
+    
     xPos = Touch_ReadX();
     yPos = Touch_ReadY();
     
@@ -310,7 +334,7 @@ void LCD_Traffic(void) {
         STATE = INIT;
         TIMER_2 = 0;
       }
-    // passanger x: pass_coorx +- 200, y:  pass_coory +- 200
+      // passanger x: pass_coorx +- 200, y:  pass_coory +- 200
     } else if (abs(xPos - pass_coorx) <= 200 && abs(yPos - pass_coory) <= 200 && (STATE == GO || STATE == STOP)) {
       if (TIMER_2 >= 2) {
         TIMER_2 = 0;
@@ -318,7 +342,7 @@ void LCD_Traffic(void) {
         STATE = PASS;
       }
     } else {
-        TIMER_2 = 0;
+      TIMER_2 = 0;
     }
     
     if (STATE == INIT) {
@@ -326,7 +350,7 @@ void LCD_Traffic(void) {
       TIMER_5= 0;
       for(int i = 0; i < 10000; i++);
     } else if (STATE == GO) {
-        drawStoplight(STATE, radius, 60, 6*20+20, starty);
+      drawStoplight(STATE, radius, 60, 6*20+20, starty);
       LED_On_PortE(PE1_GREEN);
       if (TIMER_5 >= 5) {
         STATE = STOP;
@@ -340,7 +364,7 @@ void LCD_Traffic(void) {
         TIMER_5 = 0;
       }
     } else { // WARN STATE
-        drawStoplight(STATE, radius, 60, 6*20+20, starty);
+      drawStoplight(STATE, radius, 60, 6*20+20, starty);
       LED_On_PortE(PE2_YELLOW);
       if (TIMER_5 >= 5) {
         STATE = STOP;
@@ -401,23 +425,23 @@ void Switching(void) {
   LED_OFF();
   
   while (1) {
-    if (result > 0 && result <= 17) {
-      LED_ON(RED);
-    } else if (result > 17 && result <= 19) {
-      LED_ON(BLUE);
-    } else if (result > 19 && result <= 21) {
-      LED_ON(VIOLET);
-    } else if (result > 21 && result <= 23) {
-      LED_ON(GREEN);
-    } else if (result > 23 && result <= 25) {
-      LED_ON(YELLOW);
-    } else if (result > 25 && result <= 27) {
-      LED_ON(LIGHT_BLUE);
-    } else if (result > 27 && result <= 40) {
-      LED_ON(WHITE);
-    } else {
-      LED_OFF();
-    }
+    //    if (result > 0 && result <= 17) {
+    //      LED_ON(RED);
+    //    } else if (result > 17 && result <= 19) {
+    //      LED_ON(BLUE);
+    //    } else if (result > 19 && result <= 21) {
+    //      LED_ON(VIOLET);
+    //    } else if (result > 21 && result <= 23) {
+    //      LED_ON(GREEN);
+    //    } else if (result > 23 && result <= 25) {
+    //      LED_ON(YELLOW);
+    //    } else if (result > 25 && result <= 27) {
+    //      LED_ON(LIGHT_BLUE);
+    //    } else if (result > 27 && result <= 40) {
+    //      LED_ON(WHITE);
+    //    } else {
+    //      LED_OFF();
+    //    }
     
     if(FLAG == FLAG_ADC){
       unsigned short tempResult = (unsigned short)result;
@@ -452,6 +476,17 @@ void Switching(void) {
 }
 
 void Draw_Cube(void){
+  for (int i = 0; i < 12; i++){
+    Node n1 = nodes[edges[i].n1];
+    Node n2 = nodes[edges[i].n2];
+    LCD_DrawLine((short)(centerx + n1.x), (short)(centery + n1.y), (short)(centerx + n2.x), (short)(centery + n2.y), Color4[0]);
+  }
+}
+
+void Draw_Filled_Cube(unsigned short color){
+  for (int i = 0; i < 6; i++) {
+    LCD_DrawFilledPara(planes[i], color);
+  }
   for (int i = 0; i < 12; i++){
     Node n1 = nodes[edges[i].n1];
     Node n2 = nodes[edges[i].n2];
@@ -534,4 +569,45 @@ void drawStoplight(int state, int radius, int width, int height, int starty){
     LCD_DrawCircle(centerx, starty + 5*radius + 15, radius, 0);
     break;
   }
+}
+
+
+
+// ************** LCD_DrawFilledRect **********************
+// - Draws a filled rectangle, top left corner at (x,y)
+// ********************************************************
+void LCD_DrawFilledPara(Plane p, unsigned short color){
+  //  nodes[p.n1].x;
+  int index = Get_NodeZ();
+  if (p.n1 != index && p.n2 != index && p.n3 != index && p.n4 != index) {
+    double slope = findSlope(nodes[p.n1].x, nodes[p.n1].y, nodes[p.n2].x, nodes[p.n2].y);
+    double x2 = nodes[p.n3].x;
+    for (double x1 = nodes[p.n1].x; x1 < nodes[p.n2].x; x1++) {
+      x2++;
+      double y1 = findY(slope, nodes[p.n1].x, nodes[p.n1].y, x1);
+      double y2 = findY(slope, nodes[p.n3].x, nodes[p.n3].y, x2);
+      LCD_DrawLine(centerx + x1, centery + y1, centerx + x2, centery + y2, color);
+    }
+  }
+}
+
+int Get_NodeZ() {
+  double z = 0;
+  int result = 0;
+  for (int i = 0; i < 12; i++) {
+    if (z < nodes[i].z) {
+      z = nodes[i].z;
+      result = i;
+    }
+  }
+  return result;
+}
+
+
+double findSlope(double x0, double y0, double x1, double y1){
+  return (y1-y0)/(x1-x0);
+}
+
+double findY(double slope, double x0, double y0, double xPos){
+  return slope*(xPos - x0) + y0;
 }
